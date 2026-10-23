@@ -1,0 +1,114 @@
+{
+  "ucla": {
+    "path": "assets/ucla.svg",
+    "source": "https://en.wikipedia.org/wiki/University_of_California%2C_Los_Angeles",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/0/0d/The_University_of_California_UCLA.svg",
+    "name": "University of California, Los Angeles",
+    "type": "seal",
+    "bytes": 67938
+  },
+  "northwestern": {
+    "path": "assets/northwestern.svg",
+    "source": "https://en.wikipedia.org/wiki/Northwestern_University",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/5/56/Northwestern_University_seal.svg",
+    "name": "Northwestern University",
+    "type": "seal",
+    "bytes": 109665
+  },
+  "notredame": {
+    "path": "assets/notredame.svg",
+    "source": "https://en.wikipedia.org/wiki/University_of_Notre_Dame",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/e/e2/University_of_Notre_Dame_seal_%282%29.svg",
+    "name": "University of Notre Dame",
+    "type": "seal",
+    "bytes": 58463
+  },
+  "michigan": {
+    "path": "assets/michigan.svg",
+    "source": "https://en.wikipedia.org/wiki/University_of_Michigan",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/9/93/Seal_of_the_University_of_Michigan.svg",
+    "name": "University of Michigan",
+    "type": "seal",
+    "bytes": 90631
+  },
+  "cornell": {
+    "path": "assets/cornell.svg",
+    "source": "https://en.wikipedia.org/wiki/Cornell_University",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/4/47/Cornell_University_seal.svg",
+    "name": "Cornell University",
+    "type": "seal",
+    "bytes": 29687
+  },
+  "dartmouth": {
+    "path": "assets/dartmouth.png",
+    "source": "https://en.wikipedia.org/wiki/Dartmouth_College",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Dartmouth_College_shield.svg/250px-Dartmouth_College_shield.svg.png",
+    "name": "Dartmouth College",
+    "type": "seal",
+    "bytes": 61292
+  },
+  "bu": {
+    "path": "assets/bu.png",
+    "source": "https://en.wikipedia.org/wiki/Boston_University",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Boston_University_seal.svg/960px-Boston_University_seal.svg.png",
+    "name": "Boston University",
+    "type": "seal",
+    "bytes": 329741
+  },
+  "casewestern": {
+    "path": "assets/casewestern.png",
+    "source": "https://en.wikipedia.org/wiki/Case_Western_Reserve_University",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Case_Western_Reserve_University_seal.svg/330px-Case_Western_Reserve_University_seal.svg.png",
+    "name": "Case Western Reserve University",
+    "type": "seal",
+    "bytes": 24397
+  },
+  "ucdavis": {
+    "path": "assets/ucdavis.png",
+    "source": "https://en.wikipedia.org/wiki/University_of_California%2C_Davis",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/The_University_of_California_Davis.svg/960px-The_University_of_California_Davis.svg.png",
+    "name": "University of California, Davis",
+    "type": "seal",
+    "bytes": 288156
+  },
+  "nyu": {
+    "path": "assets/nyu.svg",
+    "source": "https://en.wikipedia.org/wiki/New_York_University",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/1/16/New_York_University_Seal.svg",
+    "name": "New York University",
+    "type": "seal",
+    "bytes": 89822
+  },
+  "amherst": {
+    "path": "assets/amherst.png",
+    "source": "https://en.wikipedia.org/wiki/Amherst_College",
+    "imageSource": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/65/Amherst_College_Seal.svg/250px-Amherst_College_Seal.svg.png",
+    "name": "Amherst College",
+    "type": "seal",
+    "bytes": 63530
+  },
+  "williams": {
+    "path": "assets/williams.png",
+    "source": "https://en.wikipedia.org/wiki/Williams_College",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/en/thumb/1/19/Williams_College_Seal.svg/250px-Williams_College_Seal.svg.png",
+    "name": "Williams College",
+    "type": "seal",
+    "bytes": 55931
+  },
+  "wellesley": {
+    "path": "assets/wellesley.png",
+    "source": "https://en.wikipedia.org/wiki/Wellesley_College",
+    "imageSource": "https://thumb.wikimedia.org/wikipedia/en/thumb/6/6b/Formal_Seal_of_Wellesley_College%2C_Wellesley%2C_MA%2C_USA.svg/250px-Formal_Seal_of_Wellesley_College%2C_Wellesley%2C_MA%2C_USA.svg.png",
+    "name": "Wellesley College",
+    "type": "seal",
+    "bytes": 37174
+  },
+  "fao": {
+    "path": "assets/fao.png",
+    "source": "https://en.wikipedia.org/wiki/FAO_Schwarz",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/a/ad/FAO_Schwarz_Logo.png",
+    "name": "FAO Schwarz",
+    "type": "logo",
+    "bytes": 53002
+  }
+}

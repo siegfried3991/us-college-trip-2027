@@ -1,0 +1,86 @@
+{
+  "disney": {
+    "path": "assets/disney.ico",
+    "source": "https://disneyland.disney.go.com/",
+    "imageSource": "https://disneyland.disney.go.com/favicon.ico",
+    "type": "official favicon",
+    "bytes": 15086
+  },
+  "spacex": {
+    "path": "assets/spacex.ico",
+    "source": "https://www.spacex.com/",
+    "imageSource": "https://www.spacex.com/assets/favicon-spacex.ico",
+    "type": "official favicon",
+    "bytes": 15406
+  },
+  "smithsonian": {
+    "path": "assets/smithsonian.ico",
+    "source": "https://www.si.edu/",
+    "imageSource": "https://www.si.edu/sites/default/files/favicon.ico",
+    "type": "official favicon",
+    "bytes": 11502
+  },
+  "amnh": {
+    "path": "assets/amnh.ico",
+    "source": "https://www.amnh.org/",
+    "imageSource": "https://www.amnh.org/favicon.ico",
+    "type": "official favicon",
+    "bytes": 15406
+  },
+  "wicked": {
+    "path": "assets/wicked.svg",
+    "source": "https://wickedthemusical.com/",
+    "imageSource": "https://d1rx0dtgjk9kr3.cloudfront.net/wp-content/uploads/2025/05/icon-logo.svg",
+    "type": "logo",
+    "bytes": 32961
+  },
+  "nintendo": {
+    "path": "assets/nintendo.ico",
+    "source": "https://www.nintendo.com/us/",
+    "imageSource": "https://www.nintendo.com/favicon.ico",
+    "type": "official favicon",
+    "bytes": 3638
+  },
+  "santamonica": {
+    "path": "assets/santamonica.png",
+    "source": "https://www.santamonicapier.org/",
+    "imageSource": "https://images.squarespace-cdn.com/content/v1/5e0e65adcd39ed279a0402fd/1580508022546-9PBGEFW8A83TQOZX5JXS/favicon.ico?format=100w",
+    "type": "official favicon",
+    "bytes": 1300
+  },
+  "millennium": {
+    "path": "assets/millennium.ico",
+    "source": "https://www.choosechicago.com/",
+    "imageSource": "https://cdn.choosechicago.com/uploads/site/favicon.ico",
+    "type": "official favicon",
+    "bytes": 105662
+  },
+  "rockefeller": {
+    "path": "assets/rockefeller.png",
+    "source": "https://www.rockefellercenter.com/",
+    "imageSource": "https://www.rockefellercenter.com/favicon.ico",
+    "type": "official favicon",
+    "bytes": 240
+  },
+  "memorial911": {
+    "path": "assets/memorial911.ico",
+    "source": "https://www.911memorial.org/",
+    "imageSource": "https://www.911memorial.org/themes/custom/nine_eleven/favicon.ico",
+    "type": "official favicon",
+    "bytes": 894
+  },
+  "empire": {
+    "path": "assets/empire.svg",
+    "source": "https://www.esbnyc.com/",
+    "imageSource": "https://www.esbnyc.com/icon0.svg?72b6fbd018f85c46",
+    "type": "official favicon",
+    "bytes": 521
+  },
+  "publicgarden": {
+    "path": "assets/publicgarden.jpg",
+    "source": "https://friendsofthepublicgarden.org/",
+    "imageSource": "https://friendsofthepublicgarden.org/wp-content/uploads/2017/02/FOPG-logo-horizontal-250px.jpg",
+    "type": "official logo",
+    "bytes": 38433
+  }
+}
