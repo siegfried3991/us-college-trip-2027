@@ -387,9 +387,9 @@
         },
         {
           "id": "santamonica",
-          "name": "Santa Monica Pier / coast",
+          "name": "Santa Monica Pier · State Beach · Third Street Promenade",
           "city": "Los Angeles",
-          "nature": "Oceanfront / outdoors / shops",
+          "nature": "Pier / Pacific coast / Route 66 photo / shopping streets",
           "day": 2
         },
         {
@@ -779,6 +779,71 @@
             }
           ],
           "restWindow": "22:30–08:30"
+        },
+        "2": {
+          "title": "LA: SpaceX, UCLA + Santa Monica",
+          "activities": [
+            {
+              "time": "09:00–10:15",
+              "text": "Drive from Anaheim to SpaceX in Hawthorne."
+            },
+            {
+              "time": "10:15–10:35",
+              "text": "SpaceX exterior / rocket-display photo stop, from publicly accessible areas."
+            },
+            {
+              "time": "10:35–11:35",
+              "text": "Drive to UCLA / Westwood; allow 45–60min."
+            },
+            {
+              "time": "11:35–12:30",
+              "text": "UCLA self-guided campus walk."
+            },
+            {
+              "time": "12:30–13:15",
+              "text": "Warm lunch in Westwood."
+            },
+            {
+              "time": "13:15–14:15",
+              "text": "Drive to Santa Monica and park near the Pier; allow 30–45min driving plus parking."
+            },
+            {
+              "time": "14:15–15:15",
+              "text": "Santa Monica Pier: ocean views, Pacific Park atmosphere and the Route 66 End of the Trail sign."
+            },
+            {
+              "time": "15:15–16:00",
+              "text": "Santa Monica State Beach / Ocean Front Walk: a relaxed beachfront stroll, then walk toward Third Street Promenade."
+            },
+            {
+              "time": "16:00–17:00",
+              "text": "Third Street Promenade: browse shops and enjoy the pedestrian streets."
+            },
+            {
+              "time": "17:00–17:45",
+              "text": "Early warm dinner around Downtown Santa Monica / Third Street Promenade; choose Chinese or other Asian food if preferred."
+            },
+            {
+              "time": "17:45–18:10",
+              "text": "Walk back to the parked car near Santa Monica Pier."
+            },
+            {
+              "time": "18:10–19:25",
+              "text": "Drive to the LAX hotel; allow 45–75min. Check in and settle down before the 20:30 rest period."
+            }
+          ],
+          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking → LAX hotel 45–75min. Walk between the Pier, beach and Third Street Promenade; return to the car before leaving.",
+          "restWindow": "20:30–06:30",
+          "links": [
+            {
+              "label": "LA stops including Santa Monica, in order",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Disneyland+Park+Anaheim&destination=Los+Angeles+International+Airport&waypoints=SpaceX+1+Rocket+Road+Hawthorne%7CUCLA%7CSanta+Monica+Pier%7CThird+Street+Promenade+Santa+Monica&travelmode=driving"
+            },
+            {
+              "label": "Santa Monica waterfront walking route",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Third+Street+Promenade+Santa+Monica&waypoints=Santa+Monica+State+Beach&travelmode=walking"
+            }
+          ]
         }
       }
     },
@@ -959,9 +1024,9 @@
         },
         {
           "id": "santamonica",
-          "name": "Santa Monica Pier / coast",
+          "name": "Santa Monica Pier · State Beach · Third Street Promenade",
           "city": "Los Angeles",
-          "nature": "Oceanfront / outdoors / shops",
+          "nature": "Pier / Pacific coast / Route 66 photo / shopping streets",
           "day": 2
         },
         {
@@ -1353,6 +1418,71 @@
             }
           ],
           "restWindow": "22:30–08:30"
+        },
+        "2": {
+          "title": "LA: SpaceX, UCLA + Santa Monica",
+          "activities": [
+            {
+              "time": "09:00–10:15",
+              "text": "Drive from Anaheim to SpaceX in Hawthorne."
+            },
+            {
+              "time": "10:15–10:35",
+              "text": "SpaceX exterior / rocket-display photo stop, from publicly accessible areas."
+            },
+            {
+              "time": "10:35–11:35",
+              "text": "Drive to UCLA / Westwood; allow 45–60min."
+            },
+            {
+              "time": "11:35–12:30",
+              "text": "UCLA self-guided campus walk."
+            },
+            {
+              "time": "12:30–13:15",
+              "text": "Warm lunch in Westwood."
+            },
+            {
+              "time": "13:15–14:15",
+              "text": "Drive to Santa Monica and park near the Pier; allow 30–45min driving plus parking."
+            },
+            {
+              "time": "14:15–15:15",
+              "text": "Santa Monica Pier: ocean views, Pacific Park atmosphere and the Route 66 End of the Trail sign."
+            },
+            {
+              "time": "15:15–16:00",
+              "text": "Santa Monica State Beach / Ocean Front Walk: a relaxed beachfront stroll, then walk toward Third Street Promenade."
+            },
+            {
+              "time": "16:00–17:00",
+              "text": "Third Street Promenade: browse shops and enjoy the pedestrian streets."
+            },
+            {
+              "time": "17:00–17:45",
+              "text": "Early warm dinner around Downtown Santa Monica / Third Street Promenade; choose Chinese or other Asian food if preferred."
+            },
+            {
+              "time": "17:45–18:10",
+              "text": "Walk back to the parked car near Santa Monica Pier."
+            },
+            {
+              "time": "18:10–19:25",
+              "text": "Drive to the LAX hotel; allow 45–75min. Check in and settle down before the 20:30 rest period."
+            }
+          ],
+          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking → LAX hotel 45–75min. Walk between the Pier, beach and Third Street Promenade; return to the car before leaving.",
+          "restWindow": "20:30–06:30",
+          "links": [
+            {
+              "label": "LA stops including Santa Monica, in order",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Disneyland+Park+Anaheim&destination=Los+Angeles+International+Airport&waypoints=SpaceX+1+Rocket+Road+Hawthorne%7CUCLA%7CSanta+Monica+Pier%7CThird+Street+Promenade+Santa+Monica&travelmode=driving"
+            },
+            {
+              "label": "Santa Monica waterfront walking route",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Third+Street+Promenade+Santa+Monica&waypoints=Santa+Monica+State+Beach&travelmode=walking"
+            }
+          ]
         }
       }
     },
@@ -1544,9 +1674,9 @@
         },
         {
           "id": "santamonica",
-          "name": "Santa Monica Pier / coast",
+          "name": "Santa Monica Pier · State Beach · Third Street Promenade",
           "city": "Los Angeles",
-          "nature": "Oceanfront / outdoors / shops",
+          "nature": "Pier / Pacific coast / Route 66 photo / shopping streets",
           "day": 2
         },
         {
@@ -1971,6 +2101,71 @@
             }
           ],
           "restWindow": "22:30–08:30"
+        },
+        "2": {
+          "title": "LA: SpaceX, UCLA + Santa Monica",
+          "activities": [
+            {
+              "time": "09:00–10:15",
+              "text": "Drive from Anaheim to SpaceX in Hawthorne."
+            },
+            {
+              "time": "10:15–10:35",
+              "text": "SpaceX exterior / rocket-display photo stop, from publicly accessible areas."
+            },
+            {
+              "time": "10:35–11:35",
+              "text": "Drive to UCLA / Westwood; allow 45–60min."
+            },
+            {
+              "time": "11:35–12:30",
+              "text": "UCLA self-guided campus walk."
+            },
+            {
+              "time": "12:30–13:15",
+              "text": "Warm lunch in Westwood."
+            },
+            {
+              "time": "13:15–14:15",
+              "text": "Drive to Santa Monica and park near the Pier; allow 30–45min driving plus parking."
+            },
+            {
+              "time": "14:15–15:15",
+              "text": "Santa Monica Pier: ocean views, Pacific Park atmosphere and the Route 66 End of the Trail sign."
+            },
+            {
+              "time": "15:15–16:00",
+              "text": "Santa Monica State Beach / Ocean Front Walk: a relaxed beachfront stroll, then walk toward Third Street Promenade."
+            },
+            {
+              "time": "16:00–17:00",
+              "text": "Third Street Promenade: browse shops and enjoy the pedestrian streets."
+            },
+            {
+              "time": "17:00–17:45",
+              "text": "Early warm dinner around Downtown Santa Monica / Third Street Promenade; choose Chinese or other Asian food if preferred."
+            },
+            {
+              "time": "17:45–18:10",
+              "text": "Walk back to the parked car near Santa Monica Pier."
+            },
+            {
+              "time": "18:10–19:25",
+              "text": "Drive to the LAX hotel; allow 45–75min. Check in and settle down before the 20:30 rest period."
+            }
+          ],
+          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking → LAX hotel 45–75min. Walk between the Pier, beach and Third Street Promenade; return to the car before leaving.",
+          "restWindow": "20:30–06:30",
+          "links": [
+            {
+              "label": "LA stops including Santa Monica, in order",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Disneyland+Park+Anaheim&destination=Los+Angeles+International+Airport&waypoints=SpaceX+1+Rocket+Road+Hawthorne%7CUCLA%7CSanta+Monica+Pier%7CThird+Street+Promenade+Santa+Monica&travelmode=driving"
+            },
+            {
+              "label": "Santa Monica waterfront walking route",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Third+Street+Promenade+Santa+Monica&waypoints=Santa+Monica+State+Beach&travelmode=walking"
+            }
+          ]
         }
       }
     },
@@ -2167,9 +2362,9 @@
         },
         {
           "id": "santamonica",
-          "name": "Santa Monica Pier / coast",
+          "name": "Santa Monica Pier · State Beach · Third Street Promenade",
           "city": "Los Angeles",
-          "nature": "Oceanfront / outdoors / shops",
+          "nature": "Pier / Pacific coast / Route 66 photo / shopping streets",
           "day": 2
         },
         {
@@ -2575,6 +2770,71 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Chinatown+Manhattan&travelmode=walking"
             }
           ]
+        },
+        "2": {
+          "title": "LA: SpaceX, UCLA + Santa Monica",
+          "activities": [
+            {
+              "time": "09:00–10:15",
+              "text": "Drive from Anaheim to SpaceX in Hawthorne."
+            },
+            {
+              "time": "10:15–10:35",
+              "text": "SpaceX exterior / rocket-display photo stop, from publicly accessible areas."
+            },
+            {
+              "time": "10:35–11:35",
+              "text": "Drive to UCLA / Westwood; allow 45–60min."
+            },
+            {
+              "time": "11:35–12:30",
+              "text": "UCLA self-guided campus walk."
+            },
+            {
+              "time": "12:30–13:15",
+              "text": "Warm lunch in Westwood."
+            },
+            {
+              "time": "13:15–14:15",
+              "text": "Drive to Santa Monica and park near the Pier; allow 30–45min driving plus parking."
+            },
+            {
+              "time": "14:15–15:15",
+              "text": "Santa Monica Pier: ocean views, Pacific Park atmosphere and the Route 66 End of the Trail sign."
+            },
+            {
+              "time": "15:15–16:00",
+              "text": "Santa Monica State Beach / Ocean Front Walk: a relaxed beachfront stroll, then walk toward Third Street Promenade."
+            },
+            {
+              "time": "16:00–17:00",
+              "text": "Third Street Promenade: browse shops and enjoy the pedestrian streets."
+            },
+            {
+              "time": "17:00–17:45",
+              "text": "Early warm dinner around Downtown Santa Monica / Third Street Promenade; choose Chinese or other Asian food if preferred."
+            },
+            {
+              "time": "17:45–18:10",
+              "text": "Walk back to the parked car near Santa Monica Pier."
+            },
+            {
+              "time": "18:10–19:25",
+              "text": "Drive to the LAX hotel; allow 45–75min. Check in and settle down before the 20:30 rest period."
+            }
+          ],
+          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking → LAX hotel 45–75min. Walk between the Pier, beach and Third Street Promenade; return to the car before leaving.",
+          "restWindow": "20:30–06:30",
+          "links": [
+            {
+              "label": "LA stops including Santa Monica, in order",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Disneyland+Park+Anaheim&destination=Los+Angeles+International+Airport&waypoints=SpaceX+1+Rocket+Road+Hawthorne%7CUCLA%7CSanta+Monica+Pier%7CThird+Street+Promenade+Santa+Monica&travelmode=driving"
+            },
+            {
+              "label": "Santa Monica waterfront walking route",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Third+Street+Promenade+Santa+Monica&waypoints=Santa+Monica+State+Beach&travelmode=walking"
+            }
+          ]
         }
       }
     },
@@ -2771,9 +3031,9 @@
         },
         {
           "id": "santamonica",
-          "name": "Santa Monica Pier / coast",
+          "name": "Santa Monica Pier · State Beach · Third Street Promenade",
           "city": "Los Angeles",
-          "nature": "Oceanfront / outdoors / shops",
+          "nature": "Pier / Pacific coast / Route 66 photo / shopping streets",
           "day": 2
         },
         {
@@ -3152,6 +3412,71 @@
             }
           ],
           "restWindow": "22:30–08:30"
+        },
+        "2": {
+          "title": "LA: SpaceX, UCLA + Santa Monica",
+          "activities": [
+            {
+              "time": "09:00–10:15",
+              "text": "Drive from Anaheim to SpaceX in Hawthorne."
+            },
+            {
+              "time": "10:15–10:35",
+              "text": "SpaceX exterior / rocket-display photo stop, from publicly accessible areas."
+            },
+            {
+              "time": "10:35–11:35",
+              "text": "Drive to UCLA / Westwood; allow 45–60min."
+            },
+            {
+              "time": "11:35–12:30",
+              "text": "UCLA self-guided campus walk."
+            },
+            {
+              "time": "12:30–13:15",
+              "text": "Warm lunch in Westwood."
+            },
+            {
+              "time": "13:15–14:15",
+              "text": "Drive to Santa Monica and park near the Pier; allow 30–45min driving plus parking."
+            },
+            {
+              "time": "14:15–15:15",
+              "text": "Santa Monica Pier: ocean views, Pacific Park atmosphere and the Route 66 End of the Trail sign."
+            },
+            {
+              "time": "15:15–16:00",
+              "text": "Santa Monica State Beach / Ocean Front Walk: a relaxed beachfront stroll, then walk toward Third Street Promenade."
+            },
+            {
+              "time": "16:00–17:00",
+              "text": "Third Street Promenade: browse shops and enjoy the pedestrian streets."
+            },
+            {
+              "time": "17:00–17:45",
+              "text": "Early warm dinner around Downtown Santa Monica / Third Street Promenade; choose Chinese or other Asian food if preferred."
+            },
+            {
+              "time": "17:45–18:10",
+              "text": "Walk back to the parked car near Santa Monica Pier."
+            },
+            {
+              "time": "18:10–19:25",
+              "text": "Drive to the LAX hotel; allow 45–75min. Check in and settle down before the 20:30 rest period."
+            }
+          ],
+          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking → LAX hotel 45–75min. Walk between the Pier, beach and Third Street Promenade; return to the car before leaving.",
+          "restWindow": "20:30–06:30",
+          "links": [
+            {
+              "label": "LA stops including Santa Monica, in order",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Disneyland+Park+Anaheim&destination=Los+Angeles+International+Airport&waypoints=SpaceX+1+Rocket+Road+Hawthorne%7CUCLA%7CSanta+Monica+Pier%7CThird+Street+Promenade+Santa+Monica&travelmode=driving"
+            },
+            {
+              "label": "Santa Monica waterfront walking route",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Third+Street+Promenade+Santa+Monica&waypoints=Santa+Monica+State+Beach&travelmode=walking"
+            }
+          ]
         }
       }
     }
