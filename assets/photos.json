@@ -297,5 +297,18 @@
     "width": 600,
     "height": 400,
     "bytes": 128586
+  },
+  "met": {
+    "path": "assets/photos/met.jpg",
+    "title": "Metropolitan Museum of Art (The Met) - Central Park, NYC.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Metropolitan_Museum_of_Art_(The_Met)_-_Central_Park,_NYC.jpg",
+    "imageSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg/960px-Metropolitan_Museum_of_Art_%28The_Met%29_-_Central_Park%2C_NYC.jpg",
+    "author": "Hugo Schneider",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "description": "The Metropolitan Museum of Art (The Met) entrance façade in Upper East Side, Manhattan, New York City",
+    "width": 600,
+    "height": 335,
+    "bytes": 171858
   }
 }
