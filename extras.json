@@ -428,13 +428,6 @@
           "day": 9
         },
         {
-          "id": "empire",
-          "name": "Empire State Building · 34th Street",
-          "city": "New York City",
-          "nature": "Architecture / exterior photo stop",
-          "day": 9
-        },
-        {
           "id": "wicked",
           "name": "Wicked · Gershwin Theatre",
           "city": "New York City",
@@ -454,6 +447,20 @@
           "city": "New York City",
           "nature": "Neon lights / famous city streets",
           "day": 9
+        },
+        {
+          "id": "met",
+          "name": "The Met Fifth Avenue · Metropolitan Museum of Art",
+          "city": "New York City",
+          "nature": "Art museum · Egyptian art, armor and American art highlights",
+          "day": 9
+        },
+        {
+          "id": "empire",
+          "name": "Empire State Building · 34th Street",
+          "city": "New York City",
+          "nature": "Architecture / exterior photo stop",
+          "day": 10
         },
         {
           "id": "liberty",
@@ -661,8 +668,12 @@
               "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
             },
             {
-              "time": "18:30–20:00",
-              "text": "Dinner in Greenwich Village; return to the hotel and pack."
+              "time": "18:30–19:15",
+              "text": "Dinner in Greenwich Village."
+            },
+            {
+              "time": "19:15–20:15",
+              "text": "Taxi/subway back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
             }
           ],
           "links": [
@@ -689,68 +700,85 @@
             {
               "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+            },
+            {
+              "label": "Washington Square Park New York → Empire State Building New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
             }
           ]
         },
         "9": {
-          "transport": "Walk/subway/taxi between stops, usually 15–40min per leg. Empire State Building is an exterior photo stop; no observatory visit is scheduled.",
+          "transport": "Hotel → The Met 30–40min. Met → AMNH: Central Park walk 30–40min or taxi 15–25min. AMNH → Rockefeller Center 20–30min. Midtown walking legs 10–25min. Use the 19:00 Wicked target to keep both museums.",
           "stops": [],
           "activities": [
             {
-              "time": "09:00–09:30",
-              "text": "Central Park: short walk by the west-side entrances before the museum."
+              "time": "09:15–09:50",
+              "text": "Hotel → The Met Fifth Avenue by taxi/subway; allow 30–40min and entry queue."
             },
             {
-              "time": "10:00–11:30",
-              "text": "AMNH / Hayden Planetarium space show and selected exhibits, ticket permitting."
+              "time": "10:00–12:00",
+              "text": "The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access."
             },
             {
-              "time": "11:30–13:00",
-              "text": "Subway/taxi to Midtown; photograph the Empire State Building exterior on 34th Street and have lunch."
+              "time": "12:00–12:40",
+              "text": "Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather."
             },
             {
-              "time": "13:00–13:30",
-              "text": "Transfer to Gershwin Theatre and check in."
+              "time": "12:40–13:20",
+              "text": "Warm lunch near AMNH."
             },
             {
-              "time": "14:00–16:45",
-              "text": "Target Wicked matinee; performance time and tickets to confirm."
+              "time": "13:30–15:00",
+              "text": "AMNH / Hayden Planetarium: reserve a suitable space-show slot within this window and select a few exhibits."
             },
             {
-              "time": "17:00–18:30",
-              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY stores."
+              "time": "15:00–15:30",
+              "text": "Taxi/subway to Rockefeller Center."
             },
             {
-              "time": "18:30–19:15",
-              "text": "Warm dinner near Times Square."
+              "time": "15:30–17:00",
+              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY shops."
             },
             {
-              "time": "19:15–20:15",
-              "text": "Times Square and Broadway lights; return to the hotel by about 20:15."
+              "time": "17:00–18:00",
+              "text": "Times Square / Broadway lights and a nearby early warm dinner."
+            },
+            {
+              "time": "18:00–18:30",
+              "text": "Walk to Gershwin Theatre and check in."
+            },
+            {
+              "time": "19:00–21:45",
+              "text": "Target Wicked evening performance; confirm tickets and exact running time."
+            },
+            {
+              "time": "22:00",
+              "text": "Return to a hotel near the theatre; protected rest 22:30–08:30."
             }
           ],
           "links": [
             {
-              "label": "Central Park West 79th Street New York → American Museum of Natural History New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Central+Park+West+79th+Street+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+              "label": "The Met official hours / tickets",
+              "url": "https://www.metmuseum.org/plan-your-visit"
             },
             {
-              "label": "American Museum of Natural History New York → Empire State Building New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+              "label": "The Metropolitan Museum of Art 1000 Fifth Avenue New York → American Museum of Natural History New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
             },
             {
-              "label": "Empire State Building New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Empire+State+Building+New+York&destination=Gershwin+Theatre+New+York&travelmode=transit"
+              "label": "American Museum of Natural History New York → Rockefeller Center New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Rockefeller+Center+New+York&travelmode=transit"
             },
             {
-              "label": "Gershwin Theatre New York → FAO Schwarz Rockefeller Center → Nintendo New York → Fifth Avenue Rockefeller Center New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Gershwin+Theatre+New+York&destination=Fifth+Avenue+Rockefeller+Center+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+              "label": "Rockefeller Center New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Times+Square+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
             },
             {
-              "label": "Rockefeller Center New York → Times Square New York → Broadway Times Square New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Broadway+Times+Square+New+York&travelmode=walking&waypoints=Times+Square+New+York"
+              "label": "Times Square New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking"
             }
-          ]
+          ],
+          "restWindow": "22:30–08:30"
         }
       }
     },
@@ -972,13 +1000,6 @@
           "day": 13
         },
         {
-          "id": "empire",
-          "name": "Empire State Building · 34th Street",
-          "city": "New York City",
-          "nature": "Architecture / exterior photo stop",
-          "day": 13
-        },
-        {
           "id": "wicked",
           "name": "Wicked · Gershwin Theatre",
           "city": "New York City",
@@ -998,6 +1019,20 @@
           "city": "New York City",
           "nature": "Neon lights / famous city streets",
           "day": 13
+        },
+        {
+          "id": "met",
+          "name": "The Met Fifth Avenue · Metropolitan Museum of Art",
+          "city": "New York City",
+          "nature": "Art museum · Egyptian art, armor and American art highlights",
+          "day": 13
+        },
+        {
+          "id": "empire",
+          "name": "Empire State Building · 34th Street",
+          "city": "New York City",
+          "nature": "Architecture / exterior photo stop",
+          "day": 14
         },
         {
           "id": "liberty",
@@ -1207,8 +1242,12 @@
               "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
             },
             {
-              "time": "18:30–20:00",
-              "text": "Dinner in Greenwich Village; return to the hotel and pack."
+              "time": "18:30–19:15",
+              "text": "Dinner in Greenwich Village."
+            },
+            {
+              "time": "19:15–20:15",
+              "text": "Taxi/subway back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
             }
           ],
           "links": [
@@ -1235,64 +1274,85 @@
             {
               "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+            },
+            {
+              "label": "Washington Square Park New York → Empire State Building New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
             }
           ]
         },
         "13": {
-          "transport": "Walk/subway/taxi between stops, usually 15–40min per leg. Empire State Building is an exterior photo stop; no observatory visit is scheduled.",
+          "transport": "Hotel → The Met 30–40min. Met → AMNH: Central Park walk 30–40min or taxi 15–25min. AMNH → Rockefeller Center 20–30min. Midtown walking legs 10–25min. Use the 19:00 Wicked target to keep both museums.",
           "stops": [],
           "activities": [
             {
-              "time": "09:30–10:00",
-              "text": "Central Park: a short west-side stroll."
+              "time": "09:15–09:50",
+              "text": "Hotel → The Met Fifth Avenue by taxi/subway; allow 30–40min and entry queue."
             },
             {
               "time": "10:00–12:00",
-              "text": "AMNH / Hayden Planetarium show and exhibits, ticket permitting."
+              "text": "The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access."
             },
             {
-              "time": "12:00–13:00",
-              "text": "Lunch and subway/taxi to Midtown."
+              "time": "12:00–12:40",
+              "text": "Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather."
             },
             {
-              "time": "13:00–14:30",
-              "text": "Empire State Building exterior on 34th Street; Fifth Avenue walk past Bryant Park and the New York Public Library exterior."
+              "time": "12:40–13:20",
+              "text": "Warm lunch near AMNH."
             },
             {
-              "time": "14:45–16:30",
-              "text": "Rockefeller Center / Fifth Avenue: FAO Schwarz, Jellycat and Nintendo NY shops."
+              "time": "13:30–15:00",
+              "text": "AMNH / Hayden Planetarium: reserve a suitable space-show slot within this window and select a few exhibits."
             },
             {
-              "time": "17:00–18:15",
-              "text": "Times Square / Broadway photographs and an early warm dinner."
+              "time": "15:00–15:30",
+              "text": "Taxi/subway to Rockefeller Center."
+            },
+            {
+              "time": "15:30–17:00",
+              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY shops."
+            },
+            {
+              "time": "17:00–18:00",
+              "text": "Times Square / Broadway lights and a nearby early warm dinner."
+            },
+            {
+              "time": "18:00–18:30",
+              "text": "Walk to Gershwin Theatre and check in."
             },
             {
               "time": "19:00–21:45",
-              "text": "Target Wicked evening show; walk to hotel about 22:00."
+              "text": "Target Wicked evening performance; confirm tickets and exact running time."
+            },
+            {
+              "time": "22:00",
+              "text": "Return to a hotel near the theatre; protected rest 22:30–08:30."
             }
           ],
           "links": [
             {
-              "label": "Central Park West 79th Street New York → American Museum of Natural History New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Central+Park+West+79th+Street+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+              "label": "The Met official hours / tickets",
+              "url": "https://www.metmuseum.org/plan-your-visit"
             },
             {
-              "label": "American Museum of Natural History New York → Empire State Building New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+              "label": "The Metropolitan Museum of Art 1000 Fifth Avenue New York → American Museum of Natural History New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
             },
             {
-              "label": "Empire State Building New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Empire+State+Building+New+York&destination=Gershwin+Theatre+New+York&travelmode=transit"
+              "label": "American Museum of Natural History New York → Rockefeller Center New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Rockefeller+Center+New+York&travelmode=transit"
             },
             {
-              "label": "Gershwin Theatre New York → FAO Schwarz Rockefeller Center → Nintendo New York → Fifth Avenue Rockefeller Center New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Gershwin+Theatre+New+York&destination=Fifth+Avenue+Rockefeller+Center+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+              "label": "Rockefeller Center New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Times+Square+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
             },
             {
-              "label": "Rockefeller Center New York → Times Square New York → Broadway Times Square New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Broadway+Times+Square+New+York&travelmode=walking&waypoints=Times+Square+New+York"
+              "label": "Times Square New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking"
             }
-          ]
+          ],
+          "restWindow": "22:30–08:30"
         }
       }
     },
@@ -1525,13 +1585,6 @@
           "day": 9
         },
         {
-          "id": "empire",
-          "name": "Empire State Building · 34th Street",
-          "city": "New York City",
-          "nature": "Architecture / exterior photo stop",
-          "day": 9
-        },
-        {
           "id": "wicked",
           "name": "Wicked · Gershwin Theatre",
           "city": "New York City",
@@ -1551,6 +1604,20 @@
           "city": "New York City",
           "nature": "Neon lights / famous city streets",
           "day": 9
+        },
+        {
+          "id": "met",
+          "name": "The Met Fifth Avenue · Metropolitan Museum of Art",
+          "city": "New York City",
+          "nature": "Art museum · Egyptian art, armor and American art highlights",
+          "day": 9
+        },
+        {
+          "id": "empire",
+          "name": "Empire State Building · 34th Street",
+          "city": "New York City",
+          "nature": "Architecture / exterior photo stop",
+          "day": 10
         },
         {
           "id": "liberty",
@@ -1793,8 +1860,12 @@
               "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
             },
             {
-              "time": "18:30–20:00",
-              "text": "Dinner in Greenwich Village; return to the hotel and pack."
+              "time": "18:30–19:15",
+              "text": "Dinner in Greenwich Village."
+            },
+            {
+              "time": "19:15–20:15",
+              "text": "Taxi/subway back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
             }
           ],
           "links": [
@@ -1821,68 +1892,85 @@
             {
               "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+            },
+            {
+              "label": "Washington Square Park New York → Empire State Building New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
             }
           ]
         },
         "9": {
-          "transport": "Walk/subway/taxi between stops, usually 15–40min per leg. Empire State Building is an exterior photo stop; no observatory visit is scheduled.",
+          "transport": "Hotel → The Met 30–40min. Met → AMNH: Central Park walk 30–40min or taxi 15–25min. AMNH → Rockefeller Center 20–30min. Midtown walking legs 10–25min. Use the 19:00 Wicked target to keep both museums.",
           "stops": [],
           "activities": [
             {
-              "time": "09:00–09:30",
-              "text": "Central Park: short walk by the west-side entrances before the museum."
+              "time": "09:15–09:50",
+              "text": "Hotel → The Met Fifth Avenue by taxi/subway; allow 30–40min and entry queue."
             },
             {
-              "time": "10:00–11:30",
-              "text": "AMNH / Hayden Planetarium space show and selected exhibits, ticket permitting."
+              "time": "10:00–12:00",
+              "text": "The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access."
             },
             {
-              "time": "11:30–13:00",
-              "text": "Subway/taxi to Midtown; photograph the Empire State Building exterior on 34th Street and have lunch."
+              "time": "12:00–12:40",
+              "text": "Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather."
             },
             {
-              "time": "13:00–13:30",
-              "text": "Transfer to Gershwin Theatre and check in."
+              "time": "12:40–13:20",
+              "text": "Warm lunch near AMNH."
             },
             {
-              "time": "14:00–16:45",
-              "text": "Target Wicked matinee; performance time and tickets to confirm."
+              "time": "13:30–15:00",
+              "text": "AMNH / Hayden Planetarium: reserve a suitable space-show slot within this window and select a few exhibits."
             },
             {
-              "time": "17:00–18:30",
-              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY stores."
+              "time": "15:00–15:30",
+              "text": "Taxi/subway to Rockefeller Center."
             },
             {
-              "time": "18:30–19:15",
-              "text": "Warm dinner near Times Square."
+              "time": "15:30–17:00",
+              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY shops."
             },
             {
-              "time": "19:15–20:15",
-              "text": "Times Square and Broadway lights; return to the hotel by about 20:15."
+              "time": "17:00–18:00",
+              "text": "Times Square / Broadway lights and a nearby early warm dinner."
+            },
+            {
+              "time": "18:00–18:30",
+              "text": "Walk to Gershwin Theatre and check in."
+            },
+            {
+              "time": "19:00–21:45",
+              "text": "Target Wicked evening performance; confirm tickets and exact running time."
+            },
+            {
+              "time": "22:00",
+              "text": "Return to a hotel near the theatre; protected rest 22:30–08:30."
             }
           ],
           "links": [
             {
-              "label": "Central Park West 79th Street New York → American Museum of Natural History New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Central+Park+West+79th+Street+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+              "label": "The Met official hours / tickets",
+              "url": "https://www.metmuseum.org/plan-your-visit"
             },
             {
-              "label": "American Museum of Natural History New York → Empire State Building New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+              "label": "The Metropolitan Museum of Art 1000 Fifth Avenue New York → American Museum of Natural History New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
             },
             {
-              "label": "Empire State Building New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Empire+State+Building+New+York&destination=Gershwin+Theatre+New+York&travelmode=transit"
+              "label": "American Museum of Natural History New York → Rockefeller Center New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Rockefeller+Center+New+York&travelmode=transit"
             },
             {
-              "label": "Gershwin Theatre New York → FAO Schwarz Rockefeller Center → Nintendo New York → Fifth Avenue Rockefeller Center New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Gershwin+Theatre+New+York&destination=Fifth+Avenue+Rockefeller+Center+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+              "label": "Rockefeller Center New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Times+Square+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
             },
             {
-              "label": "Rockefeller Center New York → Times Square New York → Broadway Times Square New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Broadway+Times+Square+New+York&travelmode=walking&waypoints=Times+Square+New+York"
+              "label": "Times Square New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking"
             }
-          ]
+          ],
+          "restWindow": "22:30–08:30"
         }
       }
     },
@@ -1910,7 +1998,7 @@
         },
         {
           "id": "nyu",
-          "day": 8,
+          "day": 7,
           "kind": "self"
         },
         {
@@ -2099,6 +2187,13 @@
           "day": 5
         },
         {
+          "id": "nyu",
+          "name": "Greenwich Village / Washington Square Park / NYU",
+          "city": "New York City",
+          "nature": "Neighbourhood streets / Chinese food / shops",
+          "day": 7
+        },
+        {
           "id": "liberty",
           "name": "Statue of Liberty / Liberty Island",
           "city": "New York City",
@@ -2120,10 +2215,17 @@
           "day": 8
         },
         {
-          "id": "nyu",
-          "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
+          "id": "soho",
+          "name": "Chinatown · Mott Street / Canal Street · SoHo Broadway",
           "city": "New York City",
           "nature": "Neighbourhood streets / Chinese food / shops",
+          "day": 8
+        },
+        {
+          "id": "met",
+          "name": "The Met Fifth Avenue · Metropolitan Museum of Art",
+          "city": "New York City",
+          "nature": "Art museum · Saturday evening highlights visit",
           "day": 8
         },
         {
@@ -2302,7 +2404,7 @@
           ]
         },
         "8": {
-          "transport": "Hotel → Battery Park by subway/taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/subway legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "transport": "Hotel → Battery Park 35–50min. Ferry / Liberty Island security-and-visit block 10:00–13:30. City walking/subway legs 10–40min. Brooklyn Bridge Manhattan entrance → The Met by taxi 35–60min; Met → Midtown hotel 25–40min.",
           "stops": [],
           "activities": [
             {
@@ -2334,12 +2436,16 @@
               "text": "Brooklyn Bridge: short walk from the Manhattan entrance and skyline photographs; return to the Manhattan side."
             },
             {
-              "time": "17:45–18:30",
-              "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
+              "time": "17:00–18:00",
+              "text": "Taxi from the Brooklyn Bridge Manhattan entrance to The Met Fifth Avenue; allow 35–60min."
             },
             {
-              "time": "18:30–20:00",
-              "text": "Dinner in Greenwich Village; return to the hotel and pack."
+              "time": "18:00–20:00",
+              "text": "The Met Fifth Avenue: Egyptian art / Temple of Dendur, Arms and Armor and American Wing highlights. Saturday closing is currently 21:00; reconfirm winter hours."
+            },
+            {
+              "time": "20:00–21:15",
+              "text": "Warm dinner on the Upper East Side, then taxi/subway to the hotel."
             }
           ],
           "links": [
@@ -2364,10 +2470,15 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=SoHo+New+York&destination=Brooklyn+Bridge+Manhattan+Entrance&travelmode=walking"
             },
             {
-              "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+              "label": "Brooklyn Bridge Manhattan Entrance → The Metropolitan Museum of Art 1000 Fifth Avenue New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&travelmode=driving"
+            },
+            {
+              "label": "The Met official hours / tickets",
+              "url": "https://www.metmuseum.org/plan-your-visit"
             }
-          ]
+          ],
+          "restWindow": "21:30–07:30"
         },
         "9": {
           "transport": "Walk/subway/taxi between stops, usually 15–40min per leg. Empire State Building is an exterior photo stop; no observatory visit is scheduled.",
@@ -2426,6 +2537,42 @@
             {
               "label": "Rockefeller Center New York → Times Square New York → Broadway Times Square New York",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Broadway+Times+Square+New+York&travelmode=walking&waypoints=Times+Square+New+York"
+            }
+          ]
+        },
+        "7": {
+          "transport": "Ann Arbor → DTW 45–60min; target flight 12:00–14:00 to NYC; airport → Midtown 60–90min. Midtown → NYU / Chinatown by subway/taxi 25–40min.",
+          "activities": [
+            {
+              "time": "08:30",
+              "text": "Drive to DTW, return the rental car and check in."
+            },
+            {
+              "time": "12:00–14:00",
+              "text": "Target flight to NYC; allow 60–90min to the Midtown hotel after bags."
+            },
+            {
+              "time": "16:00",
+              "text": "Hotel check-in; taxi/subway to Greenwich Village."
+            },
+            {
+              "time": "16:45–17:30",
+              "text": "Washington Square Park / NYU campus-area outdoor walk."
+            },
+            {
+              "time": "18:00–19:00",
+              "text": "Chinatown Chinese New Year Eve dinner; return to the hotel around 20:00."
+            }
+          ],
+          "stops": [],
+          "links": [
+            {
+              "label": "University of Michigan Ann Arbor → Detroit Metropolitan Airport",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Detroit+Metropolitan+Airport&travelmode=driving"
+            },
+            {
+              "label": "Washington Square Park New York → Chinatown Manhattan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Chinatown+Manhattan&travelmode=walking"
             }
           ]
         }
@@ -2658,13 +2805,6 @@
           "day": 9
         },
         {
-          "id": "empire",
-          "name": "Empire State Building · 34th Street",
-          "city": "New York City",
-          "nature": "Architecture / exterior photo stop",
-          "day": 9
-        },
-        {
           "id": "wicked",
           "name": "Wicked · Gershwin Theatre",
           "city": "New York City",
@@ -2684,6 +2824,20 @@
           "city": "New York City",
           "nature": "Neon lights / famous city streets",
           "day": 9
+        },
+        {
+          "id": "met",
+          "name": "The Met Fifth Avenue · Metropolitan Museum of Art",
+          "city": "New York City",
+          "nature": "Art museum · Egyptian art, armor and American art highlights",
+          "day": 9
+        },
+        {
+          "id": "empire",
+          "name": "Empire State Building · 34th Street",
+          "city": "New York City",
+          "nature": "Architecture / exterior photo stop",
+          "day": 10
         },
         {
           "id": "liberty",
@@ -2887,8 +3041,12 @@
               "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
             },
             {
-              "time": "18:30–20:00",
-              "text": "Dinner in Greenwich Village; return to the hotel and pack."
+              "time": "18:30–19:15",
+              "text": "Dinner in Greenwich Village."
+            },
+            {
+              "time": "19:15–20:15",
+              "text": "Taxi/subway back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
             }
           ],
           "links": [
@@ -2915,68 +3073,85 @@
             {
               "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+            },
+            {
+              "label": "Washington Square Park New York → Empire State Building New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
             }
           ]
         },
         "9": {
-          "transport": "Walk/subway/taxi between stops, usually 15–40min per leg. Empire State Building is an exterior photo stop; no observatory visit is scheduled.",
+          "transport": "Hotel → The Met 30–40min. Met → AMNH: Central Park walk 30–40min or taxi 15–25min. AMNH → Rockefeller Center 20–30min. Midtown walking legs 10–25min. Use the 19:00 Wicked target to keep both museums.",
           "stops": [],
           "activities": [
             {
-              "time": "09:00–09:30",
-              "text": "Central Park: short walk by the west-side entrances before the museum."
+              "time": "09:15–09:50",
+              "text": "Hotel → The Met Fifth Avenue by taxi/subway; allow 30–40min and entry queue."
             },
             {
-              "time": "10:00–11:30",
-              "text": "AMNH / Hayden Planetarium space show and selected exhibits, ticket permitting."
+              "time": "10:00–12:00",
+              "text": "The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access."
             },
             {
-              "time": "11:30–13:00",
-              "text": "Subway/taxi to Midtown; photograph the Empire State Building exterior on 34th Street and have lunch."
+              "time": "12:00–12:40",
+              "text": "Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather."
             },
             {
-              "time": "13:00–13:30",
-              "text": "Transfer to Gershwin Theatre and check in."
+              "time": "12:40–13:20",
+              "text": "Warm lunch near AMNH."
             },
             {
-              "time": "14:00–16:45",
-              "text": "Target Wicked matinee; performance time and tickets to confirm."
+              "time": "13:30–15:00",
+              "text": "AMNH / Hayden Planetarium: reserve a suitable space-show slot within this window and select a few exhibits."
             },
             {
-              "time": "17:00–18:30",
-              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY stores."
+              "time": "15:00–15:30",
+              "text": "Taxi/subway to Rockefeller Center."
             },
             {
-              "time": "18:30–19:15",
-              "text": "Warm dinner near Times Square."
+              "time": "15:30–17:00",
+              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY shops."
             },
             {
-              "time": "19:15–20:15",
-              "text": "Times Square and Broadway lights; return to the hotel by about 20:15."
+              "time": "17:00–18:00",
+              "text": "Times Square / Broadway lights and a nearby early warm dinner."
+            },
+            {
+              "time": "18:00–18:30",
+              "text": "Walk to Gershwin Theatre and check in."
+            },
+            {
+              "time": "19:00–21:45",
+              "text": "Target Wicked evening performance; confirm tickets and exact running time."
+            },
+            {
+              "time": "22:00",
+              "text": "Return to a hotel near the theatre; protected rest 22:30–08:30."
             }
           ],
           "links": [
             {
-              "label": "Central Park West 79th Street New York → American Museum of Natural History New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Central+Park+West+79th+Street+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+              "label": "The Met official hours / tickets",
+              "url": "https://www.metmuseum.org/plan-your-visit"
             },
             {
-              "label": "American Museum of Natural History New York → Empire State Building New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+              "label": "The Metropolitan Museum of Art 1000 Fifth Avenue New York → American Museum of Natural History New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
             },
             {
-              "label": "Empire State Building New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Empire+State+Building+New+York&destination=Gershwin+Theatre+New+York&travelmode=transit"
+              "label": "American Museum of Natural History New York → Rockefeller Center New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Rockefeller+Center+New+York&travelmode=transit"
             },
             {
-              "label": "Gershwin Theatre New York → FAO Schwarz Rockefeller Center → Nintendo New York → Fifth Avenue Rockefeller Center New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Gershwin+Theatre+New+York&destination=Fifth+Avenue+Rockefeller+Center+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+              "label": "Rockefeller Center New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Times+Square+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
             },
             {
-              "label": "Rockefeller Center New York → Times Square New York → Broadway Times Square New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Broadway+Times+Square+New+York&travelmode=walking&waypoints=Times+Square+New+York"
+              "label": "Times Square New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking"
             }
-          ]
+          ],
+          "restWindow": "22:30–08:30"
         }
       }
     }
@@ -3033,5 +3208,6 @@
   },
   "rankingEdition": 2027,
   "checked": "2026-10-23",
-  "libertySource": "https://www.nps.gov/stli/planyourvisit/index.htm"
+  "libertySource": "https://www.nps.gov/stli/planyourvisit/index.htm",
+  "metSource": "https://www.metmuseum.org/plan-your-visit"
 }
