@@ -1,0 +1,3037 @@
+{
+  "schools": {
+    "ucla": {
+      "name": "University of California, Los Angeles",
+      "usNews": 20,
+      "usNewsCategory": "National Universities",
+      "usNewsEdition": 2027,
+      "qs": 49,
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://www.ucla.edu/about/rankings",
+      "qsSource": "https://www.topuniversities.com/universities/university-california-los-angeles-ucla",
+      "usNewsVerification": "primary",
+      "id": "ucla",
+      "city": "Los Angeles",
+      "website": "https://www.ucla.edu",
+      "zhName": "UCLA 加州大學洛杉磯分校"
+    },
+    "northwestern": {
+      "name": "Northwestern University",
+      "usNews": 9,
+      "usNewsCategory": "National Universities",
+      "usNewsEdition": 2027,
+      "qs": "=45",
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://news.northwestern.edu/for-journalists/news-releases/university-media-kit",
+      "qsSource": "https://www.topuniversities.com/universities/northwestern-university",
+      "usNewsVerification": "primary",
+      "id": "northwestern",
+      "city": "Evanston / Chicago",
+      "website": "https://www.northwestern.edu",
+      "zhName": "Northwestern University 西北大學"
+    },
+    "notredame": {
+      "name": "University of Notre Dame",
+      "usNews": 20,
+      "usNewsCategory": "National Universities",
+      "usNewsEdition": 2027,
+      "qs": "=300",
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://www.wbiw.com/2026/09/23/the-2027-best-national-universities-indiana-institutions-stand-out-in-latest-rankings/",
+      "qsSource": "https://www.topuniversities.com/universities/university-notre-dame",
+      "usNewsVerification": "secondary",
+      "id": "notredame",
+      "city": "Notre Dame / South Bend",
+      "website": "https://www.nd.edu",
+      "zhName": "University of Notre Dame 聖母大學"
+    },
+    "michigan": {
+      "name": "University of Michigan, Ann Arbor",
+      "usNews": 25,
+      "usNewsCategory": "National Universities",
+      "usNewsEdition": 2027,
+      "qs": 51,
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://www.cbsnews.com/detroit/news/how-michigan-schools-rank-2027-best-national-universities/",
+      "qsSource": "https://www.topuniversities.com/universities/university-michigan-ann-arbor",
+      "usNewsVerification": "secondary",
+      "id": "michigan",
+      "city": "Ann Arbor",
+      "website": "https://www.umich.edu",
+      "zhName": "University of Michigan 密歇根大學"
+    },
+    "cornell": {
+      "name": "Cornell University",
+      "usNews": 14,
+      "usNewsCategory": "National Universities",
+      "usNewsEdition": 2027,
+      "qs": "=16",
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://www.cornellsun.com/article/2026/09/cornell-slides-to-no-14-in-u-s-news-national-rankings",
+      "qsSource": "https://www.topuniversities.com/universities/cornell-university",
+      "usNewsVerification": "secondary",
+      "id": "cornell",
+      "city": "Ithaca",
+      "website": "https://www.cornell.edu",
+      "zhName": "Cornell University 康奈爾大學"
+    },
+    "dartmouth": {
+      "name": "Dartmouth College",
+      "usNews": 12,
+      "usNewsCategory": "National Universities",
+      "usNewsEdition": 2027,
+      "qs": "=270",
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://www.collegekickstart.com/blog/item/u-s-news-world-report-posts-2027-college-rankings",
+      "qsSource": "https://www.topuniversities.com/universities/dartmouth-college",
+      "usNewsVerification": "secondary",
+      "id": "dartmouth",
+      "city": "Hanover",
+      "website": "https://www.dartmouth.edu",
+      "zhName": "Dartmouth College 達特茅斯學院"
+    },
+    "bu": {
+      "name": "Boston University",
+      "usNews": 34,
+      "usNewsCategory": "National Universities",
+      "usNewsEdition": 2027,
+      "qs": 94,
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://www.bu.edu/articles/2026/boston-university-achieves-highest-ever-ranking-from-u-s-news-world-report/",
+      "qsSource": "https://www.topuniversities.com/universities/boston-university",
+      "usNewsVerification": "primary",
+      "id": "bu",
+      "city": "Boston",
+      "website": "https://www.bu.edu",
+      "zhName": "Boston University 波士頓大學"
+    },
+    "casewestern": {
+      "name": "Case Western Reserve University",
+      "usNews": 44,
+      "usNewsCategory": "National Universities",
+      "usNewsEdition": 2027,
+      "qs": "=326",
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://case.edu/news/cwru-jumps-latest-us-news-world-report-rankings",
+      "qsSource": "https://www.topuniversities.com/universities/case-western-reserve-university",
+      "usNewsVerification": "primary",
+      "id": "casewestern",
+      "city": "Cleveland",
+      "website": "https://www.case.edu",
+      "zhName": "Case Western Reserve University 凱斯西儲大學"
+    },
+    "ucdavis": {
+      "name": "University of California, Davis",
+      "usNews": 34,
+      "usNewsCategory": "National Universities",
+      "usNewsEdition": 2027,
+      "qs": 137,
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://www.ucdavis.edu/news/us-news-elevates-uc-davis-ranking-recognizing-excellence-and-value",
+      "qsSource": "https://www.topuniversities.com/universities/university-california-davis",
+      "usNewsVerification": "primary",
+      "id": "ucdavis",
+      "city": "Davis / Sacramento",
+      "website": "https://www.ucdavis.edu",
+      "zhName": "UC Davis 加州大學戴維斯分校"
+    },
+    "nyu": {
+      "name": "New York University",
+      "usNews": 31,
+      "usNewsCategory": "National Universities",
+      "usNewsEdition": 2027,
+      "qs": 58,
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://new.patch.com/new-york/new-york-city/these-are-top-nyc-colleges-2027-u-s-news-rankings",
+      "qsSource": "https://www.topuniversities.com/universities/new-york-university-nyu",
+      "usNewsVerification": "secondary",
+      "id": "nyu",
+      "city": "New York City",
+      "website": "https://www.nyu.edu",
+      "zhName": "New York University 紐約大學"
+    },
+    "amherst": {
+      "name": "Amherst College",
+      "usNews": 2,
+      "usNewsCategory": "National Liberal Arts Colleges",
+      "usNewsEdition": 2027,
+      "qs": null,
+      "qsEdition": 2027,
+      "qsStatus": "No overall WUR rank shown in official QS profile",
+      "usNewsSource": "https://www.boston.com/news/education/2026/09/22/the-best-colleges-in-the-country-in-2027-according-to-u-s-news/",
+      "qsSource": "https://www.topuniversities.com/universities/amherst-college",
+      "usNewsVerification": "secondary",
+      "id": "amherst",
+      "city": "Amherst",
+      "website": "https://www.amherst.edu",
+      "zhName": "Amherst College 阿默斯特學院"
+    },
+    "williams": {
+      "name": "Williams College",
+      "usNews": 1,
+      "usNewsCategory": "National Liberal Arts Colleges",
+      "usNewsEdition": 2027,
+      "qs": "851–900",
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://www.boston.com/news/education/2026/09/22/the-best-colleges-in-the-country-in-2027-according-to-u-s-news/",
+      "qsSource": "https://www.topuniversities.com/universities/williams-college",
+      "usNewsVerification": "secondary",
+      "id": "williams",
+      "city": "Williamstown",
+      "website": "https://www.williams.edu",
+      "zhName": "Williams College 威廉姆斯學院"
+    },
+    "wellesley": {
+      "name": "Wellesley College",
+      "usNews": 10,
+      "usNewsCategory": "National Liberal Arts Colleges",
+      "usNewsEdition": 2027,
+      "qs": null,
+      "qsEdition": 2027,
+      "qsStatus": "No overall WUR rank shown in official QS profile",
+      "usNewsSource": "https://www.collegekickstart.com/blog/item/u-s-news-world-report-posts-2027-college-rankings",
+      "qsSource": "https://www.topuniversities.com/universities/wellesley-college",
+      "usNewsVerification": "secondary",
+      "id": "wellesley",
+      "city": "Wellesley / Boston",
+      "website": "https://www.wellesley.edu",
+      "zhName": "Wellesley College 韋爾斯利學院"
+    }
+  },
+  "plans": {
+    "A": {
+      "visits": [
+        {
+          "id": "ucla",
+          "day": 2,
+          "kind": "self"
+        },
+        {
+          "id": "northwestern",
+          "day": 4,
+          "kind": "target"
+        },
+        {
+          "id": "notredame",
+          "day": 5,
+          "kind": "target"
+        },
+        {
+          "id": "michigan",
+          "day": 6,
+          "kind": "target"
+        },
+        {
+          "id": "nyu",
+          "day": 10,
+          "kind": "self"
+        },
+        {
+          "id": "cornell",
+          "day": 11,
+          "kind": "target"
+        },
+        {
+          "id": "dartmouth",
+          "day": 12,
+          "kind": "target"
+        },
+        {
+          "id": "amherst",
+          "day": 13,
+          "kind": "target"
+        },
+        {
+          "id": "bu",
+          "day": 14,
+          "kind": "target"
+        }
+      ],
+      "overview": [
+        {
+          "key": "LA",
+          "label": "Los Angeles",
+          "zhLabel": "洛杉磯",
+          "coords": [
+            -118.25,
+            34.05
+          ],
+          "days": "D0–2",
+          "mode": ""
+        },
+        {
+          "key": "Chicago",
+          "label": "Chicago / Evanston",
+          "zhLabel": "芝加哥／Evanston",
+          "coords": [
+            -87.67,
+            42.05
+          ],
+          "days": "D3–4",
+          "mode": "flight"
+        },
+        {
+          "key": "Notre Dame",
+          "label": "Notre Dame",
+          "zhLabel": "Notre Dame",
+          "coords": [
+            -86.24,
+            41.7
+          ],
+          "days": "D5",
+          "mode": "drive"
+        },
+        {
+          "key": "Ann Arbor",
+          "label": "Ann Arbor",
+          "zhLabel": "Ann Arbor",
+          "coords": [
+            -83.74,
+            42.28
+          ],
+          "days": "D6",
+          "mode": "drive"
+        },
+        {
+          "key": "Washington",
+          "label": "Washington, DC",
+          "zhLabel": "華盛頓",
+          "coords": [
+            -77.04,
+            38.9
+          ],
+          "days": "D7–8",
+          "mode": "flight"
+        },
+        {
+          "key": "NYC",
+          "label": "New York City",
+          "zhLabel": "紐約",
+          "coords": [
+            -73.99,
+            40.75
+          ],
+          "days": "D8–10",
+          "mode": "train"
+        },
+        {
+          "key": "Ithaca",
+          "label": "Ithaca · Cornell",
+          "zhLabel": "Ithaca・Cornell",
+          "coords": [
+            -76.5,
+            42.44
+          ],
+          "days": "D11",
+          "mode": "drive"
+        },
+        {
+          "key": "Hanover",
+          "label": "Hanover · Dartmouth",
+          "zhLabel": "Hanover・Dartmouth",
+          "coords": [
+            -72.29,
+            43.7
+          ],
+          "days": "D12",
+          "mode": "drive"
+        },
+        {
+          "key": "Amherst",
+          "label": "Amherst",
+          "zhLabel": "Amherst",
+          "coords": [
+            -72.52,
+            42.37
+          ],
+          "days": "D13",
+          "mode": "drive"
+        },
+        {
+          "key": "Boston",
+          "label": "Boston",
+          "zhLabel": "波士頓",
+          "coords": [
+            -71.06,
+            42.36
+          ],
+          "days": "D13–15",
+          "mode": "drive"
+        }
+      ],
+      "sights": [
+        {
+          "id": "disney",
+          "name": "Disneyland Park",
+          "city": "Anaheim",
+          "nature": "Theme park",
+          "day": 1
+        },
+        {
+          "id": "spacex",
+          "name": "SpaceX · Hawthorne exterior",
+          "city": "Hawthorne / Los Angeles",
+          "nature": "Rocket display / company exterior photo",
+          "day": 2
+        },
+        {
+          "id": "santamonica",
+          "name": "Santa Monica Pier / coast",
+          "city": "Los Angeles",
+          "nature": "Oceanfront / outdoors / shops",
+          "day": 2
+        },
+        {
+          "id": "millennium",
+          "name": "Millennium Park / Evanston lakefront",
+          "city": "Chicago",
+          "nature": "City park / outdoor alternative",
+          "day": 4
+        },
+        {
+          "id": "notredame",
+          "name": "Basilica / Grotto · Notre Dame",
+          "city": "Notre Dame",
+          "nature": "Campus architecture / peaceful outdoor setting",
+          "day": 5
+        },
+        {
+          "id": "smithsonian",
+          "name": "Smithsonian National Air and Space Museum",
+          "city": "Washington DC",
+          "nature": "Aviation / space / planetarium; show booking pending",
+          "day": 8
+        },
+        {
+          "id": "centralpark",
+          "name": "Central Park",
+          "city": "New York City",
+          "nature": "City park / outdoor stroll",
+          "day": 9
+        },
+        {
+          "id": "amnh",
+          "name": "AMNH / Hayden Planetarium",
+          "city": "New York City",
+          "nature": "Natural science / space show",
+          "day": 9
+        },
+        {
+          "id": "empire",
+          "name": "Empire State Building · 34th Street",
+          "city": "New York City",
+          "nature": "Architecture / exterior photo stop",
+          "day": 9
+        },
+        {
+          "id": "wicked",
+          "name": "Wicked · Gershwin Theatre",
+          "city": "New York City",
+          "nature": "Broadway musical; tickets pending",
+          "day": 9
+        },
+        {
+          "id": "rockefeller",
+          "name": "Fifth Avenue / Rockefeller Center · FAO / Jellycat / Nintendo",
+          "city": "New York City",
+          "nature": "Famous avenue / city landmark / fun stores",
+          "day": 9
+        },
+        {
+          "id": "timessquare",
+          "name": "Times Square / Broadway",
+          "city": "New York City",
+          "nature": "Neon lights / famous city streets",
+          "day": 9
+        },
+        {
+          "id": "liberty",
+          "name": "Statue of Liberty / Liberty Island",
+          "city": "New York City",
+          "nature": "Island ferry / monument / museum",
+          "day": 10
+        },
+        {
+          "id": "memorial911",
+          "name": "Wall Street / Charging Bull / 9/11 Memorial",
+          "city": "New York City",
+          "nature": "Finance district / outdoor memorial",
+          "day": 10
+        },
+        {
+          "id": "brooklynbridge",
+          "name": "Brooklyn Bridge",
+          "city": "New York City",
+          "nature": "Historic bridge / Manhattan skyline walk",
+          "day": 10
+        },
+        {
+          "id": "nyu",
+          "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
+          "city": "New York City",
+          "nature": "Neighbourhood streets / Chinese food / shops",
+          "day": 10
+        },
+        {
+          "id": "publicgarden",
+          "name": "Public Garden / Newbury Street",
+          "city": "Boston",
+          "nature": "Garden / city stroll / shops",
+          "day": 14
+        }
+      ],
+      "patches": {
+        "5": {
+          "transport": "07:00 CT departure → Michigan City 09:00–09:30 CT → Notre Dame about 11:30–12:00 ET. Allow 3–3.5h driving + 30min break + 1h clock change.",
+          "stops": [
+            {
+              "area": "mc",
+              "time": "09:00–09:30 CT"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:00 CT",
+              "text": "Leave Evanston / Chicago."
+            },
+            {
+              "time": "09:00–09:30 CT",
+              "text": "Michigan City: warm drink and a short downtown walk."
+            },
+            {
+              "time": "11:30–12:00 ET",
+              "text": "Arrive Notre Dame; lunch and tour check-in."
+            },
+            {
+              "time": "13:00–15:00",
+              "text": "Target admissions session and guided campus visit."
+            },
+            {
+              "time": "15:30",
+              "text": "Visit Basilica / Grotto; check in around 17:00, then dinner."
+            }
+          ]
+        },
+        "6": {
+          "transport": "07:30 departure → Kalamazoo 09:15–09:45 → Ann Arbor about 11:30. Allow 3–3.5h driving + 30min break (4h total).",
+          "stops": [
+            {
+              "area": "kz",
+              "time": "09:15–09:45"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:30",
+              "text": "Leave Notre Dame."
+            },
+            {
+              "time": "09:15–09:45",
+              "text": "Kalamazoo Mall area: breakfast / warm snack and a brief walk."
+            },
+            {
+              "time": "11:30–12:30",
+              "text": "Arrive Ann Arbor; lunch and tour check-in."
+            },
+            {
+              "time": "13:00–15:00",
+              "text": "Michigan admissions session and student-guided tour, if reserved."
+            },
+            {
+              "time": "16:00–18:00",
+              "text": "Meet friend / family for dinner."
+            }
+          ]
+        },
+        "11": {
+          "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
+          "stops": [
+            {
+              "area": "sc",
+              "time": "10:00–10:30"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:00–07:30",
+              "text": "Collect rental car and leave NYC."
+            },
+            {
+              "time": "10:00–10:30",
+              "text": "Scranton Downtown: warm snack and Courthouse Square walk."
+            },
+            {
+              "time": "13:00–13:30",
+              "text": "Arrive Cornell; quick lunch, park and check in."
+            },
+            {
+              "time": "14:00–16:00",
+              "text": "Target Cornell registered tour and admissions information session."
+            },
+            {
+              "time": "17:00",
+              "text": "Cottage check-in; dinner around 18:00."
+            }
+          ]
+        },
+        "12": {
+          "transport": "06:45 Ithaca departure → Oneonta 08:45–09:15 → Brattleboro 11:45–12:15 → Hanover about 13:45. Allow about 6h driving + 1h breaks (7h total; winter traffic may add time).",
+          "stops": [
+            {
+              "area": "on",
+              "time": "08:45–09:15"
+            },
+            {
+              "area": "br",
+              "time": "11:45–12:15"
+            }
+          ],
+          "activities": [
+            {
+              "time": "06:45",
+              "text": "Leave Ithaca; carry breakfast / snacks."
+            },
+            {
+              "time": "08:45–09:15",
+              "text": "Oneonta Main Street: bakery / café breakfast stop."
+            },
+            {
+              "time": "11:45–12:15",
+              "text": "Brattleboro Downtown: warm lunch."
+            },
+            {
+              "time": "13:45–14:15",
+              "text": "Arrive Hanover and check in for the campus visit."
+            },
+            {
+              "time": "14:30–16:15",
+              "text": "Target Dartmouth information session and guided tour; afternoon slot essential."
+            },
+            {
+              "time": "16:30",
+              "text": "Alumni chat if arranged; dinner and hotel."
+            }
+          ]
+        },
+        "10": {
+          "transport": "Hotel → Battery Park by subway/taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/subway legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "stops": [],
+          "activities": [
+            {
+              "time": "09:00–09:45",
+              "text": "Leave hotel for Castle Clinton / Battery Park ferry security area."
+            },
+            {
+              "time": "10:00–13:30",
+              "text": "Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure."
+            },
+            {
+              "time": "12:00",
+              "text": "Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning."
+            },
+            {
+              "time": "13:30–14:30",
+              "text": "Walk from The Battery to Wall Street / Charging Bull, then the 9/11 Memorial outdoor plaza."
+            },
+            {
+              "time": "14:45–15:30",
+              "text": "Chinatown: warm rice / noodles lunch; browse Mott Street and Canal Street."
+            },
+            {
+              "time": "15:30–16:15",
+              "text": "SoHo: Broadway and nearby cast-iron streets / shops."
+            },
+            {
+              "time": "16:30–17:00",
+              "text": "Brooklyn Bridge: short walk from the Manhattan entrance and skyline photographs; return to the Manhattan side."
+            },
+            {
+              "time": "17:45–18:30",
+              "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
+            },
+            {
+              "time": "18:30–20:00",
+              "text": "Dinner in Greenwich Village; return to the hotel and pack."
+            }
+          ],
+          "links": [
+            {
+              "label": "Statue of Liberty official visit / ferry tickets",
+              "url": "https://www.nps.gov/stli/planyourvisit/index.htm"
+            },
+            {
+              "label": "The Battery New York → Charging Bull New York → Wall Street New York → 9/11 Memorial New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Battery+New+York&destination=9%2F11+Memorial+New+York&travelmode=walking&waypoints=Charging+Bull+New+York%7CWall+Street+New+York"
+            },
+            {
+              "label": "9/11 Memorial New York → Chinatown Manhattan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=transit"
+            },
+            {
+              "label": "Mott Street New York → Canal Street New York → SoHo New York → Broadway Spring Street New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Mott+Street+New+York&destination=Broadway+Spring+Street+New+York&travelmode=walking&waypoints=Canal+Street+New+York%7CSoHo+New+York"
+            },
+            {
+              "label": "SoHo New York → Brooklyn Bridge Manhattan Entrance",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=SoHo+New+York&destination=Brooklyn+Bridge+Manhattan+Entrance&travelmode=walking"
+            },
+            {
+              "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+            }
+          ]
+        },
+        "9": {
+          "transport": "Walk/subway/taxi between stops, usually 15–40min per leg. Empire State Building is an exterior photo stop; no observatory visit is scheduled.",
+          "stops": [],
+          "activities": [
+            {
+              "time": "09:00–09:30",
+              "text": "Central Park: short walk by the west-side entrances before the museum."
+            },
+            {
+              "time": "10:00–11:30",
+              "text": "AMNH / Hayden Planetarium space show and selected exhibits, ticket permitting."
+            },
+            {
+              "time": "11:30–13:00",
+              "text": "Subway/taxi to Midtown; photograph the Empire State Building exterior on 34th Street and have lunch."
+            },
+            {
+              "time": "13:00–13:30",
+              "text": "Transfer to Gershwin Theatre and check in."
+            },
+            {
+              "time": "14:00–16:45",
+              "text": "Target Wicked matinee; performance time and tickets to confirm."
+            },
+            {
+              "time": "17:00–18:30",
+              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY stores."
+            },
+            {
+              "time": "18:30–19:15",
+              "text": "Warm dinner near Times Square."
+            },
+            {
+              "time": "19:15–20:15",
+              "text": "Times Square and Broadway lights; return to the hotel by about 20:15."
+            }
+          ],
+          "links": [
+            {
+              "label": "Central Park West 79th Street New York → American Museum of Natural History New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Central+Park+West+79th+Street+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+            },
+            {
+              "label": "American Museum of Natural History New York → Empire State Building New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+            },
+            {
+              "label": "Empire State Building New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Empire+State+Building+New+York&destination=Gershwin+Theatre+New+York&travelmode=transit"
+            },
+            {
+              "label": "Gershwin Theatre New York → FAO Schwarz Rockefeller Center → Nintendo New York → Fifth Avenue Rockefeller Center New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Gershwin+Theatre+New+York&destination=Fifth+Avenue+Rockefeller+Center+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+            },
+            {
+              "label": "Rockefeller Center New York → Times Square New York → Broadway Times Square New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Broadway+Times+Square+New+York&travelmode=walking&waypoints=Times+Square+New+York"
+            }
+          ]
+        }
+      }
+    },
+    "B": {
+      "visits": [
+        {
+          "id": "ucla",
+          "day": 2,
+          "kind": "self"
+        },
+        {
+          "id": "northwestern",
+          "day": 4,
+          "kind": "target"
+        },
+        {
+          "id": "notredame",
+          "day": 5,
+          "kind": "target"
+        },
+        {
+          "id": "michigan",
+          "day": 6,
+          "kind": "target"
+        },
+        {
+          "id": "casewestern",
+          "day": 7,
+          "kind": "conditional"
+        },
+        {
+          "id": "cornell",
+          "day": 8,
+          "kind": "target"
+        },
+        {
+          "id": "dartmouth",
+          "day": 10,
+          "kind": "target"
+        },
+        {
+          "id": "bu",
+          "day": 11,
+          "kind": "target"
+        },
+        {
+          "id": "wellesley",
+          "day": 11,
+          "kind": "target"
+        }
+      ],
+      "overview": [
+        {
+          "key": "LA",
+          "label": "Los Angeles",
+          "zhLabel": "洛杉磯",
+          "coords": [
+            -118.25,
+            34.05
+          ],
+          "days": "D0–2",
+          "mode": ""
+        },
+        {
+          "key": "Chicago",
+          "label": "Chicago / Evanston",
+          "zhLabel": "芝加哥／Evanston",
+          "coords": [
+            -87.67,
+            42.05
+          ],
+          "days": "D3–4",
+          "mode": "flight"
+        },
+        {
+          "key": "Notre Dame",
+          "label": "Notre Dame",
+          "zhLabel": "Notre Dame",
+          "coords": [
+            -86.24,
+            41.7
+          ],
+          "days": "D5",
+          "mode": "drive"
+        },
+        {
+          "key": "Ann Arbor",
+          "label": "Ann Arbor",
+          "zhLabel": "Ann Arbor",
+          "coords": [
+            -83.74,
+            42.28
+          ],
+          "days": "D6",
+          "mode": "drive"
+        },
+        {
+          "key": "Cleveland",
+          "label": "Cleveland",
+          "zhLabel": "Cleveland",
+          "coords": [
+            -81.61,
+            41.5
+          ],
+          "days": "D6–7",
+          "mode": "drive"
+        },
+        {
+          "key": "Ithaca",
+          "label": "Ithaca · Cornell",
+          "zhLabel": "Ithaca・Cornell",
+          "coords": [
+            -76.5,
+            42.44
+          ],
+          "days": "D7–9",
+          "mode": "drive"
+        },
+        {
+          "key": "Hanover",
+          "label": "Hanover · Dartmouth",
+          "zhLabel": "Hanover・Dartmouth",
+          "coords": [
+            -72.29,
+            43.7
+          ],
+          "days": "D9–10",
+          "mode": "drive"
+        },
+        {
+          "key": "Boston",
+          "label": "Boston",
+          "zhLabel": "波士頓",
+          "coords": [
+            -71.06,
+            42.36
+          ],
+          "days": "D10–12",
+          "mode": "drive"
+        },
+        {
+          "key": "Washington",
+          "label": "Washington, DC",
+          "zhLabel": "華盛頓",
+          "coords": [
+            -77.04,
+            38.9
+          ],
+          "days": "D12",
+          "mode": "flight"
+        },
+        {
+          "key": "NYC",
+          "label": "New York City",
+          "zhLabel": "紐約",
+          "coords": [
+            -73.99,
+            40.75
+          ],
+          "days": "D12–15",
+          "mode": "train"
+        }
+      ],
+      "sights": [
+        {
+          "id": "disney",
+          "name": "Disneyland Park",
+          "city": "Anaheim",
+          "nature": "Theme park",
+          "day": 1
+        },
+        {
+          "id": "spacex",
+          "name": "SpaceX · Hawthorne exterior",
+          "city": "Hawthorne / Los Angeles",
+          "nature": "Rocket display / company exterior photo",
+          "day": 2
+        },
+        {
+          "id": "santamonica",
+          "name": "Santa Monica Pier / coast",
+          "city": "Los Angeles",
+          "nature": "Oceanfront / outdoors / shops",
+          "day": 2
+        },
+        {
+          "id": "millennium",
+          "name": "Millennium Park / Evanston lakefront",
+          "city": "Chicago",
+          "nature": "City park / outdoor alternative",
+          "day": 4
+        },
+        {
+          "id": "notredame",
+          "name": "Basilica / Grotto · Notre Dame",
+          "city": "Notre Dame",
+          "nature": "Campus architecture / peaceful outdoor setting",
+          "day": 5
+        },
+        {
+          "id": "smithsonian",
+          "name": "Smithsonian National Air and Space Museum",
+          "city": "Washington DC",
+          "nature": "Aviation / space / planetarium; show booking pending",
+          "day": 12
+        },
+        {
+          "id": "centralpark",
+          "name": "Central Park",
+          "city": "New York City",
+          "nature": "City park / outdoor stroll",
+          "day": 13
+        },
+        {
+          "id": "amnh",
+          "name": "AMNH / Hayden Planetarium",
+          "city": "New York City",
+          "nature": "Natural science / space show",
+          "day": 13
+        },
+        {
+          "id": "empire",
+          "name": "Empire State Building · 34th Street",
+          "city": "New York City",
+          "nature": "Architecture / exterior photo stop",
+          "day": 13
+        },
+        {
+          "id": "wicked",
+          "name": "Wicked · Gershwin Theatre",
+          "city": "New York City",
+          "nature": "Broadway musical; tickets pending",
+          "day": 13
+        },
+        {
+          "id": "rockefeller",
+          "name": "Fifth Avenue / Rockefeller Center · FAO / Jellycat / Nintendo",
+          "city": "New York City",
+          "nature": "Famous avenue / city landmark / fun stores",
+          "day": 13
+        },
+        {
+          "id": "timessquare",
+          "name": "Times Square / Broadway",
+          "city": "New York City",
+          "nature": "Neon lights / famous city streets",
+          "day": 13
+        },
+        {
+          "id": "liberty",
+          "name": "Statue of Liberty / Liberty Island",
+          "city": "New York City",
+          "nature": "Island ferry / monument / museum",
+          "day": 14
+        },
+        {
+          "id": "memorial911",
+          "name": "Wall Street / Charging Bull / 9/11 Memorial",
+          "city": "New York City",
+          "nature": "Finance district / outdoor memorial",
+          "day": 14
+        },
+        {
+          "id": "brooklynbridge",
+          "name": "Brooklyn Bridge",
+          "city": "New York City",
+          "nature": "Historic bridge / Manhattan skyline walk",
+          "day": 14
+        },
+        {
+          "id": "nyu",
+          "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
+          "city": "New York City",
+          "nature": "Neighbourhood streets / Chinese food / shops",
+          "day": 14
+        }
+      ],
+      "patches": {
+        "5": {
+          "transport": "07:00 CT departure → Michigan City 09:00–09:30 CT → Notre Dame about 11:30–12:00 ET. Allow 3–3.5h driving + 30min break + 1h clock change.",
+          "stops": [
+            {
+              "area": "mc",
+              "time": "09:00–09:30 CT"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:00 CT",
+              "text": "Leave Evanston / Chicago."
+            },
+            {
+              "time": "09:00–09:30 CT",
+              "text": "Michigan City: warm drink and a short downtown walk."
+            },
+            {
+              "time": "11:30–12:00 ET",
+              "text": "Arrive Notre Dame; lunch and tour check-in."
+            },
+            {
+              "time": "13:00–15:00",
+              "text": "Target admissions session and guided campus visit."
+            },
+            {
+              "time": "15:30",
+              "text": "Visit Basilica / Grotto; check in around 17:00, then dinner."
+            }
+          ]
+        },
+        "6": {
+          "transport": "Notre Dame → Kalamazoo break → Ann Arbor: allow 4h. Ann Arbor → Toledo break → Cleveland: allow 4–4.5h. Total driving 7–7.5h plus 1h breaks; campus/lunch separates the two legs.",
+          "stops": [
+            {
+              "area": "kz",
+              "time": "08:45–09:15"
+            },
+            {
+              "area": "to",
+              "time": "15:30–16:00"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:00",
+              "text": "Leave Notre Dame."
+            },
+            {
+              "time": "08:45–09:15",
+              "text": "Kalamazoo: breakfast and a short walk."
+            },
+            {
+              "time": "11:00–13:00",
+              "text": "Target Michigan guided visit; friend / lunch 13:00–14:00."
+            },
+            {
+              "time": "14:30",
+              "text": "Leave Ann Arbor for Cleveland."
+            },
+            {
+              "time": "15:30–16:00",
+              "text": "Toledo Downtown: warm snack / early meal."
+            },
+            {
+              "time": "18:30–19:00",
+              "text": "Cleveland hotel, dinner and rest."
+            }
+          ]
+        },
+        "7": {
+          "transport": "12:00 Cleveland departure → Erie 13:45–14:15 → Geneva 17:00–17:30 → Ithaca about 19:00. Allow 6h driving + 1h breaks (7h total).",
+          "stops": [
+            {
+              "area": "er",
+              "time": "13:45–14:15"
+            },
+            {
+              "area": "ge",
+              "time": "17:00–17:30"
+            }
+          ],
+          "activities": [
+            {
+              "time": "09:00–11:00",
+              "text": "Optional Case Western visit; keep only if Cornell Saturday tour is confirmed."
+            },
+            {
+              "time": "12:00",
+              "text": "Leave Cleveland."
+            },
+            {
+              "time": "13:45–14:15",
+              "text": "Erie Downtown / Bayfront: warm lunch stop."
+            },
+            {
+              "time": "17:00–17:30",
+              "text": "Geneva: warm drink and brief Seneca Lake viewpoint stop."
+            },
+            {
+              "time": "19:00–20:00",
+              "text": "Ithaca cottage check-in and dinner."
+            },
+            {
+              "time": "",
+              "text": "If Cornell has no Saturday guided slot, drop Case and leave Cleveland at 07:00 for a Friday afternoon Cornell visit; move both stops 5h earlier."
+            }
+          ],
+          "restWindow": "22:00–08:00"
+        },
+        "9": {
+          "transport": "09:00 Ithaca departure → Oneonta 11:00–11:30 → Brattleboro 14:00–14:30 → Hanover about 16:00. Allow about 6h driving + 1h breaks.",
+          "stops": [
+            {
+              "area": "on",
+              "time": "11:00–11:30"
+            },
+            {
+              "area": "br",
+              "time": "14:00–14:30"
+            }
+          ],
+          "activities": [
+            {
+              "time": "09:00",
+              "text": "Leave Ithaca for Hanover."
+            },
+            {
+              "time": "11:00–11:30",
+              "text": "Oneonta Main Street: warm food / coffee and a short walk."
+            },
+            {
+              "time": "14:00–14:30",
+              "text": "Brattleboro Downtown: late warm lunch."
+            },
+            {
+              "time": "16:00",
+              "text": "Arrive Hanover; short town walk, hotel and early dinner."
+            }
+          ]
+        },
+        "14": {
+          "transport": "Hotel → Battery Park by subway/taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/subway legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "stops": [],
+          "activities": [
+            {
+              "time": "09:00–09:45",
+              "text": "Leave hotel for Castle Clinton / Battery Park ferry security area."
+            },
+            {
+              "time": "10:00–13:30",
+              "text": "Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure."
+            },
+            {
+              "time": "12:00",
+              "text": "Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning."
+            },
+            {
+              "time": "13:30–14:30",
+              "text": "Walk from The Battery to Wall Street / Charging Bull, then the 9/11 Memorial outdoor plaza."
+            },
+            {
+              "time": "14:45–15:30",
+              "text": "Chinatown: warm rice / noodles lunch; browse Mott Street and Canal Street."
+            },
+            {
+              "time": "15:30–16:15",
+              "text": "SoHo: Broadway and nearby cast-iron streets / shops."
+            },
+            {
+              "time": "16:30–17:00",
+              "text": "Brooklyn Bridge: short walk from the Manhattan entrance and skyline photographs; return to the Manhattan side."
+            },
+            {
+              "time": "17:45–18:30",
+              "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
+            },
+            {
+              "time": "18:30–20:00",
+              "text": "Dinner in Greenwich Village; return to the hotel and pack."
+            }
+          ],
+          "links": [
+            {
+              "label": "Statue of Liberty official visit / ferry tickets",
+              "url": "https://www.nps.gov/stli/planyourvisit/index.htm"
+            },
+            {
+              "label": "The Battery New York → Charging Bull New York → Wall Street New York → 9/11 Memorial New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Battery+New+York&destination=9%2F11+Memorial+New+York&travelmode=walking&waypoints=Charging+Bull+New+York%7CWall+Street+New+York"
+            },
+            {
+              "label": "9/11 Memorial New York → Chinatown Manhattan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=transit"
+            },
+            {
+              "label": "Mott Street New York → Canal Street New York → SoHo New York → Broadway Spring Street New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Mott+Street+New+York&destination=Broadway+Spring+Street+New+York&travelmode=walking&waypoints=Canal+Street+New+York%7CSoHo+New+York"
+            },
+            {
+              "label": "SoHo New York → Brooklyn Bridge Manhattan Entrance",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=SoHo+New+York&destination=Brooklyn+Bridge+Manhattan+Entrance&travelmode=walking"
+            },
+            {
+              "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+            }
+          ]
+        },
+        "13": {
+          "transport": "Walk/subway/taxi between stops, usually 15–40min per leg. Empire State Building is an exterior photo stop; no observatory visit is scheduled.",
+          "stops": [],
+          "activities": [
+            {
+              "time": "09:30–10:00",
+              "text": "Central Park: a short west-side stroll."
+            },
+            {
+              "time": "10:00–12:00",
+              "text": "AMNH / Hayden Planetarium show and exhibits, ticket permitting."
+            },
+            {
+              "time": "12:00–13:00",
+              "text": "Lunch and subway/taxi to Midtown."
+            },
+            {
+              "time": "13:00–14:30",
+              "text": "Empire State Building exterior on 34th Street; Fifth Avenue walk past Bryant Park and the New York Public Library exterior."
+            },
+            {
+              "time": "14:45–16:30",
+              "text": "Rockefeller Center / Fifth Avenue: FAO Schwarz, Jellycat and Nintendo NY shops."
+            },
+            {
+              "time": "17:00–18:15",
+              "text": "Times Square / Broadway photographs and an early warm dinner."
+            },
+            {
+              "time": "19:00–21:45",
+              "text": "Target Wicked evening show; walk to hotel about 22:00."
+            }
+          ],
+          "links": [
+            {
+              "label": "Central Park West 79th Street New York → American Museum of Natural History New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Central+Park+West+79th+Street+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+            },
+            {
+              "label": "American Museum of Natural History New York → Empire State Building New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+            },
+            {
+              "label": "Empire State Building New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Empire+State+Building+New+York&destination=Gershwin+Theatre+New+York&travelmode=transit"
+            },
+            {
+              "label": "Gershwin Theatre New York → FAO Schwarz Rockefeller Center → Nintendo New York → Fifth Avenue Rockefeller Center New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Gershwin+Theatre+New+York&destination=Fifth+Avenue+Rockefeller+Center+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+            },
+            {
+              "label": "Rockefeller Center New York → Times Square New York → Broadway Times Square New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Broadway+Times+Square+New+York&travelmode=walking&waypoints=Times+Square+New+York"
+            }
+          ]
+        }
+      }
+    },
+    "C": {
+      "visits": [
+        {
+          "id": "ucla",
+          "day": 2,
+          "kind": "self"
+        },
+        {
+          "id": "notredame",
+          "day": 4,
+          "kind": "target"
+        },
+        {
+          "id": "michigan",
+          "day": 5,
+          "kind": "target"
+        },
+        {
+          "id": "northwestern",
+          "day": 7,
+          "kind": "medill"
+        },
+        {
+          "id": "nyu",
+          "day": 10,
+          "kind": "self"
+        },
+        {
+          "id": "cornell",
+          "day": 11,
+          "kind": "target"
+        },
+        {
+          "id": "dartmouth",
+          "day": 12,
+          "kind": "target"
+        },
+        {
+          "id": "amherst",
+          "day": 13,
+          "kind": "target"
+        },
+        {
+          "id": "bu",
+          "day": 14,
+          "kind": "target"
+        }
+      ],
+      "overview": [
+        {
+          "key": "LA",
+          "label": "Los Angeles",
+          "zhLabel": "洛杉磯",
+          "coords": [
+            -118.25,
+            34.05
+          ],
+          "days": "D0–2",
+          "mode": ""
+        },
+        {
+          "key": "Chicago",
+          "label": "Chicago / Evanston",
+          "zhLabel": "芝加哥／Evanston",
+          "coords": [
+            -87.67,
+            42.05
+          ],
+          "days": "D3",
+          "mode": "flight"
+        },
+        {
+          "key": "Notre Dame",
+          "label": "Notre Dame",
+          "zhLabel": "Notre Dame",
+          "coords": [
+            -86.24,
+            41.7
+          ],
+          "days": "D4",
+          "mode": "drive"
+        },
+        {
+          "key": "Ann Arbor",
+          "label": "Ann Arbor",
+          "zhLabel": "Ann Arbor",
+          "coords": [
+            -83.74,
+            42.28
+          ],
+          "days": "D5",
+          "mode": "drive"
+        },
+        {
+          "key": "Chicago",
+          "label": "Chicago / Evanston",
+          "zhLabel": "芝加哥／Evanston",
+          "coords": [
+            -87.67,
+            42.05
+          ],
+          "days": "D6–7",
+          "mode": "drive"
+        },
+        {
+          "key": "Washington",
+          "label": "Washington, DC",
+          "zhLabel": "華盛頓",
+          "coords": [
+            -77.04,
+            38.9
+          ],
+          "days": "D7–8",
+          "mode": "flight"
+        },
+        {
+          "key": "NYC",
+          "label": "New York City",
+          "zhLabel": "紐約",
+          "coords": [
+            -73.99,
+            40.75
+          ],
+          "days": "D8–10",
+          "mode": "train"
+        },
+        {
+          "key": "Ithaca",
+          "label": "Ithaca · Cornell",
+          "zhLabel": "Ithaca・Cornell",
+          "coords": [
+            -76.5,
+            42.44
+          ],
+          "days": "D11",
+          "mode": "drive"
+        },
+        {
+          "key": "Hanover",
+          "label": "Hanover · Dartmouth",
+          "zhLabel": "Hanover・Dartmouth",
+          "coords": [
+            -72.29,
+            43.7
+          ],
+          "days": "D12",
+          "mode": "drive"
+        },
+        {
+          "key": "Amherst",
+          "label": "Amherst",
+          "zhLabel": "Amherst",
+          "coords": [
+            -72.52,
+            42.37
+          ],
+          "days": "D13",
+          "mode": "drive"
+        },
+        {
+          "key": "Boston",
+          "label": "Boston",
+          "zhLabel": "波士頓",
+          "coords": [
+            -71.06,
+            42.36
+          ],
+          "days": "D13–15",
+          "mode": "drive"
+        }
+      ],
+      "sights": [
+        {
+          "id": "disney",
+          "name": "Disneyland Park",
+          "city": "Anaheim",
+          "nature": "Theme park",
+          "day": 1
+        },
+        {
+          "id": "spacex",
+          "name": "SpaceX · Hawthorne exterior",
+          "city": "Hawthorne / Los Angeles",
+          "nature": "Rocket display / company exterior photo",
+          "day": 2
+        },
+        {
+          "id": "santamonica",
+          "name": "Santa Monica Pier / coast",
+          "city": "Los Angeles",
+          "nature": "Oceanfront / outdoors / shops",
+          "day": 2
+        },
+        {
+          "id": "notredame",
+          "name": "Basilica / Grotto · Notre Dame",
+          "city": "Notre Dame",
+          "nature": "Campus architecture / peaceful outdoor setting",
+          "day": 4
+        },
+        {
+          "id": "millennium",
+          "name": "Millennium Park / Evanston lakefront",
+          "city": "Chicago",
+          "nature": "City park / outdoor alternative",
+          "day": 6
+        },
+        {
+          "id": "smithsonian",
+          "name": "Smithsonian National Air and Space Museum",
+          "city": "Washington DC",
+          "nature": "Aviation / space / planetarium; show booking pending",
+          "day": 8
+        },
+        {
+          "id": "centralpark",
+          "name": "Central Park",
+          "city": "New York City",
+          "nature": "City park / outdoor stroll",
+          "day": 9
+        },
+        {
+          "id": "amnh",
+          "name": "AMNH / Hayden Planetarium",
+          "city": "New York City",
+          "nature": "Natural science / space show",
+          "day": 9
+        },
+        {
+          "id": "empire",
+          "name": "Empire State Building · 34th Street",
+          "city": "New York City",
+          "nature": "Architecture / exterior photo stop",
+          "day": 9
+        },
+        {
+          "id": "wicked",
+          "name": "Wicked · Gershwin Theatre",
+          "city": "New York City",
+          "nature": "Broadway musical; tickets pending",
+          "day": 9
+        },
+        {
+          "id": "rockefeller",
+          "name": "Fifth Avenue / Rockefeller Center · FAO / Jellycat / Nintendo",
+          "city": "New York City",
+          "nature": "Famous avenue / city landmark / fun stores",
+          "day": 9
+        },
+        {
+          "id": "timessquare",
+          "name": "Times Square / Broadway",
+          "city": "New York City",
+          "nature": "Neon lights / famous city streets",
+          "day": 9
+        },
+        {
+          "id": "liberty",
+          "name": "Statue of Liberty / Liberty Island",
+          "city": "New York City",
+          "nature": "Island ferry / monument / museum",
+          "day": 10
+        },
+        {
+          "id": "memorial911",
+          "name": "Wall Street / Charging Bull / 9/11 Memorial",
+          "city": "New York City",
+          "nature": "Finance district / outdoor memorial",
+          "day": 10
+        },
+        {
+          "id": "brooklynbridge",
+          "name": "Brooklyn Bridge",
+          "city": "New York City",
+          "nature": "Historic bridge / Manhattan skyline walk",
+          "day": 10
+        },
+        {
+          "id": "nyu",
+          "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
+          "city": "New York City",
+          "nature": "Neighbourhood streets / Chinese food / shops",
+          "day": 10
+        },
+        {
+          "id": "publicgarden",
+          "name": "Public Garden / Newbury Street",
+          "city": "Boston",
+          "nature": "Garden / city stroll / shops",
+          "day": 14
+        }
+      ],
+      "patches": {
+        "4": {
+          "transport": "07:00 CT departure → Michigan City 09:00–09:30 CT → Notre Dame about 11:30–12:00 ET. Allow 3–3.5h driving + 30min break + 1h clock change.",
+          "stops": [
+            {
+              "area": "mc",
+              "time": "09:00–09:30 CT"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:00 CT",
+              "text": "Leave Evanston / Chicago."
+            },
+            {
+              "time": "09:00–09:30 CT",
+              "text": "Michigan City: warm drink and a short downtown walk."
+            },
+            {
+              "time": "11:30–12:00 ET",
+              "text": "Arrive Notre Dame; lunch and tour check-in."
+            },
+            {
+              "time": "13:00–15:00",
+              "text": "Target admissions session and guided campus visit."
+            },
+            {
+              "time": "15:30",
+              "text": "Visit Basilica / Grotto; check in around 17:00, then dinner."
+            }
+          ]
+        },
+        "5": {
+          "transport": "07:30 departure → Kalamazoo 09:15–09:45 → Ann Arbor about 11:30. Allow 3–3.5h driving + 30min break (4h total).",
+          "stops": [
+            {
+              "area": "kz",
+              "time": "09:15–09:45"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:30",
+              "text": "Leave Notre Dame."
+            },
+            {
+              "time": "09:15–09:45",
+              "text": "Kalamazoo Mall area: breakfast / warm snack and a brief walk."
+            },
+            {
+              "time": "11:30–12:30",
+              "text": "Arrive Ann Arbor; lunch and tour check-in."
+            },
+            {
+              "time": "13:00–15:00",
+              "text": "Michigan admissions session and student-guided tour, if reserved."
+            },
+            {
+              "time": "16:00–18:00",
+              "text": "Meet friend / family for dinner."
+            }
+          ]
+        },
+        "6": {
+          "transport": "09:00 ET departure → Kalamazoo 10:45–11:15 ET → Michigan City 12:00–12:30 CT → Evanston about 14:00–14:30 CT. Allow 5–5.5h driving + 1h breaks; clocks go back 1h.",
+          "stops": [
+            {
+              "area": "kz",
+              "time": "10:45–11:15 ET"
+            },
+            {
+              "area": "mc",
+              "time": "12:00–12:30 CT"
+            }
+          ],
+          "activities": [
+            {
+              "time": "09:00 ET",
+              "text": "Leave Ann Arbor."
+            },
+            {
+              "time": "10:45–11:15 ET",
+              "text": "Kalamazoo: warm drink and a pedestrian-street walk."
+            },
+            {
+              "time": "12:00–12:30 CT",
+              "text": "Michigan City: quick lunch / snack and toilets."
+            },
+            {
+              "time": "14:00–14:30 CT",
+              "text": "Arrive Evanston and check in."
+            },
+            {
+              "time": "15:00–17:00",
+              "text": "Easy Evanston lakefront / Chicago highlights; early dinner before Medill day."
+            }
+          ]
+        },
+        "11": {
+          "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
+          "stops": [
+            {
+              "area": "sc",
+              "time": "10:00–10:30"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:00–07:30",
+              "text": "Collect rental car and leave NYC."
+            },
+            {
+              "time": "10:00–10:30",
+              "text": "Scranton Downtown: warm snack and Courthouse Square walk."
+            },
+            {
+              "time": "13:00–13:30",
+              "text": "Arrive Cornell; quick lunch, park and check in."
+            },
+            {
+              "time": "14:00–16:00",
+              "text": "Target Cornell registered tour and admissions information session."
+            },
+            {
+              "time": "17:00",
+              "text": "Cottage check-in; dinner around 18:00."
+            }
+          ]
+        },
+        "12": {
+          "transport": "06:45 Ithaca departure → Oneonta 08:45–09:15 → Brattleboro 11:45–12:15 → Hanover about 13:45. Allow about 6h driving + 1h breaks (7h total; winter traffic may add time).",
+          "stops": [
+            {
+              "area": "on",
+              "time": "08:45–09:15"
+            },
+            {
+              "area": "br",
+              "time": "11:45–12:15"
+            }
+          ],
+          "activities": [
+            {
+              "time": "06:45",
+              "text": "Leave Ithaca; carry breakfast / snacks."
+            },
+            {
+              "time": "08:45–09:15",
+              "text": "Oneonta Main Street: bakery / café breakfast stop."
+            },
+            {
+              "time": "11:45–12:15",
+              "text": "Brattleboro Downtown: warm lunch."
+            },
+            {
+              "time": "13:45–14:15",
+              "text": "Arrive Hanover and check in for the campus visit."
+            },
+            {
+              "time": "14:30–16:15",
+              "text": "Target Dartmouth information session and guided tour; afternoon slot essential."
+            },
+            {
+              "time": "16:30",
+              "text": "Alumni chat if arranged; dinner and hotel."
+            }
+          ]
+        },
+        "10": {
+          "transport": "Hotel → Battery Park by subway/taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/subway legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "stops": [],
+          "activities": [
+            {
+              "time": "09:00–09:45",
+              "text": "Leave hotel for Castle Clinton / Battery Park ferry security area."
+            },
+            {
+              "time": "10:00–13:30",
+              "text": "Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure."
+            },
+            {
+              "time": "12:00",
+              "text": "Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning."
+            },
+            {
+              "time": "13:30–14:30",
+              "text": "Walk from The Battery to Wall Street / Charging Bull, then the 9/11 Memorial outdoor plaza."
+            },
+            {
+              "time": "14:45–15:30",
+              "text": "Chinatown: warm rice / noodles lunch; browse Mott Street and Canal Street."
+            },
+            {
+              "time": "15:30–16:15",
+              "text": "SoHo: Broadway and nearby cast-iron streets / shops."
+            },
+            {
+              "time": "16:30–17:00",
+              "text": "Brooklyn Bridge: short walk from the Manhattan entrance and skyline photographs; return to the Manhattan side."
+            },
+            {
+              "time": "17:45–18:30",
+              "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
+            },
+            {
+              "time": "18:30–20:00",
+              "text": "Dinner in Greenwich Village; return to the hotel and pack."
+            }
+          ],
+          "links": [
+            {
+              "label": "Statue of Liberty official visit / ferry tickets",
+              "url": "https://www.nps.gov/stli/planyourvisit/index.htm"
+            },
+            {
+              "label": "The Battery New York → Charging Bull New York → Wall Street New York → 9/11 Memorial New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Battery+New+York&destination=9%2F11+Memorial+New+York&travelmode=walking&waypoints=Charging+Bull+New+York%7CWall+Street+New+York"
+            },
+            {
+              "label": "9/11 Memorial New York → Chinatown Manhattan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=transit"
+            },
+            {
+              "label": "Mott Street New York → Canal Street New York → SoHo New York → Broadway Spring Street New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Mott+Street+New+York&destination=Broadway+Spring+Street+New+York&travelmode=walking&waypoints=Canal+Street+New+York%7CSoHo+New+York"
+            },
+            {
+              "label": "SoHo New York → Brooklyn Bridge Manhattan Entrance",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=SoHo+New+York&destination=Brooklyn+Bridge+Manhattan+Entrance&travelmode=walking"
+            },
+            {
+              "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+            }
+          ]
+        },
+        "9": {
+          "transport": "Walk/subway/taxi between stops, usually 15–40min per leg. Empire State Building is an exterior photo stop; no observatory visit is scheduled.",
+          "stops": [],
+          "activities": [
+            {
+              "time": "09:00–09:30",
+              "text": "Central Park: short walk by the west-side entrances before the museum."
+            },
+            {
+              "time": "10:00–11:30",
+              "text": "AMNH / Hayden Planetarium space show and selected exhibits, ticket permitting."
+            },
+            {
+              "time": "11:30–13:00",
+              "text": "Subway/taxi to Midtown; photograph the Empire State Building exterior on 34th Street and have lunch."
+            },
+            {
+              "time": "13:00–13:30",
+              "text": "Transfer to Gershwin Theatre and check in."
+            },
+            {
+              "time": "14:00–16:45",
+              "text": "Target Wicked matinee; performance time and tickets to confirm."
+            },
+            {
+              "time": "17:00–18:30",
+              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY stores."
+            },
+            {
+              "time": "18:30–19:15",
+              "text": "Warm dinner near Times Square."
+            },
+            {
+              "time": "19:15–20:15",
+              "text": "Times Square and Broadway lights; return to the hotel by about 20:15."
+            }
+          ],
+          "links": [
+            {
+              "label": "Central Park West 79th Street New York → American Museum of Natural History New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Central+Park+West+79th+Street+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+            },
+            {
+              "label": "American Museum of Natural History New York → Empire State Building New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+            },
+            {
+              "label": "Empire State Building New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Empire+State+Building+New+York&destination=Gershwin+Theatre+New+York&travelmode=transit"
+            },
+            {
+              "label": "Gershwin Theatre New York → FAO Schwarz Rockefeller Center → Nintendo New York → Fifth Avenue Rockefeller Center New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Gershwin+Theatre+New+York&destination=Fifth+Avenue+Rockefeller+Center+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+            },
+            {
+              "label": "Rockefeller Center New York → Times Square New York → Broadway Times Square New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Broadway+Times+Square+New+York&travelmode=walking&waypoints=Times+Square+New+York"
+            }
+          ]
+        }
+      }
+    },
+    "D": {
+      "visits": [
+        {
+          "id": "ucla",
+          "day": 2,
+          "kind": "self"
+        },
+        {
+          "id": "northwestern",
+          "day": 4,
+          "kind": "target"
+        },
+        {
+          "id": "notredame",
+          "day": 5,
+          "kind": "target"
+        },
+        {
+          "id": "michigan",
+          "day": 6,
+          "kind": "target"
+        },
+        {
+          "id": "nyu",
+          "day": 8,
+          "kind": "self"
+        },
+        {
+          "id": "cornell",
+          "day": 10,
+          "kind": "target"
+        },
+        {
+          "id": "williams",
+          "day": 11,
+          "kind": "target"
+        },
+        {
+          "id": "dartmouth",
+          "day": 12,
+          "kind": "target"
+        },
+        {
+          "id": "bu",
+          "day": 13,
+          "kind": "target"
+        },
+        {
+          "id": "wellesley",
+          "day": 13,
+          "kind": "target"
+        }
+      ],
+      "overview": [
+        {
+          "key": "LA",
+          "label": "Los Angeles",
+          "zhLabel": "洛杉磯",
+          "coords": [
+            -118.25,
+            34.05
+          ],
+          "days": "D0–2",
+          "mode": ""
+        },
+        {
+          "key": "Chicago",
+          "label": "Chicago / Evanston",
+          "zhLabel": "芝加哥／Evanston",
+          "coords": [
+            -87.67,
+            42.05
+          ],
+          "days": "D3–4",
+          "mode": "flight"
+        },
+        {
+          "key": "Notre Dame",
+          "label": "Notre Dame",
+          "zhLabel": "Notre Dame",
+          "coords": [
+            -86.24,
+            41.7
+          ],
+          "days": "D5",
+          "mode": "drive"
+        },
+        {
+          "key": "Ann Arbor",
+          "label": "Ann Arbor",
+          "zhLabel": "Ann Arbor",
+          "coords": [
+            -83.74,
+            42.28
+          ],
+          "days": "D6",
+          "mode": "drive"
+        },
+        {
+          "key": "NYC",
+          "label": "New York City",
+          "zhLabel": "紐約",
+          "coords": [
+            -73.99,
+            40.75
+          ],
+          "days": "D7–10",
+          "mode": "flight"
+        },
+        {
+          "key": "Ithaca",
+          "label": "Ithaca · Cornell",
+          "zhLabel": "Ithaca・Cornell",
+          "coords": [
+            -76.5,
+            42.44
+          ],
+          "days": "D10",
+          "mode": "drive"
+        },
+        {
+          "key": "Williamstown",
+          "label": "Williamstown · Williams",
+          "zhLabel": "Williamstown・Williams",
+          "coords": [
+            -73.2,
+            42.71
+          ],
+          "days": "D11",
+          "mode": "drive"
+        },
+        {
+          "key": "Hanover",
+          "label": "Hanover · Dartmouth",
+          "zhLabel": "Hanover・Dartmouth",
+          "coords": [
+            -72.29,
+            43.7
+          ],
+          "days": "D12",
+          "mode": "drive"
+        },
+        {
+          "key": "Boston",
+          "label": "Boston",
+          "zhLabel": "波士頓",
+          "coords": [
+            -71.06,
+            42.36
+          ],
+          "days": "D12–14",
+          "mode": "drive"
+        },
+        {
+          "key": "Washington",
+          "label": "Washington, DC",
+          "zhLabel": "華盛頓",
+          "coords": [
+            -77.04,
+            38.9
+          ],
+          "days": "D14",
+          "mode": "flight"
+        },
+        {
+          "key": "NYC",
+          "label": "New York City",
+          "zhLabel": "紐約",
+          "coords": [
+            -73.99,
+            40.75
+          ],
+          "days": "D14–15",
+          "mode": "train"
+        }
+      ],
+      "sights": [
+        {
+          "id": "disney",
+          "name": "Disneyland Park",
+          "city": "Anaheim",
+          "nature": "Theme park",
+          "day": 1
+        },
+        {
+          "id": "spacex",
+          "name": "SpaceX · Hawthorne exterior",
+          "city": "Hawthorne / Los Angeles",
+          "nature": "Rocket display / company exterior photo",
+          "day": 2
+        },
+        {
+          "id": "santamonica",
+          "name": "Santa Monica Pier / coast",
+          "city": "Los Angeles",
+          "nature": "Oceanfront / outdoors / shops",
+          "day": 2
+        },
+        {
+          "id": "millennium",
+          "name": "Millennium Park / Evanston lakefront",
+          "city": "Chicago",
+          "nature": "City park / outdoor alternative",
+          "day": 4
+        },
+        {
+          "id": "notredame",
+          "name": "Basilica / Grotto · Notre Dame",
+          "city": "Notre Dame",
+          "nature": "Campus architecture / peaceful outdoor setting",
+          "day": 5
+        },
+        {
+          "id": "liberty",
+          "name": "Statue of Liberty / Liberty Island",
+          "city": "New York City",
+          "nature": "Island ferry / monument / museum",
+          "day": 8
+        },
+        {
+          "id": "memorial911",
+          "name": "Wall Street / Charging Bull / 9/11 Memorial",
+          "city": "New York City",
+          "nature": "Finance district / outdoor memorial",
+          "day": 8
+        },
+        {
+          "id": "brooklynbridge",
+          "name": "Brooklyn Bridge",
+          "city": "New York City",
+          "nature": "Historic bridge / Manhattan skyline walk",
+          "day": 8
+        },
+        {
+          "id": "nyu",
+          "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
+          "city": "New York City",
+          "nature": "Neighbourhood streets / Chinese food / shops",
+          "day": 8
+        },
+        {
+          "id": "centralpark",
+          "name": "Central Park",
+          "city": "New York City",
+          "nature": "City park / outdoor stroll",
+          "day": 9
+        },
+        {
+          "id": "amnh",
+          "name": "AMNH / Hayden Planetarium",
+          "city": "New York City",
+          "nature": "Natural science / space show",
+          "day": 9
+        },
+        {
+          "id": "empire",
+          "name": "Empire State Building · 34th Street",
+          "city": "New York City",
+          "nature": "Architecture / exterior photo stop",
+          "day": 9
+        },
+        {
+          "id": "wicked",
+          "name": "Wicked · Gershwin Theatre",
+          "city": "New York City",
+          "nature": "Broadway musical; tickets pending",
+          "day": 9
+        },
+        {
+          "id": "rockefeller",
+          "name": "Fifth Avenue / Rockefeller Center · FAO / Jellycat / Nintendo",
+          "city": "New York City",
+          "nature": "Famous avenue / city landmark / fun stores",
+          "day": 9
+        },
+        {
+          "id": "timessquare",
+          "name": "Times Square / Broadway",
+          "city": "New York City",
+          "nature": "Neon lights / famous city streets",
+          "day": 9
+        },
+        {
+          "id": "smithsonian",
+          "name": "Smithsonian National Air and Space Museum",
+          "city": "Washington DC",
+          "nature": "Aviation / space / planetarium; show booking pending",
+          "day": 14
+        }
+      ],
+      "patches": {
+        "5": {
+          "transport": "07:00 CT departure → Michigan City 09:00–09:30 CT → Notre Dame about 11:30–12:00 ET. Allow 3–3.5h driving + 30min break + 1h clock change.",
+          "stops": [
+            {
+              "area": "mc",
+              "time": "09:00–09:30 CT"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:00 CT",
+              "text": "Leave Evanston / Chicago."
+            },
+            {
+              "time": "09:00–09:30 CT",
+              "text": "Michigan City: warm drink and a short downtown walk."
+            },
+            {
+              "time": "11:30–12:00 ET",
+              "text": "Arrive Notre Dame; lunch and tour check-in."
+            },
+            {
+              "time": "13:00–15:00",
+              "text": "Target admissions session and guided campus visit."
+            },
+            {
+              "time": "15:30",
+              "text": "Visit Basilica / Grotto; check in around 17:00, then dinner."
+            }
+          ]
+        },
+        "6": {
+          "transport": "07:30 departure → Kalamazoo 09:15–09:45 → Ann Arbor about 11:30. Allow 3–3.5h driving + 30min break (4h total).",
+          "stops": [
+            {
+              "area": "kz",
+              "time": "09:15–09:45"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:30",
+              "text": "Leave Notre Dame."
+            },
+            {
+              "time": "09:15–09:45",
+              "text": "Kalamazoo Mall area: breakfast / warm snack and a brief walk."
+            },
+            {
+              "time": "11:30–12:30",
+              "text": "Arrive Ann Arbor; lunch and tour check-in."
+            },
+            {
+              "time": "13:00–15:00",
+              "text": "Michigan admissions session and student-guided tour, if reserved."
+            },
+            {
+              "time": "16:00–18:00",
+              "text": "Meet friend / family for dinner."
+            }
+          ]
+        },
+        "10": {
+          "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
+          "stops": [
+            {
+              "area": "sc",
+              "time": "10:00–10:30"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:00–07:30",
+              "text": "Collect rental car and leave NYC."
+            },
+            {
+              "time": "10:00–10:30",
+              "text": "Scranton Downtown: warm snack and Courthouse Square walk."
+            },
+            {
+              "time": "13:00–13:30",
+              "text": "Arrive Cornell; quick lunch, park and check in."
+            },
+            {
+              "time": "14:00–16:00",
+              "text": "Target Cornell registered tour and admissions information session."
+            },
+            {
+              "time": "17:00",
+              "text": "Cottage check-in; dinner around 18:00."
+            }
+          ]
+        },
+        "11": {
+          "transport": "07:30 Ithaca departure → Oneonta 09:30–10:00 → Williamstown about 12:30–13:00. Allow 4.5–5h driving + 30min break.",
+          "stops": [
+            {
+              "area": "on",
+              "time": "09:30–10:00"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:30",
+              "text": "Leave Ithaca."
+            },
+            {
+              "time": "09:30–10:00",
+              "text": "Oneonta Main Street: café / bakery stop and short walk."
+            },
+            {
+              "time": "12:30–13:00",
+              "text": "Arrive Williamstown, quick lunch and campus check-in."
+            },
+            {
+              "time": "13:30–15:30",
+              "text": "Target Williams student tour and admissions session."
+            },
+            {
+              "time": "16:00",
+              "text": "Town / inn check-in and early dinner."
+            }
+          ]
+        },
+        "8": {
+          "transport": "Hotel → Battery Park by subway/taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/subway legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "stops": [],
+          "activities": [
+            {
+              "time": "09:00–09:45",
+              "text": "Leave hotel for Castle Clinton / Battery Park ferry security area."
+            },
+            {
+              "time": "10:00–13:30",
+              "text": "Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure."
+            },
+            {
+              "time": "12:00",
+              "text": "Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning."
+            },
+            {
+              "time": "13:30–14:30",
+              "text": "Walk from The Battery to Wall Street / Charging Bull, then the 9/11 Memorial outdoor plaza."
+            },
+            {
+              "time": "14:45–15:30",
+              "text": "Chinatown: warm rice / noodles lunch; browse Mott Street and Canal Street."
+            },
+            {
+              "time": "15:30–16:15",
+              "text": "SoHo: Broadway and nearby cast-iron streets / shops."
+            },
+            {
+              "time": "16:30–17:00",
+              "text": "Brooklyn Bridge: short walk from the Manhattan entrance and skyline photographs; return to the Manhattan side."
+            },
+            {
+              "time": "17:45–18:30",
+              "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
+            },
+            {
+              "time": "18:30–20:00",
+              "text": "Dinner in Greenwich Village; return to the hotel and pack."
+            }
+          ],
+          "links": [
+            {
+              "label": "Statue of Liberty official visit / ferry tickets",
+              "url": "https://www.nps.gov/stli/planyourvisit/index.htm"
+            },
+            {
+              "label": "The Battery New York → Charging Bull New York → Wall Street New York → 9/11 Memorial New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Battery+New+York&destination=9%2F11+Memorial+New+York&travelmode=walking&waypoints=Charging+Bull+New+York%7CWall+Street+New+York"
+            },
+            {
+              "label": "9/11 Memorial New York → Chinatown Manhattan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=transit"
+            },
+            {
+              "label": "Mott Street New York → Canal Street New York → SoHo New York → Broadway Spring Street New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Mott+Street+New+York&destination=Broadway+Spring+Street+New+York&travelmode=walking&waypoints=Canal+Street+New+York%7CSoHo+New+York"
+            },
+            {
+              "label": "SoHo New York → Brooklyn Bridge Manhattan Entrance",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=SoHo+New+York&destination=Brooklyn+Bridge+Manhattan+Entrance&travelmode=walking"
+            },
+            {
+              "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+            }
+          ]
+        },
+        "9": {
+          "transport": "Walk/subway/taxi between stops, usually 15–40min per leg. Empire State Building is an exterior photo stop; no observatory visit is scheduled.",
+          "stops": [],
+          "activities": [
+            {
+              "time": "09:00–09:30",
+              "text": "Central Park: short walk by the west-side entrances before the museum."
+            },
+            {
+              "time": "10:00–11:30",
+              "text": "AMNH / Hayden Planetarium space show and selected exhibits, ticket permitting."
+            },
+            {
+              "time": "11:30–13:00",
+              "text": "Subway/taxi to Midtown; photograph the Empire State Building exterior on 34th Street and have lunch."
+            },
+            {
+              "time": "13:00–13:30",
+              "text": "Transfer to Gershwin Theatre and check in."
+            },
+            {
+              "time": "14:00–16:45",
+              "text": "Target Wicked matinee; performance time and tickets to confirm."
+            },
+            {
+              "time": "17:00–18:30",
+              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY stores."
+            },
+            {
+              "time": "18:30–19:15",
+              "text": "Warm dinner near Times Square."
+            },
+            {
+              "time": "19:15–20:15",
+              "text": "Times Square and Broadway lights; return to the hotel by about 20:15."
+            }
+          ],
+          "links": [
+            {
+              "label": "Central Park West 79th Street New York → American Museum of Natural History New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Central+Park+West+79th+Street+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+            },
+            {
+              "label": "American Museum of Natural History New York → Empire State Building New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+            },
+            {
+              "label": "Empire State Building New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Empire+State+Building+New+York&destination=Gershwin+Theatre+New+York&travelmode=transit"
+            },
+            {
+              "label": "Gershwin Theatre New York → FAO Schwarz Rockefeller Center → Nintendo New York → Fifth Avenue Rockefeller Center New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Gershwin+Theatre+New+York&destination=Fifth+Avenue+Rockefeller+Center+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+            },
+            {
+              "label": "Rockefeller Center New York → Times Square New York → Broadway Times Square New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Broadway+Times+Square+New+York&travelmode=walking&waypoints=Times+Square+New+York"
+            }
+          ]
+        }
+      }
+    },
+    "E": {
+      "visits": [
+        {
+          "id": "ucla",
+          "day": 2,
+          "kind": "self"
+        },
+        {
+          "id": "ucdavis",
+          "day": 3,
+          "kind": "target"
+        },
+        {
+          "id": "northwestern",
+          "day": 5,
+          "kind": "target"
+        },
+        {
+          "id": "notredame",
+          "day": 6,
+          "kind": "target"
+        },
+        {
+          "id": "michigan",
+          "day": 7,
+          "kind": "target"
+        },
+        {
+          "id": "nyu",
+          "day": 10,
+          "kind": "self"
+        },
+        {
+          "id": "cornell",
+          "day": 11,
+          "kind": "target"
+        },
+        {
+          "id": "dartmouth",
+          "day": 12,
+          "kind": "target"
+        },
+        {
+          "id": "amherst",
+          "day": 13,
+          "kind": "target"
+        },
+        {
+          "id": "bu",
+          "day": 14,
+          "kind": "target"
+        }
+      ],
+      "overview": [
+        {
+          "key": "LA",
+          "label": "Los Angeles",
+          "zhLabel": "洛杉磯",
+          "coords": [
+            -118.25,
+            34.05
+          ],
+          "days": "D0–2",
+          "mode": ""
+        },
+        {
+          "key": "Davis",
+          "label": "Davis / Sacramento",
+          "zhLabel": "Davis／薩克拉門托",
+          "coords": [
+            -121.74,
+            38.55
+          ],
+          "days": "D3–4",
+          "mode": "flight"
+        },
+        {
+          "key": "Chicago",
+          "label": "Chicago / Evanston",
+          "zhLabel": "芝加哥／Evanston",
+          "coords": [
+            -87.67,
+            42.05
+          ],
+          "days": "D4–5",
+          "mode": "flight"
+        },
+        {
+          "key": "Notre Dame",
+          "label": "Notre Dame",
+          "zhLabel": "Notre Dame",
+          "coords": [
+            -86.24,
+            41.7
+          ],
+          "days": "D5–6",
+          "mode": "drive"
+        },
+        {
+          "key": "Ann Arbor",
+          "label": "Ann Arbor",
+          "zhLabel": "Ann Arbor",
+          "coords": [
+            -83.74,
+            42.28
+          ],
+          "days": "D6–7",
+          "mode": "drive"
+        },
+        {
+          "key": "Washington",
+          "label": "Washington, DC",
+          "zhLabel": "華盛頓",
+          "coords": [
+            -77.04,
+            38.9
+          ],
+          "days": "D7–8",
+          "mode": "flight"
+        },
+        {
+          "key": "NYC",
+          "label": "New York City",
+          "zhLabel": "紐約",
+          "coords": [
+            -73.99,
+            40.75
+          ],
+          "days": "D8–10",
+          "mode": "train"
+        },
+        {
+          "key": "Ithaca",
+          "label": "Ithaca · Cornell",
+          "zhLabel": "Ithaca・Cornell",
+          "coords": [
+            -76.5,
+            42.44
+          ],
+          "days": "D11",
+          "mode": "drive"
+        },
+        {
+          "key": "Hanover",
+          "label": "Hanover · Dartmouth",
+          "zhLabel": "Hanover・Dartmouth",
+          "coords": [
+            -72.29,
+            43.7
+          ],
+          "days": "D12",
+          "mode": "drive"
+        },
+        {
+          "key": "Amherst",
+          "label": "Amherst",
+          "zhLabel": "Amherst",
+          "coords": [
+            -72.52,
+            42.37
+          ],
+          "days": "D13",
+          "mode": "drive"
+        },
+        {
+          "key": "Boston",
+          "label": "Boston",
+          "zhLabel": "波士頓",
+          "coords": [
+            -71.06,
+            42.36
+          ],
+          "days": "D13–15",
+          "mode": "drive"
+        }
+      ],
+      "sights": [
+        {
+          "id": "disney",
+          "name": "Disneyland Park",
+          "city": "Anaheim",
+          "nature": "Theme park",
+          "day": 1
+        },
+        {
+          "id": "spacex",
+          "name": "SpaceX · Hawthorne exterior",
+          "city": "Hawthorne / Los Angeles",
+          "nature": "Rocket display / company exterior photo",
+          "day": 2
+        },
+        {
+          "id": "santamonica",
+          "name": "Santa Monica Pier / coast",
+          "city": "Los Angeles",
+          "nature": "Oceanfront / outdoors / shops",
+          "day": 2
+        },
+        {
+          "id": "ucdavis",
+          "name": "UC Davis Arboretum",
+          "city": "Davis",
+          "nature": "Campus gardens / outdoors",
+          "day": 3
+        },
+        {
+          "id": "smithsonian",
+          "name": "Smithsonian National Air and Space Museum",
+          "city": "Washington DC",
+          "nature": "Aviation / space / planetarium; show booking pending",
+          "day": 8
+        },
+        {
+          "id": "centralpark",
+          "name": "Central Park",
+          "city": "New York City",
+          "nature": "City park / outdoor stroll",
+          "day": 9
+        },
+        {
+          "id": "amnh",
+          "name": "AMNH / Hayden Planetarium",
+          "city": "New York City",
+          "nature": "Natural science / space show",
+          "day": 9
+        },
+        {
+          "id": "empire",
+          "name": "Empire State Building · 34th Street",
+          "city": "New York City",
+          "nature": "Architecture / exterior photo stop",
+          "day": 9
+        },
+        {
+          "id": "wicked",
+          "name": "Wicked · Gershwin Theatre",
+          "city": "New York City",
+          "nature": "Broadway musical; tickets pending",
+          "day": 9
+        },
+        {
+          "id": "rockefeller",
+          "name": "Fifth Avenue / Rockefeller Center · FAO / Jellycat / Nintendo",
+          "city": "New York City",
+          "nature": "Famous avenue / city landmark / fun stores",
+          "day": 9
+        },
+        {
+          "id": "timessquare",
+          "name": "Times Square / Broadway",
+          "city": "New York City",
+          "nature": "Neon lights / famous city streets",
+          "day": 9
+        },
+        {
+          "id": "liberty",
+          "name": "Statue of Liberty / Liberty Island",
+          "city": "New York City",
+          "nature": "Island ferry / monument / museum",
+          "day": 10
+        },
+        {
+          "id": "memorial911",
+          "name": "Wall Street / Charging Bull / 9/11 Memorial",
+          "city": "New York City",
+          "nature": "Finance district / outdoor memorial",
+          "day": 10
+        },
+        {
+          "id": "brooklynbridge",
+          "name": "Brooklyn Bridge",
+          "city": "New York City",
+          "nature": "Historic bridge / Manhattan skyline walk",
+          "day": 10
+        },
+        {
+          "id": "nyu",
+          "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
+          "city": "New York City",
+          "nature": "Neighbourhood streets / Chinese food / shops",
+          "day": 10
+        },
+        {
+          "id": "publicgarden",
+          "name": "Public Garden / Newbury Street",
+          "city": "Boston",
+          "nature": "Garden / city stroll / shops",
+          "day": 14
+        }
+      ],
+      "patches": {
+        "5": {
+          "transport": "14:00 CT departure → Michigan City 16:00–16:30 CT → Notre Dame about 18:30–19:00 ET. Allow 3–3.5h driving + 30min break + 1h clock change.",
+          "stops": [
+            {
+              "area": "mc",
+              "time": "16:00–16:30 CT"
+            }
+          ],
+          "activities": [
+            {
+              "time": "09:30–11:30",
+              "text": "Target Northwestern guided campus visit."
+            },
+            {
+              "time": "12:00–13:00",
+              "text": "Alumni chat and lunch, if arranged."
+            },
+            {
+              "time": "14:00 CT",
+              "text": "Leave Evanston."
+            },
+            {
+              "time": "16:00–16:30 CT",
+              "text": "Michigan City: warm snack and a brief downtown walk."
+            },
+            {
+              "time": "18:30–19:00 ET",
+              "text": "Arrive Notre Dame; hotel and dinner."
+            }
+          ]
+        },
+        "6": {
+          "transport": "13:00 departure → Kalamazoo 14:45–15:15 → Ann Arbor about 17:00. Allow 3–3.5h driving + 30min break (4h total).",
+          "stops": [
+            {
+              "area": "kz",
+              "time": "14:45–15:15"
+            }
+          ],
+          "activities": [
+            {
+              "time": "09:30–11:30",
+              "text": "Target Notre Dame admissions visit."
+            },
+            {
+              "time": "12:00–13:00",
+              "text": "Lunch and leave Notre Dame."
+            },
+            {
+              "time": "14:45–15:15",
+              "text": "Kalamazoo Mall: warm snack and a short walk."
+            },
+            {
+              "time": "17:00–18:30",
+              "text": "Arrive Ann Arbor; friend / family dinner."
+            }
+          ]
+        },
+        "11": {
+          "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
+          "stops": [
+            {
+              "area": "sc",
+              "time": "10:00–10:30"
+            }
+          ],
+          "activities": [
+            {
+              "time": "07:00–07:30",
+              "text": "Collect rental car and leave NYC."
+            },
+            {
+              "time": "10:00–10:30",
+              "text": "Scranton Downtown: warm snack and Courthouse Square walk."
+            },
+            {
+              "time": "13:00–13:30",
+              "text": "Arrive Cornell; quick lunch, park and check in."
+            },
+            {
+              "time": "14:00–16:00",
+              "text": "Target Cornell registered tour and admissions information session."
+            },
+            {
+              "time": "17:00",
+              "text": "Cottage check-in; dinner around 18:00."
+            }
+          ]
+        },
+        "12": {
+          "transport": "06:45 Ithaca departure → Oneonta 08:45–09:15 → Brattleboro 11:45–12:15 → Hanover about 13:45. Allow about 6h driving + 1h breaks (7h total; winter traffic may add time).",
+          "stops": [
+            {
+              "area": "on",
+              "time": "08:45–09:15"
+            },
+            {
+              "area": "br",
+              "time": "11:45–12:15"
+            }
+          ],
+          "activities": [
+            {
+              "time": "06:45",
+              "text": "Leave Ithaca; carry breakfast / snacks."
+            },
+            {
+              "time": "08:45–09:15",
+              "text": "Oneonta Main Street: bakery / café breakfast stop."
+            },
+            {
+              "time": "11:45–12:15",
+              "text": "Brattleboro Downtown: warm lunch."
+            },
+            {
+              "time": "13:45–14:15",
+              "text": "Arrive Hanover and check in for the campus visit."
+            },
+            {
+              "time": "14:30–16:15",
+              "text": "Target Dartmouth information session and guided tour; afternoon slot essential."
+            },
+            {
+              "time": "16:30",
+              "text": "Alumni chat if arranged; dinner and hotel."
+            }
+          ]
+        },
+        "10": {
+          "transport": "Hotel → Battery Park by subway/taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/subway legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "stops": [],
+          "activities": [
+            {
+              "time": "09:00–09:45",
+              "text": "Leave hotel for Castle Clinton / Battery Park ferry security area."
+            },
+            {
+              "time": "10:00–13:30",
+              "text": "Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure."
+            },
+            {
+              "time": "12:00",
+              "text": "Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning."
+            },
+            {
+              "time": "13:30–14:30",
+              "text": "Walk from The Battery to Wall Street / Charging Bull, then the 9/11 Memorial outdoor plaza."
+            },
+            {
+              "time": "14:45–15:30",
+              "text": "Chinatown: warm rice / noodles lunch; browse Mott Street and Canal Street."
+            },
+            {
+              "time": "15:30–16:15",
+              "text": "SoHo: Broadway and nearby cast-iron streets / shops."
+            },
+            {
+              "time": "16:30–17:00",
+              "text": "Brooklyn Bridge: short walk from the Manhattan entrance and skyline photographs; return to the Manhattan side."
+            },
+            {
+              "time": "17:45–18:30",
+              "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
+            },
+            {
+              "time": "18:30–20:00",
+              "text": "Dinner in Greenwich Village; return to the hotel and pack."
+            }
+          ],
+          "links": [
+            {
+              "label": "Statue of Liberty official visit / ferry tickets",
+              "url": "https://www.nps.gov/stli/planyourvisit/index.htm"
+            },
+            {
+              "label": "The Battery New York → Charging Bull New York → Wall Street New York → 9/11 Memorial New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Battery+New+York&destination=9%2F11+Memorial+New+York&travelmode=walking&waypoints=Charging+Bull+New+York%7CWall+Street+New+York"
+            },
+            {
+              "label": "9/11 Memorial New York → Chinatown Manhattan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=transit"
+            },
+            {
+              "label": "Mott Street New York → Canal Street New York → SoHo New York → Broadway Spring Street New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Mott+Street+New+York&destination=Broadway+Spring+Street+New+York&travelmode=walking&waypoints=Canal+Street+New+York%7CSoHo+New+York"
+            },
+            {
+              "label": "SoHo New York → Brooklyn Bridge Manhattan Entrance",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=SoHo+New+York&destination=Brooklyn+Bridge+Manhattan+Entrance&travelmode=walking"
+            },
+            {
+              "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+            }
+          ]
+        },
+        "9": {
+          "transport": "Walk/subway/taxi between stops, usually 15–40min per leg. Empire State Building is an exterior photo stop; no observatory visit is scheduled.",
+          "stops": [],
+          "activities": [
+            {
+              "time": "09:00–09:30",
+              "text": "Central Park: short walk by the west-side entrances before the museum."
+            },
+            {
+              "time": "10:00–11:30",
+              "text": "AMNH / Hayden Planetarium space show and selected exhibits, ticket permitting."
+            },
+            {
+              "time": "11:30–13:00",
+              "text": "Subway/taxi to Midtown; photograph the Empire State Building exterior on 34th Street and have lunch."
+            },
+            {
+              "time": "13:00–13:30",
+              "text": "Transfer to Gershwin Theatre and check in."
+            },
+            {
+              "time": "14:00–16:45",
+              "text": "Target Wicked matinee; performance time and tickets to confirm."
+            },
+            {
+              "time": "17:00–18:30",
+              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY stores."
+            },
+            {
+              "time": "18:30–19:15",
+              "text": "Warm dinner near Times Square."
+            },
+            {
+              "time": "19:15–20:15",
+              "text": "Times Square and Broadway lights; return to the hotel by about 20:15."
+            }
+          ],
+          "links": [
+            {
+              "label": "Central Park West 79th Street New York → American Museum of Natural History New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Central+Park+West+79th+Street+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+            },
+            {
+              "label": "American Museum of Natural History New York → Empire State Building New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+            },
+            {
+              "label": "Empire State Building New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Empire+State+Building+New+York&destination=Gershwin+Theatre+New+York&travelmode=transit"
+            },
+            {
+              "label": "Gershwin Theatre New York → FAO Schwarz Rockefeller Center → Nintendo New York → Fifth Avenue Rockefeller Center New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Gershwin+Theatre+New+York&destination=Fifth+Avenue+Rockefeller+Center+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+            },
+            {
+              "label": "Rockefeller Center New York → Times Square New York → Broadway Times Square New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Broadway+Times+Square+New+York&travelmode=walking&waypoints=Times+Square+New+York"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "areas": {
+    "mc": {
+      "name": "Michigan City · Franklin Street / Uptown Arts District",
+      "query": "Franklin Street Michigan City Indiana",
+      "purpose": "Warm drink, toilets and a short street walk; allow 30min.",
+      "source": "https://www.theuptownartsdistrict.com/"
+    },
+    "kz": {
+      "name": "Kalamazoo · Downtown / Kalamazoo Mall",
+      "query": "Kalamazoo Mall Michigan",
+      "purpose": "Breakfast or a warm snack, with a brief look at the pedestrian shopping street; 30min.",
+      "source": "https://www.discoverkalamazoo.com/blog/post/spend-a-day-in-downtown-kalamazoo-mi/"
+    },
+    "sc": {
+      "name": "Scranton · Courthouse Square / Downtown",
+      "query": "Courthouse Square Scranton Pennsylvania",
+      "purpose": "Warm food, toilets and a short look at the historic downtown; 30min.",
+      "source": "https://www.visitnepa.org/plan-your-visit/scranton/downtown-scranton/"
+    },
+    "on": {
+      "name": "Oneonta · Main Street",
+      "query": "Main Street Oneonta New York",
+      "purpose": "Bakery or café breakfast; stretch your legs along Main Street; 30min.",
+      "source": "https://www.cityofoneonta.us/restaurants-downtown"
+    },
+    "br": {
+      "name": "Brattleboro · Downtown / Main Street",
+      "query": "Main Street Brattleboro Vermont",
+      "purpose": "Warm lunch and a brief town walk; 30min.",
+      "source": "https://www.brattleboro.com/taste-brattleboro/?category=restaurants"
+    },
+    "to": {
+      "name": "Toledo · Downtown / Warehouse District",
+      "query": "Warehouse District Toledo Ohio",
+      "purpose": "Early meal or hot noodles/rice in the downtown dining area; 30min.",
+      "source": "https://downtowntoledo.org/explore/dine"
+    },
+    "er": {
+      "name": "Erie · Bayfront / Downtown",
+      "query": "Downtown Erie Pennsylvania",
+      "purpose": "Warm lunch and a brief look at the bayfront if paths are clear; 30min.",
+      "source": "https://www.visiterie.com/food-and-drink/"
+    },
+    "ge": {
+      "name": "Geneva · Downtown / Seneca Lake",
+      "query": "Downtown Geneva New York",
+      "purpose": "Warm drink, toilets and a short Seneca Lake viewpoint stop; 30min.",
+      "source": "https://www.visitfingerlakes.com/restaurants/top-finger-lakes-restaurants/"
+    }
+  },
+  "rankingEdition": 2027,
+  "checked": "2026-10-23",
+  "libertySource": "https://www.nps.gov/stli/planyourvisit/index.htm"
+}
