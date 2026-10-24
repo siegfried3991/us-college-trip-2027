@@ -312,7 +312,7 @@
             38.9
           ],
           "days": "D7–8",
-          "mode": "flight"
+          "mode": "drive"
         },
         {
           "key": "NYC",
@@ -323,7 +323,7 @@
             40.75
           ],
           "days": "D8–10",
-          "mode": "train"
+          "mode": "drive"
         },
         {
           "key": "Ithaca",
@@ -378,7 +378,7 @@
             40.75
           ],
           "days": "D14–15",
-          "mode": "train"
+          "mode": "drive"
         }
       ],
       "sights": [
@@ -525,13 +525,8 @@
       ],
       "patches": {
         "5": {
+          "title": "Evanston > Notre Dame",
           "transport": "07:00 CT departure → Michigan City 09:00–09:30 CT → Notre Dame about 11:30–12:00 ET. Allow 3–3.5h driving + 30min break + 1h clock change.",
-          "stops": [
-            {
-              "area": "mc",
-              "time": "09:00–09:30 CT"
-            }
-          ],
           "activities": [
             {
               "time": "07:00 CT",
@@ -553,16 +548,30 @@
               "time": "15:30",
               "text": "Visit Basilica / Grotto; check in around 17:00, then dinner."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive to Notre Dame",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=University+of+Notre+Dame&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Morris Inn",
+            "city": "Notre Dame",
+            "url": "https://morrisinn.nd.edu/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "mc",
+              "time": "09:00–09:30 CT"
+            }
           ]
         },
         "6": {
+          "title": "Notre Dame > Ann Arbor",
           "transport": "07:30 departure → Kalamazoo 09:15–09:45 → Ann Arbor about 11:30. Allow 3–3.5h driving + 30min break (4h total).",
-          "stops": [
-            {
-              "area": "kz",
-              "time": "09:15–09:45"
-            }
-          ],
           "activities": [
             {
               "time": "07:30",
@@ -584,20 +593,34 @@
               "time": "16:00–18:00",
               "text": "Meet friend / family for dinner."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive to Michigan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=University+of+Michigan+Ann+Arbor&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Graduate Ann Arbor",
+            "city": "Ann Arbor",
+            "url": "https://graduateannarbor.com/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "kz",
+              "time": "09:15–09:45"
+            }
           ]
         },
         "11": {
+          "title": "NYC > Cornell",
           "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
-          "stops": [
-            {
-              "area": "sc",
-              "time": "10:00–10:30"
-            }
-          ],
           "activities": [
             {
               "time": "07:00–07:30",
-              "text": "Collect rental car and leave NYC."
+              "text": "Retrieve the hotel-parked car and leave New York for Cornell."
             },
             {
               "time": "10:00–10:30",
@@ -615,20 +638,30 @@
               "time": "17:00",
               "text": "Cottage check-in; dinner around 18:00."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive NYC > Cornell",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Cornell+University+Ithaca&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "New Park cottage / suite",
+            "city": "Ithaca",
+            "url": "https://www.newparkeventvenue.com/",
+            "status": "Suggested; winter availability to confirm"
+          },
+          "stops": [
+            {
+              "area": "sc",
+              "time": "10:00–10:30"
+            }
           ]
         },
         "12": {
+          "title": "Cornell > Dartmouth",
           "transport": "06:45 Ithaca departure → Oneonta 08:45–09:15 → Brattleboro 11:45–12:15 → Hanover about 13:45. Allow about 6h driving + 1h breaks (7h total; winter traffic may add time).",
-          "stops": [
-            {
-              "area": "on",
-              "time": "08:45–09:15"
-            },
-            {
-              "area": "br",
-              "time": "11:45–12:15"
-            }
-          ],
           "activities": [
             {
               "time": "06:45",
@@ -654,11 +687,34 @@
               "time": "16:30",
               "text": "Alumni chat if arranged; dinner and hotel."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive Cornell > Dartmouth",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Cornell+University+Ithaca&destination=Dartmouth+College+Hanover&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Hanover Inn",
+            "city": "Hanover",
+            "url": "https://www.hanoverinn.com/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "on",
+              "time": "08:45–09:15"
+            },
+            {
+              "area": "br",
+              "time": "11:45–12:15"
+            }
           ]
         },
         "10": {
-          "transport": "Hotel → Battery Park by subway/taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/subway legs 10–40min. Ferry schedule and winter service must be confirmed.",
-          "stops": [],
+          "title": "NYC full day 2: city life",
+          "transport": "Hotel → Battery Park by taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/taxi legs 10–40min. Ferry schedule and winter service must be confirmed.",
           "activities": [
             {
               "time": "09:00–09:45",
@@ -698,7 +754,7 @@
             },
             {
               "time": "19:15–20:15",
-              "text": "Taxi/subway back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
+              "text": "Taxi/taxi back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
             }
           ],
           "links": [
@@ -712,7 +768,7 @@
             },
             {
               "label": "9/11 Memorial New York → Chinatown Manhattan",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=driving"
             },
             {
               "label": "Mott Street New York → Canal Street New York → SoHo New York → Broadway Spring Street New York",
@@ -724,21 +780,29 @@
             },
             {
               "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=driving"
             },
             {
               "label": "Washington Square Park New York → Empire State Building New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=driving"
             }
-          ]
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
         "9": {
+          "title": "NYC: The Met, space, NBC Studios + Wicked",
           "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
-          "stops": [],
           "activities": [
             {
               "time": "09:15–09:50",
-              "text": "Hotel → The Met Fifth Avenue by taxi/subway; allow 30–40min and entry queue."
+              "text": "Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue."
             },
             {
               "time": "10:00–12:00",
@@ -758,7 +822,7 @@
             },
             {
               "time": "14:45–15:15",
-              "text": "Taxi/subway to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
+              "text": "Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
             },
             {
               "time": "15:30–17:00",
@@ -796,7 +860,7 @@
             },
             {
               "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=driving"
             },
             {
               "label": "NBC Studios tour · official tickets",
@@ -808,10 +872,17 @@
             }
           ],
           "restWindow": "22:30–08:30",
-          "title": "NYC: The Met, space, NBC Studios + Wicked"
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
         "2": {
           "title": "LA: SpaceX, UCLA + Santa Monica sunset",
+          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking, arriving about 13:45 → LAX hotel 45–75min after sunset and dinner. Walk Pier → Third Street Promenade → beach / Pier; leave Santa Monica about 18:40.",
           "activities": [
             {
               "time": "09:00–10:15",
@@ -870,8 +941,6 @@
               "text": "Drive to the LAX hotel; allow 45–75min. Check in before the protected 20:30–06:30 rest period."
             }
           ],
-          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking, arriving about 13:45 → LAX hotel 45–75min after sunset and dinner. Walk Pier → Third Street Promenade → beach / Pier; leave Santa Monica about 18:40.",
-          "restWindow": "20:30–06:30",
           "links": [
             {
               "label": "LA driving stops in order",
@@ -881,13 +950,19 @@
               "label": "Santa Monica walk: Pier, shops, beach, sunset",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Santa+Monica+Pier&waypoints=Third+Street+Promenade+Santa+Monica%7CSanta+Monica+State+Beach&travelmode=walking"
             }
-          ]
+          ],
+          "restWindow": "20:30–06:30",
+          "hotel": {
+            "name": "LAX airport hotel",
+            "city": "Los Angeles",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+LAX",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
         "13": {
           "title": "Dartmouth → Amherst → Boston afternoon",
-          "transport": "Hanover → Amherst 2h15–2h30; Amherst → Boston 2–2.5h. Target morning Amherst guided tour must be reserved; arrive Boston about 15:30. Return the one-way car in Boston.",
-          "restWindow": "21:00–07:00",
-          "stops": [],
+          "transport": "Hanover → Amherst 2h15–2h30; Amherst → Boston 2–2.5h. Morning Amherst guided visit to reserve; Boston sightseeing from about 16:00. Keep the car overnight.",
           "activities": [
             {
               "time": "07:15–09:45",
@@ -903,7 +978,7 @@
             },
             {
               "time": "13:00–15:30",
-              "text": "Drive to Boston; check in and return the rental car."
+              "text": "Drive to Boston; hotel check-in and park. Keep the rental car for the New York drive tomorrow."
             },
             {
               "time": "16:00–17:00",
@@ -931,47 +1006,43 @@
               "label": "Boston Public Garden → Newbury Street Boston → Chinatown Boston",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Public+Garden&destination=Chinatown+Boston&travelmode=walking&waypoints=Newbury+Street+Boston"
             }
-          ]
-        },
-        "14": {
-          "title": "Boston University → NYC · Rangers–Islanders",
+          ],
+          "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Midtown / Penn Station hotel",
-            "city": "New York",
-            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Penn+Station+New+York",
+            "name": "Boston Back Bay hotel with parking",
+            "city": "Boston Back Bay",
+            "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotels+parking",
             "status": "Hotel to select"
           },
-          "restWindow": "23:00–09:00",
-          "stops": [],
-          "transport": "Boston hotel → BU 20–30min; BU → South Station 30–45min. Target Acela Boston 13:30 → NY Penn 17:15 (~3h45), train unbooked. Penn Station → nearby hotel / MSG on foot 5–15min.",
+          "stops": []
+        },
+        "14": {
+          "title": "Boston University → NYC by car · Rangers–Islanders",
+          "transport": "Boston → Manhattan: Google Maps about 3h30–4h before stops in current traffic. Allow 5–6h including a New Haven / Milford lunch break, Friday traffic and a reserved Manhattan rental-car return. Leave BU about 11:15; hotel / car return target 17:30–18:15, MSG entry 18:15–18:30.",
           "activities": [
             {
               "time": "08:15–08:45",
-              "text": "Hotel → Boston University; leave bags at hotel or use luggage storage."
+              "text": "Check out, load bags in the car and drive / taxi to Boston University."
             },
             {
               "time": "09:00–11:00",
-              "text": "Target Boston University guided campus tour / admissions information; biochemistry and pharmaceutical-study questions."
+              "text": "Target Boston University guided campus tour / admissions session; reserve the morning slot."
             },
             {
-              "time": "11:00–12:30",
-              "text": "Warm lunch, collect luggage and travel to South Station."
+              "time": "11:15",
+              "text": "Collect the car and drive Boston → New York."
             },
             {
-              "time": "12:45–13:30",
-              "text": "Arrive South Station / board target Acela service; exact train to reserve."
+              "time": "13:30–14:00",
+              "text": "New Haven / Milford area: warm lunch, toilets and stretch."
             },
             {
-              "time": "13:30–17:15",
-              "text": "Target Acela Boston → New York Penn Station; about 3h45."
-            },
-            {
-              "time": "17:15–18:15",
-              "text": "Walk to a nearby hotel, check in, leave all luggage and eat early if preferred."
+              "time": "16:30–18:15",
+              "text": "Arrive Manhattan with Friday traffic buffer; return the one-way rental at a pre-booked city branch open into the evening, check in near Penn Station / MSG and leave bags."
             },
             {
               "time": "18:15–19:00",
-              "text": "Madison Square Garden entry / security; arena food and warm-up atmosphere. Tickets to reserve."
+              "text": "Walk / taxi to MSG for entry, security and dinner; no large bags."
             },
             {
               "time": "19:00–22:15",
@@ -984,34 +1055,31 @@
           ],
           "links": [
             {
-              "label": "Boston University → Boston South Station",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+University&destination=Boston+South+Station&travelmode=transit"
-            },
-            {
-              "label": "Boston South Station → New York Penn Station",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+South+Station&destination=New+York+Penn+Station&travelmode=transit"
-            },
-            {
-              "label": "New York Penn Station → Madison Square Garden New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=Madison+Square+Garden+New+York&travelmode=walking"
+              "label": "Boston University → Milford Connecticut I-95 services → Madison Square Garden New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+University&destination=Madison+Square+Garden+New+York&travelmode=driving&waypoints=Milford+Connecticut+I-95+services"
             },
             {
               "label": "Rangers · official schedule / tickets",
               "url": "https://www.nhl.com/rangers/schedule"
             }
+          ],
+          "restWindow": "23:00–09:00",
+          "hotel": {
+            "name": "Midtown / Penn Station hotel",
+            "city": "New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Penn+Station+New+York",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "newhaven",
+              "time": "13:30–14:00"
+            }
           ]
         },
         "15": {
           "title": "New York → Hong Kong",
-          "restWindow": "10h in flight",
-          "stops": [],
           "transport": "Hotel → JFK allow 60–90min; leave 09:30. Candidate CX831 JFK 13:40 on 13 Feb → HKG 18:55 on 14 Feb, about 16h15. Confirm flight / check-in time; protect ten hours in flight.",
-          "hotel": {
-            "name": "Overnight flight",
-            "city": "To Hong Kong",
-            "url": "",
-            "status": ""
-          },
           "activities": [
             {
               "time": "09:00",
@@ -1031,7 +1099,301 @@
               "label": "New York Penn Station → John F Kennedy International Airport",
               "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=John+F+Kennedy+International+Airport&travelmode=driving"
             }
+          ],
+          "restWindow": "10h in flight",
+          "hotel": {
+            "name": "Overnight flight",
+            "city": "To Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "stops": []
+        },
+        "7": {
+          "title": "Ann Arbor → Washington by car",
+          "transport": "Drive Ann Arbor → Washington: Google Maps about 8h05 before breaks. Allow 9.5–10h including two 30min meal / stretch stops and traffic buffer. Keep the Chicago rental car; no domestic flight on this leg.",
+          "activities": [
+            {
+              "time": "08:00",
+              "text": "Leave Ann Arbor by car for Washington."
+            },
+            {
+              "time": "10:30–11:00",
+              "text": "Elyria / Amherst, Ohio: Turnpike-area warm food, restroom and stretch."
+            },
+            {
+              "time": "14:00–14:30",
+              "text": "Somerset, Pennsylvania: warm meal and restroom break near the Turnpike."
+            },
+            {
+              "time": "18:00",
+              "text": "Washington hotel with parking; dinner / settle in and protect ten hours of rest."
+            }
+          ],
+          "links": [
+            {
+              "label": "University of Michigan Ann Arbor → I-80 services Elyria Amherst Ohio → Somerset Pennsylvania Turnpike services → Washington DC",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Washington+DC&travelmode=driving&waypoints=I-80+services+Elyria+Amherst+Ohio%7CSomerset+Pennsylvania+Turnpike+services"
+            }
+          ],
+          "restWindow": "21:00–07:00",
+          "hotel": {
+            "name": "Washington, DC hotel with parking",
+            "city": "Washington, DC",
+            "url": "https://www.google.com/maps/search/?api=1&query=Washington%2C+DC+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "elyria",
+              "time": "10:30–11:00"
+            },
+            {
+              "area": "somerset",
+              "time": "14:00–14:30"
+            }
           ]
+        },
+        "8": {
+          "title": "Smithsonian → New York by car",
+          "transport": "Washington → NYC: Google Maps about 3h40 in current traffic; allow 5–6h with the Delaware stop, winter / I-95 traffic and Manhattan hotel parking. Keep the car for the college road trip; city visits use walking / taxis while it is parked.",
+          "activities": [
+            {
+              "time": "09:15–09:45",
+              "text": "Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time."
+            },
+            {
+              "time": "10:00–12:30",
+              "text": "Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm."
+            },
+            {
+              "time": "12:30–13:30",
+              "text": "Warm lunch; collect bags and retrieve the parked rental car for New York."
+            },
+            {
+              "time": "13:30",
+              "text": "Drive toward New York on I-95 / the New Jersey Turnpike."
+            },
+            {
+              "time": "15:30–16:00",
+              "text": "Wilmington / Newark, Delaware: warm food / drink, toilets and stretch."
+            },
+            {
+              "time": "18:30–19:30",
+              "text": "Manhattan hotel with parking; check in and dinner nearby."
+            },
+            {
+              "time": "21:30–07:30",
+              "text": "Protected ten-hour hotel rest before the first full New York day."
+            }
+          ],
+          "links": [
+            {
+              "label": "Smithsonian National Air and Space Museum → I-95 services Newark Delaware → Midtown West New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Midtown+West+New+York&travelmode=driving&waypoints=I-95+services+Newark+Delaware"
+            }
+          ],
+          "restWindow": "21:30–07:30",
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "wilmington",
+              "time": "15:30–16:00"
+            }
+          ]
+        },
+        "0": {
+          "title": "Hong Kong > Los Angeles",
+          "transport": "UA821 candidate: HKG 22:45 → LAX 19:30 same date; flight 12h45. Immigration/bags 1.5–2h; car to Anaheim 75–100min.",
+          "activities": [
+            {
+              "time": "",
+              "text": "Evening HKG departure"
+            },
+            {
+              "time": "",
+              "text": "Candidate UA821 22:45 HKG > 19:30 LAX, same date (12h45)"
+            },
+            {
+              "time": "",
+              "text": "Immigration/bags 1.5-2h;"
+            },
+            {
+              "time": "",
+              "text": "car to Anaheim 75-100min"
+            },
+            {
+              "time": "",
+              "text": "Hotel about 23:00"
+            }
+          ],
+          "links": [
+            {
+              "label": "LAX > Anaheim",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Los+Angeles+International+Airport&destination=Disneyland+Park+Anaheim&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "23:30-09:30",
+          "hotel": {
+            "name": "Walkable Disneyland-area hotel",
+            "city": "Anaheim",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Disneyland+Park+Anaheim",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "1": {
+          "title": "Disneyland day",
+          "transport": "Walk 10–15min each way from the hotel.",
+          "activities": [
+            {
+              "time": "09:30",
+              "text": "breakfast"
+            },
+            {
+              "time": "",
+              "text": "Walk 10-15min to Disneyland Park;"
+            },
+            {
+              "time": "10:30-20:30",
+              "text": "full park day"
+            },
+            {
+              "time": "",
+              "text": "Reserve ticket AND park entry"
+            },
+            {
+              "time": "",
+              "text": "Dinner in park;"
+            },
+            {
+              "time": "",
+              "text": "return on foot"
+            },
+            {
+              "time": "",
+              "text": "Hours/show schedule pending"
+            }
+          ],
+          "links": [
+            {
+              "label": "Disney entrance",
+              "url": "https://www.google.com/maps/search/?api=1&query=Disneyland+Park+Anaheim"
+            }
+          ],
+          "restWindow": "22:00-08:00",
+          "hotel": {
+            "name": "Walkable Disneyland-area hotel",
+            "city": "Anaheim",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Disneyland+Park+Anaheim",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "3": {
+          "title": "LA > Chicago",
+          "transport": "Flight LAX → ORD about 4h + 2h time change; ORD → Evanston by car 60–90min.",
+          "activities": [
+            {
+              "time": "07:15–08:00",
+              "text": "Drive to LAX, return the California rental car and reach the terminal."
+            },
+            {
+              "time": "10:00 PT → 16:00 CT",
+              "text": "Target LAX → ORD flight, about 4h plus 2h clock change; the road alternative exceeds ten hours."
+            },
+            {
+              "time": "16:00–18:30 CT",
+              "text": "Bags, collect the Chicago one-way rental car and drive to Evanston, allowing 60–90min on the road."
+            },
+            {
+              "time": "18:30–20:00",
+              "text": "Hotel check-in and warm dinner; rest 21:00–07:00."
+            }
+          ],
+          "links": [
+            {
+              "label": "Departure: LAX",
+              "url": "https://www.google.com/maps/search/?api=1&query=Los+Angeles+International+Airport"
+            },
+            {
+              "label": "Arrival: ORD > Evanston",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Chicago+O+Hare+International+Airport&destination=Northwestern+University+Evanston&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Graduate Evanston",
+            "city": "Evanston",
+            "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
+            "status": "Suggested"
+          },
+          "stops": []
+        },
+        "4": {
+          "title": "Northwestern + Chicago",
+          "transport": "Evanston ↔ central Chicago by car: allow 45–60min each way.",
+          "activities": [
+            {
+              "time": "09:30-11:30",
+              "text": "Northwestern tour/info;"
+            },
+            {
+              "time": "12:00-13:00",
+              "text": "alumni chat if arranged"
+            },
+            {
+              "time": "14:30-16:00",
+              "text": "Chicago Millennium Park/shops (45-60min each way) OR easy Evanston lakefront walk"
+            },
+            {
+              "time": "",
+              "text": "Dinner 18:00"
+            }
+          ],
+          "links": [
+            {
+              "label": "NU > Millennium Park",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Millennium+Park+Chicago&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "Graduate Evanston",
+            "city": "Evanston",
+            "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
+            "status": "Suggested"
+          },
+          "stops": []
+        },
+        "16": {
+          "title": "Home in Hong Kong",
+          "transport": "Airport → home by private car / taxi.",
+          "activities": [
+            {
+              "time": "18:55 HKT",
+              "text": "Candidate CX831 arrives Hong Kong on Sunday 14 February at 18:55 HKT; transfer home and recover after the flight."
+            }
+          ],
+          "links": [
+            {
+              "label": "Hong Kong arrival",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hong+Kong+International+Airport"
+            }
+          ],
+          "restWindow": "Rest at home",
+          "hotel": {
+            "name": "Home",
+            "city": "Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "stops": []
         }
       }
     },
@@ -1060,26 +1422,31 @@
         {
           "id": "casewestern",
           "day": 7,
-          "kind": "conditional"
+          "kind": "target"
+        },
+        {
+          "id": "nyu",
+          "day": 10,
+          "kind": "self"
         },
         {
           "id": "cornell",
-          "day": 8,
+          "day": 11,
           "kind": "target"
         },
         {
           "id": "dartmouth",
-          "day": 10,
-          "kind": "target"
-        },
-        {
-          "id": "bu",
-          "day": 11,
+          "day": 12,
           "kind": "target"
         },
         {
           "id": "wellesley",
-          "day": 11,
+          "day": 13,
+          "kind": "target"
+        },
+        {
+          "id": "bu",
+          "day": 14,
           "kind": "target"
         }
       ],
@@ -1130,46 +1497,13 @@
         },
         {
           "key": "Cleveland",
-          "label": "Cleveland",
-          "zhLabel": "Cleveland",
+          "label": "Cleveland · Case Western",
+          "zhLabel": "Cleveland・Case Western",
           "coords": [
             -81.61,
             41.5
           ],
           "days": "D6–7",
-          "mode": "drive"
-        },
-        {
-          "key": "Ithaca",
-          "label": "Ithaca · Cornell",
-          "zhLabel": "Ithaca・Cornell",
-          "coords": [
-            -76.5,
-            42.44
-          ],
-          "days": "D7–9",
-          "mode": "drive"
-        },
-        {
-          "key": "Hanover",
-          "label": "Hanover · Dartmouth",
-          "zhLabel": "Hanover・Dartmouth",
-          "coords": [
-            -72.29,
-            43.7
-          ],
-          "days": "D9–10",
-          "mode": "drive"
-        },
-        {
-          "key": "Boston",
-          "label": "Boston",
-          "zhLabel": "波士頓",
-          "coords": [
-            -71.06,
-            42.36
-          ],
-          "days": "D10–12",
           "mode": "drive"
         },
         {
@@ -1180,8 +1514,8 @@
             -77.04,
             38.9
           ],
-          "days": "D12",
-          "mode": "flight"
+          "days": "D7–8",
+          "mode": "drive"
         },
         {
           "key": "NYC",
@@ -1191,8 +1525,63 @@
             -73.99,
             40.75
           ],
-          "days": "D12–15",
-          "mode": "train"
+          "days": "D8–10",
+          "mode": "drive"
+        },
+        {
+          "key": "Ithaca",
+          "label": "Ithaca · Cornell",
+          "zhLabel": "Ithaca・Cornell",
+          "coords": [
+            -76.5,
+            42.44
+          ],
+          "days": "D11",
+          "mode": "drive"
+        },
+        {
+          "key": "Hanover",
+          "label": "Hanover · Dartmouth",
+          "zhLabel": "Hanover・Dartmouth",
+          "coords": [
+            -72.29,
+            43.7
+          ],
+          "days": "D12",
+          "mode": "drive"
+        },
+        {
+          "key": "Wellesley",
+          "label": "Wellesley",
+          "zhLabel": "Wellesley",
+          "coords": [
+            -71.31,
+            42.29
+          ],
+          "days": "D13",
+          "mode": "drive"
+        },
+        {
+          "key": "Boston",
+          "label": "Boston",
+          "zhLabel": "波士頓",
+          "coords": [
+            -71.06,
+            42.36
+          ],
+          "days": "D13–14",
+          "mode": "drive"
+        },
+        {
+          "key": "NYC-return",
+          "label": "NYC · NHL / JFK",
+          "zhLabel": "紐約・NHL／JFK",
+          "coords": [
+            -73.99,
+            40.75
+          ],
+          "days": "D14–15",
+          "mode": "drive"
         }
       ],
       "sights": [
@@ -1236,91 +1625,98 @@
           "name": "Smithsonian National Air and Space Museum",
           "city": "Washington DC",
           "nature": "Aviation / space / planetarium; show booking pending",
-          "day": 12
+          "day": 8
         },
         {
           "id": "centralpark",
           "name": "Central Park",
           "city": "New York City",
           "nature": "City park / outdoor stroll",
-          "day": 13
+          "day": 9
         },
         {
           "id": "amnh",
           "name": "AMNH / Hayden Planetarium",
           "city": "New York City",
           "nature": "Natural science / space show",
-          "day": 13
+          "day": 9
         },
         {
           "id": "wicked",
           "name": "Wicked · Gershwin Theatre",
           "city": "New York City",
           "nature": "Broadway musical; tickets pending",
-          "day": 13
+          "day": 9
         },
         {
           "id": "rockefeller",
           "name": "Fifth Avenue / Rockefeller Center · FAO / Jellycat / Nintendo",
           "city": "New York City",
           "nature": "Famous avenue / city landmark / fun stores",
-          "day": 13
+          "day": 9
         },
         {
           "id": "timessquare",
           "name": "Times Square / Broadway",
           "city": "New York City",
           "nature": "Neon lights / famous city streets",
-          "day": 13
+          "day": 9
         },
         {
           "id": "met",
           "name": "The Met Fifth Avenue · Metropolitan Museum of Art",
           "city": "New York City",
           "nature": "Art museum · Egyptian art, armor and American art highlights",
-          "day": 13
+          "day": 9
         },
         {
           "id": "nbc",
           "name": "The Tour at NBC Studios · 30 Rockefeller Plaza",
           "city": "New York City",
           "nature": "Broadcast journalism / working-studio guided tour · target reservation",
-          "day": 13
+          "day": 9
         },
         {
           "id": "empire",
           "name": "Empire State Building · 34th Street",
           "city": "New York City",
           "nature": "Architecture / exterior photo stop",
-          "day": 14
+          "day": 10
         },
         {
           "id": "liberty",
           "name": "Statue of Liberty / Liberty Island",
           "city": "New York City",
           "nature": "Island ferry / monument / museum",
-          "day": 14
+          "day": 10
         },
         {
           "id": "memorial911",
           "name": "Wall Street / Charging Bull / 9/11 Memorial",
           "city": "New York City",
           "nature": "Finance district / outdoor memorial",
-          "day": 14
+          "day": 10
         },
         {
           "id": "brooklynbridge",
           "name": "Brooklyn Bridge",
           "city": "New York City",
           "nature": "Historic bridge / Manhattan skyline walk",
-          "day": 14
+          "day": 10
         },
         {
           "id": "nyu",
           "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
           "city": "New York City",
           "nature": "Neighbourhood streets / Chinese food / shops",
-          "day": 14
+          "day": 10
+        },
+        {
+          "id": "publicgarden",
+          "name": "Public Garden / Newbury Street",
+          "city": "Boston",
+          "nature": "Garden / city stroll / shops",
+          "day": 13
         },
         {
           "id": "msg",
@@ -1332,13 +1728,8 @@
       ],
       "patches": {
         "5": {
+          "title": "Evanston > Notre Dame",
           "transport": "07:00 CT departure → Michigan City 09:00–09:30 CT → Notre Dame about 11:30–12:00 ET. Allow 3–3.5h driving + 30min break + 1h clock change.",
-          "stops": [
-            {
-              "area": "mc",
-              "time": "09:00–09:30 CT"
-            }
-          ],
           "activities": [
             {
               "time": "07:00 CT",
@@ -1360,20 +1751,30 @@
               "time": "15:30",
               "text": "Visit Basilica / Grotto; check in around 17:00, then dinner."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive to Notre Dame",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=University+of+Notre+Dame&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Morris Inn",
+            "city": "Notre Dame",
+            "url": "https://morrisinn.nd.edu/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "mc",
+              "time": "09:00–09:30 CT"
+            }
           ]
         },
         "6": {
+          "title": "Michigan > Cleveland",
           "transport": "Notre Dame → Kalamazoo break → Ann Arbor: allow 4h. Ann Arbor → Toledo break → Cleveland: allow 4–4.5h. Total driving 7–7.5h plus 1h breaks; campus/lunch separates the two legs.",
-          "stops": [
-            {
-              "area": "kz",
-              "time": "08:45–09:15"
-            },
-            {
-              "area": "to",
-              "time": "15:30–16:00"
-            }
-          ],
           "activities": [
             {
               "time": "07:00",
@@ -1399,190 +1800,83 @@
               "time": "18:30–19:00",
               "text": "Cleveland hotel, dinner and rest."
             }
+          ],
+          "links": [
+            {
+              "label": "Notre Dame > Michigan > Case",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=Case+Western+Reserve+University+Cleveland&travelmode=driving&hl=en&waypoints=University+of+Michigan+Ann+Arbor"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "University Circle hotel",
+            "city": "Cleveland",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+University+Circle+Cleveland",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "kz",
+              "time": "08:45–09:15"
+            },
+            {
+              "area": "to",
+              "time": "15:30–16:00"
+            }
           ]
         },
         "7": {
-          "transport": "12:00 Cleveland departure → Erie 13:45–14:15 → Geneva 17:00–17:30 → Ithaca about 19:00. Allow 6h driving + 1h breaks (7h total).",
-          "stops": [
-            {
-              "area": "er",
-              "time": "13:45–14:15"
-            },
-            {
-              "area": "ge",
-              "time": "17:00–17:30"
-            }
-          ],
+          "title": "Case Western → Washington by car",
+          "transport": "Cleveland → Washington allow 6–7h driving plus a 30min Somerset meal / stretch stop and arrival buffer. Leave after the morning Case Western visit; arrive about 19:00.",
           "activities": [
             {
               "time": "09:00–11:00",
-              "text": "Optional Case Western visit; keep only if Cornell Saturday tour is confirmed."
-            },
-            {
-              "time": "12:00",
-              "text": "Leave Cleveland."
-            },
-            {
-              "time": "13:45–14:15",
-              "text": "Erie Downtown / Bayfront: warm lunch stop."
-            },
-            {
-              "time": "17:00–17:30",
-              "text": "Geneva: warm drink and brief Seneca Lake viewpoint stop."
-            },
-            {
-              "time": "19:00–20:00",
-              "text": "Ithaca cottage check-in and dinner."
-            },
-            {
-              "time": "",
-              "text": "If Cornell has no Saturday guided slot, drop Case and leave Cleveland at 07:00 for a Friday afternoon Cornell visit; move both stops 5h earlier."
-            }
-          ],
-          "restWindow": "22:00–08:00"
-        },
-        "9": {
-          "transport": "09:00 Ithaca departure → Oneonta 11:00–11:30 → Brattleboro 14:00–14:30 → Hanover about 16:00. Allow about 6h driving + 1h breaks.",
-          "stops": [
-            {
-              "area": "on",
-              "time": "11:00–11:30"
-            },
-            {
-              "area": "br",
-              "time": "14:00–14:30"
-            }
-          ],
-          "activities": [
-            {
-              "time": "09:00",
-              "text": "Leave Ithaca for Hanover."
+              "text": "Target Case Western guided tour / admissions session; exact morning slot to reserve."
             },
             {
               "time": "11:00–11:30",
-              "text": "Oneonta Main Street: warm food / coffee and a short walk."
+              "text": "Early lunch / collect car and luggage."
             },
             {
-              "time": "14:00–14:30",
-              "text": "Brattleboro Downtown: late warm lunch."
+              "time": "11:30",
+              "text": "Drive from Cleveland to Washington."
             },
             {
-              "time": "16:00",
-              "text": "Arrive Hanover; short town walk, hotel and early dinner."
-            }
-          ]
-        },
-        "14": {
-          "transport": "Hotel → Battery Park by subway/taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/subway legs 10–40min. Ferry schedule and winter service must be confirmed. Evening: Brooklyn Bridge → NYU 20–30min; NYU → Empire State / MSG 30–40min. Game 19:00 ET; walk back to Penn Station-area hotel.",
-          "stops": [],
-          "activities": [
-            {
-              "time": "09:00–09:45",
-              "text": "Leave hotel for Castle Clinton / Battery Park ferry security area."
+              "time": "14:30–15:00",
+              "text": "Somerset Turnpike area: food, toilets and stretch."
             },
             {
-              "time": "10:00–13:30",
-              "text": "Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure."
-            },
-            {
-              "time": "12:00",
-              "text": "Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning."
-            },
-            {
-              "time": "13:30–14:30",
-              "text": "Walk from The Battery to Wall Street / Charging Bull, then the 9/11 Memorial outdoor plaza."
-            },
-            {
-              "time": "14:45–15:30",
-              "text": "Chinatown: warm rice / noodles lunch; browse Mott Street and Canal Street."
-            },
-            {
-              "time": "15:30–16:15",
-              "text": "SoHo: Broadway and nearby cast-iron streets / shops."
-            },
-            {
-              "time": "16:30–17:00",
-              "text": "Brooklyn Bridge: short walk from the Manhattan entrance and skyline photographs; return to the Manhattan side."
-            },
-            {
-              "time": "17:00–17:30",
-              "text": "Taxi/subway from Brooklyn Bridge to Washington Square Park."
-            },
-            {
-              "time": "17:30–17:50",
-              "text": "NYU / Greenwich Village short campus-area walk."
-            },
-            {
-              "time": "17:50–18:30",
-              "text": "Taxi/subway to Midtown, brief Empire State Building exterior photograph, then walk to MSG. Eat dinner in the arena."
-            },
-            {
-              "time": "18:30–19:00",
-              "text": "MSG entry / security and dinner; leave large bags at the hotel before the morning outing."
-            },
-            {
-              "time": "19:00–22:15",
-              "text": "NHL: New York Islanders at New York Rangers — local rivalry at Madison Square Garden. Published start 19:00 ET; allow overtime / shootout buffer. Regular-season game, not a championship final."
-            },
-            {
-              "time": "22:15–23:00",
-              "text": "Walk to the nearby Midtown / Penn Station hotel; protected rest 23:00–09:00."
+              "time": "19:00–20:00",
+              "text": "Hotel with parking and warm dinner; rest 21:00–07:00."
             }
           ],
           "links": [
             {
-              "label": "Statue of Liberty official visit / ferry tickets",
-              "url": "https://www.nps.gov/stli/planyourvisit/index.htm"
-            },
-            {
-              "label": "The Battery New York → Charging Bull New York → Wall Street New York → 9/11 Memorial New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Battery+New+York&destination=9%2F11+Memorial+New+York&travelmode=walking&waypoints=Charging+Bull+New+York%7CWall+Street+New+York"
-            },
-            {
-              "label": "9/11 Memorial New York → Chinatown Manhattan",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=transit"
-            },
-            {
-              "label": "Mott Street New York → Canal Street New York → SoHo New York → Broadway Spring Street New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Mott+Street+New+York&destination=Broadway+Spring+Street+New+York&travelmode=walking&waypoints=Canal+Street+New+York%7CSoHo+New+York"
-            },
-            {
-              "label": "SoHo New York → Brooklyn Bridge Manhattan Entrance",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=SoHo+New+York&destination=Brooklyn+Bridge+Manhattan+Entrance&travelmode=walking"
-            },
-            {
-              "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
-            },
-            {
-              "label": "Washington Square Park New York → Empire State Building New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
-            },
-            {
-              "label": "Washington Square Park New York → Empire State Building New York → Madison Square Garden New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Madison+Square+Garden+New+York&travelmode=transit&waypoints=Empire+State+Building+New+York"
-            },
-            {
-              "label": "Rangers · official schedule / tickets",
-              "url": "https://www.nhl.com/rangers/schedule"
+              "label": "Case Western Reserve University Cleveland → Somerset Pennsylvania Turnpike services → Washington DC",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Case+Western+Reserve+University+Cleveland&destination=Washington+DC&travelmode=driving&waypoints=Somerset+Pennsylvania+Turnpike+services"
             }
           ],
-          "title": "NYC: Statue of Liberty + Rangers–Islanders",
+          "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Midtown / Penn Station hotel",
-            "city": "New York",
-            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Penn+Station+New+York",
+            "name": "Washington, DC hotel with parking",
+            "city": "Washington, DC",
+            "url": "https://www.google.com/maps/search/?api=1&query=Washington%2C+DC+hotels+parking",
             "status": "Hotel to select"
           },
-          "restWindow": "23:00–09:00"
+          "stops": [
+            {
+              "area": "somerset",
+              "time": "14:30–15:00"
+            }
+          ]
         },
-        "13": {
+        "9": {
+          "title": "NYC: The Met, space, NBC Studios + Wicked",
           "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
-          "stops": [],
           "activities": [
             {
               "time": "09:15–09:50",
-              "text": "Hotel → The Met Fifth Avenue by taxi/subway; allow 30–40min and entry queue."
+              "text": "Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue."
             },
             {
               "time": "10:00–12:00",
@@ -1602,7 +1896,7 @@
             },
             {
               "time": "14:45–15:15",
-              "text": "Taxi/subway to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
+              "text": "Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
             },
             {
               "time": "15:30–17:00",
@@ -1640,7 +1934,7 @@
             },
             {
               "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=driving"
             },
             {
               "label": "NBC Studios tour · official tickets",
@@ -1652,10 +1946,118 @@
             }
           ],
           "restWindow": "22:30–08:30",
-          "title": "NYC: The Met, space, NBC Studios + Wicked"
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "14": {
+          "title": "Boston University → NYC by car · Rangers–Islanders",
+          "transport": "Boston → Manhattan: Google Maps about 3h30–4h before stops in current traffic. Allow 5–6h including a New Haven / Milford lunch break, Friday traffic and a reserved Manhattan rental-car return. Leave BU about 11:15; hotel / car return target 17:30–18:15, MSG entry 18:15–18:30.",
+          "activities": [
+            {
+              "time": "08:15–08:45",
+              "text": "Check out, load bags in the car and drive / taxi to Boston University."
+            },
+            {
+              "time": "09:00–11:00",
+              "text": "Target Boston University guided campus tour / admissions session; reserve the morning slot."
+            },
+            {
+              "time": "11:15",
+              "text": "Collect the car and drive Boston → New York."
+            },
+            {
+              "time": "13:30–14:00",
+              "text": "New Haven / Milford area: warm lunch, toilets and stretch."
+            },
+            {
+              "time": "16:30–18:15",
+              "text": "Arrive Manhattan with Friday traffic buffer; return the one-way rental at a pre-booked city branch open into the evening, check in near Penn Station / MSG and leave bags."
+            },
+            {
+              "time": "18:15–19:00",
+              "text": "Walk / taxi to MSG for entry, security and dinner; no large bags."
+            },
+            {
+              "time": "19:00–22:15",
+              "text": "NHL: New York Islanders at New York Rangers — local rivalry at Madison Square Garden. Published start 19:00 ET; allow overtime / shootout buffer. Regular-season game, not a championship final."
+            },
+            {
+              "time": "22:15–23:00",
+              "text": "Walk to the nearby Midtown / Penn Station hotel; protected rest 23:00–09:00."
+            }
+          ],
+          "links": [
+            {
+              "label": "Boston University → Milford Connecticut I-95 services → Madison Square Garden New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+University&destination=Madison+Square+Garden+New+York&travelmode=driving&waypoints=Milford+Connecticut+I-95+services"
+            },
+            {
+              "label": "Rangers · official schedule / tickets",
+              "url": "https://www.nhl.com/rangers/schedule"
+            }
+          ],
+          "restWindow": "23:00–09:00",
+          "hotel": {
+            "name": "Midtown / Penn Station hotel",
+            "city": "New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Penn+Station+New+York",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "newhaven",
+              "time": "13:30–14:00"
+            }
+          ]
+        },
+        "13": {
+          "title": "Dartmouth → Wellesley → Boston",
+          "transport": "Hanover → Wellesley 2h45–3h; Wellesley → Boston 45–60min. Campus visit separates the driving legs.",
+          "activities": [
+            {
+              "time": "07:30–10:30",
+              "text": "Drive Hanover → Wellesley; breakfast before departure."
+            },
+            {
+              "time": "10:30–12:00",
+              "text": "Wellesley village / campus surroundings and warm lunch."
+            },
+            {
+              "time": "13:00–15:00",
+              "text": "Target Wellesley student-guided tour / admissions session; reserve this afternoon slot."
+            },
+            {
+              "time": "15:00–16:00",
+              "text": "Drive to Boston hotel with parking. Keep the rental car for tomorrow."
+            },
+            {
+              "time": "16:00–19:00",
+              "text": "Boston Public Garden / Newbury Street highlights and Chinatown warm dinner."
+            }
+          ],
+          "links": [
+            {
+              "label": "Dartmouth College Hanover → Wellesley College → Boston Back Bay",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Boston+Back+Bay&travelmode=driving&waypoints=Wellesley+College"
+            }
+          ],
+          "restWindow": "21:00–07:00",
+          "hotel": {
+            "name": "Boston Back Bay hotel with parking",
+            "city": "Boston",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+Back+Bay+Boston",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
         "2": {
           "title": "LA: SpaceX, UCLA + Santa Monica sunset",
+          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking, arriving about 13:45 → LAX hotel 45–75min after sunset and dinner. Walk Pier → Third Street Promenade → beach / Pier; leave Santa Monica about 18:40.",
           "activities": [
             {
               "time": "09:00–10:15",
@@ -1714,8 +2116,6 @@
               "text": "Drive to the LAX hotel; allow 45–75min. Check in before the protected 20:30–06:30 rest period."
             }
           ],
-          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking, arriving about 13:45 → LAX hotel 45–75min after sunset and dinner. Walk Pier → Third Street Promenade → beach / Pier; leave Santa Monica about 18:40.",
-          "restWindow": "20:30–06:30",
           "links": [
             {
               "label": "LA driving stops in order",
@@ -1725,19 +2125,19 @@
               "label": "Santa Monica walk: Pier, shops, beach, sunset",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Santa+Monica+Pier&waypoints=Third+Street+Promenade+Santa+Monica%7CSanta+Monica+State+Beach&travelmode=walking"
             }
-          ]
+          ],
+          "restWindow": "20:30–06:30",
+          "hotel": {
+            "name": "LAX airport hotel",
+            "city": "Los Angeles",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+LAX",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
         "15": {
           "title": "New York → Hong Kong",
-          "restWindow": "10h in flight",
-          "stops": [],
           "transport": "Hotel → JFK allow 60–90min; leave 09:30. Candidate CX831 JFK 13:40 on 13 Feb → HKG 18:55 on 14 Feb, about 16h15. Confirm flight / check-in time; protect ten hours in flight.",
-          "hotel": {
-            "name": "Overnight flight",
-            "city": "To Hong Kong",
-            "url": "",
-            "status": ""
-          },
           "activities": [
             {
               "time": "09:00",
@@ -1757,7 +2157,438 @@
               "label": "New York Penn Station → John F Kennedy International Airport",
               "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=John+F+Kennedy+International+Airport&travelmode=driving"
             }
+          ],
+          "restWindow": "10h in flight",
+          "hotel": {
+            "name": "Overnight flight",
+            "city": "To Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "stops": []
+        },
+        "8": {
+          "title": "Smithsonian → New York by car",
+          "transport": "Washington → NYC: Google Maps about 3h40 in current traffic; allow 5–6h with the Delaware stop, winter / I-95 traffic and Manhattan hotel parking. Keep the car for the college road trip; city visits use walking / taxis while it is parked.",
+          "activities": [
+            {
+              "time": "09:15–09:45",
+              "text": "Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time."
+            },
+            {
+              "time": "10:00–12:30",
+              "text": "Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm."
+            },
+            {
+              "time": "12:30–13:30",
+              "text": "Warm lunch; collect bags and retrieve the parked rental car for New York."
+            },
+            {
+              "time": "13:30",
+              "text": "Drive toward New York on I-95 / the New Jersey Turnpike."
+            },
+            {
+              "time": "15:30–16:00",
+              "text": "Wilmington / Newark, Delaware: warm food / drink, toilets and stretch."
+            },
+            {
+              "time": "18:30–19:30",
+              "text": "Manhattan hotel with parking; check in and dinner nearby."
+            },
+            {
+              "time": "21:30–07:30",
+              "text": "Protected ten-hour hotel rest before the first full New York day."
+            }
+          ],
+          "links": [
+            {
+              "label": "Smithsonian National Air and Space Museum → I-95 services Newark Delaware → Midtown West New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Midtown+West+New+York&travelmode=driving&waypoints=I-95+services+Newark+Delaware"
+            }
+          ],
+          "restWindow": "21:30–07:30",
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "wilmington",
+              "time": "15:30–16:00"
+            }
           ]
+        },
+        "10": {
+          "title": "NYC full day 2: city life",
+          "transport": "Hotel → Battery Park by taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/taxi legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "activities": [
+            {
+              "time": "09:00–09:45",
+              "text": "Leave hotel for Castle Clinton / Battery Park ferry security area."
+            },
+            {
+              "time": "10:00–13:30",
+              "text": "Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure."
+            },
+            {
+              "time": "12:00",
+              "text": "Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning."
+            },
+            {
+              "time": "13:30–14:30",
+              "text": "Walk from The Battery to Wall Street / Charging Bull, then the 9/11 Memorial outdoor plaza."
+            },
+            {
+              "time": "14:45–15:30",
+              "text": "Chinatown: warm rice / noodles lunch; browse Mott Street and Canal Street."
+            },
+            {
+              "time": "15:30–16:15",
+              "text": "SoHo: Broadway and nearby cast-iron streets / shops."
+            },
+            {
+              "time": "16:30–17:00",
+              "text": "Brooklyn Bridge: short walk from the Manhattan entrance and skyline photographs; return to the Manhattan side."
+            },
+            {
+              "time": "17:45–18:30",
+              "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
+            },
+            {
+              "time": "18:30–19:15",
+              "text": "Dinner in Greenwich Village."
+            },
+            {
+              "time": "19:15–20:15",
+              "text": "Taxi/taxi back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
+            }
+          ],
+          "links": [
+            {
+              "label": "Statue of Liberty official visit / ferry tickets",
+              "url": "https://www.nps.gov/stli/planyourvisit/index.htm"
+            },
+            {
+              "label": "The Battery New York → Charging Bull New York → Wall Street New York → 9/11 Memorial New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Battery+New+York&destination=9%2F11+Memorial+New+York&travelmode=walking&waypoints=Charging+Bull+New+York%7CWall+Street+New+York"
+            },
+            {
+              "label": "9/11 Memorial New York → Chinatown Manhattan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=driving"
+            },
+            {
+              "label": "Mott Street New York → Canal Street New York → SoHo New York → Broadway Spring Street New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Mott+Street+New+York&destination=Broadway+Spring+Street+New+York&travelmode=walking&waypoints=Canal+Street+New+York%7CSoHo+New+York"
+            },
+            {
+              "label": "SoHo New York → Brooklyn Bridge Manhattan Entrance",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=SoHo+New+York&destination=Brooklyn+Bridge+Manhattan+Entrance&travelmode=walking"
+            },
+            {
+              "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=driving"
+            },
+            {
+              "label": "Washington Square Park New York → Empire State Building New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=driving"
+            }
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "11": {
+          "title": "NYC > Cornell",
+          "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
+          "activities": [
+            {
+              "time": "07:00–07:30",
+              "text": "Retrieve the hotel-parked car and leave New York for Cornell."
+            },
+            {
+              "time": "10:00–10:30",
+              "text": "Scranton Downtown: warm snack and Courthouse Square walk."
+            },
+            {
+              "time": "13:00–13:30",
+              "text": "Arrive Cornell; quick lunch, park and check in."
+            },
+            {
+              "time": "14:00–16:00",
+              "text": "Target Cornell registered tour and admissions information session."
+            },
+            {
+              "time": "17:00",
+              "text": "Cottage check-in; dinner around 18:00."
+            }
+          ],
+          "links": [
+            {
+              "label": "Drive NYC > Cornell",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Cornell+University+Ithaca&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "New Park cottage / suite",
+            "city": "Ithaca",
+            "url": "https://www.newparkeventvenue.com/",
+            "status": "Suggested; winter availability to confirm"
+          },
+          "stops": [
+            {
+              "area": "sc",
+              "time": "10:00–10:30"
+            }
+          ]
+        },
+        "12": {
+          "title": "Cornell > Dartmouth",
+          "transport": "06:45 Ithaca departure → Oneonta 08:45–09:15 → Brattleboro 11:45–12:15 → Hanover about 13:45. Allow about 6h driving + 1h breaks (7h total; winter traffic may add time).",
+          "activities": [
+            {
+              "time": "06:45",
+              "text": "Leave Ithaca; carry breakfast / snacks."
+            },
+            {
+              "time": "08:45–09:15",
+              "text": "Oneonta Main Street: bakery / café breakfast stop."
+            },
+            {
+              "time": "11:45–12:15",
+              "text": "Brattleboro Downtown: warm lunch."
+            },
+            {
+              "time": "13:45–14:15",
+              "text": "Arrive Hanover and check in for the campus visit."
+            },
+            {
+              "time": "14:30–16:15",
+              "text": "Target Dartmouth information session and guided tour; afternoon slot essential."
+            },
+            {
+              "time": "16:30",
+              "text": "Alumni chat if arranged; dinner and hotel."
+            }
+          ],
+          "links": [
+            {
+              "label": "Drive Cornell > Dartmouth",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Cornell+University+Ithaca&destination=Dartmouth+College+Hanover&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Hanover Inn",
+            "city": "Hanover",
+            "url": "https://www.hanoverinn.com/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "on",
+              "time": "08:45–09:15"
+            },
+            {
+              "area": "br",
+              "time": "11:45–12:15"
+            }
+          ]
+        },
+        "16": {
+          "title": "Home in Hong Kong",
+          "transport": "Airport → home by private car / taxi.",
+          "activities": [
+            {
+              "time": "18:55 HKT",
+              "text": "Candidate CX831 arrives Hong Kong on Sunday 14 February at 18:55 HKT; transfer home and recover after the flight."
+            }
+          ],
+          "links": [
+            {
+              "label": "Hong Kong arrival",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hong+Kong+International+Airport"
+            }
+          ],
+          "restWindow": "Rest at home",
+          "hotel": {
+            "name": "Home",
+            "city": "Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "stops": []
+        },
+        "0": {
+          "title": "Hong Kong > Los Angeles",
+          "transport": "UA821 candidate: HKG 22:45 → LAX 19:30 same date; flight 12h45. Immigration/bags 1.5–2h; car to Anaheim 75–100min.",
+          "activities": [
+            {
+              "time": "",
+              "text": "Evening HKG departure"
+            },
+            {
+              "time": "",
+              "text": "Candidate UA821 22:45 HKG > 19:30 LAX, same date (12h45)"
+            },
+            {
+              "time": "",
+              "text": "Immigration/bags 1.5-2h;"
+            },
+            {
+              "time": "",
+              "text": "car to Anaheim 75-100min"
+            },
+            {
+              "time": "",
+              "text": "Hotel about 23:00"
+            }
+          ],
+          "links": [
+            {
+              "label": "LAX > Anaheim",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Los+Angeles+International+Airport&destination=Disneyland+Park+Anaheim&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "23:30-09:30",
+          "hotel": {
+            "name": "Walkable Disneyland-area hotel",
+            "city": "Anaheim",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Disneyland+Park+Anaheim",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "1": {
+          "title": "Disneyland day",
+          "transport": "Walk 10–15min each way from the hotel.",
+          "activities": [
+            {
+              "time": "09:30",
+              "text": "breakfast"
+            },
+            {
+              "time": "",
+              "text": "Walk 10-15min to Disneyland Park;"
+            },
+            {
+              "time": "10:30-20:30",
+              "text": "full park day"
+            },
+            {
+              "time": "",
+              "text": "Reserve ticket AND park entry"
+            },
+            {
+              "time": "",
+              "text": "Dinner in park;"
+            },
+            {
+              "time": "",
+              "text": "return on foot"
+            },
+            {
+              "time": "",
+              "text": "Hours/show schedule pending"
+            }
+          ],
+          "links": [
+            {
+              "label": "Disney entrance",
+              "url": "https://www.google.com/maps/search/?api=1&query=Disneyland+Park+Anaheim"
+            }
+          ],
+          "restWindow": "22:00-08:00",
+          "hotel": {
+            "name": "Walkable Disneyland-area hotel",
+            "city": "Anaheim",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Disneyland+Park+Anaheim",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "3": {
+          "title": "LA > Chicago",
+          "transport": "Flight LAX → ORD about 4h + 2h time change; ORD → Evanston by car 60–90min.",
+          "activities": [
+            {
+              "time": "07:15–08:00",
+              "text": "Drive to LAX, return the California rental car and reach the terminal."
+            },
+            {
+              "time": "10:00 PT → 16:00 CT",
+              "text": "Target LAX → ORD flight, about 4h plus 2h clock change; the road alternative exceeds ten hours."
+            },
+            {
+              "time": "16:00–18:30 CT",
+              "text": "Bags, collect the Chicago one-way rental car and drive to Evanston, allowing 60–90min on the road."
+            },
+            {
+              "time": "18:30–20:00",
+              "text": "Hotel check-in and warm dinner; rest 21:00–07:00."
+            }
+          ],
+          "links": [
+            {
+              "label": "Departure: LAX",
+              "url": "https://www.google.com/maps/search/?api=1&query=Los+Angeles+International+Airport"
+            },
+            {
+              "label": "Arrival: ORD > Evanston",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Chicago+O+Hare+International+Airport&destination=Northwestern+University+Evanston&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Graduate Evanston",
+            "city": "Evanston",
+            "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
+            "status": "Suggested"
+          },
+          "stops": []
+        },
+        "4": {
+          "title": "Northwestern + Chicago",
+          "transport": "Evanston ↔ central Chicago by car: allow 45–60min each way.",
+          "activities": [
+            {
+              "time": "09:30-11:30",
+              "text": "Northwestern tour/info;"
+            },
+            {
+              "time": "12:00-13:00",
+              "text": "alumni chat if arranged"
+            },
+            {
+              "time": "14:30-16:00",
+              "text": "Chicago Millennium Park/shops (45-60min each way) OR easy Evanston lakefront walk"
+            },
+            {
+              "time": "",
+              "text": "Dinner 18:00"
+            }
+          ],
+          "links": [
+            {
+              "label": "NU > Millennium Park",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Millennium+Park+Chicago&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "Graduate Evanston",
+            "city": "Evanston",
+            "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
+            "status": "Suggested"
+          },
+          "stops": []
         }
       }
     },
@@ -1885,7 +2716,7 @@
             40.75
           ],
           "days": "D8–10",
-          "mode": "train"
+          "mode": "drive"
         },
         {
           "key": "Ithaca",
@@ -2076,13 +2907,8 @@
       ],
       "patches": {
         "4": {
+          "title": "Chicago > Notre Dame",
           "transport": "07:00 CT departure → Michigan City 09:00–09:30 CT → Notre Dame about 11:30–12:00 ET. Allow 3–3.5h driving + 30min break + 1h clock change.",
-          "stops": [
-            {
-              "area": "mc",
-              "time": "09:00–09:30 CT"
-            }
-          ],
           "activities": [
             {
               "time": "07:00 CT",
@@ -2104,16 +2930,30 @@
               "time": "15:30",
               "text": "Visit Basilica / Grotto; check in around 17:00, then dinner."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive to Notre Dame",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Chicago+O+Hare+International+Airport&destination=University+of+Notre+Dame&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Morris Inn",
+            "city": "Notre Dame",
+            "url": "https://morrisinn.nd.edu/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "mc",
+              "time": "09:00–09:30 CT"
+            }
           ]
         },
         "5": {
+          "title": "Notre Dame > Michigan",
           "transport": "07:30 departure → Kalamazoo 09:15–09:45 → Ann Arbor about 11:30. Allow 3–3.5h driving + 30min break (4h total).",
-          "stops": [
-            {
-              "area": "kz",
-              "time": "09:15–09:45"
-            }
-          ],
           "activities": [
             {
               "time": "07:30",
@@ -2135,20 +2975,30 @@
               "time": "16:00–18:00",
               "text": "Meet friend / family for dinner."
             }
-          ]
-        },
-        "6": {
-          "transport": "09:00 ET departure → Kalamazoo 10:45–11:15 ET → Michigan City 12:00–12:30 CT → Evanston about 14:00–14:30 CT. Allow 5–5.5h driving + 1h breaks; clocks go back 1h. Evening Evanston ↔ United Center: 45–75min each way by taxi; game at 19:00 CT.",
+          ],
+          "links": [
+            {
+              "label": "Drive to Michigan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=University+of+Michigan+Ann+Arbor&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Graduate Ann Arbor",
+            "city": "Ann Arbor",
+            "url": "https://graduateannarbor.com/",
+            "status": "Suggested"
+          },
           "stops": [
             {
               "area": "kz",
-              "time": "10:45–11:15 ET"
-            },
-            {
-              "area": "mc",
-              "time": "12:00–12:30 CT"
+              "time": "09:15–09:45"
             }
-          ],
+          ]
+        },
+        "6": {
+          "title": "Ann Arbor → Chicago · Bulls–Thunder",
+          "transport": "09:00 ET departure → Kalamazoo 10:45–11:15 ET → Michigan City 12:00–12:30 CT → Evanston about 14:00–14:30 CT. Allow 5–5.5h driving + 1h breaks; clocks go back 1h. Evening Evanston ↔ United Center: 45–75min each way by taxi; game at 19:00 CT.",
           "activities": [
             {
               "time": "09:00 ET",
@@ -2197,21 +3047,31 @@
               "url": "https://www.nba.com/team/1610612741/schedule"
             }
           ],
-          "title": "Ann Arbor → Chicago · Bulls–Thunder",
-          "restWindow": "23:00–09:00"
-        },
-        "11": {
-          "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
+          "restWindow": "23:00–09:00",
+          "hotel": {
+            "name": "Graduate Evanston",
+            "city": "Evanston",
+            "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
+            "status": "Suggested"
+          },
           "stops": [
             {
-              "area": "sc",
-              "time": "10:00–10:30"
+              "area": "kz",
+              "time": "10:45–11:15 ET"
+            },
+            {
+              "area": "mc",
+              "time": "12:00–12:30 CT"
             }
-          ],
+          ]
+        },
+        "11": {
+          "title": "NYC > Cornell",
+          "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
           "activities": [
             {
               "time": "07:00–07:30",
-              "text": "Collect rental car and leave NYC."
+              "text": "Retrieve the hotel-parked car and leave New York for Cornell."
             },
             {
               "time": "10:00–10:30",
@@ -2229,20 +3089,30 @@
               "time": "17:00",
               "text": "Cottage check-in; dinner around 18:00."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive NYC > Cornell",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Cornell+University+Ithaca&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "New Park cottage / suite",
+            "city": "Ithaca",
+            "url": "https://www.newparkeventvenue.com/",
+            "status": "Suggested; winter availability to confirm"
+          },
+          "stops": [
+            {
+              "area": "sc",
+              "time": "10:00–10:30"
+            }
           ]
         },
         "12": {
+          "title": "Cornell > Dartmouth",
           "transport": "06:45 Ithaca departure → Oneonta 08:45–09:15 → Brattleboro 11:45–12:15 → Hanover about 13:45. Allow about 6h driving + 1h breaks (7h total; winter traffic may add time).",
-          "stops": [
-            {
-              "area": "on",
-              "time": "08:45–09:15"
-            },
-            {
-              "area": "br",
-              "time": "11:45–12:15"
-            }
-          ],
           "activities": [
             {
               "time": "06:45",
@@ -2268,11 +3138,34 @@
               "time": "16:30",
               "text": "Alumni chat if arranged; dinner and hotel."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive Cornell > Dartmouth",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Cornell+University+Ithaca&destination=Dartmouth+College+Hanover&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Hanover Inn",
+            "city": "Hanover",
+            "url": "https://www.hanoverinn.com/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "on",
+              "time": "08:45–09:15"
+            },
+            {
+              "area": "br",
+              "time": "11:45–12:15"
+            }
           ]
         },
         "10": {
-          "transport": "Hotel → Battery Park by subway/taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/subway legs 10–40min. Ferry schedule and winter service must be confirmed.",
-          "stops": [],
+          "title": "NYC full day 2: city life",
+          "transport": "Hotel → Battery Park by taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/taxi legs 10–40min. Ferry schedule and winter service must be confirmed.",
           "activities": [
             {
               "time": "09:00–09:45",
@@ -2312,7 +3205,7 @@
             },
             {
               "time": "19:15–20:15",
-              "text": "Taxi/subway back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
+              "text": "Taxi/taxi back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
             }
           ],
           "links": [
@@ -2326,7 +3219,7 @@
             },
             {
               "label": "9/11 Memorial New York → Chinatown Manhattan",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=driving"
             },
             {
               "label": "Mott Street New York → Canal Street New York → SoHo New York → Broadway Spring Street New York",
@@ -2338,21 +3231,29 @@
             },
             {
               "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=driving"
             },
             {
               "label": "Washington Square Park New York → Empire State Building New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=driving"
             }
-          ]
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
         "9": {
+          "title": "NYC: The Met, space, NBC Studios + Wicked",
           "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
-          "stops": [],
           "activities": [
             {
               "time": "09:15–09:50",
-              "text": "Hotel → The Met Fifth Avenue by taxi/subway; allow 30–40min and entry queue."
+              "text": "Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue."
             },
             {
               "time": "10:00–12:00",
@@ -2372,7 +3273,7 @@
             },
             {
               "time": "14:45–15:15",
-              "text": "Taxi/subway to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
+              "text": "Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
             },
             {
               "time": "15:30–17:00",
@@ -2410,7 +3311,7 @@
             },
             {
               "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=driving"
             },
             {
               "label": "NBC Studios tour · official tickets",
@@ -2422,10 +3323,17 @@
             }
           ],
           "restWindow": "22:30–08:30",
-          "title": "NYC: The Met, space, NBC Studios + Wicked"
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
         "2": {
           "title": "LA: SpaceX, UCLA + Santa Monica sunset",
+          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking, arriving about 13:45 → LAX hotel 45–75min after sunset and dinner. Walk Pier → Third Street Promenade → beach / Pier; leave Santa Monica about 18:40.",
           "activities": [
             {
               "time": "09:00–10:15",
@@ -2484,8 +3392,6 @@
               "text": "Drive to the LAX hotel; allow 45–75min. Check in before the protected 20:30–06:30 rest period."
             }
           ],
-          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking, arriving about 13:45 → LAX hotel 45–75min after sunset and dinner. Walk Pier → Third Street Promenade → beach / Pier; leave Santa Monica about 18:40.",
-          "restWindow": "20:30–06:30",
           "links": [
             {
               "label": "LA driving stops in order",
@@ -2495,22 +3401,19 @@
               "label": "Santa Monica walk: Pier, shops, beach, sunset",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Santa+Monica+Pier&waypoints=Third+Street+Promenade+Santa+Monica%7CSanta+Monica+State+Beach&travelmode=walking"
             }
-          ]
+          ],
+          "restWindow": "20:30–06:30",
+          "hotel": {
+            "name": "LAX airport hotel",
+            "city": "Los Angeles",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+LAX",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
         "7": {
-          "stops": [],
-          "restWindow": "22:30-08:30",
-          "transport": "Car NU → ORD 60–90min; flight about 2h + 1h time change; DCA → hotel 30–45min.",
-          "links": [
-            {
-              "label": "NU > Medill > ORD",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Chicago+O+Hare+International+Airport&travelmode=driving&hl=en&waypoints=Fisk+Hall+Northwestern+University"
-            },
-            {
-              "label": "Arrival DCA",
-              "url": "https://www.google.com/maps/search/?api=1&query=Ronald+Reagan+Washington+National+Airport"
-            }
-          ],
+          "title": "Northwestern + Medill > DC",
+          "transport": "Car NU → ORD 60–90min; flight about 2h + 1h time change; DCA → hotel 30–45min. Road alternative Evanston → Washington is about 11h08 before breaks, so this flight meets the over-ten-hour exception.",
           "activities": [
             {
               "time": "10:00–11:30",
@@ -2526,13 +3429,368 @@
             },
             {
               "time": "14:30–16:00",
-              "text": "Transfer to ORD and check in."
+              "text": "Drive to ORD, return the Midwest rental car and check in."
             },
             {
               "time": "18:00 CT → 21:00 ET",
-              "text": "Target flight ORD → DCA; hotel about 22:00, rest 22:30–08:30."
+              "text": "Target ORD → DCA flight; collect the pre-booked Washington rental car after arrival and drive to the hotel. Target hotel about 22:00–22:15; rest 22:30–08:30."
+            }
+          ],
+          "links": [
+            {
+              "label": "NU > Medill > ORD",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Chicago+O+Hare+International+Airport&travelmode=driving&hl=en&waypoints=Fisk+Hall+Northwestern+University"
+            },
+            {
+              "label": "Arrival DCA",
+              "url": "https://www.google.com/maps/search/?api=1&query=Ronald+Reagan+Washington+National+Airport"
+            }
+          ],
+          "restWindow": "22:30-08:30",
+          "hotel": {
+            "name": "Mall / Union Station hotel",
+            "city": "Washington DC",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+National+Mall+Union+Station+Washington+DC",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "8": {
+          "title": "Smithsonian → New York by car",
+          "transport": "Washington → NYC: Google Maps about 3h40 in current traffic; allow 5–6h with the Delaware stop, winter / I-95 traffic and Manhattan hotel parking. Keep the car for the college road trip; city visits use walking / taxis while it is parked.",
+          "activities": [
+            {
+              "time": "09:15–09:45",
+              "text": "Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time."
+            },
+            {
+              "time": "10:00–12:30",
+              "text": "Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm."
+            },
+            {
+              "time": "12:30–13:30",
+              "text": "Warm lunch; collect bags and retrieve the parked rental car for New York."
+            },
+            {
+              "time": "13:30",
+              "text": "Drive toward New York on I-95 / the New Jersey Turnpike."
+            },
+            {
+              "time": "15:30–16:00",
+              "text": "Wilmington / Newark, Delaware: warm food / drink, toilets and stretch."
+            },
+            {
+              "time": "18:30–19:30",
+              "text": "Manhattan hotel with parking; check in and dinner nearby."
+            },
+            {
+              "time": "21:30–07:30",
+              "text": "Protected ten-hour hotel rest before the first full New York day."
+            }
+          ],
+          "links": [
+            {
+              "label": "Smithsonian National Air and Space Museum → I-95 services Newark Delaware → Midtown West New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Midtown+West+New+York&travelmode=driving&waypoints=I-95+services+Newark+Delaware"
+            }
+          ],
+          "restWindow": "21:30–07:30",
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "wilmington",
+              "time": "15:30–16:00"
             }
           ]
+        },
+        "0": {
+          "title": "Hong Kong > Los Angeles",
+          "transport": "UA821 candidate: HKG 22:45 → LAX 19:30 same date; flight 12h45. Immigration/bags 1.5–2h; car to Anaheim 75–100min.",
+          "activities": [
+            {
+              "time": "",
+              "text": "Evening HKG departure"
+            },
+            {
+              "time": "",
+              "text": "Candidate UA821 22:45 HKG > 19:30 LAX, same date (12h45)"
+            },
+            {
+              "time": "",
+              "text": "Immigration/bags 1.5-2h;"
+            },
+            {
+              "time": "",
+              "text": "car to Anaheim 75-100min"
+            },
+            {
+              "time": "",
+              "text": "Hotel about 23:00"
+            }
+          ],
+          "links": [
+            {
+              "label": "LAX > Anaheim",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Los+Angeles+International+Airport&destination=Disneyland+Park+Anaheim&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "23:30-09:30",
+          "hotel": {
+            "name": "Walkable Disneyland-area hotel",
+            "city": "Anaheim",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Disneyland+Park+Anaheim",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "1": {
+          "title": "Disneyland day",
+          "transport": "Walk 10–15min each way from the hotel.",
+          "activities": [
+            {
+              "time": "09:30",
+              "text": "breakfast"
+            },
+            {
+              "time": "",
+              "text": "Walk 10-15min to Disneyland Park;"
+            },
+            {
+              "time": "10:30-20:30",
+              "text": "full park day"
+            },
+            {
+              "time": "",
+              "text": "Reserve ticket AND park entry"
+            },
+            {
+              "time": "",
+              "text": "Dinner in park;"
+            },
+            {
+              "time": "",
+              "text": "return on foot"
+            },
+            {
+              "time": "",
+              "text": "Hours/show schedule pending"
+            }
+          ],
+          "links": [
+            {
+              "label": "Disney entrance",
+              "url": "https://www.google.com/maps/search/?api=1&query=Disneyland+Park+Anaheim"
+            }
+          ],
+          "restWindow": "22:00-08:00",
+          "hotel": {
+            "name": "Walkable Disneyland-area hotel",
+            "city": "Anaheim",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Disneyland+Park+Anaheim",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "3": {
+          "title": "LA > Chicago",
+          "transport": "Flight LAX → ORD about 4h + 2h time change; ORD → Evanston by car 60–90min.",
+          "activities": [
+            {
+              "time": "07:15–08:00",
+              "text": "Drive to LAX, return the California rental car and reach the terminal."
+            },
+            {
+              "time": "10:00 PT → 16:00 CT",
+              "text": "Target LAX → ORD flight, about 4h plus 2h clock change; the road alternative exceeds ten hours."
+            },
+            {
+              "time": "16:00–18:30 CT",
+              "text": "Bags, collect the Chicago one-way rental car and drive to Evanston, allowing 60–90min on the road."
+            },
+            {
+              "time": "18:30–20:00",
+              "text": "Hotel check-in and warm dinner; rest 21:00–07:00."
+            }
+          ],
+          "links": [
+            {
+              "label": "Departure: LAX",
+              "url": "https://www.google.com/maps/search/?api=1&query=Los+Angeles+International+Airport"
+            },
+            {
+              "label": "Arrival: ORD > Evanston",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Chicago+O+Hare+International+Airport&destination=Northwestern+University+Evanston&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Graduate Evanston",
+            "city": "Evanston",
+            "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
+            "status": "Suggested"
+          },
+          "stops": []
+        },
+        "13": {
+          "title": "Dartmouth > Amherst > Boston",
+          "transport": "Car Dartmouth → Amherst 2h15–2h30; Amherst → Boston 2–2.5h.",
+          "activities": [
+            {
+              "time": "08:30",
+              "text": "depart;"
+            },
+            {
+              "time": "",
+              "text": "drive 2h15 to Amherst"
+            },
+            {
+              "time": "11:30-13:30",
+              "text": "registered Amherst visit"
+            },
+            {
+              "time": "",
+              "text": "Lunch;"
+            },
+            {
+              "time": "14:30",
+              "text": "drive 2.5h to Boston"
+            },
+            {
+              "time": "",
+              "text": "Return car, dinner 18:00"
+            }
+          ],
+          "links": [
+            {
+              "label": "Dartmouth > Amherst > BU",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Boston+University&travelmode=driving&hl=en&waypoints=Amherst+College+Massachusetts"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Boston Back Bay hotel with parking",
+            "city": "Boston",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+Back+Bay+Boston",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "14": {
+          "title": "Boston full day > airport",
+          "transport": "Car / taxi around Boston; hotel → BOS allow 45–60min.",
+          "activities": [
+            {
+              "time": "09:30-11:30",
+              "text": "Boston University tour/info"
+            },
+            {
+              "time": "",
+              "text": "Chinatown lunch 12:30;"
+            },
+            {
+              "time": "",
+              "text": "Public Garden 14:00-15:00;"
+            },
+            {
+              "time": "",
+              "text": "Newbury Street shops 15:15-16:15"
+            },
+            {
+              "time": "",
+              "text": "Hotel 17:00-20:00 for meal, packing and rest (keep room/day-use)"
+            },
+            {
+              "time": "20:15–21:30",
+              "text": "Drive to BOS, return the rental car and reach the international terminal; target CX811 departure 00:30 on 13 February."
+            }
+          ],
+          "links": [
+            {
+              "label": "BU > Chinatown > Public Garden",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+University&destination=Boston+Public+Garden&travelmode=driving&hl=en&waypoints=Chinatown+Boston"
+            },
+            {
+              "label": "Public Garden > Newbury > BOS",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Public+Garden&destination=Boston+Logan+International+Airport&travelmode=driving&hl=en&waypoints=Newbury+Street+Boston"
+            }
+          ],
+          "restWindow": "10h in flight",
+          "hotel": {
+            "name": "Back Bay hotel · room retained until evening",
+            "city": "Boston",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+Back+Bay+Boston",
+            "status": "Late checkout / day-use to arrange"
+          },
+          "stops": []
+        },
+        "15": {
+          "title": "Boston > Hong Kong",
+          "transport": "CX811 candidate: BOS 00:30 on 13 Feb → HKG 05:00 on 14 Feb; flight about 15h30.",
+          "activities": [
+            {
+              "time": "",
+              "text": "Candidate CX811 departs BOS 00:30 SATURDAY 13 Feb;"
+            },
+            {
+              "time": "",
+              "text": "flight about 15h30"
+            },
+            {
+              "time": "",
+              "text": "Arrive Hong Kong SUNDAY 14 Feb"
+            },
+            {
+              "time": "",
+              "text": "Protect a 10h in-flight rest block after initial meal"
+            }
+          ],
+          "links": [
+            {
+              "label": "BOS terminal location",
+              "url": "https://www.google.com/maps/search/?api=1&query=Boston+Logan+International+Airport"
+            }
+          ],
+          "restWindow": "10h in flight",
+          "hotel": {
+            "name": "Overnight flight",
+            "city": "To Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "stops": []
+        },
+        "16": {
+          "title": "Home in Hong Kong",
+          "transport": "Airport → home by private car / taxi.",
+          "activities": [
+            {
+              "time": "",
+              "text": "Candidate CX811 arrives 05:00 HKT, Sunday 14 Feb"
+            },
+            {
+              "time": "",
+              "text": "Transfer home and leave the day unscheduled for sleep/recovery"
+            }
+          ],
+          "links": [
+            {
+              "label": "Hong Kong arrival",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hong+Kong+International+Airport"
+            }
+          ],
+          "restWindow": "Rest at home",
+          "hotel": {
+            "name": "Home",
+            "city": "Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "stops": []
         }
       }
     },
@@ -2560,32 +3818,27 @@
         },
         {
           "id": "nyu",
-          "day": 7,
+          "day": 10,
           "kind": "self"
         },
         {
           "id": "cornell",
-          "day": 10,
-          "kind": "target"
-        },
-        {
-          "id": "williams",
           "day": 11,
           "kind": "target"
         },
         {
-          "id": "dartmouth",
+          "id": "williams",
           "day": 12,
           "kind": "target"
         },
         {
-          "id": "bu",
+          "id": "dartmouth",
           "day": 13,
           "kind": "target"
         },
         {
-          "id": "wellesley",
-          "day": 13,
+          "id": "bu",
+          "day": 14,
           "kind": "target"
         }
       ],
@@ -2635,6 +3888,17 @@
           "mode": "drive"
         },
         {
+          "key": "Washington",
+          "label": "Washington, DC",
+          "zhLabel": "華盛頓",
+          "coords": [
+            -77.04,
+            38.9
+          ],
+          "days": "D7–8",
+          "mode": "drive"
+        },
+        {
           "key": "NYC",
           "label": "New York City",
           "zhLabel": "紐約",
@@ -2642,8 +3906,8 @@
             -73.99,
             40.75
           ],
-          "days": "D7–10",
-          "mode": "flight"
+          "days": "D8–10",
+          "mode": "drive"
         },
         {
           "key": "Ithaca",
@@ -2653,29 +3917,29 @@
             -76.5,
             42.44
           ],
-          "days": "D10",
-          "mode": "drive"
-        },
-        {
-          "key": "Williamstown",
-          "label": "Williamstown · Williams",
-          "zhLabel": "Williamstown・Williams",
-          "coords": [
-            -73.2,
-            42.71
-          ],
           "days": "D11",
           "mode": "drive"
         },
         {
+          "key": "Williamstown",
+          "label": "Williams · Williamstown",
+          "zhLabel": "Williams・Williamstown",
+          "coords": [
+            -73.2,
+            42.71
+          ],
+          "days": "D12",
+          "mode": "drive"
+        },
+        {
           "key": "Hanover",
-          "label": "Hanover · Dartmouth",
-          "zhLabel": "Hanover・Dartmouth",
+          "label": "Dartmouth · Hanover",
+          "zhLabel": "Dartmouth・Hanover",
           "coords": [
             -72.29,
             43.7
           ],
-          "days": "D12",
+          "days": "D13",
           "mode": "drive"
         },
         {
@@ -2686,30 +3950,19 @@
             -71.06,
             42.36
           ],
-          "days": "D12–14",
+          "days": "D13–14",
           "mode": "drive"
         },
         {
-          "key": "Washington",
-          "label": "Washington, DC",
-          "zhLabel": "華盛頓",
-          "coords": [
-            -77.04,
-            38.9
-          ],
-          "days": "D14",
-          "mode": "flight"
-        },
-        {
-          "key": "NYC",
-          "label": "New York City",
-          "zhLabel": "紐約",
+          "key": "NYC-return",
+          "label": "NYC · NHL / JFK",
+          "zhLabel": "紐約・NHL／JFK",
           "coords": [
             -73.99,
             40.75
           ],
           "days": "D14–15",
-          "mode": "train"
+          "mode": "drive"
         }
       ],
       "sights": [
@@ -2749,52 +4002,10 @@
           "day": 5
         },
         {
-          "id": "nyu",
-          "name": "Greenwich Village / Washington Square Park / NYU",
-          "city": "New York City",
-          "nature": "Neighbourhood streets / Chinese food / shops",
-          "day": 7
-        },
-        {
-          "id": "rockefeller",
-          "name": "Fifth Avenue / Rockefeller Center · FAO / Jellycat / Nintendo",
-          "city": "New York City",
-          "nature": "Famous avenue / city landmark / fun stores",
-          "day": 7
-        },
-        {
-          "id": "liberty",
-          "name": "Statue of Liberty / Liberty Island",
-          "city": "New York City",
-          "nature": "Island ferry / monument / museum",
-          "day": 8
-        },
-        {
-          "id": "memorial911",
-          "name": "Wall Street / Charging Bull / 9/11 Memorial",
-          "city": "New York City",
-          "nature": "Finance district / outdoor memorial",
-          "day": 8
-        },
-        {
-          "id": "brooklynbridge",
-          "name": "Brooklyn Bridge",
-          "city": "New York City",
-          "nature": "Historic bridge / Manhattan skyline walk",
-          "day": 8
-        },
-        {
-          "id": "soho",
-          "name": "Chinatown · Mott Street / Canal Street · SoHo Broadway",
-          "city": "New York City",
-          "nature": "Neighbourhood streets / Chinese food / shops",
-          "day": 8
-        },
-        {
-          "id": "met",
-          "name": "The Met Fifth Avenue · Metropolitan Museum of Art",
-          "city": "New York City",
-          "nature": "Art museum · Saturday evening highlights visit",
+          "id": "smithsonian",
+          "name": "Smithsonian National Air and Space Museum",
+          "city": "Washington DC",
+          "nature": "Aviation / space / planetarium; show booking pending",
           "day": 8
         },
         {
@@ -2812,17 +4023,17 @@
           "day": 9
         },
         {
-          "id": "empire",
-          "name": "Empire State Building · 34th Street",
-          "city": "New York City",
-          "nature": "Architecture / exterior photo stop",
-          "day": 9
-        },
-        {
           "id": "wicked",
           "name": "Wicked · Gershwin Theatre",
           "city": "New York City",
           "nature": "Broadway musical; tickets pending",
+          "day": 9
+        },
+        {
+          "id": "rockefeller",
+          "name": "Fifth Avenue / Rockefeller Center · FAO / Jellycat / Nintendo",
+          "city": "New York City",
+          "nature": "Famous avenue / city landmark / fun stores",
           "day": 9
         },
         {
@@ -2833,18 +4044,60 @@
           "day": 9
         },
         {
-          "id": "nbc",
-          "name": "The Tour at NBC Studios · 30 Rockefeller Plaza",
+          "id": "met",
+          "name": "The Met Fifth Avenue · Metropolitan Museum of Art",
           "city": "New York City",
-          "nature": "Broadcast studio tour · late slot to reserve",
+          "nature": "Art museum · Egyptian art, armor and American art highlights",
           "day": 9
         },
         {
-          "id": "smithsonian",
-          "name": "Smithsonian National Air and Space Museum",
-          "city": "Washington DC",
-          "nature": "Aviation / space / planetarium; show booking pending",
-          "day": 14
+          "id": "nbc",
+          "name": "The Tour at NBC Studios · 30 Rockefeller Plaza",
+          "city": "New York City",
+          "nature": "Broadcast journalism / working-studio guided tour · target reservation",
+          "day": 9
+        },
+        {
+          "id": "empire",
+          "name": "Empire State Building · 34th Street",
+          "city": "New York City",
+          "nature": "Architecture / exterior photo stop",
+          "day": 10
+        },
+        {
+          "id": "liberty",
+          "name": "Statue of Liberty / Liberty Island",
+          "city": "New York City",
+          "nature": "Island ferry / monument / museum",
+          "day": 10
+        },
+        {
+          "id": "memorial911",
+          "name": "Wall Street / Charging Bull / 9/11 Memorial",
+          "city": "New York City",
+          "nature": "Finance district / outdoor memorial",
+          "day": 10
+        },
+        {
+          "id": "brooklynbridge",
+          "name": "Brooklyn Bridge",
+          "city": "New York City",
+          "nature": "Historic bridge / Manhattan skyline walk",
+          "day": 10
+        },
+        {
+          "id": "nyu",
+          "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
+          "city": "New York City",
+          "nature": "Neighbourhood streets / Chinese food / shops",
+          "day": 10
+        },
+        {
+          "id": "publicgarden",
+          "name": "Public Garden / Newbury Street",
+          "city": "Boston",
+          "nature": "Garden / city stroll / shops",
+          "day": 13
         },
         {
           "id": "msg",
@@ -2856,13 +4109,8 @@
       ],
       "patches": {
         "5": {
+          "title": "Evanston > Notre Dame",
           "transport": "07:00 CT departure → Michigan City 09:00–09:30 CT → Notre Dame about 11:30–12:00 ET. Allow 3–3.5h driving + 30min break + 1h clock change.",
-          "stops": [
-            {
-              "area": "mc",
-              "time": "09:00–09:30 CT"
-            }
-          ],
           "activities": [
             {
               "time": "07:00 CT",
@@ -2884,16 +4132,30 @@
               "time": "15:30",
               "text": "Visit Basilica / Grotto; check in around 17:00, then dinner."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive to Notre Dame",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=University+of+Notre+Dame&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Morris Inn",
+            "city": "Notre Dame",
+            "url": "https://morrisinn.nd.edu/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "mc",
+              "time": "09:00–09:30 CT"
+            }
           ]
         },
         "6": {
+          "title": "Notre Dame > Ann Arbor",
           "transport": "07:30 departure → Kalamazoo 09:15–09:45 → Ann Arbor about 11:30. Allow 3–3.5h driving + 30min break (4h total).",
-          "stops": [
-            {
-              "area": "kz",
-              "time": "09:15–09:45"
-            }
-          ],
           "activities": [
             {
               "time": "07:30",
@@ -2915,73 +4177,30 @@
               "time": "16:00–18:00",
               "text": "Meet friend / family for dinner."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive to Michigan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=University+of+Michigan+Ann+Arbor&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Graduate Ann Arbor",
+            "city": "Ann Arbor",
+            "url": "https://graduateannarbor.com/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "kz",
+              "time": "09:15–09:45"
+            }
           ]
         },
         "10": {
-          "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
-          "stops": [
-            {
-              "area": "sc",
-              "time": "10:00–10:30"
-            }
-          ],
-          "activities": [
-            {
-              "time": "07:00–07:30",
-              "text": "Collect rental car and leave NYC."
-            },
-            {
-              "time": "10:00–10:30",
-              "text": "Scranton Downtown: warm snack and Courthouse Square walk."
-            },
-            {
-              "time": "13:00–13:30",
-              "text": "Arrive Cornell; quick lunch, park and check in."
-            },
-            {
-              "time": "14:00–16:00",
-              "text": "Target Cornell registered tour and admissions information session."
-            },
-            {
-              "time": "17:00",
-              "text": "Cottage check-in; dinner around 18:00."
-            }
-          ]
-        },
-        "11": {
-          "transport": "07:30 Ithaca departure → Oneonta 09:30–10:00 → Williamstown about 12:30–13:00. Allow 4.5–5h driving + 30min break.",
-          "stops": [
-            {
-              "area": "on",
-              "time": "09:30–10:00"
-            }
-          ],
-          "activities": [
-            {
-              "time": "07:30",
-              "text": "Leave Ithaca."
-            },
-            {
-              "time": "09:30–10:00",
-              "text": "Oneonta Main Street: café / bakery stop and short walk."
-            },
-            {
-              "time": "12:30–13:00",
-              "text": "Arrive Williamstown, quick lunch and campus check-in."
-            },
-            {
-              "time": "13:30–15:30",
-              "text": "Target Williams student tour and admissions session."
-            },
-            {
-              "time": "16:00",
-              "text": "Town / inn check-in and early dinner."
-            }
-          ]
-        },
-        "8": {
-          "transport": "Hotel → Battery Park 35–50min. Ferry / Liberty Island security-and-visit block 10:00–13:30. City walking/subway legs 10–40min. Brooklyn Bridge Manhattan entrance → The Met by taxi 35–60min; Met → Midtown hotel 25–40min.",
-          "stops": [],
+          "title": "NYC full day 2: city life",
+          "transport": "Hotel → Battery Park by taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/taxi legs 10–40min. Ferry schedule and winter service must be confirmed.",
           "activities": [
             {
               "time": "09:00–09:45",
@@ -3012,16 +4231,16 @@
               "text": "Brooklyn Bridge: short walk from the Manhattan entrance and skyline photographs; return to the Manhattan side."
             },
             {
-              "time": "17:00–18:00",
-              "text": "Taxi from the Brooklyn Bridge Manhattan entrance to The Met Fifth Avenue; allow 35–60min."
+              "time": "17:45–18:30",
+              "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
             },
             {
-              "time": "18:00–20:00",
-              "text": "The Met Fifth Avenue: Egyptian art / Temple of Dendur, Arms and Armor and American Wing highlights. Saturday closing is currently 21:00; reconfirm winter hours."
+              "time": "18:30–19:15",
+              "text": "Dinner in Greenwich Village."
             },
             {
-              "time": "20:00–21:15",
-              "text": "Warm dinner on the Upper East Side, then taxi/subway to the hotel."
+              "time": "19:15–20:15",
+              "text": "Taxi/taxi back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
             }
           ],
           "links": [
@@ -3035,7 +4254,7 @@
             },
             {
               "label": "9/11 Memorial New York → Chinatown Manhattan",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=driving"
             },
             {
               "label": "Mott Street New York → Canal Street New York → SoHo New York → Broadway Spring Street New York",
@@ -3046,139 +4265,253 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=SoHo+New+York&destination=Brooklyn+Bridge+Manhattan+Entrance&travelmode=walking"
             },
             {
-              "label": "Brooklyn Bridge Manhattan Entrance → The Metropolitan Museum of Art 1000 Fifth Avenue New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&travelmode=driving"
+              "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=driving"
             },
             {
-              "label": "The Met official hours / tickets",
-              "url": "https://www.metmuseum.org/plan-your-visit"
+              "label": "Washington Square Park New York → Empire State Building New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=driving"
             }
           ],
-          "restWindow": "21:30–07:30"
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
-        "9": {
-          "transport": "AMNH → Midtown by taxi/subway 20–30min; theatre → NBC Studios on foot 10–15min. Target NBC 17:15–18:45, subject to a released tour slot. Shops move to Friday arrival afternoon.",
-          "stops": [],
+        "11": {
+          "title": "NYC > Cornell",
+          "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
           "activities": [
             {
-              "time": "09:00–09:30",
-              "text": "Central Park: short walk by the west-side entrances before the museum."
+              "time": "07:00–07:30",
+              "text": "Retrieve the hotel-parked car and leave New York for Cornell."
             },
             {
-              "time": "10:00–11:30",
-              "text": "AMNH / Hayden Planetarium space show and selected exhibits, ticket permitting."
-            },
-            {
-              "time": "11:30–13:00",
-              "text": "Subway/taxi to Midtown; photograph the Empire State Building exterior on 34th Street and have lunch."
+              "time": "10:00–10:30",
+              "text": "Scranton Downtown: warm snack and Courthouse Square walk."
             },
             {
               "time": "13:00–13:30",
-              "text": "Transfer to Gershwin Theatre and check in."
+              "text": "Arrive Cornell; quick lunch, park and check in."
             },
             {
-              "time": "14:00–16:45",
-              "text": "Target Wicked matinee; performance time and tickets to confirm."
+              "time": "14:00–16:00",
+              "text": "Target Cornell registered tour and admissions information session."
             },
             {
-              "time": "16:45–17:00",
-              "text": "Walk from Gershwin Theatre to The Shop at NBC Studios; check in 15 minutes before the target tour."
-            },
-            {
-              "time": "17:15–18:45",
-              "text": "The Tour at NBC Studios: target 90-minute guided tour. This late slot depends on production and ticket release about one month ahead; reserve before fixing the day."
-            },
-            {
-              "time": "18:45–19:30",
-              "text": "Warm dinner near Rockefeller Center / Times Square."
-            },
-            {
-              "time": "19:30–20:15",
-              "text": "Times Square / Broadway lights and return to the hotel; rest 20:30–06:30."
+              "time": "17:00",
+              "text": "Cottage check-in; dinner around 18:00."
             }
           ],
           "links": [
             {
-              "label": "Central Park West 79th Street New York → American Museum of Natural History New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Central+Park+West+79th+Street+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+              "label": "Drive NYC > Cornell",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Cornell+University+Ithaca&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "New Park cottage / suite",
+            "city": "Ithaca",
+            "url": "https://www.newparkeventvenue.com/",
+            "status": "Suggested; winter availability to confirm"
+          },
+          "stops": [
+            {
+              "area": "sc",
+              "time": "10:00–10:30"
+            }
+          ]
+        },
+        "8": {
+          "title": "Smithsonian → New York by car",
+          "transport": "Washington → NYC: Google Maps about 3h40 in current traffic; allow 5–6h with the Delaware stop, winter / I-95 traffic and Manhattan hotel parking. Keep the car for the college road trip; city visits use walking / taxis while it is parked.",
+          "activities": [
+            {
+              "time": "09:15–09:45",
+              "text": "Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time."
             },
             {
-              "label": "American Museum of Natural History New York → Empire State Building New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+              "time": "10:00–12:30",
+              "text": "Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm."
             },
             {
-              "label": "Empire State Building New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Empire+State+Building+New+York&destination=Gershwin+Theatre+New+York&travelmode=transit"
+              "time": "12:30–13:30",
+              "text": "Warm lunch; collect bags and retrieve the parked rental car for New York."
             },
             {
-              "label": "Gershwin Theatre New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Gershwin+Theatre+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=walking"
+              "time": "13:30",
+              "text": "Drive toward New York on I-95 / the New Jersey Turnpike."
+            },
+            {
+              "time": "15:30–16:00",
+              "text": "Wilmington / Newark, Delaware: warm food / drink, toilets and stretch."
+            },
+            {
+              "time": "18:30–19:30",
+              "text": "Manhattan hotel with parking; check in and dinner nearby."
+            },
+            {
+              "time": "21:30–07:30",
+              "text": "Protected ten-hour hotel rest before the first full New York day."
+            }
+          ],
+          "links": [
+            {
+              "label": "Smithsonian National Air and Space Museum → I-95 services Newark Delaware → Midtown West New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Midtown+West+New+York&travelmode=driving&waypoints=I-95+services+Newark+Delaware"
+            }
+          ],
+          "restWindow": "21:30–07:30",
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "wilmington",
+              "time": "15:30–16:00"
+            }
+          ]
+        },
+        "9": {
+          "title": "NYC: The Met, space, NBC Studios + Wicked",
+          "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
+          "activities": [
+            {
+              "time": "09:15–09:50",
+              "text": "Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue."
+            },
+            {
+              "time": "10:00–12:00",
+              "text": "The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access."
+            },
+            {
+              "time": "12:00–12:40",
+              "text": "Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather."
+            },
+            {
+              "time": "12:40–13:20",
+              "text": "Warm lunch near AMNH."
+            },
+            {
+              "time": "13:30–14:45",
+              "text": "AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective."
+            },
+            {
+              "time": "14:45–15:15",
+              "text": "Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
+            },
+            {
+              "time": "15:30–17:00",
+              "text": "The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed."
+            },
+            {
+              "time": "17:00–17:45",
+              "text": "Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY."
+            },
+            {
+              "time": "17:45–18:30",
+              "text": "Walk toward Times Square and have an early warm dinner near the theatre."
+            },
+            {
+              "time": "18:30–18:45",
+              "text": "Walk to Gershwin Theatre and check in."
+            },
+            {
+              "time": "19:00–21:45",
+              "text": "Target Wicked evening performance; confirm tickets and exact running time."
+            },
+            {
+              "time": "21:45–22:00",
+              "text": "Broadway / Times Square lights on the short walk back to a nearby hotel; protected rest 22:30–08:30."
+            }
+          ],
+          "links": [
+            {
+              "label": "The Met official hours / tickets",
+              "url": "https://www.metmuseum.org/plan-your-visit"
+            },
+            {
+              "label": "The Metropolitan Museum of Art 1000 Fifth Avenue New York → American Museum of Natural History New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+            },
+            {
+              "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=driving"
             },
             {
               "label": "NBC Studios tour · official tickets",
               "url": "https://www.thetouratnbcstudios.com/book"
             },
             {
-              "label": "The Tour at NBC Studios 30 Rockefeller Plaza New York → Times Square New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&destination=Times+Square+New+York&travelmode=walking"
+              "label": "The Tour at NBC Studios 30 Rockefeller Plaza New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York%7CTimes+Square+New+York"
             }
           ],
-          "title": "NYC: space, Wicked matinee + NBC Studios"
+          "restWindow": "22:30–08:30",
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
         "7": {
-          "transport": "Ann Arbor → DTW 45–60min; target flight 12:00–14:00 to NYC; airport → Midtown 60–90min. Midtown → NYU / Chinatown by subway/taxi 25–40min.",
+          "title": "Ann Arbor → Washington by car",
+          "transport": "Drive Ann Arbor → Washington: Google Maps about 8h05 before breaks. Allow 9.5–10h including two 30min meal / stretch stops and traffic buffer. Keep the Chicago rental car; no domestic flight on this leg.",
           "activities": [
             {
-              "time": "08:30",
-              "text": "Drive to DTW, return the rental car and check in."
+              "time": "08:00",
+              "text": "Leave Ann Arbor by car for Washington."
             },
             {
-              "time": "12:00–14:00",
-              "text": "Target flight to NYC; allow 60–90min to the Midtown hotel after bags."
+              "time": "10:30–11:00",
+              "text": "Elyria / Amherst, Ohio: Turnpike-area warm food, restroom and stretch."
             },
             {
-              "time": "16:00",
-              "text": "Hotel check-in; leave bags before heading to Rockefeller Center."
+              "time": "14:00–14:30",
+              "text": "Somerset, Pennsylvania: warm meal and restroom break near the Turnpike."
             },
             {
-              "time": "16:30–17:15",
-              "text": "Rockefeller Center / Fifth Avenue: choose FAO Schwarz / Jellycat and Nintendo NY favourites."
-            },
-            {
-              "time": "17:15–17:45",
-              "text": "Subway/taxi to Greenwich Village / NYU."
-            },
-            {
-              "time": "17:45–18:15",
-              "text": "Washington Square Park / NYU campus-area outdoor walk."
-            },
-            {
-              "time": "18:30–19:15",
-              "text": "Chinatown Chinese New Year Eve dinner; hotel by about 20:00."
+              "time": "18:00",
+              "text": "Washington hotel with parking; dinner / settle in and protect ten hours of rest."
             }
           ],
-          "stops": [],
           "links": [
             {
-              "label": "University of Michigan Ann Arbor → Detroit Metropolitan Airport",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Detroit+Metropolitan+Airport&travelmode=driving"
+              "label": "University of Michigan Ann Arbor → I-80 services Elyria Amherst Ohio → Somerset Pennsylvania Turnpike services → Washington DC",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Washington+DC&travelmode=driving&waypoints=I-80+services+Elyria+Amherst+Ohio%7CSomerset+Pennsylvania+Turnpike+services"
+            }
+          ],
+          "restWindow": "21:00–07:00",
+          "hotel": {
+            "name": "Washington, DC hotel with parking",
+            "city": "Washington, DC",
+            "url": "https://www.google.com/maps/search/?api=1&query=Washington%2C+DC+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "elyria",
+              "time": "10:30–11:00"
             },
             {
-              "label": "Washington Square Park New York → Chinatown Manhattan",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Chinatown+Manhattan&travelmode=walking"
-            },
-            {
-              "label": "Rockefeller Center New York → FAO Schwarz Rockefeller Center → Nintendo New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Nintendo+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center"
-            },
-            {
-              "label": "Rockefeller Center New York → Washington Square Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Washington+Square+Park+New+York&travelmode=transit"
+              "area": "somerset",
+              "time": "14:00–14:30"
             }
           ]
         },
         "2": {
           "title": "LA: SpaceX, UCLA + Santa Monica sunset",
+          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking, arriving about 13:45 → LAX hotel 45–75min after sunset and dinner. Walk Pier → Third Street Promenade → beach / Pier; leave Santa Monica about 18:40.",
           "activities": [
             {
               "time": "09:00–10:15",
@@ -3237,8 +4570,6 @@
               "text": "Drive to the LAX hotel; allow 45–75min. Check in before the protected 20:30–06:30 rest period."
             }
           ],
-          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking, arriving about 13:45 → LAX hotel 45–75min after sunset and dinner. Walk Pier → Third Street Promenade → beach / Pier; leave Santa Monica about 18:40.",
-          "restWindow": "20:30–06:30",
           "links": [
             {
               "label": "LA driving stops in order",
@@ -3248,51 +4579,43 @@
               "label": "Santa Monica walk: Pier, shops, beach, sunset",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Santa+Monica+Pier&waypoints=Third+Street+Promenade+Santa+Monica%7CSanta+Monica+State+Beach&travelmode=walking"
             }
-          ]
-        },
-        "14": {
-          "title": "Smithsonian → NYC · Rangers–Islanders",
+          ],
+          "restWindow": "20:30–06:30",
           "hotel": {
-            "name": "Midtown / Penn Station hotel",
-            "city": "New York",
-            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Penn+Station+New+York",
+            "name": "LAX airport hotel",
+            "city": "Los Angeles",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+LAX",
             "status": "Hotel to select"
           },
-          "restWindow": "23:00–09:00",
-          "stops": [],
-          "transport": "Hotel → BOS 30–45min; target BOS 08:30 → DCA 10:15. DCA → Smithsonian 30–45min; museum → Union Station 20–30min. Target train 14:00–17:30 to NY Penn; reserve a compatible planetarium slot and train before flights.",
+          "stops": []
+        },
+        "14": {
+          "title": "Boston University → NYC by car · Rangers–Islanders",
+          "transport": "Boston → Manhattan: Google Maps about 3h30–4h before stops in current traffic. Allow 5–6h including a New Haven / Milford lunch break, Friday traffic and a reserved Manhattan rental-car return. Leave BU about 11:15; hotel / car return target 17:30–18:15, MSG entry 18:15–18:30.",
           "activities": [
             {
-              "time": "06:00–06:45",
-              "text": "Taxi to BOS; airport check-in."
+              "time": "08:15–08:45",
+              "text": "Check out, load bags in the car and drive / taxi to Boston University."
             },
             {
-              "time": "08:30–10:15",
-              "text": "Target BOS → DCA flight."
+              "time": "09:00–11:00",
+              "text": "Target Boston University guided campus tour / admissions session; reserve the morning slot."
             },
             {
-              "time": "10:15–11:30",
-              "text": "Bags / transfer to Smithsonian Air and Space."
+              "time": "11:15",
+              "text": "Collect the car and drive Boston → New York."
             },
             {
-              "time": "11:30–13:00",
-              "text": "Smithsonian Air and Space: reserve a paid planetarium show within this window, plus selected exhibits. Keep this visit focused to catch the train."
+              "time": "13:30–14:00",
+              "text": "New Haven / Milford area: warm lunch, toilets and stretch."
             },
             {
-              "time": "13:00–13:40",
-              "text": "Takeaway lunch, collect stored bags and taxi to Union Station."
-            },
-            {
-              "time": "14:00–17:30",
-              "text": "Target Washington → NY Penn train, about 3h30."
-            },
-            {
-              "time": "17:30–18:15",
-              "text": "Nearby hotel check-in and bag drop; quick dinner before / inside MSG."
+              "time": "16:30–18:15",
+              "text": "Arrive Manhattan with Friday traffic buffer; return the one-way rental at a pre-booked city branch open into the evening, check in near Penn Station / MSG and leave bags."
             },
             {
               "time": "18:15–19:00",
-              "text": "Madison Square Garden entry / security; arena food and warm-up atmosphere. Tickets to reserve."
+              "text": "Walk / taxi to MSG for entry, security and dinner; no large bags."
             },
             {
               "time": "19:00–22:15",
@@ -3305,38 +4628,31 @@
           ],
           "links": [
             {
-              "label": "Ronald Reagan Washington National Airport → Smithsonian National Air and Space Museum",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Ronald+Reagan+Washington+National+Airport&destination=Smithsonian+National+Air+and+Space+Museum&travelmode=transit"
-            },
-            {
-              "label": "Smithsonian National Air and Space Museum → Washington Union Station",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Washington+Union+Station&travelmode=driving"
-            },
-            {
-              "label": "Washington Union Station → New York Penn Station",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Union+Station&destination=New+York+Penn+Station&travelmode=transit"
-            },
-            {
-              "label": "New York Penn Station → Madison Square Garden New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=Madison+Square+Garden+New+York&travelmode=walking"
+              "label": "Boston University → Milford Connecticut I-95 services → Madison Square Garden New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+University&destination=Madison+Square+Garden+New+York&travelmode=driving&waypoints=Milford+Connecticut+I-95+services"
             },
             {
               "label": "Rangers · official schedule / tickets",
               "url": "https://www.nhl.com/rangers/schedule"
             }
+          ],
+          "restWindow": "23:00–09:00",
+          "hotel": {
+            "name": "Midtown / Penn Station hotel",
+            "city": "New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Penn+Station+New+York",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "newhaven",
+              "time": "13:30–14:00"
+            }
           ]
         },
         "15": {
           "title": "New York → Hong Kong",
-          "restWindow": "10h in flight",
-          "stops": [],
           "transport": "Hotel → JFK allow 60–90min; leave 09:30. Candidate CX831 JFK 13:40 on 13 Feb → HKG 18:55 on 14 Feb, about 16h15. Confirm flight / check-in time; protect ten hours in flight.",
-          "hotel": {
-            "name": "Overnight flight",
-            "city": "To Hong Kong",
-            "url": "",
-            "status": ""
-          },
           "activities": [
             {
               "time": "09:00",
@@ -3356,7 +4672,288 @@
               "label": "New York Penn Station → John F Kennedy International Airport",
               "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=John+F+Kennedy+International+Airport&travelmode=driving"
             }
+          ],
+          "restWindow": "10h in flight",
+          "hotel": {
+            "name": "Overnight flight",
+            "city": "To Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "stops": []
+        },
+        "16": {
+          "title": "Home in Hong Kong",
+          "transport": "Airport → home by private car / taxi.",
+          "activities": [
+            {
+              "time": "18:55 HKT",
+              "text": "Candidate CX831 arrives Hong Kong on Sunday 14 February at 18:55 HKT; transfer home and recover after the flight."
+            }
+          ],
+          "links": [
+            {
+              "label": "Hong Kong arrival",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hong+Kong+International+Airport"
+            }
+          ],
+          "restWindow": "Rest at home",
+          "hotel": {
+            "name": "Home",
+            "city": "Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "stops": []
+        },
+        "12": {
+          "title": "Cornell > Williams",
+          "transport": "07:30 Ithaca departure → Oneonta 09:30–10:00 → Williamstown about 12:30–13:00. Allow 4.5–5h driving + 30min break.",
+          "activities": [
+            {
+              "time": "07:30",
+              "text": "Leave Ithaca."
+            },
+            {
+              "time": "09:30–10:00",
+              "text": "Oneonta Main Street: café / bakery stop and short walk."
+            },
+            {
+              "time": "12:30–13:00",
+              "text": "Arrive Williamstown, quick lunch and campus check-in."
+            },
+            {
+              "time": "13:30–15:30",
+              "text": "Target Williams student tour and admissions session."
+            },
+            {
+              "time": "16:00",
+              "text": "Town / inn check-in and early dinner."
+            }
+          ],
+          "links": [
+            {
+              "label": "Drive Cornell > Williams",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Cornell+University+Ithaca&destination=Williams+College+Williamstown&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "The Williams Inn",
+            "city": "Williamstown",
+            "url": "https://williamsinn.com/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "on",
+              "time": "09:30–10:00"
+            }
           ]
+        },
+        "13": {
+          "title": "Williams → Dartmouth → Boston",
+          "transport": "Williams → Dartmouth allow 2h45–3h; Dartmouth → Boston 2h45–3h. Target the 10:30 campus tour to reach Boston for late-afternoon sightseeing. Keep the car overnight.",
+          "activities": [
+            {
+              "time": "07:15–10:15",
+              "text": "Drive Williamstown → Hanover; breakfast before departure."
+            },
+            {
+              "time": "10:30–12:30",
+              "text": "Target Dartmouth guided tour / admissions information; morning slot must be reserved."
+            },
+            {
+              "time": "12:30–13:00",
+              "text": "Alumni chat / light lunch if arranged."
+            },
+            {
+              "time": "13:00–16:00",
+              "text": "Drive to Boston and check in at a hotel with parking."
+            },
+            {
+              "time": "16:00–19:00",
+              "text": "Public Garden / Newbury Street highlights and warm Chinatown dinner."
+            }
+          ],
+          "links": [
+            {
+              "label": "Williams College Williamstown → Dartmouth College Hanover → Boston Back Bay",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Williams+College+Williamstown&destination=Boston+Back+Bay&travelmode=driving&waypoints=Dartmouth+College+Hanover"
+            }
+          ],
+          "restWindow": "21:00–07:00",
+          "hotel": {
+            "name": "Boston Back Bay hotel with parking",
+            "city": "Boston Back Bay",
+            "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "0": {
+          "title": "Hong Kong > Los Angeles",
+          "transport": "UA821 candidate: HKG 22:45 → LAX 19:30 same date; flight 12h45. Immigration/bags 1.5–2h; car to Anaheim 75–100min.",
+          "activities": [
+            {
+              "time": "",
+              "text": "Evening HKG departure"
+            },
+            {
+              "time": "",
+              "text": "Candidate UA821 22:45 HKG > 19:30 LAX, same date (12h45)"
+            },
+            {
+              "time": "",
+              "text": "Immigration/bags 1.5-2h;"
+            },
+            {
+              "time": "",
+              "text": "car to Anaheim 75-100min"
+            },
+            {
+              "time": "",
+              "text": "Hotel about 23:00"
+            }
+          ],
+          "links": [
+            {
+              "label": "LAX > Anaheim",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Los+Angeles+International+Airport&destination=Disneyland+Park+Anaheim&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "23:30-09:30",
+          "hotel": {
+            "name": "Walkable Disneyland-area hotel",
+            "city": "Anaheim",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Disneyland+Park+Anaheim",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "1": {
+          "title": "Disneyland day",
+          "transport": "Walk 10–15min each way from the hotel.",
+          "activities": [
+            {
+              "time": "09:30",
+              "text": "breakfast"
+            },
+            {
+              "time": "",
+              "text": "Walk 10-15min to Disneyland Park;"
+            },
+            {
+              "time": "10:30-20:30",
+              "text": "full park day"
+            },
+            {
+              "time": "",
+              "text": "Reserve ticket AND park entry"
+            },
+            {
+              "time": "",
+              "text": "Dinner in park;"
+            },
+            {
+              "time": "",
+              "text": "return on foot"
+            },
+            {
+              "time": "",
+              "text": "Hours/show schedule pending"
+            }
+          ],
+          "links": [
+            {
+              "label": "Disney entrance",
+              "url": "https://www.google.com/maps/search/?api=1&query=Disneyland+Park+Anaheim"
+            }
+          ],
+          "restWindow": "22:00-08:00",
+          "hotel": {
+            "name": "Walkable Disneyland-area hotel",
+            "city": "Anaheim",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Disneyland+Park+Anaheim",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "3": {
+          "title": "LA > Chicago",
+          "transport": "Flight LAX → ORD about 4h + 2h time change; ORD → Evanston by car 60–90min.",
+          "activities": [
+            {
+              "time": "07:15–08:00",
+              "text": "Drive to LAX, return the California rental car and reach the terminal."
+            },
+            {
+              "time": "10:00 PT → 16:00 CT",
+              "text": "Target LAX → ORD flight, about 4h plus 2h clock change; the road alternative exceeds ten hours."
+            },
+            {
+              "time": "16:00–18:30 CT",
+              "text": "Bags, collect the Chicago one-way rental car and drive to Evanston, allowing 60–90min on the road."
+            },
+            {
+              "time": "18:30–20:00",
+              "text": "Hotel check-in and warm dinner; rest 21:00–07:00."
+            }
+          ],
+          "links": [
+            {
+              "label": "Departure: LAX",
+              "url": "https://www.google.com/maps/search/?api=1&query=Los+Angeles+International+Airport"
+            },
+            {
+              "label": "Arrival: ORD > Evanston",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Chicago+O+Hare+International+Airport&destination=Northwestern+University+Evanston&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Graduate Evanston",
+            "city": "Evanston",
+            "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
+            "status": "Suggested"
+          },
+          "stops": []
+        },
+        "4": {
+          "title": "Northwestern + Chicago",
+          "transport": "Evanston ↔ central Chicago by car: allow 45–60min each way.",
+          "activities": [
+            {
+              "time": "09:30-11:30",
+              "text": "Northwestern tour/info;"
+            },
+            {
+              "time": "12:00-13:00",
+              "text": "alumni chat if arranged"
+            },
+            {
+              "time": "14:30-16:00",
+              "text": "Chicago Millennium Park/shops (45-60min each way) OR easy Evanston lakefront walk"
+            },
+            {
+              "time": "",
+              "text": "Dinner 18:00"
+            }
+          ],
+          "links": [
+            {
+              "label": "NU > Millennium Park",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Millennium+Park+Chicago&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "Graduate Evanston",
+            "city": "Evanston",
+            "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
+            "status": "Suggested"
+          },
+          "stops": []
         }
       }
     },
@@ -3489,7 +5086,7 @@
             38.9
           ],
           "days": "D7–8",
-          "mode": "flight"
+          "mode": "drive"
         },
         {
           "key": "NYC",
@@ -3500,7 +5097,7 @@
             40.75
           ],
           "days": "D8–10",
-          "mode": "train"
+          "mode": "drive"
         },
         {
           "key": "Ithaca",
@@ -3555,7 +5152,7 @@
             40.75
           ],
           "days": "D14–15",
-          "mode": "train"
+          "mode": "drive"
         }
       ],
       "sights": [
@@ -3702,13 +5299,8 @@
       ],
       "patches": {
         "5": {
+          "title": "Northwestern > Notre Dame",
           "transport": "14:00 CT departure → Michigan City 16:00–16:30 CT → Notre Dame about 18:30–19:00 ET. Allow 3–3.5h driving + 30min break + 1h clock change.",
-          "stops": [
-            {
-              "area": "mc",
-              "time": "16:00–16:30 CT"
-            }
-          ],
           "activities": [
             {
               "time": "10:00–12:00",
@@ -3730,16 +5322,30 @@
               "time": "18:30–19:00 ET",
               "text": "Arrive Notre Dame; hotel and dinner."
             }
+          ],
+          "links": [
+            {
+              "label": "Northwestern > Notre Dame",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=University+of+Notre+Dame&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Morris Inn",
+            "city": "Notre Dame",
+            "url": "https://morrisinn.nd.edu/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "mc",
+              "time": "16:00–16:30 CT"
+            }
           ]
         },
         "6": {
+          "title": "Notre Dame > Ann Arbor",
           "transport": "13:00 departure → Kalamazoo 14:45–15:15 → Ann Arbor about 17:00. Allow 3–3.5h driving + 30min break (4h total).",
-          "stops": [
-            {
-              "area": "kz",
-              "time": "14:45–15:15"
-            }
-          ],
           "activities": [
             {
               "time": "09:30–11:30",
@@ -3757,20 +5363,34 @@
               "time": "17:00–18:30",
               "text": "Arrive Ann Arbor; friend / family dinner."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive to Michigan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=University+of+Michigan+Ann+Arbor&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "Graduate Ann Arbor",
+            "city": "Ann Arbor",
+            "url": "https://graduateannarbor.com/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "kz",
+              "time": "14:45–15:15"
+            }
           ]
         },
         "11": {
+          "title": "NYC > Cornell",
           "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
-          "stops": [
-            {
-              "area": "sc",
-              "time": "10:00–10:30"
-            }
-          ],
           "activities": [
             {
               "time": "07:00–07:30",
-              "text": "Collect rental car and leave NYC."
+              "text": "Retrieve the hotel-parked car and leave New York for Cornell."
             },
             {
               "time": "10:00–10:30",
@@ -3788,20 +5408,30 @@
               "time": "17:00",
               "text": "Cottage check-in; dinner around 18:00."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive NYC > Cornell",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Cornell+University+Ithaca&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "New Park cottage / suite",
+            "city": "Ithaca",
+            "url": "https://www.newparkeventvenue.com/",
+            "status": "Suggested; winter availability to confirm"
+          },
+          "stops": [
+            {
+              "area": "sc",
+              "time": "10:00–10:30"
+            }
           ]
         },
         "12": {
+          "title": "Cornell > Dartmouth",
           "transport": "06:45 Ithaca departure → Oneonta 08:45–09:15 → Brattleboro 11:45–12:15 → Hanover about 13:45. Allow about 6h driving + 1h breaks (7h total; winter traffic may add time).",
-          "stops": [
-            {
-              "area": "on",
-              "time": "08:45–09:15"
-            },
-            {
-              "area": "br",
-              "time": "11:45–12:15"
-            }
-          ],
           "activities": [
             {
               "time": "06:45",
@@ -3827,11 +5457,34 @@
               "time": "16:30",
               "text": "Alumni chat if arranged; dinner and hotel."
             }
+          ],
+          "links": [
+            {
+              "label": "Drive Cornell > Dartmouth",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Cornell+University+Ithaca&destination=Dartmouth+College+Hanover&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "21:00-07:00",
+          "hotel": {
+            "name": "Hanover Inn",
+            "city": "Hanover",
+            "url": "https://www.hanoverinn.com/",
+            "status": "Suggested"
+          },
+          "stops": [
+            {
+              "area": "on",
+              "time": "08:45–09:15"
+            },
+            {
+              "area": "br",
+              "time": "11:45–12:15"
+            }
           ]
         },
         "10": {
-          "transport": "Hotel → Battery Park by subway/taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/subway legs 10–40min. Ferry schedule and winter service must be confirmed.",
-          "stops": [],
+          "title": "NYC full day 2: city life",
+          "transport": "Hotel → Battery Park by taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/taxi legs 10–40min. Ferry schedule and winter service must be confirmed.",
           "activities": [
             {
               "time": "09:00–09:45",
@@ -3871,7 +5524,7 @@
             },
             {
               "time": "19:15–20:15",
-              "text": "Taxi/subway back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
+              "text": "Taxi/taxi back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
             }
           ],
           "links": [
@@ -3885,7 +5538,7 @@
             },
             {
               "label": "9/11 Memorial New York → Chinatown Manhattan",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=9%2F11+Memorial+New+York&destination=Chinatown+Manhattan&travelmode=driving"
             },
             {
               "label": "Mott Street New York → Canal Street New York → SoHo New York → Broadway Spring Street New York",
@@ -3897,21 +5550,29 @@
             },
             {
               "label": "Brooklyn Bridge Manhattan Entrance → Washington Square Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Brooklyn+Bridge+Manhattan+Entrance&destination=Washington+Square+Park+New+York&travelmode=driving"
             },
             {
               "label": "Washington Square Park New York → Empire State Building New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=driving"
             }
-          ]
+          ],
+          "restWindow": "20:30-06:30",
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
         "9": {
+          "title": "NYC: The Met, space, NBC Studios + Wicked",
           "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
-          "stops": [],
           "activities": [
             {
               "time": "09:15–09:50",
-              "text": "Hotel → The Met Fifth Avenue by taxi/subway; allow 30–40min and entry queue."
+              "text": "Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue."
             },
             {
               "time": "10:00–12:00",
@@ -3931,7 +5592,7 @@
             },
             {
               "time": "14:45–15:15",
-              "text": "Taxi/subway to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
+              "text": "Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
             },
             {
               "time": "15:30–17:00",
@@ -3969,7 +5630,7 @@
             },
             {
               "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=transit"
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=driving"
             },
             {
               "label": "NBC Studios tour · official tickets",
@@ -3981,10 +5642,17 @@
             }
           ],
           "restWindow": "22:30–08:30",
-          "title": "NYC: The Met, space, NBC Studios + Wicked"
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
         "2": {
           "title": "LA: SpaceX, UCLA + Santa Monica sunset",
+          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking, arriving about 13:45 → LAX hotel 45–75min after sunset and dinner. Walk Pier → Third Street Promenade → beach / Pier; leave Santa Monica about 18:40.",
           "activities": [
             {
               "time": "09:00–10:15",
@@ -4043,8 +5711,6 @@
               "text": "Drive to the LAX hotel; allow 45–75min. Check in before the protected 20:30–06:30 rest period."
             }
           ],
-          "transport": "Car: Anaheim → SpaceX 60–75min → UCLA 45–60min → Santa Monica 30–45min plus parking, arriving about 13:45 → LAX hotel 45–75min after sunset and dinner. Walk Pier → Third Street Promenade → beach / Pier; leave Santa Monica about 18:40.",
-          "restWindow": "20:30–06:30",
           "links": [
             {
               "label": "LA driving stops in order",
@@ -4054,25 +5720,18 @@
               "label": "Santa Monica walk: Pier, shops, beach, sunset",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Santa+Monica+Pier&waypoints=Third+Street+Promenade+Santa+Monica%7CSanta+Monica+State+Beach&travelmode=walking"
             }
-          ]
+          ],
+          "restWindow": "20:30–06:30",
+          "hotel": {
+            "name": "LAX airport hotel",
+            "city": "Los Angeles",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+LAX",
+            "status": "Hotel to select"
+          },
+          "stops": []
         },
         "3": {
           "title": "LA → Apple Park Visitor Center → Davis",
-          "restWindow": "21:00–07:00",
-          "stops": [
-            {
-              "area": "buttonwillow",
-              "time": "09:45–10:15"
-            },
-            {
-              "area": "losbanos",
-              "time": "12:15–12:45"
-            },
-            {
-              "area": "walnutcreek",
-              "time": "17:15–17:30"
-            }
-          ],
           "transport": "Drive LAX → Cupertino: Google Maps about 6h15 via Buttonwillow / Los Banos; allow 7h30 including breaks and arrival buffer. Apple Park → Davis: Google Maps about 1h50–2h25; allow 3h15 with a Walnut Creek break and afternoon traffic. One-way California car rental; return at SMF next day. No LAX–SMF flight.",
           "activities": [
             {
@@ -4113,12 +5772,31 @@
               "label": "Apple Park Visitor Center · official hours",
               "url": "https://www.apple.com/retail/appleparkvisitorcenter/"
             }
+          ],
+          "restWindow": "21:00–07:00",
+          "hotel": {
+            "name": "Davis town inn",
+            "city": "Davis",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+Davis+California",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "buttonwillow",
+              "time": "09:45–10:15"
+            },
+            {
+              "area": "losbanos",
+              "time": "12:15–12:45"
+            },
+            {
+              "area": "walnutcreek",
+              "time": "17:15–17:30"
+            }
           ]
         },
         "4": {
           "title": "UC Davis → Sacramento airport → Chicago",
-          "restWindow": "23:00–09:00",
-          "stops": [],
           "transport": "Davis → SMF 45–60min. Target nonstop SMF 15:00 → ORD 21:00 (4h flying + 2h clock change); schedule unconfirmed. ORD bags / rental or taxi + Evanston transfer allow 1.5–2h. Keep the morning campus tour only with a compatible afternoon flight.",
           "activities": [
             {
@@ -4163,13 +5841,19 @@
               "label": "Chicago O Hare International Airport → Northwestern University Evanston",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Chicago+O+Hare+International+Airport&destination=Northwestern+University+Evanston&travelmode=driving"
             }
-          ]
+          ],
+          "restWindow": "23:00–09:00",
+          "hotel": {
+            "name": "Graduate Evanston",
+            "city": "Evanston",
+            "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
+            "status": "Suggested"
+          },
+          "stops": []
         },
         "13": {
           "title": "Dartmouth → Amherst → Boston afternoon",
-          "transport": "Hanover → Amherst 2h15–2h30; Amherst → Boston 2–2.5h. Target morning Amherst guided tour must be reserved; arrive Boston about 15:30. Return the one-way car in Boston.",
-          "restWindow": "21:00–07:00",
-          "stops": [],
+          "transport": "Hanover → Amherst 2h15–2h30; Amherst → Boston 2–2.5h. Morning Amherst guided visit to reserve; Boston sightseeing from about 16:00. Keep the car overnight.",
           "activities": [
             {
               "time": "07:15–09:45",
@@ -4185,7 +5869,7 @@
             },
             {
               "time": "13:00–15:30",
-              "text": "Drive to Boston; check in and return the rental car."
+              "text": "Drive to Boston; hotel check-in and park. Keep the rental car for the New York drive tomorrow."
             },
             {
               "time": "16:00–17:00",
@@ -4213,47 +5897,43 @@
               "label": "Boston Public Garden → Newbury Street Boston → Chinatown Boston",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Public+Garden&destination=Chinatown+Boston&travelmode=walking&waypoints=Newbury+Street+Boston"
             }
-          ]
-        },
-        "14": {
-          "title": "Boston University → NYC · Rangers–Islanders",
+          ],
+          "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Midtown / Penn Station hotel",
-            "city": "New York",
-            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Penn+Station+New+York",
+            "name": "Boston Back Bay hotel with parking",
+            "city": "Boston Back Bay",
+            "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotels+parking",
             "status": "Hotel to select"
           },
-          "restWindow": "23:00–09:00",
-          "stops": [],
-          "transport": "Boston hotel → BU 20–30min; BU → South Station 30–45min. Target Acela Boston 13:30 → NY Penn 17:15 (~3h45), train unbooked. Penn Station → nearby hotel / MSG on foot 5–15min.",
+          "stops": []
+        },
+        "14": {
+          "title": "Boston University → NYC by car · Rangers–Islanders",
+          "transport": "Boston → Manhattan: Google Maps about 3h30–4h before stops in current traffic. Allow 5–6h including a New Haven / Milford lunch break, Friday traffic and a reserved Manhattan rental-car return. Leave BU about 11:15; hotel / car return target 17:30–18:15, MSG entry 18:15–18:30.",
           "activities": [
             {
               "time": "08:15–08:45",
-              "text": "Hotel → Boston University; leave bags at hotel or use luggage storage."
+              "text": "Check out, load bags in the car and drive / taxi to Boston University."
             },
             {
               "time": "09:00–11:00",
-              "text": "Target Boston University guided campus tour / admissions information; biochemistry and pharmaceutical-study questions."
+              "text": "Target Boston University guided campus tour / admissions session; reserve the morning slot."
             },
             {
-              "time": "11:00–12:30",
-              "text": "Warm lunch, collect luggage and travel to South Station."
+              "time": "11:15",
+              "text": "Collect the car and drive Boston → New York."
             },
             {
-              "time": "12:45–13:30",
-              "text": "Arrive South Station / board target Acela service; exact train to reserve."
+              "time": "13:30–14:00",
+              "text": "New Haven / Milford area: warm lunch, toilets and stretch."
             },
             {
-              "time": "13:30–17:15",
-              "text": "Target Acela Boston → New York Penn Station; about 3h45."
-            },
-            {
-              "time": "17:15–18:15",
-              "text": "Walk to a nearby hotel, check in, leave all luggage and eat early if preferred."
+              "time": "16:30–18:15",
+              "text": "Arrive Manhattan with Friday traffic buffer; return the one-way rental at a pre-booked city branch open into the evening, check in near Penn Station / MSG and leave bags."
             },
             {
               "time": "18:15–19:00",
-              "text": "Madison Square Garden entry / security; arena food and warm-up atmosphere. Tickets to reserve."
+              "text": "Walk / taxi to MSG for entry, security and dinner; no large bags."
             },
             {
               "time": "19:00–22:15",
@@ -4266,34 +5946,31 @@
           ],
           "links": [
             {
-              "label": "Boston University → Boston South Station",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+University&destination=Boston+South+Station&travelmode=transit"
-            },
-            {
-              "label": "Boston South Station → New York Penn Station",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+South+Station&destination=New+York+Penn+Station&travelmode=transit"
-            },
-            {
-              "label": "New York Penn Station → Madison Square Garden New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=Madison+Square+Garden+New+York&travelmode=walking"
+              "label": "Boston University → Milford Connecticut I-95 services → Madison Square Garden New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+University&destination=Madison+Square+Garden+New+York&travelmode=driving&waypoints=Milford+Connecticut+I-95+services"
             },
             {
               "label": "Rangers · official schedule / tickets",
               "url": "https://www.nhl.com/rangers/schedule"
             }
+          ],
+          "restWindow": "23:00–09:00",
+          "hotel": {
+            "name": "Midtown / Penn Station hotel",
+            "city": "New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Penn+Station+New+York",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "newhaven",
+              "time": "13:30–14:00"
+            }
           ]
         },
         "15": {
           "title": "New York → Hong Kong",
-          "restWindow": "10h in flight",
-          "stops": [],
           "transport": "Hotel → JFK allow 60–90min; leave 09:30. Candidate CX831 JFK 13:40 on 13 Feb → HKG 18:55 on 14 Feb, about 16h15. Confirm flight / check-in time; protect ten hours in flight.",
-          "hotel": {
-            "name": "Overnight flight",
-            "city": "To Hong Kong",
-            "url": "",
-            "status": ""
-          },
           "activities": [
             {
               "time": "09:00",
@@ -4313,7 +5990,237 @@
               "label": "New York Penn Station → John F Kennedy International Airport",
               "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=John+F+Kennedy+International+Airport&travelmode=driving"
             }
+          ],
+          "restWindow": "10h in flight",
+          "hotel": {
+            "name": "Overnight flight",
+            "city": "To Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "stops": []
+        },
+        "7": {
+          "title": "Ann Arbor → Washington by car",
+          "transport": "Drive Ann Arbor → Washington: Google Maps about 8h05 before breaks. Allow 9.5–10h including two 30min meal / stretch stops and traffic buffer. Keep the Chicago rental car; no domestic flight on this leg.",
+          "activities": [
+            {
+              "time": "08:15–08:45",
+              "text": "Check out / drive to Michigan admissions; luggage stays in the car."
+            },
+            {
+              "time": "09:00–11:00",
+              "text": "Target Michigan guided tour / admissions information; include biology, chemistry and economics questions."
+            },
+            {
+              "time": "11:00–11:30",
+              "text": "Collect the car and pack a light lunch / snacks for the drive."
+            },
+            {
+              "time": "11:30",
+              "text": "Leave Ann Arbor by car for Washington."
+            },
+            {
+              "time": "14:00–14:30",
+              "text": "Elyria / Amherst, Ohio: Turnpike-area warm food, restroom and stretch."
+            },
+            {
+              "time": "17:30–18:00",
+              "text": "Somerset, Pennsylvania: warm meal and restroom break near the Turnpike."
+            },
+            {
+              "time": "21:00",
+              "text": "Washington hotel with parking; dinner / settle in and protect ten hours of rest."
+            }
+          ],
+          "links": [
+            {
+              "label": "University of Michigan Ann Arbor → I-80 services Elyria Amherst Ohio → Somerset Pennsylvania Turnpike services → Washington DC",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Washington+DC&travelmode=driving&waypoints=I-80+services+Elyria+Amherst+Ohio%7CSomerset+Pennsylvania+Turnpike+services"
+            }
+          ],
+          "restWindow": "22:00–08:00",
+          "hotel": {
+            "name": "Washington, DC hotel with parking",
+            "city": "Washington, DC",
+            "url": "https://www.google.com/maps/search/?api=1&query=Washington%2C+DC+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "elyria",
+              "time": "14:00–14:30"
+            },
+            {
+              "area": "somerset",
+              "time": "17:30–18:00"
+            }
           ]
+        },
+        "8": {
+          "title": "Smithsonian → New York by car",
+          "transport": "Washington → NYC: Google Maps about 3h40 in current traffic; allow 5–6h with the Delaware stop, winter / I-95 traffic and Manhattan hotel parking. Keep the car for the college road trip; city visits use walking / taxis while it is parked.",
+          "activities": [
+            {
+              "time": "09:15–09:45",
+              "text": "Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time."
+            },
+            {
+              "time": "10:00–12:30",
+              "text": "Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm."
+            },
+            {
+              "time": "12:30–13:30",
+              "text": "Warm lunch; collect bags and retrieve the parked rental car for New York."
+            },
+            {
+              "time": "13:30",
+              "text": "Drive toward New York on I-95 / the New Jersey Turnpike."
+            },
+            {
+              "time": "15:30–16:00",
+              "text": "Wilmington / Newark, Delaware: warm food / drink, toilets and stretch."
+            },
+            {
+              "time": "18:30–19:30",
+              "text": "Manhattan hotel with parking; check in and dinner nearby."
+            },
+            {
+              "time": "21:30–07:30",
+              "text": "Protected ten-hour hotel rest before the first full New York day."
+            }
+          ],
+          "links": [
+            {
+              "label": "Smithsonian National Air and Space Museum → I-95 services Newark Delaware → Midtown West New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Midtown+West+New+York&travelmode=driving&waypoints=I-95+services+Newark+Delaware"
+            }
+          ],
+          "restWindow": "21:30–07:30",
+          "hotel": {
+            "name": "Midtown West New York hotel with parking",
+            "city": "Midtown West New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
+            "status": "Hotel to select"
+          },
+          "stops": [
+            {
+              "area": "wilmington",
+              "time": "15:30–16:00"
+            }
+          ]
+        },
+        "0": {
+          "title": "Hong Kong > Los Angeles",
+          "transport": "UA821 candidate: HKG 22:45 → LAX 19:30 same date; flight 12h45. Immigration/bags 1.5–2h; car to Anaheim 75–100min.",
+          "activities": [
+            {
+              "time": "",
+              "text": "Evening HKG departure"
+            },
+            {
+              "time": "",
+              "text": "Candidate UA821 22:45 HKG > 19:30 LAX, same date (12h45)"
+            },
+            {
+              "time": "",
+              "text": "Immigration/bags 1.5-2h;"
+            },
+            {
+              "time": "",
+              "text": "car to Anaheim 75-100min"
+            },
+            {
+              "time": "",
+              "text": "Hotel about 23:00"
+            }
+          ],
+          "links": [
+            {
+              "label": "LAX > Anaheim",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Los+Angeles+International+Airport&destination=Disneyland+Park+Anaheim&travelmode=driving&hl=en"
+            }
+          ],
+          "restWindow": "23:30-09:30",
+          "hotel": {
+            "name": "Walkable Disneyland-area hotel",
+            "city": "Anaheim",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Disneyland+Park+Anaheim",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "1": {
+          "title": "Disneyland day",
+          "transport": "Walk 10–15min each way from the hotel.",
+          "activities": [
+            {
+              "time": "09:30",
+              "text": "breakfast"
+            },
+            {
+              "time": "",
+              "text": "Walk 10-15min to Disneyland Park;"
+            },
+            {
+              "time": "10:30-20:30",
+              "text": "full park day"
+            },
+            {
+              "time": "",
+              "text": "Reserve ticket AND park entry"
+            },
+            {
+              "time": "",
+              "text": "Dinner in park;"
+            },
+            {
+              "time": "",
+              "text": "return on foot"
+            },
+            {
+              "time": "",
+              "text": "Hours/show schedule pending"
+            }
+          ],
+          "links": [
+            {
+              "label": "Disney entrance",
+              "url": "https://www.google.com/maps/search/?api=1&query=Disneyland+Park+Anaheim"
+            }
+          ],
+          "restWindow": "22:00-08:00",
+          "hotel": {
+            "name": "Walkable Disneyland-area hotel",
+            "city": "Anaheim",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Disneyland+Park+Anaheim",
+            "status": "Hotel to select"
+          },
+          "stops": []
+        },
+        "16": {
+          "title": "Home in Hong Kong",
+          "transport": "Airport → home by private car / taxi.",
+          "activities": [
+            {
+              "time": "18:55 HKT",
+              "text": "Candidate CX831 arrives Hong Kong on Sunday 14 February at 18:55 HKT; transfer home and recover after the flight."
+            }
+          ],
+          "links": [
+            {
+              "label": "Hong Kong arrival",
+              "url": "https://www.google.com/maps/search/?api=1&query=Hong+Kong+International+Airport"
+            }
+          ],
+          "restWindow": "Rest at home",
+          "hotel": {
+            "name": "Home",
+            "city": "Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "stops": []
         }
       }
     }
@@ -4384,6 +6291,30 @@
       "query": "Downtown Walnut Creek California",
       "purpose": "15min restroom and stretch between Apple Park and Davis.",
       "source": "https://www.walnutcreekdowntown.com/"
+    },
+    "elyria": {
+      "name": "Elyria / Amherst, Ohio · I-80 services",
+      "query": "I-80 services Elyria Amherst Ohio",
+      "purpose": "Warm food, toilets and stretch near the Ohio Turnpike; 30min.",
+      "source": "https://www.google.com/maps/search/?api=1&query=I-80+services+Elyria+Amherst+Ohio"
+    },
+    "somerset": {
+      "name": "Somerset, Pennsylvania · Turnpike services",
+      "query": "Somerset Pennsylvania Turnpike services",
+      "purpose": "Warm meal and toilets near the Pennsylvania Turnpike; 30min.",
+      "source": "https://www.google.com/maps/search/?api=1&query=Somerset+Pennsylvania+Turnpike+services"
+    },
+    "wilmington": {
+      "name": "Wilmington / Newark, Delaware · I-95 services",
+      "query": "I-95 services Newark Delaware",
+      "purpose": "Warm drink / early meal and toilets before the New York leg; 30min.",
+      "source": "https://www.google.com/maps/search/?api=1&query=I-95+services+Newark+Delaware"
+    },
+    "newhaven": {
+      "name": "New Haven / Milford, Connecticut · I-95 / CT-15",
+      "query": "Milford Connecticut I-95 services",
+      "purpose": "Warm lunch and a short stretch on the Boston–New York drive; 30min.",
+      "source": "https://www.google.com/maps/search/?api=1&query=Milford+Connecticut+I-95+services"
     }
   },
   "rankingEdition": 2027,
@@ -4400,5 +6331,17 @@
     "nhl": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027",
     "superbowl": "https://nflauctions.nfl.com/iSynApp/playInstantWin!showInstantPlay.action?selectedItwName=STS_SBLXI_Tickets_Sweeps_2627&sid=1100783",
     "note": "Super Bowl LXI 14 Feb at SoFi conflicts with arrival in Hong Kong by 14 Feb. NBA/NHL regular-season games are nationally recognised league experiences, not national finals."
+  },
+  "transportPreference": {
+    "mode": "private road travel",
+    "flightException": "one-way road journey over 10h",
+    "checked": "24 October 2026",
+    "maps": {
+      "Ann Arbor–Washington": "8h05 before breaks",
+      "Evanston–Washington": "11h08 before breaks; flight retained in C",
+      "Boston–NYC": "3h29–3h51 current traffic; itinerary budgets 5–6h",
+      "Washington–NYC": "3h41–3h58 current traffic; itinerary budgets 5–6h"
+    },
+    "ferry": "Statue of Liberty requires the island ferry; short sightseeing walks retained"
   }
 }
