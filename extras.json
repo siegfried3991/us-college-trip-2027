@@ -366,8 +366,19 @@
             -71.06,
             42.36
           ],
-          "days": "D13–15",
+          "days": "D13–14",
           "mode": "drive"
+        },
+        {
+          "key": "NYC-return",
+          "label": "NYC · NHL / JFK",
+          "zhLabel": "紐約・NHL／JFK",
+          "coords": [
+            -73.99,
+            40.75
+          ],
+          "days": "D14–15",
+          "mode": "train"
         }
       ],
       "sights": [
@@ -456,6 +467,13 @@
           "day": 9
         },
         {
+          "id": "nbc",
+          "name": "The Tour at NBC Studios · 30 Rockefeller Plaza",
+          "city": "New York City",
+          "nature": "Broadcast journalism / working-studio guided tour · target reservation",
+          "day": 9
+        },
+        {
           "id": "empire",
           "name": "Empire State Building · 34th Street",
           "city": "New York City",
@@ -495,6 +513,13 @@
           "name": "Public Garden / Newbury Street",
           "city": "Boston",
           "nature": "Garden / city stroll / shops",
+          "day": 13
+        },
+        {
+          "id": "msg",
+          "name": "Rangers vs Islanders · Madison Square Garden",
+          "city": "New York City",
+          "nature": "NHL rivalry game · Fri 12 Feb 19:00 ET · tickets unbooked",
           "day": 14
         }
       ],
@@ -708,7 +733,7 @@
           ]
         },
         "9": {
-          "transport": "Hotel → The Met 30–40min. Met → AMNH: Central Park walk 30–40min or taxi 15–25min. AMNH → Rockefeller Center 20–30min. Midtown walking legs 10–25min. Use the 19:00 Wicked target to keep both museums.",
+          "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
           "stops": [],
           "activities": [
             {
@@ -728,23 +753,27 @@
               "text": "Warm lunch near AMNH."
             },
             {
-              "time": "13:30–15:00",
-              "text": "AMNH / Hayden Planetarium: reserve a suitable space-show slot within this window and select a few exhibits."
+              "time": "13:30–14:45",
+              "text": "AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective."
             },
             {
-              "time": "15:00–15:30",
-              "text": "Taxi/subway to Rockefeller Center."
+              "time": "14:45–15:15",
+              "text": "Taxi/subway to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
             },
             {
               "time": "15:30–17:00",
-              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY shops."
+              "text": "The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed."
             },
             {
-              "time": "17:00–18:00",
-              "text": "Times Square / Broadway lights and a nearby early warm dinner."
+              "time": "17:00–17:45",
+              "text": "Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY."
             },
             {
-              "time": "18:00–18:30",
+              "time": "17:45–18:30",
+              "text": "Walk toward Times Square and have an early warm dinner near the theatre."
+            },
+            {
+              "time": "18:30–18:45",
               "text": "Walk to Gershwin Theatre and check in."
             },
             {
@@ -752,8 +781,8 @@
               "text": "Target Wicked evening performance; confirm tickets and exact running time."
             },
             {
-              "time": "22:00",
-              "text": "Return to a hotel near the theatre; protected rest 22:30–08:30."
+              "time": "21:45–22:00",
+              "text": "Broadway / Times Square lights on the short walk back to a nearby hotel; protected rest 22:30–08:30."
             }
           ],
           "links": [
@@ -766,19 +795,20 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
             },
             {
-              "label": "American Museum of Natural History New York → Rockefeller Center New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Rockefeller+Center+New+York&travelmode=transit"
+              "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=transit"
             },
             {
-              "label": "Rockefeller Center New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Times+Square+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+              "label": "NBC Studios tour · official tickets",
+              "url": "https://www.thetouratnbcstudios.com/book"
             },
             {
-              "label": "Times Square New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking"
+              "label": "The Tour at NBC Studios 30 Rockefeller Plaza New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York%7CTimes+Square+New+York"
             }
           ],
-          "restWindow": "22:30–08:30"
+          "restWindow": "22:30–08:30",
+          "title": "NYC: The Met, space, NBC Studios + Wicked"
         },
         "2": {
           "title": "LA: SpaceX, UCLA + Santa Monica sunset",
@@ -850,6 +880,156 @@
             {
               "label": "Santa Monica walk: Pier, shops, beach, sunset",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Santa+Monica+Pier&waypoints=Third+Street+Promenade+Santa+Monica%7CSanta+Monica+State+Beach&travelmode=walking"
+            }
+          ]
+        },
+        "13": {
+          "title": "Dartmouth → Amherst → Boston afternoon",
+          "transport": "Hanover → Amherst 2h15–2h30; Amherst → Boston 2–2.5h. Target morning Amherst guided tour must be reserved; arrive Boston about 15:30. Return the one-way car in Boston.",
+          "restWindow": "21:00–07:00",
+          "stops": [],
+          "activities": [
+            {
+              "time": "07:15–09:45",
+              "text": "Drive Hanover → Amherst; breakfast before departure."
+            },
+            {
+              "time": "10:00–12:00",
+              "text": "Target Amherst admissions session / guided tour; morning slot to reserve."
+            },
+            {
+              "time": "12:00–12:45",
+              "text": "Warm lunch in Amherst."
+            },
+            {
+              "time": "13:00–15:30",
+              "text": "Drive to Boston; check in and return the rental car."
+            },
+            {
+              "time": "16:00–17:00",
+              "text": "Boston Public Garden / Boston Common outdoors before dusk."
+            },
+            {
+              "time": "17:00–18:00",
+              "text": "Newbury Street / Back Bay shops and architecture."
+            },
+            {
+              "time": "18:00–19:00",
+              "text": "Warm Chinese / Asian dinner in Boston Chinatown; hotel and rest 21:00–07:00."
+            }
+          ],
+          "links": [
+            {
+              "label": "Dartmouth College Hanover → Amherst College",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Amherst+College&travelmode=driving"
+            },
+            {
+              "label": "Amherst College → Boston Back Bay",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Amherst+College&destination=Boston+Back+Bay&travelmode=driving"
+            },
+            {
+              "label": "Boston Public Garden → Newbury Street Boston → Chinatown Boston",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Public+Garden&destination=Chinatown+Boston&travelmode=walking&waypoints=Newbury+Street+Boston"
+            }
+          ]
+        },
+        "14": {
+          "title": "Boston University → NYC · Rangers–Islanders",
+          "hotel": {
+            "name": "Midtown / Penn Station hotel",
+            "city": "New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Penn+Station+New+York",
+            "status": "Hotel to select"
+          },
+          "restWindow": "23:00–09:00",
+          "stops": [],
+          "transport": "Boston hotel → BU 20–30min; BU → South Station 30–45min. Target Acela Boston 13:30 → NY Penn 17:15 (~3h45), train unbooked. Penn Station → nearby hotel / MSG on foot 5–15min.",
+          "activities": [
+            {
+              "time": "08:15–08:45",
+              "text": "Hotel → Boston University; leave bags at hotel or use luggage storage."
+            },
+            {
+              "time": "09:00–11:00",
+              "text": "Target Boston University guided campus tour / admissions information; biochemistry and pharmaceutical-study questions."
+            },
+            {
+              "time": "11:00–12:30",
+              "text": "Warm lunch, collect luggage and travel to South Station."
+            },
+            {
+              "time": "12:45–13:30",
+              "text": "Arrive South Station / board target Acela service; exact train to reserve."
+            },
+            {
+              "time": "13:30–17:15",
+              "text": "Target Acela Boston → New York Penn Station; about 3h45."
+            },
+            {
+              "time": "17:15–18:15",
+              "text": "Walk to a nearby hotel, check in, leave all luggage and eat early if preferred."
+            },
+            {
+              "time": "18:15–19:00",
+              "text": "Madison Square Garden entry / security; arena food and warm-up atmosphere. Tickets to reserve."
+            },
+            {
+              "time": "19:00–22:15",
+              "text": "NHL: New York Islanders at New York Rangers — local rivalry at Madison Square Garden. Published start 19:00 ET; allow overtime / shootout buffer. Regular-season game, not a championship final."
+            },
+            {
+              "time": "22:15–23:00",
+              "text": "Walk to the nearby Midtown / Penn Station hotel; protected rest 23:00–09:00."
+            }
+          ],
+          "links": [
+            {
+              "label": "Boston University → Boston South Station",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+University&destination=Boston+South+Station&travelmode=transit"
+            },
+            {
+              "label": "Boston South Station → New York Penn Station",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+South+Station&destination=New+York+Penn+Station&travelmode=transit"
+            },
+            {
+              "label": "New York Penn Station → Madison Square Garden New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=Madison+Square+Garden+New+York&travelmode=walking"
+            },
+            {
+              "label": "Rangers · official schedule / tickets",
+              "url": "https://www.nhl.com/rangers/schedule"
+            }
+          ]
+        },
+        "15": {
+          "title": "New York → Hong Kong",
+          "restWindow": "10h in flight",
+          "stops": [],
+          "transport": "Hotel → JFK allow 60–90min; leave 09:30. Candidate CX831 JFK 13:40 on 13 Feb → HKG 18:55 on 14 Feb, about 16h15. Confirm flight / check-in time; protect ten hours in flight.",
+          "hotel": {
+            "name": "Overnight flight",
+            "city": "To Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "activities": [
+            {
+              "time": "09:00",
+              "text": "Finish ten-hour hotel rest; breakfast and check out."
+            },
+            {
+              "time": "09:30–11:00",
+              "text": "Taxi / airport transfer to JFK; allow 60–90min."
+            },
+            {
+              "time": "13:40 → 18:55 +1 day",
+              "text": "Candidate CX831 to Hong Kong; arrive Sunday 14 February. Protect a ten-hour in-flight rest block."
+            }
+          ],
+          "links": [
+            {
+              "label": "New York Penn Station → John F Kennedy International Airport",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=John+F+Kennedy+International+Airport&travelmode=driving"
             }
           ]
         }
@@ -1101,6 +1281,13 @@
           "day": 13
         },
         {
+          "id": "nbc",
+          "name": "The Tour at NBC Studios · 30 Rockefeller Plaza",
+          "city": "New York City",
+          "nature": "Broadcast journalism / working-studio guided tour · target reservation",
+          "day": 13
+        },
+        {
           "id": "empire",
           "name": "Empire State Building · 34th Street",
           "city": "New York City",
@@ -1133,6 +1320,13 @@
           "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
           "city": "New York City",
           "nature": "Neighbourhood streets / Chinese food / shops",
+          "day": 14
+        },
+        {
+          "id": "msg",
+          "name": "Rangers vs Islanders · Madison Square Garden",
+          "city": "New York City",
+          "nature": "NHL rivalry game · Fri 12 Feb 19:00 ET · tickets unbooked",
           "day": 14
         }
       ],
@@ -1279,7 +1473,7 @@
           ]
         },
         "14": {
-          "transport": "Hotel → Battery Park by subway/taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/subway legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "transport": "Hotel → Battery Park by subway/taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/subway legs 10–40min. Ferry schedule and winter service must be confirmed. Evening: Brooklyn Bridge → NYU 20–30min; NYU → Empire State / MSG 30–40min. Game 19:00 ET; walk back to Penn Station-area hotel.",
           "stops": [],
           "activities": [
             {
@@ -1311,16 +1505,28 @@
               "text": "Brooklyn Bridge: short walk from the Manhattan entrance and skyline photographs; return to the Manhattan side."
             },
             {
-              "time": "17:45–18:30",
-              "text": "Greenwich Village / Washington Square Park and an outdoor NYU campus-area stroll."
+              "time": "17:00–17:30",
+              "text": "Taxi/subway from Brooklyn Bridge to Washington Square Park."
             },
             {
-              "time": "18:30–19:15",
-              "text": "Dinner in Greenwich Village."
+              "time": "17:30–17:50",
+              "text": "NYU / Greenwich Village short campus-area walk."
             },
             {
-              "time": "19:15–20:15",
-              "text": "Taxi/subway back to Midtown via an Empire State Building exterior photo stop; return to the hotel and pack."
+              "time": "17:50–18:30",
+              "text": "Taxi/subway to Midtown, brief Empire State Building exterior photograph, then walk to MSG. Eat dinner in the arena."
+            },
+            {
+              "time": "18:30–19:00",
+              "text": "MSG entry / security and dinner; leave large bags at the hotel before the morning outing."
+            },
+            {
+              "time": "19:00–22:15",
+              "text": "NHL: New York Islanders at New York Rangers — local rivalry at Madison Square Garden. Published start 19:00 ET; allow overtime / shootout buffer. Regular-season game, not a championship final."
+            },
+            {
+              "time": "22:15–23:00",
+              "text": "Walk to the nearby Midtown / Penn Station hotel; protected rest 23:00–09:00."
             }
           ],
           "links": [
@@ -1351,11 +1557,27 @@
             {
               "label": "Washington Square Park New York → Empire State Building New York",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Empire+State+Building+New+York&travelmode=transit"
+            },
+            {
+              "label": "Washington Square Park New York → Empire State Building New York → Madison Square Garden New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Madison+Square+Garden+New+York&travelmode=transit&waypoints=Empire+State+Building+New+York"
+            },
+            {
+              "label": "Rangers · official schedule / tickets",
+              "url": "https://www.nhl.com/rangers/schedule"
             }
-          ]
+          ],
+          "title": "NYC: Statue of Liberty + Rangers–Islanders",
+          "hotel": {
+            "name": "Midtown / Penn Station hotel",
+            "city": "New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Penn+Station+New+York",
+            "status": "Hotel to select"
+          },
+          "restWindow": "23:00–09:00"
         },
         "13": {
-          "transport": "Hotel → The Met 30–40min. Met → AMNH: Central Park walk 30–40min or taxi 15–25min. AMNH → Rockefeller Center 20–30min. Midtown walking legs 10–25min. Use the 19:00 Wicked target to keep both museums.",
+          "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
           "stops": [],
           "activities": [
             {
@@ -1375,23 +1597,27 @@
               "text": "Warm lunch near AMNH."
             },
             {
-              "time": "13:30–15:00",
-              "text": "AMNH / Hayden Planetarium: reserve a suitable space-show slot within this window and select a few exhibits."
+              "time": "13:30–14:45",
+              "text": "AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective."
             },
             {
-              "time": "15:00–15:30",
-              "text": "Taxi/subway to Rockefeller Center."
+              "time": "14:45–15:15",
+              "text": "Taxi/subway to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
             },
             {
               "time": "15:30–17:00",
-              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY shops."
+              "text": "The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed."
             },
             {
-              "time": "17:00–18:00",
-              "text": "Times Square / Broadway lights and a nearby early warm dinner."
+              "time": "17:00–17:45",
+              "text": "Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY."
             },
             {
-              "time": "18:00–18:30",
+              "time": "17:45–18:30",
+              "text": "Walk toward Times Square and have an early warm dinner near the theatre."
+            },
+            {
+              "time": "18:30–18:45",
               "text": "Walk to Gershwin Theatre and check in."
             },
             {
@@ -1399,8 +1625,8 @@
               "text": "Target Wicked evening performance; confirm tickets and exact running time."
             },
             {
-              "time": "22:00",
-              "text": "Return to a hotel near the theatre; protected rest 22:30–08:30."
+              "time": "21:45–22:00",
+              "text": "Broadway / Times Square lights on the short walk back to a nearby hotel; protected rest 22:30–08:30."
             }
           ],
           "links": [
@@ -1413,19 +1639,20 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
             },
             {
-              "label": "American Museum of Natural History New York → Rockefeller Center New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Rockefeller+Center+New+York&travelmode=transit"
+              "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=transit"
             },
             {
-              "label": "Rockefeller Center New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Times+Square+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+              "label": "NBC Studios tour · official tickets",
+              "url": "https://www.thetouratnbcstudios.com/book"
             },
             {
-              "label": "Times Square New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking"
+              "label": "The Tour at NBC Studios 30 Rockefeller Plaza New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York%7CTimes+Square+New+York"
             }
           ],
-          "restWindow": "22:30–08:30"
+          "restWindow": "22:30–08:30",
+          "title": "NYC: The Met, space, NBC Studios + Wicked"
         },
         "2": {
           "title": "LA: SpaceX, UCLA + Santa Monica sunset",
@@ -1497,6 +1724,38 @@
             {
               "label": "Santa Monica walk: Pier, shops, beach, sunset",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Santa+Monica+Pier&waypoints=Third+Street+Promenade+Santa+Monica%7CSanta+Monica+State+Beach&travelmode=walking"
+            }
+          ]
+        },
+        "15": {
+          "title": "New York → Hong Kong",
+          "restWindow": "10h in flight",
+          "stops": [],
+          "transport": "Hotel → JFK allow 60–90min; leave 09:30. Candidate CX831 JFK 13:40 on 13 Feb → HKG 18:55 on 14 Feb, about 16h15. Confirm flight / check-in time; protect ten hours in flight.",
+          "hotel": {
+            "name": "Overnight flight",
+            "city": "To Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "activities": [
+            {
+              "time": "09:00",
+              "text": "Finish ten-hour hotel rest; breakfast and check out."
+            },
+            {
+              "time": "09:30–11:00",
+              "text": "Taxi / airport transfer to JFK; allow 60–90min."
+            },
+            {
+              "time": "13:40 → 18:55 +1 day",
+              "text": "Candidate CX831 to Hong Kong; arrive Sunday 14 February. Protect a ten-hour in-flight rest block."
+            }
+          ],
+          "links": [
+            {
+              "label": "New York Penn Station → John F Kennedy International Airport",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=John+F+Kennedy+International+Airport&travelmode=driving"
             }
           ]
         }
@@ -1710,6 +1969,13 @@
           "day": 6
         },
         {
+          "id": "unitedcenter",
+          "name": "Chicago Bulls vs OKC Thunder · United Center",
+          "city": "Chicago",
+          "nature": "NBA regular-season game · Thu 4 Feb 19:00 CT · tickets unbooked",
+          "day": 6
+        },
+        {
           "id": "smithsonian",
           "name": "Smithsonian National Air and Space Museum",
           "city": "Washington DC",
@@ -1756,6 +2022,13 @@
           "name": "The Met Fifth Avenue · Metropolitan Museum of Art",
           "city": "New York City",
           "nature": "Art museum · Egyptian art, armor and American art highlights",
+          "day": 9
+        },
+        {
+          "id": "nbc",
+          "name": "The Tour at NBC Studios · 30 Rockefeller Plaza",
+          "city": "New York City",
+          "nature": "Broadcast journalism / working-studio guided tour · target reservation",
           "day": 9
         },
         {
@@ -1865,7 +2138,7 @@
           ]
         },
         "6": {
-          "transport": "09:00 ET departure → Kalamazoo 10:45–11:15 ET → Michigan City 12:00–12:30 CT → Evanston about 14:00–14:30 CT. Allow 5–5.5h driving + 1h breaks; clocks go back 1h.",
+          "transport": "09:00 ET departure → Kalamazoo 10:45–11:15 ET → Michigan City 12:00–12:30 CT → Evanston about 14:00–14:30 CT. Allow 5–5.5h driving + 1h breaks; clocks go back 1h. Evening Evanston ↔ United Center: 45–75min each way by taxi; game at 19:00 CT.",
           "stops": [
             {
               "area": "kz",
@@ -1894,10 +2167,38 @@
               "text": "Arrive Evanston and check in."
             },
             {
-              "time": "15:00–17:00",
-              "text": "Easy Evanston lakefront / Chicago highlights; early dinner before Medill day."
+              "time": "16:30–17:30 CT",
+              "text": "Early warm dinner in Evanston; leave bags at hotel."
+            },
+            {
+              "time": "17:30–18:30 CT",
+              "text": "Taxi to United Center; allow 45–60min and arena entry time."
+            },
+            {
+              "time": "19:00–21:45 CT",
+              "text": "NBA: Oklahoma City Thunder at Chicago Bulls, United Center. Published start 19:00 CT; reserve seats and allow overtime buffer. National-league regular-season basketball."
+            },
+            {
+              "time": "21:45–23:00 CT",
+              "text": "Taxi to Evanston hotel, allow 45–75min; protected rest 23:00–09:00."
             }
-          ]
+          ],
+          "links": [
+            {
+              "label": "Drive Michigan > Northwestern",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Northwestern+University+Evanston&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Northwestern University Evanston → United Center Chicago",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=United+Center+Chicago&travelmode=driving"
+            },
+            {
+              "label": "Chicago Bulls · official schedule / tickets",
+              "url": "https://www.nba.com/team/1610612741/schedule"
+            }
+          ],
+          "title": "Ann Arbor → Chicago · Bulls–Thunder",
+          "restWindow": "23:00–09:00"
         },
         "11": {
           "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
@@ -2046,7 +2347,7 @@
           ]
         },
         "9": {
-          "transport": "Hotel → The Met 30–40min. Met → AMNH: Central Park walk 30–40min or taxi 15–25min. AMNH → Rockefeller Center 20–30min. Midtown walking legs 10–25min. Use the 19:00 Wicked target to keep both museums.",
+          "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
           "stops": [],
           "activities": [
             {
@@ -2066,23 +2367,27 @@
               "text": "Warm lunch near AMNH."
             },
             {
-              "time": "13:30–15:00",
-              "text": "AMNH / Hayden Planetarium: reserve a suitable space-show slot within this window and select a few exhibits."
+              "time": "13:30–14:45",
+              "text": "AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective."
             },
             {
-              "time": "15:00–15:30",
-              "text": "Taxi/subway to Rockefeller Center."
+              "time": "14:45–15:15",
+              "text": "Taxi/subway to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
             },
             {
               "time": "15:30–17:00",
-              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY shops."
+              "text": "The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed."
             },
             {
-              "time": "17:00–18:00",
-              "text": "Times Square / Broadway lights and a nearby early warm dinner."
+              "time": "17:00–17:45",
+              "text": "Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY."
             },
             {
-              "time": "18:00–18:30",
+              "time": "17:45–18:30",
+              "text": "Walk toward Times Square and have an early warm dinner near the theatre."
+            },
+            {
+              "time": "18:30–18:45",
               "text": "Walk to Gershwin Theatre and check in."
             },
             {
@@ -2090,8 +2395,8 @@
               "text": "Target Wicked evening performance; confirm tickets and exact running time."
             },
             {
-              "time": "22:00",
-              "text": "Return to a hotel near the theatre; protected rest 22:30–08:30."
+              "time": "21:45–22:00",
+              "text": "Broadway / Times Square lights on the short walk back to a nearby hotel; protected rest 22:30–08:30."
             }
           ],
           "links": [
@@ -2104,19 +2409,20 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
             },
             {
-              "label": "American Museum of Natural History New York → Rockefeller Center New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Rockefeller+Center+New+York&travelmode=transit"
+              "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=transit"
             },
             {
-              "label": "Rockefeller Center New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Times+Square+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+              "label": "NBC Studios tour · official tickets",
+              "url": "https://www.thetouratnbcstudios.com/book"
             },
             {
-              "label": "Times Square New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking"
+              "label": "The Tour at NBC Studios 30 Rockefeller Plaza New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York%7CTimes+Square+New+York"
             }
           ],
-          "restWindow": "22:30–08:30"
+          "restWindow": "22:30–08:30",
+          "title": "NYC: The Met, space, NBC Studios + Wicked"
         },
         "2": {
           "title": "LA: SpaceX, UCLA + Santa Monica sunset",
@@ -2188,6 +2494,43 @@
             {
               "label": "Santa Monica walk: Pier, shops, beach, sunset",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Santa+Monica+Pier&waypoints=Third+Street+Promenade+Santa+Monica%7CSanta+Monica+State+Beach&travelmode=walking"
+            }
+          ]
+        },
+        "7": {
+          "stops": [],
+          "restWindow": "22:30-08:30",
+          "transport": "Car NU → ORD 60–90min; flight about 2h + 1h time change; DCA → hotel 30–45min.",
+          "links": [
+            {
+              "label": "NU > Medill > ORD",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Chicago+O+Hare+International+Airport&travelmode=driving&hl=en&waypoints=Fisk+Hall+Northwestern+University"
+            },
+            {
+              "label": "Arrival DCA",
+              "url": "https://www.google.com/maps/search/?api=1&query=Ronald+Reagan+Washington+National+Airport"
+            }
+          ],
+          "activities": [
+            {
+              "time": "10:00–11:30",
+              "text": "Target Northwestern general / media campus tour after ten-hour rest."
+            },
+            {
+              "time": "11:30–12:15",
+              "text": "Alumni chat / lunch, if arranged."
+            },
+            {
+              "time": "13:00–14:00",
+              "text": "Target Medill academic session; retain the Friday media-school visit."
+            },
+            {
+              "time": "14:30–16:00",
+              "text": "Transfer to ORD and check in."
+            },
+            {
+              "time": "18:00 CT → 21:00 ET",
+              "text": "Target flight ORD → DCA; hotel about 22:00, rest 22:30–08:30."
             }
           ]
         }
@@ -2413,6 +2756,13 @@
           "day": 7
         },
         {
+          "id": "rockefeller",
+          "name": "Fifth Avenue / Rockefeller Center · FAO / Jellycat / Nintendo",
+          "city": "New York City",
+          "nature": "Famous avenue / city landmark / fun stores",
+          "day": 7
+        },
+        {
           "id": "liberty",
           "name": "Statue of Liberty / Liberty Island",
           "city": "New York City",
@@ -2476,13 +2826,6 @@
           "day": 9
         },
         {
-          "id": "rockefeller",
-          "name": "Fifth Avenue / Rockefeller Center · FAO / Jellycat / Nintendo",
-          "city": "New York City",
-          "nature": "Famous avenue / city landmark / fun stores",
-          "day": 9
-        },
-        {
           "id": "timessquare",
           "name": "Times Square / Broadway",
           "city": "New York City",
@@ -2490,10 +2833,24 @@
           "day": 9
         },
         {
+          "id": "nbc",
+          "name": "The Tour at NBC Studios · 30 Rockefeller Plaza",
+          "city": "New York City",
+          "nature": "Broadcast studio tour · late slot to reserve",
+          "day": 9
+        },
+        {
           "id": "smithsonian",
           "name": "Smithsonian National Air and Space Museum",
           "city": "Washington DC",
           "nature": "Aviation / space / planetarium; show booking pending",
+          "day": 14
+        },
+        {
+          "id": "msg",
+          "name": "Rangers vs Islanders · Madison Square Garden",
+          "city": "New York City",
+          "nature": "NHL rivalry game · Fri 12 Feb 19:00 ET · tickets unbooked",
           "day": 14
         }
       ],
@@ -2700,7 +3057,7 @@
           "restWindow": "21:30–07:30"
         },
         "9": {
-          "transport": "Walk/subway/taxi between stops, usually 15–40min per leg. Empire State Building is an exterior photo stop; no observatory visit is scheduled.",
+          "transport": "AMNH → Midtown by taxi/subway 20–30min; theatre → NBC Studios on foot 10–15min. Target NBC 17:15–18:45, subject to a released tour slot. Shops move to Friday arrival afternoon.",
           "stops": [],
           "activities": [
             {
@@ -2724,16 +3081,20 @@
               "text": "Target Wicked matinee; performance time and tickets to confirm."
             },
             {
-              "time": "17:00–18:30",
-              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY stores."
+              "time": "16:45–17:00",
+              "text": "Walk from Gershwin Theatre to The Shop at NBC Studios; check in 15 minutes before the target tour."
             },
             {
-              "time": "18:30–19:15",
-              "text": "Warm dinner near Times Square."
+              "time": "17:15–18:45",
+              "text": "The Tour at NBC Studios: target 90-minute guided tour. This late slot depends on production and ticket release about one month ahead; reserve before fixing the day."
             },
             {
-              "time": "19:15–20:15",
-              "text": "Times Square and Broadway lights; return to the hotel by about 20:15."
+              "time": "18:45–19:30",
+              "text": "Warm dinner near Rockefeller Center / Times Square."
+            },
+            {
+              "time": "19:30–20:15",
+              "text": "Times Square / Broadway lights and return to the hotel; rest 20:30–06:30."
             }
           ],
           "links": [
@@ -2750,14 +3111,19 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Empire+State+Building+New+York&destination=Gershwin+Theatre+New+York&travelmode=transit"
             },
             {
-              "label": "Gershwin Theatre New York → FAO Schwarz Rockefeller Center → Nintendo New York → Fifth Avenue Rockefeller Center New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Gershwin+Theatre+New+York&destination=Fifth+Avenue+Rockefeller+Center+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+              "label": "Gershwin Theatre New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Gershwin+Theatre+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=walking"
             },
             {
-              "label": "Rockefeller Center New York → Times Square New York → Broadway Times Square New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Broadway+Times+Square+New+York&travelmode=walking&waypoints=Times+Square+New+York"
+              "label": "NBC Studios tour · official tickets",
+              "url": "https://www.thetouratnbcstudios.com/book"
+            },
+            {
+              "label": "The Tour at NBC Studios 30 Rockefeller Plaza New York → Times Square New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&destination=Times+Square+New+York&travelmode=walking"
             }
-          ]
+          ],
+          "title": "NYC: space, Wicked matinee + NBC Studios"
         },
         "7": {
           "transport": "Ann Arbor → DTW 45–60min; target flight 12:00–14:00 to NYC; airport → Midtown 60–90min. Midtown → NYU / Chinatown by subway/taxi 25–40min.",
@@ -2772,15 +3138,23 @@
             },
             {
               "time": "16:00",
-              "text": "Hotel check-in; taxi/subway to Greenwich Village."
+              "text": "Hotel check-in; leave bags before heading to Rockefeller Center."
             },
             {
-              "time": "16:45–17:30",
+              "time": "16:30–17:15",
+              "text": "Rockefeller Center / Fifth Avenue: choose FAO Schwarz / Jellycat and Nintendo NY favourites."
+            },
+            {
+              "time": "17:15–17:45",
+              "text": "Subway/taxi to Greenwich Village / NYU."
+            },
+            {
+              "time": "17:45–18:15",
               "text": "Washington Square Park / NYU campus-area outdoor walk."
             },
             {
-              "time": "18:00–19:00",
-              "text": "Chinatown Chinese New Year Eve dinner; return to the hotel around 20:00."
+              "time": "18:30–19:15",
+              "text": "Chinatown Chinese New Year Eve dinner; hotel by about 20:00."
             }
           ],
           "stops": [],
@@ -2792,6 +3166,14 @@
             {
               "label": "Washington Square Park New York → Chinatown Manhattan",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Chinatown+Manhattan&travelmode=walking"
+            },
+            {
+              "label": "Rockefeller Center New York → FAO Schwarz Rockefeller Center → Nintendo New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Nintendo+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center"
+            },
+            {
+              "label": "Rockefeller Center New York → Washington Square Park New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Washington+Square+Park+New+York&travelmode=transit"
             }
           ]
         },
@@ -2867,6 +3249,114 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Santa+Monica+Pier&waypoints=Third+Street+Promenade+Santa+Monica%7CSanta+Monica+State+Beach&travelmode=walking"
             }
           ]
+        },
+        "14": {
+          "title": "Smithsonian → NYC · Rangers–Islanders",
+          "hotel": {
+            "name": "Midtown / Penn Station hotel",
+            "city": "New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Penn+Station+New+York",
+            "status": "Hotel to select"
+          },
+          "restWindow": "23:00–09:00",
+          "stops": [],
+          "transport": "Hotel → BOS 30–45min; target BOS 08:30 → DCA 10:15. DCA → Smithsonian 30–45min; museum → Union Station 20–30min. Target train 14:00–17:30 to NY Penn; reserve a compatible planetarium slot and train before flights.",
+          "activities": [
+            {
+              "time": "06:00–06:45",
+              "text": "Taxi to BOS; airport check-in."
+            },
+            {
+              "time": "08:30–10:15",
+              "text": "Target BOS → DCA flight."
+            },
+            {
+              "time": "10:15–11:30",
+              "text": "Bags / transfer to Smithsonian Air and Space."
+            },
+            {
+              "time": "11:30–13:00",
+              "text": "Smithsonian Air and Space: reserve a paid planetarium show within this window, plus selected exhibits. Keep this visit focused to catch the train."
+            },
+            {
+              "time": "13:00–13:40",
+              "text": "Takeaway lunch, collect stored bags and taxi to Union Station."
+            },
+            {
+              "time": "14:00–17:30",
+              "text": "Target Washington → NY Penn train, about 3h30."
+            },
+            {
+              "time": "17:30–18:15",
+              "text": "Nearby hotel check-in and bag drop; quick dinner before / inside MSG."
+            },
+            {
+              "time": "18:15–19:00",
+              "text": "Madison Square Garden entry / security; arena food and warm-up atmosphere. Tickets to reserve."
+            },
+            {
+              "time": "19:00–22:15",
+              "text": "NHL: New York Islanders at New York Rangers — local rivalry at Madison Square Garden. Published start 19:00 ET; allow overtime / shootout buffer. Regular-season game, not a championship final."
+            },
+            {
+              "time": "22:15–23:00",
+              "text": "Walk to the nearby Midtown / Penn Station hotel; protected rest 23:00–09:00."
+            }
+          ],
+          "links": [
+            {
+              "label": "Ronald Reagan Washington National Airport → Smithsonian National Air and Space Museum",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Ronald+Reagan+Washington+National+Airport&destination=Smithsonian+National+Air+and+Space+Museum&travelmode=transit"
+            },
+            {
+              "label": "Smithsonian National Air and Space Museum → Washington Union Station",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Washington+Union+Station&travelmode=driving"
+            },
+            {
+              "label": "Washington Union Station → New York Penn Station",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Union+Station&destination=New+York+Penn+Station&travelmode=transit"
+            },
+            {
+              "label": "New York Penn Station → Madison Square Garden New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=Madison+Square+Garden+New+York&travelmode=walking"
+            },
+            {
+              "label": "Rangers · official schedule / tickets",
+              "url": "https://www.nhl.com/rangers/schedule"
+            }
+          ]
+        },
+        "15": {
+          "title": "New York → Hong Kong",
+          "restWindow": "10h in flight",
+          "stops": [],
+          "transport": "Hotel → JFK allow 60–90min; leave 09:30. Candidate CX831 JFK 13:40 on 13 Feb → HKG 18:55 on 14 Feb, about 16h15. Confirm flight / check-in time; protect ten hours in flight.",
+          "hotel": {
+            "name": "Overnight flight",
+            "city": "To Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "activities": [
+            {
+              "time": "09:00",
+              "text": "Finish ten-hour hotel rest; breakfast and check out."
+            },
+            {
+              "time": "09:30–11:00",
+              "text": "Taxi / airport transfer to JFK; allow 60–90min."
+            },
+            {
+              "time": "13:40 → 18:55 +1 day",
+              "text": "Candidate CX831 to Hong Kong; arrive Sunday 14 February. Protect a ten-hour in-flight rest block."
+            }
+          ],
+          "links": [
+            {
+              "label": "New York Penn Station → John F Kennedy International Airport",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=John+F+Kennedy+International+Airport&travelmode=driving"
+            }
+          ]
         }
       }
     },
@@ -2879,7 +3369,7 @@
         },
         {
           "id": "ucdavis",
-          "day": 3,
+          "day": 4,
           "kind": "target"
         },
         {
@@ -2936,6 +3426,17 @@
           "mode": ""
         },
         {
+          "key": "Cupertino",
+          "label": "Cupertino · Apple Park",
+          "zhLabel": "Cupertino・Apple Park",
+          "coords": [
+            -122.009,
+            37.332
+          ],
+          "days": "D3",
+          "mode": "drive"
+        },
+        {
           "key": "Davis",
           "label": "Davis / Sacramento",
           "zhLabel": "Davis／薩克拉門托",
@@ -2944,7 +3445,7 @@
             38.55
           ],
           "days": "D3–4",
-          "mode": "flight"
+          "mode": "drive"
         },
         {
           "key": "Chicago",
@@ -3042,8 +3543,19 @@
             -71.06,
             42.36
           ],
-          "days": "D13–15",
+          "days": "D13–14",
           "mode": "drive"
+        },
+        {
+          "key": "NYC-return",
+          "label": "NYC · NHL / JFK",
+          "zhLabel": "紐約・NHL／JFK",
+          "coords": [
+            -73.99,
+            40.75
+          ],
+          "days": "D14–15",
+          "mode": "train"
         }
       ],
       "sights": [
@@ -3069,11 +3581,18 @@
           "day": 2
         },
         {
+          "id": "applepark",
+          "name": "Apple Park Visitor Center",
+          "city": "Cupertino",
+          "nature": "Public visitor center / architecture / AR model / rooftop view / Apple store",
+          "day": 3
+        },
+        {
           "id": "ucdavis",
           "name": "UC Davis Arboretum",
           "city": "Davis",
           "nature": "Campus gardens / outdoors",
-          "day": 3
+          "day": 4
         },
         {
           "id": "smithsonian",
@@ -3125,6 +3644,13 @@
           "day": 9
         },
         {
+          "id": "nbc",
+          "name": "The Tour at NBC Studios · 30 Rockefeller Plaza",
+          "city": "New York City",
+          "nature": "Broadcast journalism / working-studio guided tour · target reservation",
+          "day": 9
+        },
+        {
           "id": "empire",
           "name": "Empire State Building · 34th Street",
           "city": "New York City",
@@ -3164,6 +3690,13 @@
           "name": "Public Garden / Newbury Street",
           "city": "Boston",
           "nature": "Garden / city stroll / shops",
+          "day": 13
+        },
+        {
+          "id": "msg",
+          "name": "Rangers vs Islanders · Madison Square Garden",
+          "city": "New York City",
+          "nature": "NHL rivalry game · Fri 12 Feb 19:00 ET · tickets unbooked",
           "day": 14
         }
       ],
@@ -3178,8 +3711,8 @@
           ],
           "activities": [
             {
-              "time": "09:30–11:30",
-              "text": "Target Northwestern guided campus visit."
+              "time": "10:00–12:00",
+              "text": "Target Northwestern guided campus visit; book a slot compatible with the previous night’s late arrival."
             },
             {
               "time": "12:00–13:00",
@@ -3373,7 +3906,7 @@
           ]
         },
         "9": {
-          "transport": "Hotel → The Met 30–40min. Met → AMNH: Central Park walk 30–40min or taxi 15–25min. AMNH → Rockefeller Center 20–30min. Midtown walking legs 10–25min. Use the 19:00 Wicked target to keep both museums.",
+          "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
           "stops": [],
           "activities": [
             {
@@ -3393,23 +3926,27 @@
               "text": "Warm lunch near AMNH."
             },
             {
-              "time": "13:30–15:00",
-              "text": "AMNH / Hayden Planetarium: reserve a suitable space-show slot within this window and select a few exhibits."
+              "time": "13:30–14:45",
+              "text": "AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective."
             },
             {
-              "time": "15:00–15:30",
-              "text": "Taxi/subway to Rockefeller Center."
+              "time": "14:45–15:15",
+              "text": "Taxi/subway to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
             },
             {
               "time": "15:30–17:00",
-              "text": "Fifth Avenue / Rockefeller Center: FAO Schwarz, Jellycat and Nintendo NY shops."
+              "text": "The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed."
             },
             {
-              "time": "17:00–18:00",
-              "text": "Times Square / Broadway lights and a nearby early warm dinner."
+              "time": "17:00–17:45",
+              "text": "Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY."
             },
             {
-              "time": "18:00–18:30",
+              "time": "17:45–18:30",
+              "text": "Walk toward Times Square and have an early warm dinner near the theatre."
+            },
+            {
+              "time": "18:30–18:45",
               "text": "Walk to Gershwin Theatre and check in."
             },
             {
@@ -3417,8 +3954,8 @@
               "text": "Target Wicked evening performance; confirm tickets and exact running time."
             },
             {
-              "time": "22:00",
-              "text": "Return to a hotel near the theatre; protected rest 22:30–08:30."
+              "time": "21:45–22:00",
+              "text": "Broadway / Times Square lights on the short walk back to a nearby hotel; protected rest 22:30–08:30."
             }
           ],
           "links": [
@@ -3431,19 +3968,20 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
             },
             {
-              "label": "American Museum of Natural History New York → Rockefeller Center New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=Rockefeller+Center+New+York&travelmode=transit"
+              "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=transit"
             },
             {
-              "label": "Rockefeller Center New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Rockefeller+Center+New+York&destination=Times+Square+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York"
+              "label": "NBC Studios tour · official tickets",
+              "url": "https://www.thetouratnbcstudios.com/book"
             },
             {
-              "label": "Times Square New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking"
+              "label": "The Tour at NBC Studios 30 Rockefeller Plaza New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York → Gershwin Theatre New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York%7CTimes+Square+New+York"
             }
           ],
-          "restWindow": "22:30–08:30"
+          "restWindow": "22:30–08:30",
+          "title": "NYC: The Met, space, NBC Studios + Wicked"
         },
         "2": {
           "title": "LA: SpaceX, UCLA + Santa Monica sunset",
@@ -3517,6 +4055,265 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Santa+Monica+Pier&destination=Santa+Monica+Pier&waypoints=Third+Street+Promenade+Santa+Monica%7CSanta+Monica+State+Beach&travelmode=walking"
             }
           ]
+        },
+        "3": {
+          "title": "LA → Apple Park Visitor Center → Davis",
+          "restWindow": "21:00–07:00",
+          "stops": [
+            {
+              "area": "buttonwillow",
+              "time": "09:45–10:15"
+            },
+            {
+              "area": "losbanos",
+              "time": "12:15–12:45"
+            },
+            {
+              "area": "walnutcreek",
+              "time": "17:15–17:30"
+            }
+          ],
+          "transport": "Drive LAX → Cupertino: Google Maps about 6h15 via Buttonwillow / Los Banos; allow 7h30 including breaks and arrival buffer. Apple Park → Davis: Google Maps about 1h50–2h25; allow 3h15 with a Walnut Creek break and afternoon traffic. One-way California car rental; return at SMF next day. No LAX–SMF flight.",
+          "activities": [
+            {
+              "time": "07:00",
+              "text": "Leave LAX hotel by rental car; breakfast before departure."
+            },
+            {
+              "time": "09:45–10:15",
+              "text": "Buttonwillow I-5 / CA-58 service area: warm snack, restroom and stretch."
+            },
+            {
+              "time": "12:15–12:45",
+              "text": "Los Banos / CA-152: warm lunch and restroom break."
+            },
+            {
+              "time": "14:30–16:00",
+              "text": "Apple Park Visitor Center: architecture, campus AR model, rooftop view, cafe and exclusive merchandise. Public visitor areas only; no guided visit inside Apple headquarters. Recheck February hours / exhibits."
+            },
+            {
+              "time": "16:00–19:15",
+              "text": "Drive to Davis, with a 17:15–17:30 restroom / stretch break around Walnut Creek; buffer for Bay Area traffic."
+            },
+            {
+              "time": "19:15–20:15",
+              "text": "Davis town inn check-in and warm dinner nearby."
+            },
+            {
+              "time": "21:00–07:00",
+              "text": "Protected ten-hour hotel rest; UC Davis guided visit tomorrow morning."
+            }
+          ],
+          "links": [
+            {
+              "label": "Los Angeles International Airport → Buttonwillow CA I-5 CA-58 services → Los Banos California CA-152 services → Apple Park Visitor Center Cupertino → Downtown Walnut Creek California → Davis California",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Los+Angeles+International+Airport&destination=Davis+California&travelmode=driving&waypoints=Buttonwillow+CA+I-5+CA-58+services%7CLos+Banos+California+CA-152+services%7CApple+Park+Visitor+Center+Cupertino%7CDowntown+Walnut+Creek+California"
+            },
+            {
+              "label": "Apple Park Visitor Center · official hours",
+              "url": "https://www.apple.com/retail/appleparkvisitorcenter/"
+            }
+          ]
+        },
+        "4": {
+          "title": "UC Davis → Sacramento airport → Chicago",
+          "restWindow": "23:00–09:00",
+          "stops": [],
+          "transport": "Davis → SMF 45–60min. Target nonstop SMF 15:00 → ORD 21:00 (4h flying + 2h clock change); schedule unconfirmed. ORD bags / rental or taxi + Evanston transfer allow 1.5–2h. Keep the morning campus tour only with a compatible afternoon flight.",
+          "activities": [
+            {
+              "time": "08:30–08:45",
+              "text": "Drive to UC Davis Welcome Center."
+            },
+            {
+              "time": "09:00–11:00",
+              "text": "Target UC Davis admissions information session + guided campus tour; request biology / animal science and pre-vet questions. Exact morning slot must be reserved."
+            },
+            {
+              "time": "11:00–11:45",
+              "text": "Short Arboretum walk and quick warm lunch near campus."
+            },
+            {
+              "time": "12:00–13:00",
+              "text": "Drive to SMF; return the one-way California rental car."
+            },
+            {
+              "time": "13:00–15:00",
+              "text": "Airport check-in / security; target 15:00 nonstop departure to Chicago."
+            },
+            {
+              "time": "15:00 PT → 21:00 CT",
+              "text": "Target SMF → ORD nonstop flight, about 4h; clocks move forward 2h. Flight to confirm."
+            },
+            {
+              "time": "21:00–23:00 CT",
+              "text": "Bags, transfer to Evanston and hotel check-in; eat dinner before / during the flight."
+            },
+            {
+              "time": "23:00–09:00",
+              "text": "Protected ten-hour rest; Northwestern target tour starts at 10:00 tomorrow."
+            }
+          ],
+          "links": [
+            {
+              "label": "UC Davis Welcome Center → Sacramento International Airport",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=UC+Davis+Welcome+Center&destination=Sacramento+International+Airport&travelmode=driving"
+            },
+            {
+              "label": "Chicago O Hare International Airport → Northwestern University Evanston",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Chicago+O+Hare+International+Airport&destination=Northwestern+University+Evanston&travelmode=driving"
+            }
+          ]
+        },
+        "13": {
+          "title": "Dartmouth → Amherst → Boston afternoon",
+          "transport": "Hanover → Amherst 2h15–2h30; Amherst → Boston 2–2.5h. Target morning Amherst guided tour must be reserved; arrive Boston about 15:30. Return the one-way car in Boston.",
+          "restWindow": "21:00–07:00",
+          "stops": [],
+          "activities": [
+            {
+              "time": "07:15–09:45",
+              "text": "Drive Hanover → Amherst; breakfast before departure."
+            },
+            {
+              "time": "10:00–12:00",
+              "text": "Target Amherst admissions session / guided tour; morning slot to reserve."
+            },
+            {
+              "time": "12:00–12:45",
+              "text": "Warm lunch in Amherst."
+            },
+            {
+              "time": "13:00–15:30",
+              "text": "Drive to Boston; check in and return the rental car."
+            },
+            {
+              "time": "16:00–17:00",
+              "text": "Boston Public Garden / Boston Common outdoors before dusk."
+            },
+            {
+              "time": "17:00–18:00",
+              "text": "Newbury Street / Back Bay shops and architecture."
+            },
+            {
+              "time": "18:00–19:00",
+              "text": "Warm Chinese / Asian dinner in Boston Chinatown; hotel and rest 21:00–07:00."
+            }
+          ],
+          "links": [
+            {
+              "label": "Dartmouth College Hanover → Amherst College",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Amherst+College&travelmode=driving"
+            },
+            {
+              "label": "Amherst College → Boston Back Bay",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Amherst+College&destination=Boston+Back+Bay&travelmode=driving"
+            },
+            {
+              "label": "Boston Public Garden → Newbury Street Boston → Chinatown Boston",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Public+Garden&destination=Chinatown+Boston&travelmode=walking&waypoints=Newbury+Street+Boston"
+            }
+          ]
+        },
+        "14": {
+          "title": "Boston University → NYC · Rangers–Islanders",
+          "hotel": {
+            "name": "Midtown / Penn Station hotel",
+            "city": "New York",
+            "url": "https://www.google.com/maps/search/?api=1&query=hotels+near+Penn+Station+New+York",
+            "status": "Hotel to select"
+          },
+          "restWindow": "23:00–09:00",
+          "stops": [],
+          "transport": "Boston hotel → BU 20–30min; BU → South Station 30–45min. Target Acela Boston 13:30 → NY Penn 17:15 (~3h45), train unbooked. Penn Station → nearby hotel / MSG on foot 5–15min.",
+          "activities": [
+            {
+              "time": "08:15–08:45",
+              "text": "Hotel → Boston University; leave bags at hotel or use luggage storage."
+            },
+            {
+              "time": "09:00–11:00",
+              "text": "Target Boston University guided campus tour / admissions information; biochemistry and pharmaceutical-study questions."
+            },
+            {
+              "time": "11:00–12:30",
+              "text": "Warm lunch, collect luggage and travel to South Station."
+            },
+            {
+              "time": "12:45–13:30",
+              "text": "Arrive South Station / board target Acela service; exact train to reserve."
+            },
+            {
+              "time": "13:30–17:15",
+              "text": "Target Acela Boston → New York Penn Station; about 3h45."
+            },
+            {
+              "time": "17:15–18:15",
+              "text": "Walk to a nearby hotel, check in, leave all luggage and eat early if preferred."
+            },
+            {
+              "time": "18:15–19:00",
+              "text": "Madison Square Garden entry / security; arena food and warm-up atmosphere. Tickets to reserve."
+            },
+            {
+              "time": "19:00–22:15",
+              "text": "NHL: New York Islanders at New York Rangers — local rivalry at Madison Square Garden. Published start 19:00 ET; allow overtime / shootout buffer. Regular-season game, not a championship final."
+            },
+            {
+              "time": "22:15–23:00",
+              "text": "Walk to the nearby Midtown / Penn Station hotel; protected rest 23:00–09:00."
+            }
+          ],
+          "links": [
+            {
+              "label": "Boston University → Boston South Station",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+University&destination=Boston+South+Station&travelmode=transit"
+            },
+            {
+              "label": "Boston South Station → New York Penn Station",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+South+Station&destination=New+York+Penn+Station&travelmode=transit"
+            },
+            {
+              "label": "New York Penn Station → Madison Square Garden New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=Madison+Square+Garden+New+York&travelmode=walking"
+            },
+            {
+              "label": "Rangers · official schedule / tickets",
+              "url": "https://www.nhl.com/rangers/schedule"
+            }
+          ]
+        },
+        "15": {
+          "title": "New York → Hong Kong",
+          "restWindow": "10h in flight",
+          "stops": [],
+          "transport": "Hotel → JFK allow 60–90min; leave 09:30. Candidate CX831 JFK 13:40 on 13 Feb → HKG 18:55 on 14 Feb, about 16h15. Confirm flight / check-in time; protect ten hours in flight.",
+          "hotel": {
+            "name": "Overnight flight",
+            "city": "To Hong Kong",
+            "url": "",
+            "status": ""
+          },
+          "activities": [
+            {
+              "time": "09:00",
+              "text": "Finish ten-hour hotel rest; breakfast and check out."
+            },
+            {
+              "time": "09:30–11:00",
+              "text": "Taxi / airport transfer to JFK; allow 60–90min."
+            },
+            {
+              "time": "13:40 → 18:55 +1 day",
+              "text": "Candidate CX831 to Hong Kong; arrive Sunday 14 February. Protect a ten-hour in-flight rest block."
+            }
+          ],
+          "links": [
+            {
+              "label": "New York Penn Station → John F Kennedy International Airport",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=New+York+Penn+Station&destination=John+F+Kennedy+International+Airport&travelmode=driving"
+            }
+          ]
         }
       }
     }
@@ -3569,11 +4366,39 @@
       "query": "Downtown Geneva New York",
       "purpose": "Warm drink, toilets and a short Seneca Lake viewpoint stop; 30min.",
       "source": "https://www.visitfingerlakes.com/restaurants/top-finger-lakes-restaurants/"
+    },
+    "buttonwillow": {
+      "name": "Buttonwillow · I-5 / CA-58 services",
+      "query": "Buttonwillow CA I-5 CA-58 services",
+      "purpose": "30min warm snack, restroom and stretch at the highway service area.",
+      "source": "https://www.google.com/maps/search/?api=1&query=Buttonwillow+CA+I-5+CA-58+services"
+    },
+    "losbanos": {
+      "name": "Los Banos · CA-152 / I-5 area",
+      "query": "Los Banos California CA-152 services",
+      "purpose": "30min warm lunch and restroom break before the final leg to Cupertino.",
+      "source": "https://www.google.com/maps/search/?api=1&query=Los+Banos+California+CA-152+services"
+    },
+    "walnutcreek": {
+      "name": "Walnut Creek · downtown / I-680",
+      "query": "Downtown Walnut Creek California",
+      "purpose": "15min restroom and stretch between Apple Park and Davis.",
+      "source": "https://www.walnutcreekdowntown.com/"
     }
   },
   "rankingEdition": 2027,
   "checked": "2026-10-23",
   "libertySource": "https://www.nps.gov/stli/planyourvisit/index.htm",
   "metSource": "https://www.metmuseum.org/plan-your-visit",
-  "santaMonicaSunsetSource": "https://www.weather2travel.com/california/santa-monica/january/"
+  "santaMonicaSunsetSource": "https://www.weather2travel.com/california/santa-monica/january/",
+  "nbcSource": "https://www.thetouratnbcstudios.com/faq",
+  "appleParkSource": "https://www.apple.com/retail/appleparkvisitorcenter/",
+  "californiaMapsChecked": "23 October 2026: LAX–Apple Park 5h50; via Buttonwillow/Los Banos 6h16; Apple Park–Davis 1h50–2h24, current traffic, not February prediction.",
+  "sportsSources": {
+    "checked": "24 October 2026",
+    "nba": "https://www.nba.com/team/1610612741/schedule",
+    "nhl": "https://api-web.nhle.com/v1/club-schedule-season/NYR/20262027",
+    "superbowl": "https://nflauctions.nfl.com/iSynApp/playInstantWin!showInstantPlay.action?selectedItwName=STS_SBLXI_Tickets_Sweeps_2627&sid=1100783",
+    "note": "Super Bowl LXI 14 Feb at SoFi conflicts with arrival in Hong Kong by 14 Feb. NBA/NHL regular-season games are nationally recognised league experiences, not national finals."
+  }
 }
