@@ -310,5 +310,49 @@
     "width": 600,
     "height": 335,
     "bytes": 171858
+  },
+  "applepark": {
+    "path": "assets/photos/applepark.jpg",
+    "title": "Apple Park Visitor Center 1 2018-01-23.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Apple_Park_Visitor_Center_1_2018-01-23.jpg",
+    "imageSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Apple_Park_Visitor_Center_1_2018-01-23.jpg/960px-Apple_Park_Visitor_Center_1_2018-01-23.jpg",
+    "author": "Fastily",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Apple Park Visitor Center rooftop terrace",
+    "bytes": 191699
+  },
+  "nbc": {
+    "path": "assets/photos/nbc.jpg",
+    "title": "NBC Studios Rockefeller Center.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:NBC_Studios_Rockefeller_Center.JPG",
+    "imageSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/NBC_Studios_Rockefeller_Center.JPG/960px-NBC_Studios_Rockefeller_Center.JPG",
+    "author": "Steven Lek",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "NBC Studios exterior at Rockefeller Center",
+    "bytes": 146794
+  },
+  "msg": {
+    "path": "assets/photos/msg.jpg",
+    "title": "Madison Square Garden 119.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Madison_Square_Garden_119.jpg",
+    "imageSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Madison_Square_Garden_119.jpg/960px-Madison_Square_Garden_119.jpg",
+    "author": "Zakarie Faibis",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "description": "Reference arena photograph; event configuration varies",
+    "bytes": 436414
+  },
+  "unitedcenter": {
+    "path": "assets/photos/unitedcenter.jpg",
+    "title": "United Center Interior.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:United_Center_Interior.jpg",
+    "imageSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/United_Center_Interior.jpg/960px-United_Center_Interior.jpg",
+    "author": "Gavindow",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+    "description": "Reference arena photograph; event configuration varies",
+    "bytes": 267510
   }
 }
