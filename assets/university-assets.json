@@ -110,5 +110,19 @@
     "name": "FAO Schwarz",
     "type": "logo",
     "bytes": 53002
+  },
+  "columbia": {
+    "path": "assets/columbia.svg",
+    "source": "https://commons.wikimedia.org/wiki/File:Columbia_University_Shield.svg",
+    "imageSource": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Columbia_University_Shield.svg",
+    "name": "Columbia University",
+    "type": "shield"
+  },
+  "uchicago": {
+    "path": "assets/uchicago.jpg",
+    "source": "https://secretary.uchicago.edu/university-emblems/",
+    "imageSource": "https://secretary.uchicago.edu/files/2018/07/coat_of_arms-2i10hiw-150x150.jpg",
+    "name": "University of Chicago",
+    "type": "coat of arms"
   }
 }

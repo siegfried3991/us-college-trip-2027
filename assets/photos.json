@@ -90,19 +90,6 @@
     "height": 450,
     "bytes": 236844
   },
-  "casewestern": {
-    "path": "assets/photos/casewestern.jpg",
-    "title": "Adelbert Hall - Case Western Reserve University.jpg",
-    "source": "https://commons.wikimedia.org/wiki/File:Adelbert_Hall_-_Case_Western_Reserve_University.jpg",
-    "imageSource": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Adelbert_Hall_-_Case_Western_Reserve_University.jpg/960px-Adelbert_Hall_-_Case_Western_Reserve_University.jpg",
-    "author": "Daderot",
-    "license": "Public domain",
-    "licenseUrl": "",
-    "description": "Adelbert Hall - Case Western Reserve University, Cleveland, Ohio, USA. Architect Joseph Ireland; built 1882. I took this photograph.",
-    "width": 600,
-    "height": 431,
-    "bytes": 251926
-  },
   "nyu": {
     "path": "assets/photos/nyu.jpg",
     "title": "NYC - Washington Square Park - Arch.jpg",
@@ -378,5 +365,21 @@
     "author": "National Park Service",
     "license": "NPS photograph",
     "licenseUrl": "https://www.nps.gov/aboutus/disclaimer.htm"
+  },
+  "uchicago": {
+    "path": "assets/uchicago-campus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:University_of_Chicago_main_quadrangles.jpg",
+    "title": "University of Chicago main quadrangles.jpg",
+    "author": "Ndshankar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "columbia": {
+    "path": "assets/columbia-campus.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Columbia_University_New_York_November_2016_002.jpg",
+    "title": "Columbia University New York November 2016 002.jpg",
+    "author": "King of Hearts",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   }
 }
