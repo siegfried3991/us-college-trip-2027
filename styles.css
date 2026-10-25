@@ -65,3 +65,5 @@ body{line-height:1.2}
  .status{min-height:1.6em}
  .destination-caption strong{min-height:4.35em}
 }
+
+.booked-flights{margin:0 0 30px;padding:17px 20px;border:1px solid var(--line);border-radius:10px;background:#fff;line-height:1.6}.booked-flights>strong{display:block;font-size:12px;color:var(--teal);margin-bottom:10px}.booked-flights>div{display:grid;grid-template-columns:190px 1fr;gap:12px;font-size:12px;margin-bottom:6px}.booked-flights small{display:block;color:var(--muted);font-size:10px;margin-top:10px}@media(max-width:600px){.booked-flights{padding:15px}.booked-flights>div{display:block;margin-bottom:12px}.booked-flights b,.booked-flights span{display:block}.booked-flights span{margin-top:3px}}
