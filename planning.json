@@ -1,0 +1,473 @@
+{
+  "checked": "26 October 2026",
+  "fx": 8,
+  "familyBudget": 90000,
+  "travellers": 3,
+  "nights": 14,
+  "hotelOccupancy": "2 adults + one 14-year-old; one shared room",
+  "hotels": [
+    {
+      "name": "Best Western Plus Stovall’s Inn",
+      "city": "Anaheim",
+      "dates": "30 Jan–1 Feb",
+      "room": "Two queen beds",
+      "base": 484,
+      "tax": 0.17,
+      "fixed": 0,
+      "nights": 2,
+      "total": 566.28,
+      "policy": [
+        "Cancel before 28 Jan; pay at property",
+        "1月28日前可取消；到店付款"
+      ],
+      "breakfast": true,
+      "parking": [
+        "Parking extra; confirm current fee",
+        "泊車另計；須確認最新收費"
+      ],
+      "url": "https://www.booking.com/hotel/us/best-western-stovall-s-inn.html?checkin=2027-01-30&checkout=2027-02-01&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
+      "routes": "ABC"
+    },
+    {
+      "name": "Best Western Plus Park Place Inn – Mini Suites",
+      "city": "Anaheim",
+      "dates": "30 Jan–1 Feb",
+      "room": "Two double beds",
+      "base": 678,
+      "tax": 0.17,
+      "fixed": 0,
+      "nights": 2,
+      "total": 793.26,
+      "policy": [
+        "Cancel before 27 Jan; pay at property",
+        "1月27日前可取消；到店付款"
+      ],
+      "breakfast": true,
+      "parking": [
+        "US$30/night parking, separately budgeted",
+        "泊車每晚 US$30，另行預算"
+      ],
+      "url": "https://www.booking.com/hotel/us/best-western-plus-park-place-inn-mini-suites.html?checkin=2027-01-30&checkout=2027-02-01&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
+      "routes": "ABC"
+    },
+    {
+      "name": "Graduate by Hilton Evanston",
+      "city": "Evanston / Chicago",
+      "dates": "1–3 Feb",
+      "room": "Two double beds",
+      "base": 411,
+      "tax": 0.1493,
+      "fixed": 0,
+      "nights": 2,
+      "total": 472.36,
+      "policy": [
+        "Cancel before 27 Jan; pay at property",
+        "1月27日前可取消；到店付款"
+      ],
+      "breakfast": false,
+      "parking": [
+        "US$35/night valet; public garage alternative",
+        "代客泊車每晚 US$35；亦可比較公共停車場"
+      ],
+      "url": "https://www.booking.com/hotel/us/graduate-evanston.html?checkin=2027-02-01&checkout=2027-02-03&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
+      "routes": "AB"
+    },
+    {
+      "name": "Fairfield Inn & Suites Manhattan/Times Square South",
+      "city": "New York City",
+      "dates": "6–9 Feb",
+      "room": "Two queen beds",
+      "base": 627,
+      "tax": 0.1475,
+      "fixed": 12,
+      "nights": 3,
+      "total": 731.48,
+      "policy": [
+        "Cancel before 4 Feb; pay at property",
+        "2月4日前可取消；到店付款"
+      ],
+      "breakfast": true,
+      "parking": [
+        "Parking extra; allow US$60–85/night until quoted",
+        "泊車另計；未取得報價前預留每晚 US$60–85"
+      ],
+      "url": "https://www.booking.com/hotel/us/fairfield-inn-suites-by-marriott-new-york-manhattan-times-square-36th-st.html?checkin=2027-02-06&checkout=2027-02-09&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
+      "routes": "ABC"
+    },
+    {
+      "name": "Hampton Inn Boston/Cambridge",
+      "city": "Boston / Cambridge",
+      "dates": "11–13 Feb",
+      "room": "Two queen beds",
+      "base": 557,
+      "tax": 0.1595,
+      "fixed": 0,
+      "nights": 2,
+      "total": 645.84,
+      "policy": [
+        "Cancel before 6 Feb; pay at property",
+        "2月6日前可取消；到店付款"
+      ],
+      "breakfast": true,
+      "parking": [
+        "Return Hertz on 11 Feb; no planned overnight car parking",
+        "2月11日歸還 Hertz，其後不安排酒店過夜泊車"
+      ],
+      "url": "https://www.booking.com/hotel/us/hampton-inn-boston-cambridge.html?checkin=2027-02-11&checkout=2027-02-13&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
+      "routes": "ABC"
+    }
+  ],
+  "categories": [
+    {
+      "key": "hotels",
+      "name": [
+        "Hotels · 14 room-nights",
+        "酒店・14 房晚"
+      ],
+      "range": [
+        2500,
+        3000,
+        3600
+      ],
+      "cap": 2500,
+      "note": [
+        "One family room. The dated quotes below cover only part of the stay; remaining nights and specialty-room fees are allowances.",
+        "一間家庭共住房。下方指定日期報價只涵蓋部分住宿，其餘晚數及特色住宿費用為估算。"
+      ]
+    },
+    {
+      "key": "hertz",
+      "name": [
+        "Hertz · both rentals",
+        "Hertz・兩段租車"
+      ],
+      "range": [
+        1300,
+        1700,
+        2300
+      ],
+      "cap": 1300,
+      "note": [
+        "Allowance for rental, taxes, one-way charges and vehicle/liability protection where needed; not a confirmed member quote. Fuel, tolls and parking are separate.",
+        "估算包含租金、稅項、異地還車及所需車損／責任保障，並非已確認會員報價。油費、路費及泊車另計。"
+      ]
+    },
+    {
+      "key": "domestic",
+      "name": [
+        "California → Chicago flight · 3 people",
+        "加州 → 芝加哥航班・三人"
+      ],
+      "range": [
+        600,
+        750,
+        1000
+      ],
+      "cap": 600,
+      "note": [
+        "One checked bag per person allowed for in the estimate. Exact flights and fares unconfirmed.",
+        "估算已預留每人一件寄艙行李；實際航班及票價未確認。"
+      ]
+    },
+    {
+      "key": "food",
+      "name": [
+        "Meals · 15 US days",
+        "餐飲・15 個美國日"
+      ],
+      "range": [
+        1200,
+        1350,
+        1650
+      ],
+      "cap": 1200,
+      "note": [
+        "US$80–110 per family per day, including meal taxes / ordinary tips. Use included hotel breakfasts, warm Asian meals and casual food; no shopping.",
+        "全家每日 US$80–110，包含餐飲稅及一般小費。利用酒店早餐、熱食亞洲餐及簡便餐飲；不包括購物。"
+      ]
+    },
+    {
+      "key": "activities",
+      "name": [
+        "Admissions & experiences",
+        "門票及體驗"
+      ],
+      "range": [
+        1500,
+        1600,
+        1850
+      ],
+      "cap": 1450,
+      "note": [
+        "Disneyland, one Broadway show, NBC, MSG, Met, UN, island ferry and a planetarium allowance. No helicopter or live-game tickets.",
+        "包含 Disneyland、一場 Broadway、NBC、MSG、Met、UN、上島渡輪及天文館預留；不包括直升機或現場球賽。"
+      ]
+    },
+    {
+      "key": "road",
+      "name": [
+        "Fuel, tolls, parking & taxis",
+        "油費、路費、泊車及的士"
+      ],
+      "range": [
+        750,
+        850,
+        1100
+      ],
+      "cap": 650,
+      "note": [
+        "Keep the car parked in Manhattan; road preference is retained between cities. Includes NYC taxis and Boston airport transfer; no subway saving assumed.",
+        "曼哈頓期間把車停好，城市之間仍以開車為主；包含紐約的士及波士頓機場接送，未假定以地鐵節省費用。"
+      ]
+    },
+    {
+      "key": "other",
+      "name": [
+        "Travel insurance, data & laundry",
+        "旅遊保險、上網及洗衣"
+      ],
+      "range": [
+        150,
+        200,
+        250
+      ],
+      "cap": 150,
+      "note": [
+        "Planning allowance; entry permissions, shopping, souvenirs and any extra Seoul stopover spend excluded. Add these if applicable.",
+        "預算估算；不包括入境證件、購物、紀念品或首爾轉機額外消費，如適用須另加。"
+      ]
+    },
+    {
+      "key": "reserve",
+      "name": [
+        "Unspent contingency",
+        "保留備用金"
+      ],
+      "range": [
+        750,
+        800,
+        850
+      ],
+      "cap": 533,
+      "note": [
+        "Keep available for winter disruption and rate changes; do not spend this on upgrades.",
+        "保留應付冬季延誤及價格變動，勿用於升級消費。"
+      ]
+    }
+  ],
+  "hotelAlternatives": [
+    [
+      "Chicago / Evanston",
+      "Hampton Inn & Suites Chicago-North Shore/Skokie",
+      "https://www.hilton.com/en/hotels/chiskhx-hampton-suites-chicago-north-shore-skokie/",
+      [
+        "Breakfast and parking included; 20–35min planning drive to Northwestern. Date-specific rate not obtained.",
+        "包含早餐及泊車；往 Northwestern 預留 20–35 分鐘開車，未取得指定日期報價。"
+      ]
+    ],
+    [
+      "Ann Arbor",
+      "Hampton Inn Ann Arbor-South",
+      "https://www.hilton.com/en/hotels/arbvwhx-hampton-ann-arbor-south/",
+      [
+        "Breakfast / parking included; budget US$140–190 for a family room including tax, unquoted.",
+        "包含早餐及泊車；全家房間含稅估算 US$140–190，未報價。"
+      ]
+    ],
+    [
+      "Bedford",
+      "The Golden Eagle Inn",
+      "https://www.bedfordpainn.com/",
+      [
+        "Historic inn with breakfast; request a room legally accommodating three. Allow US$180–260 including tax; not quoted.",
+        "歷史旅館包含早餐；須確認房間可供三人入住。含稅估算 US$180–260，未報價。"
+      ]
+    ],
+    [
+      "Ithaca",
+      "New Park Event Venue & Suites",
+      "https://www.newparkeventvenue.com/book-a-suite",
+      [
+        "Keep one specialty night if affordable; confirm winter operation, three-person occupancy and cleaning fees. Allow US$220–320 all-in, unquoted.",
+        "預算容許可保留一晚特色住宿；須確認冬季營業、三人入住及清潔費。全包估算 US$220–320，未報價。"
+      ]
+    ],
+    [
+      "Hanover",
+      "Hanover Inn · or value hotel in Lebanon",
+      "https://www.hanoverinn.com/rooms/",
+      [
+        "Hanover Inn has queen-queen rooms; a specialty splurge, not the budget default. Allow US$260–360; compare Lebanon hotels at US$130–190. Both ranges unquoted.",
+        "Hanover Inn 提供雙 Queen 床房，屬特色升級選擇。估算 US$260–360；可比較 Lebanon 酒店 US$130–190，兩者均未報價。"
+      ]
+    ],
+    [
+      "Notre Dame",
+      "Morris Inn · or South Bend value hotel",
+      "https://morrisinn.nd.edu/",
+      [
+        "Compare campus convenience against US$130–190 tax-inclusive South Bend target. Morris Inn allowance US$220–320; neither is a dated quote.",
+        "比較校內便利與 South Bend 含稅 US$130–190 的目標。Morris Inn 估算 US$220–320，兩者均非指定日期報價。"
+      ]
+    ],
+    [
+      "Davis · Route C",
+      "Davis town inn / value hotel",
+      "https://www.google.com/maps/search/?api=1&query=hotels+Davis+California",
+      [
+        "Allow US$150–220 including tax for 1 Feb. No dated three-person quote obtained.",
+        "2月1日含稅估算 US$150–220，未取得指定日期三人報價。"
+      ]
+    ]
+  ],
+  "harbor": [
+    {
+      "id": "island",
+      "name": [
+        "Statue City Cruises · island visit",
+        "Statue City Cruises・上島參觀"
+      ],
+      "cost": 78,
+      "price": [
+        "US$26 × 3 = US$78 · current published fare",
+        "US$26 × 3 = US$78・現行公布票價"
+      ],
+      "time": [
+        "Sun 7 Feb · 09:00–12:30 excursion",
+        "2月7日週日・09:00–12:30 行程"
+      ],
+      "text": [
+        "The only option here that lands on Liberty Island. Includes island grounds and museum; no Ellis Island stop in this schedule, no crown climb. Best for learning the history.",
+        "本比較中唯一登上 Liberty Island 的選項。包含島上景點及博物館；本行程不前往 Ellis Island，亦不攀登皇冠，最適合深入了解歷史。"
+      ],
+      "source": "https://www.nps.gov/stli/planyourvisit/fees.htm",
+      "stops": [
+        "Midtown West New York",
+        "Battery Park New York",
+        "Madison Square Garden",
+        "30 Rockefeller Plaza"
+      ]
+    },
+    {
+      "id": "free",
+      "name": [
+        "Staten Island Ferry · harbour view",
+        "Staten Island Ferry・海港遠眺"
+      ],
+      "cost": 0,
+      "price": [
+        "Free · no island landing",
+        "免費・不登 Liberty Island"
+      ],
+      "time": [
+        "Sun 7 Feb · 09:00–10:30 return excursion",
+        "2月7日週日・09:00–10:30 來回"
+      ],
+      "text": [
+        "About 25min each crossing plus terminal waiting and reboarding. View the Statue from a distance; then use 10:30–12:15 for Wall Street / Federal Hall exterior and the 9/11 Memorial plaza. Museum not included.",
+        "每程約25分鐘，另計候船及重新登船。從遠處觀看 Statue；10:30–12:15 可選 Wall Street／Federal Hall 外觀及 9/11 Memorial 廣場，不包括博物館。"
+      ],
+      "source": "https://www.nyc.gov/html/dot/html/ferrybus/sif-traveler-info.shtml",
+      "stops": [
+        "Midtown West New York",
+        "Staten Island Ferry Whitehall Terminal",
+        "Wall Street New York",
+        "National September 11 Memorial",
+        "Madison Square Garden"
+      ]
+    },
+    {
+      "id": "cruise",
+      "name": [
+        "Circle Line · Liberty Midtown Cruise",
+        "Circle Line・Liberty Midtown Cruise"
+      ],
+      "cost": 120,
+      "price": [
+        "Estimate US$35–45/person · US$105–135 family",
+        "估算每人 US$35–45・全家 US$105–135"
+      ],
+      "time": [
+        "Sun 7 Feb · target 10:00–11:00 sailing",
+        "2月7日週日・目標10:00–11:00航程"
+      ],
+      "text": [
+        "A narrated skyline / Statue photo cruise from Pier 83, with indoor seating. No island landing. Reserve only if a winter departure returns by 11:15; otherwise choose the island or free ferry. Allow 30–45min boarding buffer.",
+        "由 Pier 83 出發，沿途講解城市天際線及拍攝 Statue，設室內座位，不登島。只選擇可在11:15前返回的冬季班次，另預留30–45分鐘登船；否則選上島或免費渡輪。"
+      ],
+      "source": "https://www.circleline.com/sightseeing-cruises/statue-of-liberty/liberty-cruise",
+      "stops": [
+        "Midtown West New York",
+        "Circle Line Sightseeing Cruises Pier 83",
+        "Madison Square Garden",
+        "30 Rockefeller Plaza"
+      ]
+    },
+    {
+      "id": "heli",
+      "name": [
+        "HeliNY · New Yorker helicopter",
+        "HeliNY・New Yorker 直升機"
+      ],
+      "cost": 912,
+      "price": [
+        "US$304/person · US$912 family before any further tax / extras",
+        "每人 US$304・全家 US$912，其他適用稅項及附加消費另計"
+      ],
+      "time": [
+        "Monday 8 Feb only · conditional 10:00 flight",
+        "只安排2月8日週一・暫定10:00起飛"
+      ],
+      "text": [
+        "Published US$259 + mandatory US$45 facility/fuel per seat; 12–15min in the air, arrive 30min early. No island landing. Manhattan tourist flights do not operate Sunday. This conditional Monday preview keeps Columbia at noon, shortens The Met to one hour and requires a confirmed 16:45 UN tour. Otherwise use a ferry option.",
+        "公布票價每位US$259，加必付US$45設施／燃油費；飛行12–15分鐘，須提前30分鐘到達。不登島，曼哈頓觀光直升機週日不營運。有條件的週一預覽維持中午Columbia，把Met縮短至一小時，並須確認16:45 UN晚場；否則選渡輪。"
+      ],
+      "source": "https://heliny.com/helicopter-tours/the-new-yorker-tour/",
+      "stops": [
+        "Midtown West New York",
+        "Downtown Manhattan Heliport",
+        "Columbia University Visitors Center",
+        "The Met Fifth Avenue",
+        "801 First Avenue New York"
+      ]
+    }
+  ],
+  "sources": [
+    [
+      "Hertz President’s Circle",
+      "https://www.hertz.com/us/en/gold-plus-rewards/gpr-faq"
+    ],
+    [
+      "Hertz additional driver",
+      "https://www.hertz.com/supporthub/topic/additional-driver"
+    ],
+    [
+      "Hertz rental / insurance / one-way terms",
+      "https://www.hertz.com/us/en/rental-qualifications-and-requirements"
+    ],
+    [
+      "Manhattan heliport Sunday restriction",
+      "https://www.nyc.gov/assets/sbs/downloads/pdf/about/dmh-concession-agreement-final_2023-2-15.pdf"
+    ],
+    [
+      "NBC tour prices / timing",
+      "https://www.thetouratnbcstudios.com/faq"
+    ],
+    [
+      "MSG prices / tour access",
+      "https://www.msg.com/guided-tours/new-york-city-tours/madison-square-garden-tour"
+    ],
+    [
+      "Wicked official tickets",
+      "https://wickedthemusical.com/tickets/"
+    ],
+    [
+      "Met prices / hours",
+      "https://www.metmuseum.org/plan-your-visit"
+    ],
+    [
+      "Disneyland date-specific tickets",
+      "https://disneyland.disney.go.com/admission/ticket-prices/"
+    ]
+  ]
+}
