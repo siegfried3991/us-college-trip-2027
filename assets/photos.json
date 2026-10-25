@@ -354,5 +354,29 @@
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
     "description": "Reference arena photograph; event configuration varies",
     "bytes": 267510
+  },
+  "un": {
+    "path": "assets/un.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:United_Nations_Headquarters.JPG",
+    "title": "United Nations Headquarters.JPG",
+    "author": "Вени Марковски | Veni Markovski",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "brandywine": {
+    "path": "assets/brandywine.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Brandywine_Falls_at_Cuyahoga_Valley_National_Park2.jpg",
+    "title": "Brandywine Falls at Cuyahoga Valley National Park2.jpg",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "flight93": {
+    "path": "assets/flight93.jpg",
+    "source": "https://www.nps.gov/flni/planyourvisit/vc.htm",
+    "title": "Flight 93 National Memorial Visitor Center",
+    "author": "National Park Service",
+    "license": "NPS photograph",
+    "licenseUrl": "https://www.nps.gov/aboutus/disclaimer.htm"
   }
 }
