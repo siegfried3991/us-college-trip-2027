@@ -122,7 +122,13 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Walkable+Disneyland-area+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Arrival day",
+              "text": "If immigration or fatigue delays you, omit the SpaceX photo stop first and keep Santa Monica arrival at 13:00–14:00, sunset and the 21:00 hotel-rest start. Eat a warm lunch near the pier; keep beach walking optional."
+            }
+          ]
         },
         {
           "day": 2,
@@ -162,7 +168,13 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Walkable+Disneyland-area+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Disneyland needs a valid admission ticket and a park reservation for the same date, subject to the ticket rules. Keep lunch and early dinner inside the park; leave by 19:30 even if later entertainment is offered."
+            }
+          ]
         },
         {
           "day": 3,
@@ -223,6 +235,10 @@
             {
               "label": "NU > Millennium Park",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Millennium+Park+Chicago&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.northwestern.edu/visit/visit-campus/"
             }
           ],
           "tags": [
@@ -254,7 +270,21 @@
             "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
             "status": "Suggested"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask how biology or economics can connect with Medill, science reporting and undergraduate research; clarify admission by undergraduate school and options for changing schools."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            }
+          ]
         },
         {
           "day": 5,
@@ -267,6 +297,10 @@
             {
               "label": "Drive to Notre Dame",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=University+of+Notre+Dame&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.nd.edu/visit-and-connect/visit-notre-dame/"
             }
           ],
           "tags": [
@@ -308,6 +342,24 @@
               "area": "mc",
               "time": "09:00–09:30 CT"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / chemistry research, pre-health advising, residential life and whether the religious and community environment would suit Olivia."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -321,6 +373,10 @@
             {
               "label": "Drive to Michigan",
               "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=University+of+Michigan+Ann+Arbor&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.umich.edu/explore-visit/visit-campus"
             }
           ],
           "tags": [
@@ -361,6 +417,28 @@
             {
               "area": "kz",
               "time": "09:15–09:45"
+            }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / biochemistry and economics pathways, quantitative course requirements, first-year research and support in a large university."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Registration",
+              "text": "Michigan currently requires advance registration and does not accept tour walk-ins. Select the information session when registering; an in-person admissions-officer meeting is not promised."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
             }
           ]
         },
@@ -423,6 +501,12 @@
               "area": "flight93",
               "time": "15:30–16:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -430,7 +514,7 @@
           "date": "2027-02-06",
           "dateLabel": "Sat 06 Feb",
           "title": "Bedford → Smithsonian → New York",
-          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
+          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum: reserve an 11:00 free timed-entry pass for each visitor. Buy a compatible daily planetarium ticket at the box office on arrival, then see aviation / space highlights; finish by 13:00. February show times remain unconfirmed. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
           "rest": "22:00–08:00",
           "links": [
             {
@@ -444,6 +528,10 @@
             {
               "label": "Smithsonian planetarium programme",
               "url": "https://airandspace.si.edu/learn/programs/planetarium"
+            },
+            {
+              "label": "Smithsonian free timed-entry passes",
+              "url": "https://airandspace.si.edu/visit"
             }
           ],
           "tags": [
@@ -462,7 +550,7 @@
             },
             {
               "time": "11:00–13:00",
-              "text": "Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show."
+              "text": "Smithsonian National Air and Space Museum: reserve an 11:00 free timed-entry pass for each visitor. Buy a compatible daily planetarium ticket at the box office on arrival, then see aviation / space highlights; finish by 13:00. February show times remain unconfirmed."
             },
             {
               "time": "13:00–13:45",
@@ -489,6 +577,16 @@
               "area": "wilmington",
               "time": "15:45–16:15"
             }
+          ],
+          "practical": [
+            {
+              "label": "Tickets",
+              "text": "Museum admission is free but timed-entry passes are required. The planetarium is separately ticketed and sold on site; choose a show that ends by 13:00. Secure the museum slot before fixing the drive."
+            },
+            {
+              "label": "If delayed",
+              "text": "If the drive runs late, shorten the museum galleries and skip the planetarium rather than the meal break or 22:00 rest. Do not book a later show that delays the New York drive."
+            }
           ]
         },
         {
@@ -496,7 +594,7 @@
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
           "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
-          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–12:00 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries. 12:00–12:15 Short Central Park edge walk near The Met. 12:15–13:15 Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
+          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–11:45 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route. 11:45–12:00 Optional short Central Park edge walk; skip if icy or if entry to The Met was delayed. 12:00–13:10 Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
@@ -514,6 +612,18 @@
             {
               "label": "NBC official tour bookings",
               "url": "https://www.thetouratnbcstudios.com/book"
+            },
+            {
+              "label": "The Met admission / opening hours",
+              "url": "https://www.metmuseum.org/plan-your-visit"
+            },
+            {
+              "label": "Wicked official calendar / tickets",
+              "url": "https://wickedthemusical.com/tickets/"
+            },
+            {
+              "label": "NBC arrival / booking guidance",
+              "url": "https://www.thetouratnbcstudios.com/faq"
             }
           ],
           "tags": [
@@ -526,16 +636,20 @@
               "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
             },
             {
-              "time": "10:00–12:00",
-              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries."
+              "time": "10:00–11:45",
+              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route."
             },
             {
-              "time": "12:00–12:15",
-              "text": "Short Central Park edge walk near The Met."
+              "time": "11:45–12:00",
+              "text": "Optional short Central Park edge walk; skip if icy or if entry to The Met was delayed."
             },
             {
-              "time": "12:15–13:15",
-              "text": "Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena."
+              "time": "12:00–13:10",
+              "text": "Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena."
+            },
+            {
+              "time": "13:10–13:30",
+              "text": "MSG ticket / security and check-in buffer before the target tour."
             },
             {
               "time": "13:30–14:30",
@@ -551,7 +665,7 @@
             },
             {
               "time": "17:00–17:45",
-              "text": "Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY."
+              "text": "Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner."
             },
             {
               "time": "17:45–18:45",
@@ -573,7 +687,21 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
             "status": "Hotel to select"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Tickets / timing",
+              "text": "The Met currently lists US$30 per adult and US$17 per student: US$77 for two adults plus Olivia if her student eligibility is accepted; otherwise US$90. MSG, NBC and Wicked are paid, with prices and February slots to confirm before purchase."
+            },
+            {
+              "label": "Book in this order",
+              "text": "Check the actual Wicked performance first, then fit NBC and MSG around it. NBC usually releases tours about one month ahead, lasts 75–90min and recommends arrival 15min early. Do not treat the three target times as confirmed reservations."
+            },
+            {
+              "label": "If slots clash",
+              "text": "Keep The Met and the selected Broadway show. Ask for another same-day MSG or NBC slot before booking; if both cannot fit, one visit remains unresolved. Drop optional shopping first and preserve the 22:30 rest start."
+            }
+          ]
         },
         {
           "day": 10,
@@ -657,7 +785,17 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
             "status": "Hotel to select"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Ferry / UN priority",
+              "text": "Liberty Island grounds / museum access uses the authorised Statue City Cruises ferry. Current general ferry fare is US$26 for ages 13+, or US$78 for your family; recheck 2027 pricing. Reserve the ferry and UN together; no crown climb or Ellis Island stop is included."
+            },
+            {
+              "label": "Weather / overrun",
+              "text": "If the ferry is cancelled or cannot return in time, keep the UN check-in and rest window; use the existing Battery Park morning for a harbour view if conditions allow. An exterior view is not an island visit, and no extra repeat-city day is added."
+            }
+          ]
         },
         {
           "day": 11,
@@ -670,6 +808,10 @@
             {
               "label": "Drive NYC > Cornell",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Cornell+University+Ithaca&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.cornell.edu/visit-and-connect"
             }
           ],
           "tags": [
@@ -711,6 +853,24 @@
               "area": "sc",
               "time": "10:00–10:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask which undergraduate college best fits biology, animal science or economics, how to prepare for a later veterinary degree, and whether animal-related experience is accessible to undergraduates."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -728,6 +888,10 @@
             {
               "label": "Amherst College → Hanover New Hampshire",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Amherst+College&destination=Hanover+New+Hampshire&travelmode=driving"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admission.amherst.edu/portal/campusvisit"
             }
           ],
           "tags": [
@@ -769,6 +933,24 @@
               "area": "on",
               "time": "09:00–09:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about exploring biology, chemistry and economics before choosing a major, small-class support, research access and writing / student journalism."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -782,6 +964,10 @@
             {
               "label": "Dartmouth College Hanover → Boston Back Bay",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Boston+Back+Bay&travelmode=driving"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.dartmouth.edu/visit-dartmouth"
             }
           ],
           "tags": [
@@ -818,7 +1004,21 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / chemistry research, economics prerequisites, the academic calendar, winter life and how easily students can explore subjects before deciding a major."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            }
+          ]
         },
         {
           "day": 14,
@@ -835,6 +1035,10 @@
             {
               "label": "Boston Public Garden → Newbury Street Boston → Chinatown Boston",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Public+Garden&destination=Chinatown+Boston&travelmode=walking&waypoints=Newbury+Street+Boston"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://www.bu.edu/admissions/visit-us/"
             }
           ],
           "tags": [
@@ -879,7 +1083,25 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biochemistry / molecular biology, chemistry and economics, undergraduate lab access and preparation for pharmaceutical research; clarify the difference between undergraduate study and professional pharmacy qualifications."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Cold-weather option",
+              "text": "Keep the BU visit. If the weather is poor, shorten the Public Garden / Common walk and use the already planned Back Bay shops and cafe for indoor time; retain Chinatown dinner and 20:30 rest."
+            }
+          ]
         },
         {
           "day": 15,
@@ -1197,7 +1419,13 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Walkable+Disneyland-area+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Arrival day",
+              "text": "If immigration or fatigue delays you, omit the SpaceX photo stop first and keep Santa Monica arrival at 13:00–14:00, sunset and the 21:00 hotel-rest start. Eat a warm lunch near the pier; keep beach walking optional."
+            }
+          ]
         },
         {
           "day": 2,
@@ -1237,7 +1465,13 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Walkable+Disneyland-area+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Disneyland needs a valid admission ticket and a park reservation for the same date, subject to the ticket rules. Keep lunch and early dinner inside the park; leave by 19:30 even if later entertainment is offered."
+            }
+          ]
         },
         {
           "day": 3,
@@ -1298,6 +1532,10 @@
             {
               "label": "NU > Millennium Park",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Millennium+Park+Chicago&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.northwestern.edu/visit/visit-campus/"
             }
           ],
           "tags": [
@@ -1329,7 +1567,21 @@
             "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
             "status": "Suggested"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask how biology or economics can connect with Medill, science reporting and undergraduate research; clarify admission by undergraduate school and options for changing schools."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            }
+          ]
         },
         {
           "day": 5,
@@ -1342,6 +1594,10 @@
             {
               "label": "Drive to Notre Dame",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=University+of+Notre+Dame&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.nd.edu/visit-and-connect/visit-notre-dame/"
             }
           ],
           "tags": [
@@ -1383,6 +1639,24 @@
               "area": "mc",
               "time": "09:00–09:30 CT"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / chemistry research, pre-health advising, residential life and whether the religious and community environment would suit Olivia."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -1396,6 +1670,10 @@
             {
               "label": "Notre Dame > Michigan > Case",
               "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=Case+Western+Reserve+University+Cleveland&travelmode=driving&hl=en&waypoints=University+of+Michigan+Ann+Arbor"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.umich.edu/explore-visit/visit-campus"
             }
           ],
           "tags": [
@@ -1445,6 +1723,28 @@
               "area": "to",
               "time": "15:30–16:00"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / biochemistry and economics pathways, quantitative course requirements, first-year research and support in a large university."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Registration",
+              "text": "Michigan currently requires advance registration and does not accept tour walk-ins. Select the information session when registering; an in-person admissions-officer meeting is not promised."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -1458,6 +1758,10 @@
             {
               "label": "Case Western Reserve University Cleveland → Flight 93 National Memorial Visitor Center → Golden Eagle Inn Bedford PA",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Case+Western+Reserve+University+Cleveland&destination=Golden+Eagle+Inn+Bedford+PA&travelmode=driving&waypoints=Flight+93+National+Memorial+Visitor+Center"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://case.edu/admission/visit"
             }
           ],
           "tags": [
@@ -1499,6 +1803,24 @@
               "area": "flight93",
               "time": "15:30–16:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about undergraduate biology / chemistry research, pre-health advising, economics and how students gain lab or clinical exposure without assuming access to affiliated hospitals."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -1506,7 +1828,7 @@
           "date": "2027-02-06",
           "dateLabel": "Sat 06 Feb",
           "title": "Bedford → Smithsonian → New York",
-          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
+          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum: reserve an 11:00 free timed-entry pass for each visitor. Buy a compatible daily planetarium ticket at the box office on arrival, then see aviation / space highlights; finish by 13:00. February show times remain unconfirmed. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
           "rest": "22:00–08:00",
           "links": [
             {
@@ -1520,6 +1842,10 @@
             {
               "label": "Smithsonian planetarium programme",
               "url": "https://airandspace.si.edu/learn/programs/planetarium"
+            },
+            {
+              "label": "Smithsonian free timed-entry passes",
+              "url": "https://airandspace.si.edu/visit"
             }
           ],
           "tags": [
@@ -1538,7 +1864,7 @@
             },
             {
               "time": "11:00–13:00",
-              "text": "Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show."
+              "text": "Smithsonian National Air and Space Museum: reserve an 11:00 free timed-entry pass for each visitor. Buy a compatible daily planetarium ticket at the box office on arrival, then see aviation / space highlights; finish by 13:00. February show times remain unconfirmed."
             },
             {
               "time": "13:00–13:45",
@@ -1565,6 +1891,16 @@
               "area": "wilmington",
               "time": "15:45–16:15"
             }
+          ],
+          "practical": [
+            {
+              "label": "Tickets",
+              "text": "Museum admission is free but timed-entry passes are required. The planetarium is separately ticketed and sold on site; choose a show that ends by 13:00. Secure the museum slot before fixing the drive."
+            },
+            {
+              "label": "If delayed",
+              "text": "If the drive runs late, shorten the museum galleries and skip the planetarium rather than the meal break or 22:00 rest. Do not book a later show that delays the New York drive."
+            }
           ]
         },
         {
@@ -1572,7 +1908,7 @@
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
           "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
-          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–12:00 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries. 12:00–12:15 Short Central Park edge walk near The Met. 12:15–13:15 Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
+          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–11:45 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route. 11:45–12:00 Optional short Central Park edge walk; skip if icy or if entry to The Met was delayed. 12:00–13:10 Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
@@ -1590,6 +1926,18 @@
             {
               "label": "NBC official tour bookings",
               "url": "https://www.thetouratnbcstudios.com/book"
+            },
+            {
+              "label": "The Met admission / opening hours",
+              "url": "https://www.metmuseum.org/plan-your-visit"
+            },
+            {
+              "label": "Wicked official calendar / tickets",
+              "url": "https://wickedthemusical.com/tickets/"
+            },
+            {
+              "label": "NBC arrival / booking guidance",
+              "url": "https://www.thetouratnbcstudios.com/faq"
             }
           ],
           "tags": [
@@ -1602,16 +1950,20 @@
               "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
             },
             {
-              "time": "10:00–12:00",
-              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries."
+              "time": "10:00–11:45",
+              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route."
             },
             {
-              "time": "12:00–12:15",
-              "text": "Short Central Park edge walk near The Met."
+              "time": "11:45–12:00",
+              "text": "Optional short Central Park edge walk; skip if icy or if entry to The Met was delayed."
             },
             {
-              "time": "12:15–13:15",
-              "text": "Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena."
+              "time": "12:00–13:10",
+              "text": "Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena."
+            },
+            {
+              "time": "13:10–13:30",
+              "text": "MSG ticket / security and check-in buffer before the target tour."
             },
             {
               "time": "13:30–14:30",
@@ -1627,7 +1979,7 @@
             },
             {
               "time": "17:00–17:45",
-              "text": "Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY."
+              "text": "Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner."
             },
             {
               "time": "17:45–18:45",
@@ -1649,7 +2001,21 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
             "status": "Hotel to select"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Tickets / timing",
+              "text": "The Met currently lists US$30 per adult and US$17 per student: US$77 for two adults plus Olivia if her student eligibility is accepted; otherwise US$90. MSG, NBC and Wicked are paid, with prices and February slots to confirm before purchase."
+            },
+            {
+              "label": "Book in this order",
+              "text": "Check the actual Wicked performance first, then fit NBC and MSG around it. NBC usually releases tours about one month ahead, lasts 75–90min and recommends arrival 15min early. Do not treat the three target times as confirmed reservations."
+            },
+            {
+              "label": "If slots clash",
+              "text": "Keep The Met and the selected Broadway show. Ask for another same-day MSG or NBC slot before booking; if both cannot fit, one visit remains unresolved. Drop optional shopping first and preserve the 22:30 rest start."
+            }
+          ]
         },
         {
           "day": 10,
@@ -1733,7 +2099,17 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
             "status": "Hotel to select"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Ferry / UN priority",
+              "text": "Liberty Island grounds / museum access uses the authorised Statue City Cruises ferry. Current general ferry fare is US$26 for ages 13+, or US$78 for your family; recheck 2027 pricing. Reserve the ferry and UN together; no crown climb or Ellis Island stop is included."
+            },
+            {
+              "label": "Weather / overrun",
+              "text": "If the ferry is cancelled or cannot return in time, keep the UN check-in and rest window; use the existing Battery Park morning for a harbour view if conditions allow. An exterior view is not an island visit, and no extra repeat-city day is added."
+            }
+          ]
         },
         {
           "day": 11,
@@ -1746,6 +2122,10 @@
             {
               "label": "Drive NYC > Cornell",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Cornell+University+Ithaca&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.cornell.edu/visit-and-connect"
             }
           ],
           "tags": [
@@ -1787,6 +2167,24 @@
               "area": "sc",
               "time": "10:00–10:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask which undergraduate college best fits biology, animal science or economics, how to prepare for a later veterinary degree, and whether animal-related experience is accessible to undergraduates."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -1800,6 +2198,10 @@
             {
               "label": "Drive Cornell > Dartmouth",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Cornell+University+Ithaca&destination=Dartmouth+College+Hanover&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.dartmouth.edu/visit-dartmouth"
             }
           ],
           "tags": [
@@ -1849,6 +2251,24 @@
               "area": "br",
               "time": "11:45–12:15"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / chemistry research, economics prerequisites, the academic calendar, winter life and how easily students can explore subjects before deciding a major."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -1856,12 +2276,16 @@
           "date": "2027-02-11",
           "dateLabel": "Thu 11 Feb",
           "title": "Dartmouth → Wellesley → Boston",
-          "schedule": "07:30–10:30 Drive Hanover → Wellesley; breakfast before departure. 10:30–12:00 Wellesley village / campus surroundings and warm lunch. 13:00–15:00 Target Wellesley student-guided tour / admissions session; reserve this afternoon slot. 15:00–16:00 Drive to Boston hotel with parking. Keep the rental car for tomorrow. 16:00–18:00 Check in once in Boston, return the one-way rental at a city branch with a return slot to book and have dinner near the hotel.",
+          "schedule": "07:30–10:30 Drive Hanover → Wellesley; breakfast before departure. 10:30–12:00 Wellesley village / campus surroundings and warm lunch. 13:00–15:00 Target Wellesley student-guided tour / admissions session; reserve this afternoon slot. 15:00–16:00 Drive directly to the Boston hotel, drop bags and prepare to return the rental car this afternoon. 16:00–18:00 Check in once in Boston, return the one-way rental at a city branch with a return slot to book and have dinner near the hotel.",
           "rest": "21:00–07:00",
           "links": [
             {
               "label": "Dartmouth College Hanover → Wellesley College → Boston Back Bay",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Boston+Back+Bay&travelmode=driving&waypoints=Wellesley+College"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://www.wellesley.edu/admission-aid/connect-with-wellesley/on-campus"
             }
           ],
           "tags": [
@@ -1884,7 +2308,7 @@
             },
             {
               "time": "15:00–16:00",
-              "text": "Drive to Boston hotel with parking. Keep the rental car for tomorrow."
+              "text": "Drive directly to the Boston hotel, drop bags and prepare to return the rental car this afternoon."
             },
             {
               "time": "16:00–18:00",
@@ -1898,7 +2322,21 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / chemistry labs, economics, student writing and support at a women’s liberal arts college; compare the campus atmosphere with a large university."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            }
+          ]
         },
         {
           "day": 14,
@@ -1915,6 +2353,10 @@
             {
               "label": "Boston Public Garden → Newbury Street Boston → Chinatown Boston",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Public+Garden&destination=Chinatown+Boston&travelmode=walking&waypoints=Newbury+Street+Boston"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://www.bu.edu/admissions/visit-us/"
             }
           ],
           "tags": [
@@ -1959,7 +2401,25 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biochemistry / molecular biology, chemistry and economics, undergraduate lab access and preparation for pharmaceutical research; clarify the difference between undergraduate study and professional pharmacy qualifications."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Cold-weather option",
+              "text": "Keep the BU visit. If the weather is poor, shorten the Public Garden / Common walk and use the already planned Back Bay shops and cafe for indoor time; retain Chinatown dinner and 20:30 rest."
+            }
+          ]
         },
         {
           "day": 15,
@@ -2288,7 +2748,13 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Walkable+Disneyland-area+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Arrival day",
+              "text": "If immigration or fatigue delays you, omit the SpaceX photo stop first and keep Santa Monica arrival at 13:00–14:00, sunset and the 21:00 hotel-rest start. Eat a warm lunch near the pier; keep beach walking optional."
+            }
+          ]
         },
         {
           "day": 2,
@@ -2328,7 +2794,13 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Walkable+Disneyland-area+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Disneyland needs a valid admission ticket and a park reservation for the same date, subject to the ticket rules. Keep lunch and early dinner inside the park; leave by 19:30 even if later entertainment is offered."
+            }
+          ]
         },
         {
           "day": 3,
@@ -2389,6 +2861,10 @@
             {
               "label": "Northwestern Medill",
               "url": "https://www.medill.northwestern.edu/"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.northwestern.edu/visit/visit-campus/"
             }
           ],
           "tags": [
@@ -2420,7 +2896,21 @@
             "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
             "status": "Suggested"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask how biology or economics can connect with Medill, science reporting and undergraduate research; clarify admission by undergraduate school and options for changing schools."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            }
+          ]
         },
         {
           "day": 5,
@@ -2433,6 +2923,10 @@
             {
               "label": "Drive to Notre Dame",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=University+of+Notre+Dame&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.nd.edu/visit-and-connect/visit-notre-dame/"
             }
           ],
           "tags": [
@@ -2474,6 +2968,24 @@
               "area": "mc",
               "time": "09:00–09:30 CT"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / chemistry research, pre-health advising, residential life and whether the religious and community environment would suit Olivia."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -2487,6 +2999,10 @@
             {
               "label": "Drive to Michigan",
               "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=University+of+Michigan+Ann+Arbor&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.umich.edu/explore-visit/visit-campus"
             }
           ],
           "tags": [
@@ -2527,6 +3043,28 @@
             {
               "area": "kz",
               "time": "09:15–09:45"
+            }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / biochemistry and economics pathways, quantitative course requirements, first-year research and support in a large university."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Registration",
+              "text": "Michigan currently requires advance registration and does not accept tour walk-ins. Select the information session when registering; an in-person admissions-officer meeting is not promised."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
             }
           ]
         },
@@ -2589,6 +3127,12 @@
               "area": "flight93",
               "time": "15:30–16:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -2596,7 +3140,7 @@
           "date": "2027-02-06",
           "dateLabel": "Sat 06 Feb",
           "title": "Bedford → Smithsonian → New York",
-          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
+          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum: reserve an 11:00 free timed-entry pass for each visitor. Buy a compatible daily planetarium ticket at the box office on arrival, then see aviation / space highlights; finish by 13:00. February show times remain unconfirmed. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
           "rest": "22:00–08:00",
           "links": [
             {
@@ -2610,6 +3154,10 @@
             {
               "label": "Smithsonian planetarium programme",
               "url": "https://airandspace.si.edu/learn/programs/planetarium"
+            },
+            {
+              "label": "Smithsonian free timed-entry passes",
+              "url": "https://airandspace.si.edu/visit"
             }
           ],
           "tags": [
@@ -2628,7 +3176,7 @@
             },
             {
               "time": "11:00–13:00",
-              "text": "Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show."
+              "text": "Smithsonian National Air and Space Museum: reserve an 11:00 free timed-entry pass for each visitor. Buy a compatible daily planetarium ticket at the box office on arrival, then see aviation / space highlights; finish by 13:00. February show times remain unconfirmed."
             },
             {
               "time": "13:00–13:45",
@@ -2655,6 +3203,16 @@
               "area": "wilmington",
               "time": "15:45–16:15"
             }
+          ],
+          "practical": [
+            {
+              "label": "Tickets",
+              "text": "Museum admission is free but timed-entry passes are required. The planetarium is separately ticketed and sold on site; choose a show that ends by 13:00. Secure the museum slot before fixing the drive."
+            },
+            {
+              "label": "If delayed",
+              "text": "If the drive runs late, shorten the museum galleries and skip the planetarium rather than the meal break or 22:00 rest. Do not book a later show that delays the New York drive."
+            }
           ]
         },
         {
@@ -2662,7 +3220,7 @@
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
           "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
-          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–12:00 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries. 12:00–12:15 Short Central Park edge walk near The Met. 12:15–13:15 Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
+          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–11:45 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route. 11:45–12:00 Optional short Central Park edge walk; skip if icy or if entry to The Met was delayed. 12:00–13:10 Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
@@ -2680,6 +3238,18 @@
             {
               "label": "NBC official tour bookings",
               "url": "https://www.thetouratnbcstudios.com/book"
+            },
+            {
+              "label": "The Met admission / opening hours",
+              "url": "https://www.metmuseum.org/plan-your-visit"
+            },
+            {
+              "label": "Wicked official calendar / tickets",
+              "url": "https://wickedthemusical.com/tickets/"
+            },
+            {
+              "label": "NBC arrival / booking guidance",
+              "url": "https://www.thetouratnbcstudios.com/faq"
             }
           ],
           "tags": [
@@ -2692,16 +3262,20 @@
               "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
             },
             {
-              "time": "10:00–12:00",
-              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries."
+              "time": "10:00–11:45",
+              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route."
             },
             {
-              "time": "12:00–12:15",
-              "text": "Short Central Park edge walk near The Met."
+              "time": "11:45–12:00",
+              "text": "Optional short Central Park edge walk; skip if icy or if entry to The Met was delayed."
             },
             {
-              "time": "12:15–13:15",
-              "text": "Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena."
+              "time": "12:00–13:10",
+              "text": "Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena."
+            },
+            {
+              "time": "13:10–13:30",
+              "text": "MSG ticket / security and check-in buffer before the target tour."
             },
             {
               "time": "13:30–14:30",
@@ -2717,7 +3291,7 @@
             },
             {
               "time": "17:00–17:45",
-              "text": "Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY."
+              "text": "Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner."
             },
             {
               "time": "17:45–18:45",
@@ -2739,7 +3313,21 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
             "status": "Hotel to select"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Tickets / timing",
+              "text": "The Met currently lists US$30 per adult and US$17 per student: US$77 for two adults plus Olivia if her student eligibility is accepted; otherwise US$90. MSG, NBC and Wicked are paid, with prices and February slots to confirm before purchase."
+            },
+            {
+              "label": "Book in this order",
+              "text": "Check the actual Wicked performance first, then fit NBC and MSG around it. NBC usually releases tours about one month ahead, lasts 75–90min and recommends arrival 15min early. Do not treat the three target times as confirmed reservations."
+            },
+            {
+              "label": "If slots clash",
+              "text": "Keep The Met and the selected Broadway show. Ask for another same-day MSG or NBC slot before booking; if both cannot fit, one visit remains unresolved. Drop optional shopping first and preserve the 22:30 rest start."
+            }
+          ]
         },
         {
           "day": 10,
@@ -2823,7 +3411,17 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
             "status": "Hotel to select"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Ferry / UN priority",
+              "text": "Liberty Island grounds / museum access uses the authorised Statue City Cruises ferry. Current general ferry fare is US$26 for ages 13+, or US$78 for your family; recheck 2027 pricing. Reserve the ferry and UN together; no crown climb or Ellis Island stop is included."
+            },
+            {
+              "label": "Weather / overrun",
+              "text": "If the ferry is cancelled or cannot return in time, keep the UN check-in and rest window; use the existing Battery Park morning for a harbour view if conditions allow. An exterior view is not an island visit, and no extra repeat-city day is added."
+            }
+          ]
         },
         {
           "day": 11,
@@ -2836,6 +3434,10 @@
             {
               "label": "Drive NYC > Cornell",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Cornell+University+Ithaca&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.cornell.edu/visit-and-connect"
             }
           ],
           "tags": [
@@ -2877,6 +3479,24 @@
               "area": "sc",
               "time": "10:00–10:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask which undergraduate college best fits biology, animal science or economics, how to prepare for a later veterinary degree, and whether animal-related experience is accessible to undergraduates."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -2894,6 +3514,10 @@
             {
               "label": "Amherst College → Hanover New Hampshire",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Amherst+College&destination=Hanover+New+Hampshire&travelmode=driving"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admission.amherst.edu/portal/campusvisit"
             }
           ],
           "tags": [
@@ -2935,6 +3559,24 @@
               "area": "on",
               "time": "09:00–09:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about exploring biology, chemistry and economics before choosing a major, small-class support, research access and writing / student journalism."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -2948,6 +3590,10 @@
             {
               "label": "Dartmouth College Hanover → Boston Back Bay",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Boston+Back+Bay&travelmode=driving"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.dartmouth.edu/visit-dartmouth"
             }
           ],
           "tags": [
@@ -2984,7 +3630,21 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / chemistry research, economics prerequisites, the academic calendar, winter life and how easily students can explore subjects before deciding a major."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            }
+          ]
         },
         {
           "day": 14,
@@ -3001,6 +3661,10 @@
             {
               "label": "Boston Public Garden → Newbury Street Boston → Chinatown Boston",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Public+Garden&destination=Chinatown+Boston&travelmode=walking&waypoints=Newbury+Street+Boston"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://www.bu.edu/admissions/visit-us/"
             }
           ],
           "tags": [
@@ -3045,7 +3709,25 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biochemistry / molecular biology, chemistry and economics, undergraduate lab access and preparation for pharmaceutical research; clarify the difference between undergraduate study and professional pharmacy qualifications."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Cold-weather option",
+              "text": "Keep the BU visit. If the weather is poor, shorten the Public Garden / Common walk and use the already planned Back Bay shops and cafe for indoor time; retain Chinatown dinner and 20:30 rest."
+            }
+          ]
         },
         {
           "day": 15,
@@ -3365,7 +4047,13 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Walkable+Disneyland-area+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Arrival day",
+              "text": "If immigration or fatigue delays you, omit the SpaceX photo stop first and keep Santa Monica arrival at 13:00–14:00, sunset and the 21:00 hotel-rest start. Eat a warm lunch near the pier; keep beach walking optional."
+            }
+          ]
         },
         {
           "day": 2,
@@ -3405,7 +4093,13 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Walkable+Disneyland-area+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Disneyland needs a valid admission ticket and a park reservation for the same date, subject to the ticket rules. Keep lunch and early dinner inside the park; leave by 19:30 even if later entertainment is offered."
+            }
+          ]
         },
         {
           "day": 3,
@@ -3466,6 +4160,10 @@
             {
               "label": "NU > Millennium Park",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Millennium+Park+Chicago&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.northwestern.edu/visit/visit-campus/"
             }
           ],
           "tags": [
@@ -3497,7 +4195,21 @@
             "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
             "status": "Suggested"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask how biology or economics can connect with Medill, science reporting and undergraduate research; clarify admission by undergraduate school and options for changing schools."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            }
+          ]
         },
         {
           "day": 5,
@@ -3510,6 +4222,10 @@
             {
               "label": "Drive to Notre Dame",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=University+of+Notre+Dame&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.nd.edu/visit-and-connect/visit-notre-dame/"
             }
           ],
           "tags": [
@@ -3551,6 +4267,24 @@
               "area": "mc",
               "time": "09:00–09:30 CT"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / chemistry research, pre-health advising, residential life and whether the religious and community environment would suit Olivia."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -3564,6 +4298,10 @@
             {
               "label": "Drive to Michigan",
               "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=University+of+Michigan+Ann+Arbor&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.umich.edu/explore-visit/visit-campus"
             }
           ],
           "tags": [
@@ -3604,6 +4342,28 @@
             {
               "area": "kz",
               "time": "09:15–09:45"
+            }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / biochemistry and economics pathways, quantitative course requirements, first-year research and support in a large university."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Registration",
+              "text": "Michigan currently requires advance registration and does not accept tour walk-ins. Select the information session when registering; an in-person admissions-officer meeting is not promised."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
             }
           ]
         },
@@ -3667,6 +4427,12 @@
               "area": "flight93",
               "time": "15:30–16:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -3674,7 +4440,7 @@
           "date": "2027-02-06",
           "dateLabel": "Sat 06 Feb",
           "title": "Bedford → Smithsonian → New York",
-          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
+          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum: reserve an 11:00 free timed-entry pass for each visitor. Buy a compatible daily planetarium ticket at the box office on arrival, then see aviation / space highlights; finish by 13:00. February show times remain unconfirmed. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
           "rest": "22:00–08:00",
           "links": [
             {
@@ -3688,6 +4454,10 @@
             {
               "label": "Smithsonian planetarium programme",
               "url": "https://airandspace.si.edu/learn/programs/planetarium"
+            },
+            {
+              "label": "Smithsonian free timed-entry passes",
+              "url": "https://airandspace.si.edu/visit"
             }
           ],
           "tags": [
@@ -3706,7 +4476,7 @@
             },
             {
               "time": "11:00–13:00",
-              "text": "Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show."
+              "text": "Smithsonian National Air and Space Museum: reserve an 11:00 free timed-entry pass for each visitor. Buy a compatible daily planetarium ticket at the box office on arrival, then see aviation / space highlights; finish by 13:00. February show times remain unconfirmed."
             },
             {
               "time": "13:00–13:45",
@@ -3733,6 +4503,16 @@
               "area": "wilmington",
               "time": "15:45–16:15"
             }
+          ],
+          "practical": [
+            {
+              "label": "Tickets",
+              "text": "Museum admission is free but timed-entry passes are required. The planetarium is separately ticketed and sold on site; choose a show that ends by 13:00. Secure the museum slot before fixing the drive."
+            },
+            {
+              "label": "If delayed",
+              "text": "If the drive runs late, shorten the museum galleries and skip the planetarium rather than the meal break or 22:00 rest. Do not book a later show that delays the New York drive."
+            }
           ]
         },
         {
@@ -3740,7 +4520,7 @@
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
           "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
-          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–12:00 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries. 12:00–12:15 Short Central Park edge walk near The Met. 12:15–13:15 Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
+          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–11:45 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route. 11:45–12:00 Optional short Central Park edge walk; skip if icy or if entry to The Met was delayed. 12:00–13:10 Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
@@ -3758,6 +4538,18 @@
             {
               "label": "NBC official tour bookings",
               "url": "https://www.thetouratnbcstudios.com/book"
+            },
+            {
+              "label": "The Met admission / opening hours",
+              "url": "https://www.metmuseum.org/plan-your-visit"
+            },
+            {
+              "label": "Wicked official calendar / tickets",
+              "url": "https://wickedthemusical.com/tickets/"
+            },
+            {
+              "label": "NBC arrival / booking guidance",
+              "url": "https://www.thetouratnbcstudios.com/faq"
             }
           ],
           "tags": [
@@ -3770,16 +4562,20 @@
               "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
             },
             {
-              "time": "10:00–12:00",
-              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries."
+              "time": "10:00–11:45",
+              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route."
             },
             {
-              "time": "12:00–12:15",
-              "text": "Short Central Park edge walk near The Met."
+              "time": "11:45–12:00",
+              "text": "Optional short Central Park edge walk; skip if icy or if entry to The Met was delayed."
             },
             {
-              "time": "12:15–13:15",
-              "text": "Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena."
+              "time": "12:00–13:10",
+              "text": "Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena."
+            },
+            {
+              "time": "13:10–13:30",
+              "text": "MSG ticket / security and check-in buffer before the target tour."
             },
             {
               "time": "13:30–14:30",
@@ -3795,7 +4591,7 @@
             },
             {
               "time": "17:00–17:45",
-              "text": "Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY."
+              "text": "Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner."
             },
             {
               "time": "17:45–18:45",
@@ -3817,7 +4613,21 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
             "status": "Hotel to select"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Tickets / timing",
+              "text": "The Met currently lists US$30 per adult and US$17 per student: US$77 for two adults plus Olivia if her student eligibility is accepted; otherwise US$90. MSG, NBC and Wicked are paid, with prices and February slots to confirm before purchase."
+            },
+            {
+              "label": "Book in this order",
+              "text": "Check the actual Wicked performance first, then fit NBC and MSG around it. NBC usually releases tours about one month ahead, lasts 75–90min and recommends arrival 15min early. Do not treat the three target times as confirmed reservations."
+            },
+            {
+              "label": "If slots clash",
+              "text": "Keep The Met and the selected Broadway show. Ask for another same-day MSG or NBC slot before booking; if both cannot fit, one visit remains unresolved. Drop optional shopping first and preserve the 22:30 rest start."
+            }
+          ]
         },
         {
           "day": 10,
@@ -3901,7 +4711,17 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
             "status": "Hotel to select"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Ferry / UN priority",
+              "text": "Liberty Island grounds / museum access uses the authorised Statue City Cruises ferry. Current general ferry fare is US$26 for ages 13+, or US$78 for your family; recheck 2027 pricing. Reserve the ferry and UN together; no crown climb or Ellis Island stop is included."
+            },
+            {
+              "label": "Weather / overrun",
+              "text": "If the ferry is cancelled or cannot return in time, keep the UN check-in and rest window; use the existing Battery Park morning for a harbour view if conditions allow. An exterior view is not an island visit, and no extra repeat-city day is added."
+            }
+          ]
         },
         {
           "day": 11,
@@ -3914,6 +4734,10 @@
             {
               "label": "Drive NYC > Cornell",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Cornell+University+Ithaca&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.cornell.edu/visit-and-connect"
             }
           ],
           "tags": [
@@ -3955,6 +4779,24 @@
               "area": "sc",
               "time": "10:00–10:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask which undergraduate college best fits biology, animal science or economics, how to prepare for a later veterinary degree, and whether animal-related experience is accessible to undergraduates."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -3968,6 +4810,10 @@
             {
               "label": "Drive Cornell > Williams",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Cornell+University+Ithaca&destination=Williams+College+Williamstown&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://www.williams.edu/admission-aid/visit-and-connect/visit-campus/"
             }
           ],
           "tags": [
@@ -4009,6 +4855,24 @@
               "area": "on",
               "time": "09:30–10:00"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about small-class teaching in biology / chemistry and economics, quantitative requirements, undergraduate research and winter life in Williamstown."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -4022,6 +4886,10 @@
             {
               "label": "Williams College Williamstown → Dartmouth College Hanover → Boston Back Bay",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Williams+College+Williamstown&destination=Boston+Back+Bay&travelmode=driving&waypoints=Dartmouth+College+Hanover"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.dartmouth.edu/visit-dartmouth"
             }
           ],
           "tags": [
@@ -4058,7 +4926,21 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / chemistry research, economics prerequisites, the academic calendar, winter life and how easily students can explore subjects before deciding a major."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            }
+          ]
         },
         {
           "day": 14,
@@ -4075,6 +4957,10 @@
             {
               "label": "Boston Public Garden → Newbury Street Boston → Chinatown Boston",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Public+Garden&destination=Chinatown+Boston&travelmode=walking&waypoints=Newbury+Street+Boston"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://www.bu.edu/admissions/visit-us/"
             }
           ],
           "tags": [
@@ -4119,7 +5005,25 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biochemistry / molecular biology, chemistry and economics, undergraduate lab access and preparation for pharmaceutical research; clarify the difference between undergraduate study and professional pharmacy qualifications."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Cold-weather option",
+              "text": "Keep the BU visit. If the weather is poor, shorten the Public Garden / Common walk and use the already planned Back Bay shops and cafe for indoor time; retain Chinatown dinner and 20:30 rest."
+            }
+          ]
         },
         {
           "day": 15,
@@ -4452,7 +5356,13 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Walkable+Disneyland-area+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Arrival day",
+              "text": "If immigration or fatigue delays you, omit the SpaceX photo stop first and keep Santa Monica arrival at 13:00–14:00, sunset and the 21:00 hotel-rest start. Eat a warm lunch near the pier; keep beach walking optional."
+            }
+          ]
         },
         {
           "day": 2,
@@ -4492,7 +5402,13 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Walkable+Disneyland-area+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Disneyland needs a valid admission ticket and a park reservation for the same date, subject to the ticket rules. Keep lunch and early dinner inside the park; leave by 19:30 even if later entertainment is offered."
+            }
+          ]
         },
         {
           "day": 3,
@@ -4562,6 +5478,12 @@
               "area": "walnutcreek",
               "time": "17:30–17:45"
             }
+          ],
+          "practical": [
+            {
+              "label": "Long driving day",
+              "text": "Two drivers should alternate if both are licensed and insured. Keep the two listed meal / comfort stops; if traffic threatens the 21:00 rest start, shorten or omit Apple Park rather than arriving in Davis late."
+            }
           ]
         },
         {
@@ -4579,6 +5501,10 @@
             {
               "label": "Chicago O Hare International Airport → Northwestern University Evanston",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Chicago+O+Hare+International+Airport&destination=Northwestern+University+Evanston&travelmode=driving"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://www.ucdavis.edu/about/visit"
             }
           ],
           "tags": [
@@ -4626,7 +5552,25 @@
             "url": "https://www.hilton.com/en/hotels/ordgegu-graduate-evanston/",
             "status": "Suggested"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / animal science, pre-vet prerequisites, undergraduate animal-care experience and how these prepare students for a separate professional veterinary degree."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Flight dependency",
+              "text": "Book UC Davis and the SMF–ORD flight as a compatible pair. The 15:00 departure is a planning target, not an operating flight confirmed here; allow rental return, check-in and the two-hour clock change."
+            }
+          ]
         },
         {
           "day": 5,
@@ -4639,6 +5583,10 @@
             {
               "label": "Northwestern > Notre Dame",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=University+of+Notre+Dame&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.northwestern.edu/visit/visit-campus/"
             }
           ],
           "tags": [
@@ -4680,6 +5628,24 @@
               "area": "mc",
               "time": "16:00–16:30 CT"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask how biology or economics can connect with Medill, science reporting and undergraduate research; clarify admission by undergraduate school and options for changing schools."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -4693,6 +5659,10 @@
             {
               "label": "Drive to Michigan",
               "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=University+of+Michigan+Ann+Arbor&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.nd.edu/visit-and-connect/visit-notre-dame/"
             }
           ],
           "tags": [
@@ -4730,6 +5700,24 @@
               "area": "kz",
               "time": "14:45–15:15"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / chemistry research, pre-health advising, residential life and whether the religious and community environment would suit Olivia."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -4743,6 +5731,10 @@
             {
               "label": "University of Michigan Ann Arbor → Brandywine Falls Ohio → Somerset Pennsylvania → Golden Eagle Inn Bedford PA",
               "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Golden+Eagle+Inn+Bedford+PA&travelmode=driving&waypoints=Brandywine+Falls+Ohio%7CSomerset+Pennsylvania"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.umich.edu/explore-visit/visit-campus"
             }
           ],
           "tags": [
@@ -4788,6 +5780,28 @@
               "area": "somerset",
               "time": "18:00–18:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / biochemistry and economics pathways, quantitative course requirements, first-year research and support in a large university."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Registration",
+              "text": "Michigan currently requires advance registration and does not accept tour walk-ins. Select the information session when registering; an in-person admissions-officer meeting is not promised."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -4795,7 +5809,7 @@
           "date": "2027-02-06",
           "dateLabel": "Sat 06 Feb",
           "title": "Bedford → Smithsonian → New York",
-          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
+          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum: reserve an 11:00 free timed-entry pass for each visitor. Buy a compatible daily planetarium ticket at the box office on arrival, then see aviation / space highlights; finish by 13:00. February show times remain unconfirmed. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
           "rest": "22:00–08:00",
           "links": [
             {
@@ -4809,6 +5823,10 @@
             {
               "label": "Smithsonian planetarium programme",
               "url": "https://airandspace.si.edu/learn/programs/planetarium"
+            },
+            {
+              "label": "Smithsonian free timed-entry passes",
+              "url": "https://airandspace.si.edu/visit"
             }
           ],
           "tags": [
@@ -4827,7 +5845,7 @@
             },
             {
               "time": "11:00–13:00",
-              "text": "Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show."
+              "text": "Smithsonian National Air and Space Museum: reserve an 11:00 free timed-entry pass for each visitor. Buy a compatible daily planetarium ticket at the box office on arrival, then see aviation / space highlights; finish by 13:00. February show times remain unconfirmed."
             },
             {
               "time": "13:00–13:45",
@@ -4854,6 +5872,16 @@
               "area": "wilmington",
               "time": "15:45–16:15"
             }
+          ],
+          "practical": [
+            {
+              "label": "Tickets",
+              "text": "Museum admission is free but timed-entry passes are required. The planetarium is separately ticketed and sold on site; choose a show that ends by 13:00. Secure the museum slot before fixing the drive."
+            },
+            {
+              "label": "If delayed",
+              "text": "If the drive runs late, shorten the museum galleries and skip the planetarium rather than the meal break or 22:00 rest. Do not book a later show that delays the New York drive."
+            }
           ]
         },
         {
@@ -4861,7 +5889,7 @@
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
           "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
-          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–12:00 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries. 12:00–12:15 Short Central Park edge walk near The Met. 12:15–13:15 Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
+          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–11:45 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route. 11:45–12:00 Optional short Central Park edge walk; skip if icy or if entry to The Met was delayed. 12:00–13:10 Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
@@ -4879,6 +5907,18 @@
             {
               "label": "NBC official tour bookings",
               "url": "https://www.thetouratnbcstudios.com/book"
+            },
+            {
+              "label": "The Met admission / opening hours",
+              "url": "https://www.metmuseum.org/plan-your-visit"
+            },
+            {
+              "label": "Wicked official calendar / tickets",
+              "url": "https://wickedthemusical.com/tickets/"
+            },
+            {
+              "label": "NBC arrival / booking guidance",
+              "url": "https://www.thetouratnbcstudios.com/faq"
             }
           ],
           "tags": [
@@ -4891,16 +5931,20 @@
               "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
             },
             {
-              "time": "10:00–12:00",
-              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries."
+              "time": "10:00–11:45",
+              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route."
             },
             {
-              "time": "12:00–12:15",
-              "text": "Short Central Park edge walk near The Met."
+              "time": "11:45–12:00",
+              "text": "Optional short Central Park edge walk; skip if icy or if entry to The Met was delayed."
             },
             {
-              "time": "12:15–13:15",
-              "text": "Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena."
+              "time": "12:00–13:10",
+              "text": "Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena."
+            },
+            {
+              "time": "13:10–13:30",
+              "text": "MSG ticket / security and check-in buffer before the target tour."
             },
             {
               "time": "13:30–14:30",
@@ -4916,7 +5960,7 @@
             },
             {
               "time": "17:00–17:45",
-              "text": "Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY."
+              "text": "Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner."
             },
             {
               "time": "17:45–18:45",
@@ -4938,7 +5982,21 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
             "status": "Hotel to select"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Tickets / timing",
+              "text": "The Met currently lists US$30 per adult and US$17 per student: US$77 for two adults plus Olivia if her student eligibility is accepted; otherwise US$90. MSG, NBC and Wicked are paid, with prices and February slots to confirm before purchase."
+            },
+            {
+              "label": "Book in this order",
+              "text": "Check the actual Wicked performance first, then fit NBC and MSG around it. NBC usually releases tours about one month ahead, lasts 75–90min and recommends arrival 15min early. Do not treat the three target times as confirmed reservations."
+            },
+            {
+              "label": "If slots clash",
+              "text": "Keep The Met and the selected Broadway show. Ask for another same-day MSG or NBC slot before booking; if both cannot fit, one visit remains unresolved. Drop optional shopping first and preserve the 22:30 rest start."
+            }
+          ]
         },
         {
           "day": 10,
@@ -5022,7 +6080,17 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Midtown+West+New+York+hotels+parking",
             "status": "Hotel to select"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Ferry / UN priority",
+              "text": "Liberty Island grounds / museum access uses the authorised Statue City Cruises ferry. Current general ferry fare is US$26 for ages 13+, or US$78 for your family; recheck 2027 pricing. Reserve the ferry and UN together; no crown climb or Ellis Island stop is included."
+            },
+            {
+              "label": "Weather / overrun",
+              "text": "If the ferry is cancelled or cannot return in time, keep the UN check-in and rest window; use the existing Battery Park morning for a harbour view if conditions allow. An exterior view is not an island visit, and no extra repeat-city day is added."
+            }
+          ]
         },
         {
           "day": 11,
@@ -5035,6 +6103,10 @@
             {
               "label": "Drive NYC > Cornell",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Cornell+University+Ithaca&travelmode=driving&hl=en"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.cornell.edu/visit-and-connect"
             }
           ],
           "tags": [
@@ -5076,6 +6148,24 @@
               "area": "sc",
               "time": "10:00–10:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask which undergraduate college best fits biology, animal science or economics, how to prepare for a later veterinary degree, and whether animal-related experience is accessible to undergraduates."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -5093,6 +6183,10 @@
             {
               "label": "Amherst College → Hanover New Hampshire",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Amherst+College&destination=Hanover+New+Hampshire&travelmode=driving"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admission.amherst.edu/portal/campusvisit"
             }
           ],
           "tags": [
@@ -5134,6 +6228,24 @@
               "area": "on",
               "time": "09:00–09:30"
             }
+          ],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about exploring biology, chemistry and economics before choosing a major, small-class support, research access and writing / student journalism."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Winter / meals",
+              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            }
           ]
         },
         {
@@ -5147,6 +6259,10 @@
             {
               "label": "Dartmouth College Hanover → Boston Back Bay",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Boston+Back+Bay&travelmode=driving"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://admissions.dartmouth.edu/visit-dartmouth"
             }
           ],
           "tags": [
@@ -5183,7 +6299,21 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biology / chemistry research, economics prerequisites, the academic calendar, winter life and how easily students can explore subjects before deciding a major."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            }
+          ]
         },
         {
           "day": 14,
@@ -5200,6 +6330,10 @@
             {
               "label": "Boston Public Garden → Newbury Street Boston → Chinatown Boston",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Public+Garden&destination=Chinatown+Boston&travelmode=walking&waypoints=Newbury+Street+Boston"
+            },
+            {
+              "label": "Campus tour / admissions registration",
+              "url": "https://www.bu.edu/admissions/visit-us/"
             }
           ],
           "tags": [
@@ -5244,7 +6378,25 @@
             "url": "https://www.google.com/maps/search/?api=1&query=Boston+Back+Bay+hotel",
             "status": "Suggested; not booked"
           },
-          "pits": []
+          "pits": [],
+          "practical": [
+            {
+              "label": "Reserve",
+              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about biochemistry / molecular biology, chemistry and economics, undergraduate lab access and preparation for pharmaceutical research; clarify the difference between undergraduate study and professional pharmacy qualifications."
+            },
+            {
+              "label": "If unavailable",
+              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Cold-weather option",
+              "text": "Keep the BU visit. If the weather is poor, shorten the Public Garden / Common walk and use the already planned Back Bay shops and cafe for indoor time; retain Chinatown dinner and 20:30 rest."
+            }
+          ]
         },
         {
           "day": 15,

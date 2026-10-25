@@ -1979,5 +1979,18 @@
     "Brandywine": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm",
     "BedfordInn": "https://www.bedfordpainn.com/",
     "planetarium": "https://airandspace.si.edu/learn/programs/planetarium"
+  },
+  "planningReview": {
+    "skill": "Travel Planner",
+    "source": "https://github.com/ZawYePhyo/travel-planner-skill",
+    "checked": "2026-10-25",
+    "scope": "Daily pacing, meal buffers, direct campus booking links, visit questions, timed-entry dependencies and weather alternatives. No new bookings or confirmed February tour inventory.",
+    "sources": [
+      "https://www.metmuseum.org/plan-your-visit",
+      "https://airandspace.si.edu/visit",
+      "https://www.si.edu/theaters/planetarium",
+      "https://www.thetouratnbcstudios.com/faq",
+      "https://www.nps.gov/stli/planyourvisit/fees.htm"
+    ]
   }
 }
