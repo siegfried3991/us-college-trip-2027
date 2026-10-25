@@ -5,7 +5,7 @@
       "code": "A",
       "title": "Balanced family + schools",
       "why": "Balanced family and Amherst route",
-      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Washington, DC > New York City > Ithaca · Cornell > Amherst > Hanover · Dartmouth > Boston",
+      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Bedford · historic inn > Washington, DC > New York City > Ithaca · Cornell > Amherst > Hanover · Dartmouth > Boston",
       "trade": "Driving preferred; one continuous stay per city. One domestic flight; international flights ticketed.",
       "days": [
         {
@@ -368,52 +368,60 @@
           "day": 7,
           "date": "2027-02-05",
           "dateLabel": "Fri 05 Feb",
-          "title": "Ann Arbor → Washington by car",
-          "schedule": "08:00 Leave Ann Arbor by car for Washington. 10:30–11:00 Elyria / Amherst, Ohio: Turnpike-area warm food, restroom and stretch. 14:00–14:30 Somerset, Pennsylvania: warm meal and restroom break near the Turnpike. 18:00 Washington hotel with parking; dinner / settle in and protect ten hours of rest.",
+          "title": "Ann Arbor → Brandywine Falls → Flight 93 → Bedford",
+          "schedule": "08:00 Leave Ann Arbor after breakfast. 11:00–11:45 Brandywine Falls: short boardwalk and waterfall viewpoints in Cuyahoga Valley National Park. Skip this outdoor stop if paths are icy / closed; no gorge hike. 11:45–12:15 Warm lunch in the nearby Boston Heights / Macedonia area. 12:15–15:30 Drive toward Flight 93 National Memorial with traffic / comfort buffer. 15:30–16:30 Flight 93 Visitor Center exhibits and overlook; finish before its current 17:00 closing time. 16:30–18:00 Continue east to Bedford; check into the historic inn, then dinner in the walkable town centre.",
           "rest": "21:00–07:00",
           "links": [
             {
-              "label": "University of Michigan Ann Arbor → I-80 services Elyria Amherst Ohio → Somerset Pennsylvania Turnpike services → Washington DC",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Washington+DC&travelmode=driving&waypoints=I-80+services+Elyria+Amherst+Ohio%7CSomerset+Pennsylvania+Turnpike+services"
+              "label": "University of Michigan Ann Arbor → Brandywine Falls Ohio → Flight 93 National Memorial Visitor Center → Golden Eagle Inn Bedford PA",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Golden+Eagle+Inn+Bedford+PA&travelmode=driving&waypoints=Brandywine+Falls+Ohio%7CFlight+93+National+Memorial+Visitor+Center"
             }
           ],
           "tags": [
             "travel"
           ],
-          "transport": "Drive Ann Arbor → Washington: Google Maps about 8h05 before breaks. Allow 9.5–10h including two 30min meal / stretch stops and traffic buffer. Keep the Chicago rental car; no domestic flight on this leg.",
+          "transport": "Google Maps: direct Ann Arbor → Washington 8h05; via Brandywine Falls, Flight 93 and Bedford 8h47 total driving (+42min, split across two days). Today allow 6–6.5h driving, 45min falls, 60min memorial, lunch and winter buffer; Bedford about 18:00.",
           "activities": [
             {
               "time": "08:00",
-              "text": "Leave Ann Arbor by car for Washington."
+              "text": "Leave Ann Arbor after breakfast."
             },
             {
-              "time": "10:30–11:00",
-              "text": "Elyria / Amherst, Ohio: Turnpike-area warm food, restroom and stretch."
+              "time": "11:00–11:45",
+              "text": "Brandywine Falls: short boardwalk and waterfall viewpoints in Cuyahoga Valley National Park. Skip this outdoor stop if paths are icy / closed; no gorge hike."
             },
             {
-              "time": "14:00–14:30",
-              "text": "Somerset, Pennsylvania: warm meal and restroom break near the Turnpike."
+              "time": "11:45–12:15",
+              "text": "Warm lunch in the nearby Boston Heights / Macedonia area."
             },
             {
-              "time": "18:00",
-              "text": "Washington hotel with parking; dinner / settle in and protect ten hours of rest."
+              "time": "12:15–15:30",
+              "text": "Drive toward Flight 93 National Memorial with traffic / comfort buffer."
+            },
+            {
+              "time": "15:30–16:30",
+              "text": "Flight 93 Visitor Center exhibits and overlook; finish before its current 17:00 closing time."
+            },
+            {
+              "time": "16:30–18:00",
+              "text": "Continue east to Bedford; check into the historic inn, then dinner in the walkable town centre."
             }
           ],
           "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Washington, DC hotel with parking",
-            "city": "Washington, DC",
-            "url": "https://www.google.com/maps/search/?api=1&query=Washington%2C+DC+hotels+parking",
-            "status": "Hotel to select"
+            "name": "The Golden Eagle Inn · historic Bedford inn",
+            "city": "Bedford, Pennsylvania",
+            "url": "https://www.bedfordpainn.com/",
+            "status": "Suggested; confirm family room and winter availability"
           },
           "pits": [
             {
-              "area": "elyria",
-              "time": "10:30–11:00"
+              "area": "brandywine",
+              "time": "11:00–11:45"
             },
             {
-              "area": "somerset",
-              "time": "14:00–14:30"
+              "area": "flight93",
+              "time": "15:30–16:30"
             }
           ]
         },
@@ -421,51 +429,55 @@
           "day": 8,
           "date": "2027-02-06",
           "dateLabel": "Sat 06 Feb",
-          "title": "Smithsonian → New York by car",
-          "schedule": "09:15–09:45 Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time. 10:00–12:30 Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm. 12:30–13:30 Warm lunch; collect bags and retrieve the parked rental car for New York. 13:30 Drive toward New York on I-95 / the New Jersey Turnpike. 15:30–16:00 Wilmington / Newark, Delaware: warm food / drink, toilets and stretch. 18:30–19:30 Manhattan hotel with parking; check in and dinner nearby. 21:30–07:30 Protected ten-hour hotel rest before the first full New York day.",
-          "rest": "21:30–07:30",
+          "title": "Bedford → Smithsonian → New York",
+          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
+          "rest": "22:00–08:00",
           "links": [
+            {
+              "label": "Bedford → Smithsonian",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Golden+Eagle+Inn+Bedford+PA&destination=Smithsonian+National+Air+and+Space+Museum&travelmode=driving"
+            },
             {
               "label": "Smithsonian National Air and Space Museum → I-95 services Newark Delaware → Midtown West New York",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Midtown+West+New+York&travelmode=driving&waypoints=I-95+services+Newark+Delaware"
+            },
+            {
+              "label": "Smithsonian planetarium programme",
+              "url": "https://airandspace.si.edu/learn/programs/planetarium"
             }
           ],
           "tags": [
             "fun",
             "travel"
           ],
-          "transport": "Washington → NYC: Google Maps about 3h40 in current traffic; allow 5–6h with the Delaware stop, winter / I-95 traffic and Manhattan hotel parking. Keep the car for the college road trip; city visits use walking / taxis while it is parked.",
+          "transport": "Bedford → Smithsonian: allow 3.5h including winter / city traffic and parking. Drive directly without a Frederick town detour. After the museum, Washington → Manhattan allow 5–6h including the Delaware stop and parking.",
           "activities": [
             {
-              "time": "09:15–09:45",
-              "text": "Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time."
+              "time": "07:00–07:30",
+              "text": "Breakfast and checkout after ten hours of hotel rest."
             },
             {
-              "time": "10:00–12:30",
-              "text": "Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm."
+              "time": "07:30–11:00",
+              "text": "Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time."
             },
             {
-              "time": "12:30–13:30",
-              "text": "Warm lunch; collect bags and retrieve the parked rental car for New York."
+              "time": "11:00–13:00",
+              "text": "Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show."
             },
             {
-              "time": "13:30",
-              "text": "Drive toward New York on I-95 / the New Jersey Turnpike."
+              "time": "13:00–13:45",
+              "text": "Warm lunch, collect bags and the car."
             },
             {
-              "time": "15:30–16:00",
-              "text": "Wilmington / Newark, Delaware: warm food / drink, toilets and stretch."
+              "time": "13:45–20:00",
+              "text": "Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in."
             },
             {
-              "time": "18:30–19:30",
-              "text": "Manhattan hotel with parking; check in and dinner nearby."
-            },
-            {
-              "time": "21:30–07:30",
-              "text": "Protected ten-hour hotel rest before the first full New York day."
+              "time": "20:00–21:30",
+              "text": "Warm dinner near the hotel; protected rest 22:00–08:00."
             }
           ],
-          "restWindow": "21:30–07:30",
+          "restWindow": "22:00–08:00",
           "hotel": {
             "name": "Midtown West New York hotel with parking",
             "city": "Midtown West New York",
@@ -475,7 +487,7 @@
           "pits": [
             {
               "area": "wilmington",
-              "time": "15:30–16:00"
+              "time": "15:45–16:15"
             }
           ]
         },
@@ -483,83 +495,75 @@
           "day": 9,
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
-          "title": "NYC: The Met, space, NBC Studios + Wicked",
-          "schedule": "09:15–09:50 Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue. 10:00–12:00 The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access. 12:00–12:40 Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather. 12:40–13:20 Warm lunch near AMNH. 13:30–14:45 AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective. 14:45–15:15 Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early. 15:30–17:00 The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed. 17:00–17:45 Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY. 17:45–18:30 Walk toward Times Square and have an early warm dinner near the theatre. 18:30–18:45 Walk to Gershwin Theatre and check in. 19:00–21:45 Target Wicked evening performance; confirm tickets and exact running time. 21:45–22:00 Walk directly back to the nearby hotel after the performance; protected rest 22:30–08:30.",
+          "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
+          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–12:00 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries. 12:00–12:15 Short Central Park edge walk near The Met. 12:15–13:15 Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
-              "label": "The Met official hours / tickets",
-              "url": "https://www.metmuseum.org/plan-your-visit"
+              "label": "Midtown West New York → The Met Fifth Avenue → Madison Square Garden → 30 Rockefeller Plaza",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=30+Rockefeller+Plaza&travelmode=driving&waypoints=The+Met+Fifth+Avenue%7CMadison+Square+Garden"
             },
             {
-              "label": "The Metropolitan Museum of Art 1000 Fifth Avenue New York → American Museum of Natural History New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+              "label": "30 Rockefeller Plaza → FAO Schwarz New York → Nintendo New York → Times Square → Gershwin Theatre",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=30+Rockefeller+Plaza&destination=Gershwin+Theatre&travelmode=walking&waypoints=FAO+Schwarz+New+York%7CNintendo+New+York%7CTimes+Square"
             },
             {
-              "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=driving"
+              "label": "MSG official tour bookings",
+              "url": "https://www.msg.com/guided-tours/new-york-city-tours/madison-square-garden-tour"
             },
             {
-              "label": "NBC Studios tour · official tickets",
+              "label": "NBC official tour bookings",
               "url": "https://www.thetouratnbcstudios.com/book"
-            },
-            {
-              "label": "The Tour at NBC Studios 30 Rockefeller Plaza New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York%7CTimes+Square+New+York"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
+          "transport": "Taxi: hotel → Met 30–40min; Met → MSG 25–40min; MSG → NBC 15–30min or walk 25–35min. Midtown evening walking legs 5–15min. MSG is a guided arena visit, not a live game.",
           "activities": [
             {
               "time": "09:15–09:50",
-              "text": "Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue."
+              "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
             },
             {
               "time": "10:00–12:00",
-              "text": "The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access."
+              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries."
             },
             {
-              "time": "12:00–12:40",
-              "text": "Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather."
+              "time": "12:00–12:15",
+              "text": "Short Central Park edge walk near The Met."
             },
             {
-              "time": "12:40–13:20",
-              "text": "Warm lunch near AMNH."
+              "time": "12:15–13:15",
+              "text": "Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena."
             },
             {
-              "time": "13:30–14:45",
-              "text": "AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective."
+              "time": "13:30–14:30",
+              "text": "Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included."
             },
             {
-              "time": "14:45–15:15",
-              "text": "Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
+              "time": "14:30–15:15",
+              "text": "Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early."
             },
             {
               "time": "15:30–17:00",
-              "text": "The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed."
+              "text": "Target The Tour at NBC Studios; reserve when February tickets open."
             },
             {
               "time": "17:00–17:45",
-              "text": "Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY."
+              "text": "Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY."
             },
             {
-              "time": "17:45–18:30",
-              "text": "Walk toward Times Square and have an early warm dinner near the theatre."
-            },
-            {
-              "time": "18:30–18:45",
-              "text": "Walk to Gershwin Theatre and check in."
+              "time": "17:45–18:45",
+              "text": "Times Square, warm dinner and Gershwin Theatre entry."
             },
             {
               "time": "19:00–21:45",
-              "text": "Target Wicked evening performance; confirm tickets and exact running time."
+              "text": "Target Wicked evening performance; actual performance / tickets to confirm."
             },
             {
               "time": "21:45–22:00",
-              "text": "Walk directly back to the nearby hotel after the performance; protected rest 22:30–08:30."
+              "text": "Walk directly back to the nearby hotel; rest 22:30–08:30."
             }
           ],
           "restWindow": "22:30–08:30",
@@ -575,8 +579,8 @@
           "day": 10,
           "date": "2027-02-08",
           "dateLabel": "Mon 08 Feb",
-          "title": "NYC full day 2: city life",
-          "schedule": "09:00–09:45 Leave hotel for Castle Clinton / Battery Park ferry security area. 10:00–13:30 Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure. 12:00 Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning. 13:30–14:30 The Battery → Wall Street / Charging Bull → 9/11 Memorial outdoor plaza. 14:30–15:00 Short Brooklyn Bridge walk from the Manhattan entrance; turn around on the bridge without crossing to Brooklyn. 15:15–16:00 Chinatown warm rice / noodles lunch and Mott / Canal Street. 16:00–17:00 Continue north through SoHo Broadway and cast-iron streets. 17:00–18:30 Greenwich Village / Washington Square Park, NYU exterior and dinner. 18:30–19:45 Drive / taxi north past Empire State Building for an exterior photograph, then return to the hotel and pack.",
+          "title": "NYC: Statue of Liberty → United Nations → Grand Central",
+          "schedule": "08:45–09:30 Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks. 09:30–13:00 Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm. 13:00–13:30 Warm lunch near Battery Park / the Financial District. 13:30–14:15 Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:15 Walk along East 42nd Street to Grand Central Terminal; main concourse and architecture. 17:15–18:00 Walk / taxi to the Empire State Building for an exterior photograph, continuing west rather than returning downtown. 18:00–19:30 Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack.",
           "rest": "20:30-06:30",
           "links": [
             {
@@ -584,58 +588,66 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=Battery+Park+New+York&travelmode=driving"
             },
             {
-              "label": "Statue City Cruises · tickets",
+              "label": "Statue City Cruises official tickets",
               "url": "https://www.cityexperiences.com/new-york/city-cruises/statue/"
             },
             {
-              "label": "Battery Park New York → Wall Street New York → 9/11 Memorial New York → Brooklyn Bridge Manhattan entrance → Chinatown New York → SoHo Broadway New York → Washington Square Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=Washington+Square+Park+New+York&travelmode=walking&waypoints=Wall+Street+New+York%7C9%2F11+Memorial+New+York%7CBrooklyn+Bridge+Manhattan+entrance%7CChinatown+New+York%7CSoHo+Broadway+New+York"
+              "label": "Battery Park New York → 801 First Avenue New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=801+First+Avenue+New+York&travelmode=driving"
             },
             {
-              "label": "Washington Square Park New York → Empire State Building → Midtown West New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Midtown+West+New+York&travelmode=driving&waypoints=Empire+State+Building"
+              "label": "United Nations Headquarters New York → Grand Central Terminal → Empire State Building → Koreatown Manhattan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=United+Nations+Headquarters+New+York&destination=Koreatown+Manhattan&travelmode=walking&waypoints=Grand+Central+Terminal%7CEmpire+State+Building"
+            },
+            {
+              "label": "UN guided tour booking",
+              "url": "https://www.un.org/en/visit/tour"
+            },
+            {
+              "label": "UN registration / arrival instructions",
+              "url": "https://www.un.org/en/visit/faq"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → Battery Park by taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/taxi legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "transport": "Hotel → Battery Park taxi 35–50min; Liberty Island ferry excursion allow 3.5h. Battery Park → UN taxi 35–45min; UN requires arrival 60min before the tour. UN → Grand Central walk 15–20min; then Midtown walking / taxi legs 15–25min.",
           "activities": [
             {
-              "time": "09:00–09:45",
-              "text": "Leave hotel for Castle Clinton / Battery Park ferry security area."
+              "time": "08:45–09:30",
+              "text": "Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks."
             },
             {
-              "time": "10:00–13:30",
-              "text": "Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure."
+              "time": "09:30–13:00",
+              "text": "Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm."
             },
             {
-              "time": "12:00",
-              "text": "Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning."
+              "time": "13:00–13:30",
+              "text": "Warm lunch near Battery Park / the Financial District."
             },
             {
-              "time": "13:30–14:30",
-              "text": "The Battery → Wall Street / Charging Bull → 9/11 Memorial outdoor plaza."
+              "time": "13:30–14:15",
+              "text": "Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street."
             },
             {
-              "time": "14:30–15:00",
-              "text": "Short Brooklyn Bridge walk from the Manhattan entrance; turn around on the bridge without crossing to Brooklyn."
+              "time": "14:30–15:30",
+              "text": "UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID."
             },
             {
-              "time": "15:15–16:00",
-              "text": "Chinatown warm rice / noodles lunch and Mott / Canal Street."
+              "time": "15:30–16:30",
+              "text": "Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed."
             },
             {
-              "time": "16:00–17:00",
-              "text": "Continue north through SoHo Broadway and cast-iron streets."
+              "time": "16:30–17:15",
+              "text": "Walk along East 42nd Street to Grand Central Terminal; main concourse and architecture."
             },
             {
-              "time": "17:00–18:30",
-              "text": "Greenwich Village / Washington Square Park, NYU exterior and dinner."
+              "time": "17:15–18:00",
+              "text": "Walk / taxi to the Empire State Building for an exterior photograph, continuing west rather than returning downtown."
             },
             {
-              "time": "18:30–19:45",
-              "text": "Drive / taxi north past Empire State Building for an exterior photograph, then return to the hotel and pack."
+              "time": "18:00–19:30",
+              "text": "Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack."
             }
           ],
           "restWindow": "20:30-06:30",
@@ -1068,7 +1080,7 @@
       "code": "B",
       "title": "Eastbound road + Case Western",
       "why": "Case Western and Wellesley route",
-      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Cleveland · Case Western > Washington, DC > New York City > Ithaca · Cornell > Hanover · Dartmouth > Wellesley > Boston",
+      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Cleveland · Case Western > Bedford · historic inn > Washington, DC > New York City > Ithaca · Cornell > Hanover · Dartmouth > Wellesley > Boston",
       "trade": "Driving preferred; one continuous stay per city. One domestic flight; international flights ticketed.",
       "days": [
         {
@@ -1439,53 +1451,53 @@
           "day": 7,
           "date": "2027-02-05",
           "dateLabel": "Fri 05 Feb",
-          "title": "Case Western → Washington by car",
-          "schedule": "09:00–11:00 Target Case Western guided tour / admissions session; exact morning slot to reserve. 11:00–11:30 Early lunch / collect car and luggage. 11:30 Drive from Cleveland to Washington. 14:30–15:00 Somerset Turnpike area: food, toilets and stretch. 19:00–20:00 Hotel with parking and warm dinner; rest 21:00–07:00.",
+          "title": "Case Western → Flight 93 → Bedford",
+          "schedule": "09:00–11:00 Target reserved Case Western campus tour and admissions introduction. 11:00–11:30 Early warm lunch; leave Cleveland with luggage in the car. 11:30–15:30 Drive toward Flight 93; allow a brief comfort stop en route. 15:30–16:30 Flight 93 Visitor Center and overlook: September 11 history and the passengers’ actions. 16:30–18:00 Continue east to Bedford; historic inn check-in and warm dinner in town.",
           "rest": "21:00–07:00",
           "links": [
             {
-              "label": "Case Western Reserve University Cleveland → Somerset Pennsylvania Turnpike services → Washington DC",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Case+Western+Reserve+University+Cleveland&destination=Washington+DC&travelmode=driving&waypoints=Somerset+Pennsylvania+Turnpike+services"
+              "label": "Case Western Reserve University Cleveland → Flight 93 National Memorial Visitor Center → Golden Eagle Inn Bedford PA",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Case+Western+Reserve+University+Cleveland&destination=Golden+Eagle+Inn+Bedford+PA&travelmode=driving&waypoints=Flight+93+National+Memorial+Visitor+Center"
             }
           ],
           "tags": [
             "schools",
             "travel"
           ],
-          "transport": "Cleveland → Washington allow 6–7h driving plus a 30min Somerset meal / stretch stop and arrival buffer. Leave after the morning Case Western visit; arrive about 19:00.",
+          "transport": "Cleveland → Flight 93 → Bedford: allow 4–4.5h driving plus a one-hour memorial visit and lunch / buffer. The full Cleveland–Washington corridor via this stop is about 6h24 driving, split overnight in Bedford; no late-night drive into Washington.",
           "activities": [
             {
               "time": "09:00–11:00",
-              "text": "Target Case Western guided tour / admissions session; exact morning slot to reserve."
+              "text": "Target reserved Case Western campus tour and admissions introduction."
             },
             {
               "time": "11:00–11:30",
-              "text": "Early lunch / collect car and luggage."
+              "text": "Early warm lunch; leave Cleveland with luggage in the car."
             },
             {
-              "time": "11:30",
-              "text": "Drive from Cleveland to Washington."
+              "time": "11:30–15:30",
+              "text": "Drive toward Flight 93; allow a brief comfort stop en route."
             },
             {
-              "time": "14:30–15:00",
-              "text": "Somerset Turnpike area: food, toilets and stretch."
+              "time": "15:30–16:30",
+              "text": "Flight 93 Visitor Center and overlook: September 11 history and the passengers’ actions."
             },
             {
-              "time": "19:00–20:00",
-              "text": "Hotel with parking and warm dinner; rest 21:00–07:00."
+              "time": "16:30–18:00",
+              "text": "Continue east to Bedford; historic inn check-in and warm dinner in town."
             }
           ],
           "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Washington, DC hotel with parking",
-            "city": "Washington, DC",
-            "url": "https://www.google.com/maps/search/?api=1&query=Washington%2C+DC+hotels+parking",
-            "status": "Hotel to select"
+            "name": "The Golden Eagle Inn · historic Bedford inn",
+            "city": "Bedford, Pennsylvania",
+            "url": "https://www.bedfordpainn.com/",
+            "status": "Suggested; confirm family room and winter availability"
           },
           "pits": [
             {
-              "area": "somerset",
-              "time": "14:30–15:00"
+              "area": "flight93",
+              "time": "15:30–16:30"
             }
           ]
         },
@@ -1493,51 +1505,55 @@
           "day": 8,
           "date": "2027-02-06",
           "dateLabel": "Sat 06 Feb",
-          "title": "Smithsonian → New York by car",
-          "schedule": "09:15–09:45 Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time. 10:00–12:30 Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm. 12:30–13:30 Warm lunch; collect bags and retrieve the parked rental car for New York. 13:30 Drive toward New York on I-95 / the New Jersey Turnpike. 15:30–16:00 Wilmington / Newark, Delaware: warm food / drink, toilets and stretch. 18:30–19:30 Manhattan hotel with parking; check in and dinner nearby. 21:30–07:30 Protected ten-hour hotel rest before the first full New York day.",
-          "rest": "21:30–07:30",
+          "title": "Bedford → Smithsonian → New York",
+          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
+          "rest": "22:00–08:00",
           "links": [
+            {
+              "label": "Bedford → Smithsonian",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Golden+Eagle+Inn+Bedford+PA&destination=Smithsonian+National+Air+and+Space+Museum&travelmode=driving"
+            },
             {
               "label": "Smithsonian National Air and Space Museum → I-95 services Newark Delaware → Midtown West New York",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Midtown+West+New+York&travelmode=driving&waypoints=I-95+services+Newark+Delaware"
+            },
+            {
+              "label": "Smithsonian planetarium programme",
+              "url": "https://airandspace.si.edu/learn/programs/planetarium"
             }
           ],
           "tags": [
             "fun",
             "travel"
           ],
-          "transport": "Washington → NYC: Google Maps about 3h40 in current traffic; allow 5–6h with the Delaware stop, winter / I-95 traffic and Manhattan hotel parking. Keep the car for the college road trip; city visits use walking / taxis while it is parked.",
+          "transport": "Bedford → Smithsonian: allow 3.5h including winter / city traffic and parking. Drive directly without a Frederick town detour. After the museum, Washington → Manhattan allow 5–6h including the Delaware stop and parking.",
           "activities": [
             {
-              "time": "09:15–09:45",
-              "text": "Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time."
+              "time": "07:00–07:30",
+              "text": "Breakfast and checkout after ten hours of hotel rest."
             },
             {
-              "time": "10:00–12:30",
-              "text": "Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm."
+              "time": "07:30–11:00",
+              "text": "Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time."
             },
             {
-              "time": "12:30–13:30",
-              "text": "Warm lunch; collect bags and retrieve the parked rental car for New York."
+              "time": "11:00–13:00",
+              "text": "Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show."
             },
             {
-              "time": "13:30",
-              "text": "Drive toward New York on I-95 / the New Jersey Turnpike."
+              "time": "13:00–13:45",
+              "text": "Warm lunch, collect bags and the car."
             },
             {
-              "time": "15:30–16:00",
-              "text": "Wilmington / Newark, Delaware: warm food / drink, toilets and stretch."
+              "time": "13:45–20:00",
+              "text": "Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in."
             },
             {
-              "time": "18:30–19:30",
-              "text": "Manhattan hotel with parking; check in and dinner nearby."
-            },
-            {
-              "time": "21:30–07:30",
-              "text": "Protected ten-hour hotel rest before the first full New York day."
+              "time": "20:00–21:30",
+              "text": "Warm dinner near the hotel; protected rest 22:00–08:00."
             }
           ],
-          "restWindow": "21:30–07:30",
+          "restWindow": "22:00–08:00",
           "hotel": {
             "name": "Midtown West New York hotel with parking",
             "city": "Midtown West New York",
@@ -1547,7 +1563,7 @@
           "pits": [
             {
               "area": "wilmington",
-              "time": "15:30–16:00"
+              "time": "15:45–16:15"
             }
           ]
         },
@@ -1555,83 +1571,75 @@
           "day": 9,
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
-          "title": "NYC: The Met, space, NBC Studios + Wicked",
-          "schedule": "09:15–09:50 Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue. 10:00–12:00 The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access. 12:00–12:40 Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather. 12:40–13:20 Warm lunch near AMNH. 13:30–14:45 AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective. 14:45–15:15 Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early. 15:30–17:00 The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed. 17:00–17:45 Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY. 17:45–18:30 Walk toward Times Square and have an early warm dinner near the theatre. 18:30–18:45 Walk to Gershwin Theatre and check in. 19:00–21:45 Target Wicked evening performance; confirm tickets and exact running time. 21:45–22:00 Walk directly back to the nearby hotel after the performance; protected rest 22:30–08:30.",
+          "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
+          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–12:00 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries. 12:00–12:15 Short Central Park edge walk near The Met. 12:15–13:15 Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
-              "label": "The Met official hours / tickets",
-              "url": "https://www.metmuseum.org/plan-your-visit"
+              "label": "Midtown West New York → The Met Fifth Avenue → Madison Square Garden → 30 Rockefeller Plaza",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=30+Rockefeller+Plaza&travelmode=driving&waypoints=The+Met+Fifth+Avenue%7CMadison+Square+Garden"
             },
             {
-              "label": "The Metropolitan Museum of Art 1000 Fifth Avenue New York → American Museum of Natural History New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+              "label": "30 Rockefeller Plaza → FAO Schwarz New York → Nintendo New York → Times Square → Gershwin Theatre",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=30+Rockefeller+Plaza&destination=Gershwin+Theatre&travelmode=walking&waypoints=FAO+Schwarz+New+York%7CNintendo+New+York%7CTimes+Square"
             },
             {
-              "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=driving"
+              "label": "MSG official tour bookings",
+              "url": "https://www.msg.com/guided-tours/new-york-city-tours/madison-square-garden-tour"
             },
             {
-              "label": "NBC Studios tour · official tickets",
+              "label": "NBC official tour bookings",
               "url": "https://www.thetouratnbcstudios.com/book"
-            },
-            {
-              "label": "The Tour at NBC Studios 30 Rockefeller Plaza New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York%7CTimes+Square+New+York"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
+          "transport": "Taxi: hotel → Met 30–40min; Met → MSG 25–40min; MSG → NBC 15–30min or walk 25–35min. Midtown evening walking legs 5–15min. MSG is a guided arena visit, not a live game.",
           "activities": [
             {
               "time": "09:15–09:50",
-              "text": "Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue."
+              "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
             },
             {
               "time": "10:00–12:00",
-              "text": "The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access."
+              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries."
             },
             {
-              "time": "12:00–12:40",
-              "text": "Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather."
+              "time": "12:00–12:15",
+              "text": "Short Central Park edge walk near The Met."
             },
             {
-              "time": "12:40–13:20",
-              "text": "Warm lunch near AMNH."
+              "time": "12:15–13:15",
+              "text": "Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena."
             },
             {
-              "time": "13:30–14:45",
-              "text": "AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective."
+              "time": "13:30–14:30",
+              "text": "Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included."
             },
             {
-              "time": "14:45–15:15",
-              "text": "Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
+              "time": "14:30–15:15",
+              "text": "Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early."
             },
             {
               "time": "15:30–17:00",
-              "text": "The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed."
+              "text": "Target The Tour at NBC Studios; reserve when February tickets open."
             },
             {
               "time": "17:00–17:45",
-              "text": "Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY."
+              "text": "Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY."
             },
             {
-              "time": "17:45–18:30",
-              "text": "Walk toward Times Square and have an early warm dinner near the theatre."
-            },
-            {
-              "time": "18:30–18:45",
-              "text": "Walk to Gershwin Theatre and check in."
+              "time": "17:45–18:45",
+              "text": "Times Square, warm dinner and Gershwin Theatre entry."
             },
             {
               "time": "19:00–21:45",
-              "text": "Target Wicked evening performance; confirm tickets and exact running time."
+              "text": "Target Wicked evening performance; actual performance / tickets to confirm."
             },
             {
               "time": "21:45–22:00",
-              "text": "Walk directly back to the nearby hotel after the performance; protected rest 22:30–08:30."
+              "text": "Walk directly back to the nearby hotel; rest 22:30–08:30."
             }
           ],
           "restWindow": "22:30–08:30",
@@ -1647,8 +1655,8 @@
           "day": 10,
           "date": "2027-02-08",
           "dateLabel": "Mon 08 Feb",
-          "title": "NYC full day 2: city life",
-          "schedule": "09:00–09:45 Leave hotel for Castle Clinton / Battery Park ferry security area. 10:00–13:30 Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure. 12:00 Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning. 13:30–14:30 The Battery → Wall Street / Charging Bull → 9/11 Memorial outdoor plaza. 14:30–15:00 Short Brooklyn Bridge walk from the Manhattan entrance; turn around on the bridge without crossing to Brooklyn. 15:15–16:00 Chinatown warm rice / noodles lunch and Mott / Canal Street. 16:00–17:00 Continue north through SoHo Broadway and cast-iron streets. 17:00–18:30 Greenwich Village / Washington Square Park, NYU exterior and dinner. 18:30–19:45 Drive / taxi north past Empire State Building for an exterior photograph, then return to the hotel and pack.",
+          "title": "NYC: Statue of Liberty → United Nations → Grand Central",
+          "schedule": "08:45–09:30 Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks. 09:30–13:00 Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm. 13:00–13:30 Warm lunch near Battery Park / the Financial District. 13:30–14:15 Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:15 Walk along East 42nd Street to Grand Central Terminal; main concourse and architecture. 17:15–18:00 Walk / taxi to the Empire State Building for an exterior photograph, continuing west rather than returning downtown. 18:00–19:30 Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack.",
           "rest": "20:30-06:30",
           "links": [
             {
@@ -1656,58 +1664,66 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=Battery+Park+New+York&travelmode=driving"
             },
             {
-              "label": "Statue City Cruises · tickets",
+              "label": "Statue City Cruises official tickets",
               "url": "https://www.cityexperiences.com/new-york/city-cruises/statue/"
             },
             {
-              "label": "Battery Park New York → Wall Street New York → 9/11 Memorial New York → Brooklyn Bridge Manhattan entrance → Chinatown New York → SoHo Broadway New York → Washington Square Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=Washington+Square+Park+New+York&travelmode=walking&waypoints=Wall+Street+New+York%7C9%2F11+Memorial+New+York%7CBrooklyn+Bridge+Manhattan+entrance%7CChinatown+New+York%7CSoHo+Broadway+New+York"
+              "label": "Battery Park New York → 801 First Avenue New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=801+First+Avenue+New+York&travelmode=driving"
             },
             {
-              "label": "Washington Square Park New York → Empire State Building → Midtown West New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Midtown+West+New+York&travelmode=driving&waypoints=Empire+State+Building"
+              "label": "United Nations Headquarters New York → Grand Central Terminal → Empire State Building → Koreatown Manhattan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=United+Nations+Headquarters+New+York&destination=Koreatown+Manhattan&travelmode=walking&waypoints=Grand+Central+Terminal%7CEmpire+State+Building"
+            },
+            {
+              "label": "UN guided tour booking",
+              "url": "https://www.un.org/en/visit/tour"
+            },
+            {
+              "label": "UN registration / arrival instructions",
+              "url": "https://www.un.org/en/visit/faq"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → Battery Park by taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/taxi legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "transport": "Hotel → Battery Park taxi 35–50min; Liberty Island ferry excursion allow 3.5h. Battery Park → UN taxi 35–45min; UN requires arrival 60min before the tour. UN → Grand Central walk 15–20min; then Midtown walking / taxi legs 15–25min.",
           "activities": [
             {
-              "time": "09:00–09:45",
-              "text": "Leave hotel for Castle Clinton / Battery Park ferry security area."
+              "time": "08:45–09:30",
+              "text": "Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks."
             },
             {
-              "time": "10:00–13:30",
-              "text": "Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure."
+              "time": "09:30–13:00",
+              "text": "Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm."
             },
             {
-              "time": "12:00",
-              "text": "Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning."
+              "time": "13:00–13:30",
+              "text": "Warm lunch near Battery Park / the Financial District."
             },
             {
-              "time": "13:30–14:30",
-              "text": "The Battery → Wall Street / Charging Bull → 9/11 Memorial outdoor plaza."
+              "time": "13:30–14:15",
+              "text": "Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street."
             },
             {
-              "time": "14:30–15:00",
-              "text": "Short Brooklyn Bridge walk from the Manhattan entrance; turn around on the bridge without crossing to Brooklyn."
+              "time": "14:30–15:30",
+              "text": "UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID."
             },
             {
-              "time": "15:15–16:00",
-              "text": "Chinatown warm rice / noodles lunch and Mott / Canal Street."
+              "time": "15:30–16:30",
+              "text": "Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed."
             },
             {
-              "time": "16:00–17:00",
-              "text": "Continue north through SoHo Broadway and cast-iron streets."
+              "time": "16:30–17:15",
+              "text": "Walk along East 42nd Street to Grand Central Terminal; main concourse and architecture."
             },
             {
-              "time": "17:00–18:30",
-              "text": "Greenwich Village / Washington Square Park, NYU exterior and dinner."
+              "time": "17:15–18:00",
+              "text": "Walk / taxi to the Empire State Building for an exterior photograph, continuing west rather than returning downtown."
             },
             {
-              "time": "18:30–19:45",
-              "text": "Drive / taxi north past Empire State Building for an exterior photograph, then return to the hotel and pack."
+              "time": "18:00–19:30",
+              "text": "Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack."
             }
           ],
           "restWindow": "20:30-06:30",
@@ -2155,7 +2171,7 @@
       "code": "C",
       "title": "Friday Medill journalism visit",
       "why": "Northwestern Medill focus",
-      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Washington, DC > New York City > Ithaca · Cornell > Amherst > Hanover · Dartmouth > Boston",
+      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Bedford · historic inn > Washington, DC > New York City > Ithaca · Cornell > Amherst > Hanover · Dartmouth > Boston",
       "trade": "Driving preferred; one continuous stay per city. One domestic flight; international flights ticketed.",
       "days": [
         {
@@ -2518,52 +2534,60 @@
           "day": 7,
           "date": "2027-02-05",
           "dateLabel": "Fri 05 Feb",
-          "title": "Ann Arbor → Washington by car",
-          "schedule": "08:00 Leave Ann Arbor by car for Washington. 10:30–11:00 Elyria / Amherst, Ohio: Turnpike-area warm food, restroom and stretch. 14:00–14:30 Somerset, Pennsylvania: warm meal and restroom break near the Turnpike. 18:00 Washington hotel with parking; dinner / settle in and protect ten hours of rest.",
+          "title": "Ann Arbor → Brandywine Falls → Flight 93 → Bedford",
+          "schedule": "08:00 Leave Ann Arbor after breakfast. 11:00–11:45 Brandywine Falls: short boardwalk and waterfall viewpoints in Cuyahoga Valley National Park. Skip this outdoor stop if paths are icy / closed; no gorge hike. 11:45–12:15 Warm lunch in the nearby Boston Heights / Macedonia area. 12:15–15:30 Drive toward Flight 93 National Memorial with traffic / comfort buffer. 15:30–16:30 Flight 93 Visitor Center exhibits and overlook; finish before its current 17:00 closing time. 16:30–18:00 Continue east to Bedford; check into the historic inn, then dinner in the walkable town centre.",
           "rest": "21:00–07:00",
           "links": [
             {
-              "label": "University of Michigan Ann Arbor → I-80 services Elyria Amherst Ohio → Somerset Pennsylvania Turnpike services → Washington DC",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Washington+DC&travelmode=driving&waypoints=I-80+services+Elyria+Amherst+Ohio%7CSomerset+Pennsylvania+Turnpike+services"
+              "label": "University of Michigan Ann Arbor → Brandywine Falls Ohio → Flight 93 National Memorial Visitor Center → Golden Eagle Inn Bedford PA",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Golden+Eagle+Inn+Bedford+PA&travelmode=driving&waypoints=Brandywine+Falls+Ohio%7CFlight+93+National+Memorial+Visitor+Center"
             }
           ],
           "tags": [
             "travel"
           ],
-          "transport": "Drive Ann Arbor → Washington: Google Maps about 8h05 before breaks. Allow 9.5–10h including two 30min meal / stretch stops and traffic buffer. Keep the Chicago rental car; no domestic flight on this leg.",
+          "transport": "Google Maps: direct Ann Arbor → Washington 8h05; via Brandywine Falls, Flight 93 and Bedford 8h47 total driving (+42min, split across two days). Today allow 6–6.5h driving, 45min falls, 60min memorial, lunch and winter buffer; Bedford about 18:00.",
           "activities": [
             {
               "time": "08:00",
-              "text": "Leave Ann Arbor by car for Washington."
+              "text": "Leave Ann Arbor after breakfast."
             },
             {
-              "time": "10:30–11:00",
-              "text": "Elyria / Amherst, Ohio: Turnpike-area warm food, restroom and stretch."
+              "time": "11:00–11:45",
+              "text": "Brandywine Falls: short boardwalk and waterfall viewpoints in Cuyahoga Valley National Park. Skip this outdoor stop if paths are icy / closed; no gorge hike."
             },
             {
-              "time": "14:00–14:30",
-              "text": "Somerset, Pennsylvania: warm meal and restroom break near the Turnpike."
+              "time": "11:45–12:15",
+              "text": "Warm lunch in the nearby Boston Heights / Macedonia area."
             },
             {
-              "time": "18:00",
-              "text": "Washington hotel with parking; dinner / settle in and protect ten hours of rest."
+              "time": "12:15–15:30",
+              "text": "Drive toward Flight 93 National Memorial with traffic / comfort buffer."
+            },
+            {
+              "time": "15:30–16:30",
+              "text": "Flight 93 Visitor Center exhibits and overlook; finish before its current 17:00 closing time."
+            },
+            {
+              "time": "16:30–18:00",
+              "text": "Continue east to Bedford; check into the historic inn, then dinner in the walkable town centre."
             }
           ],
           "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Washington, DC hotel with parking",
-            "city": "Washington, DC",
-            "url": "https://www.google.com/maps/search/?api=1&query=Washington%2C+DC+hotels+parking",
-            "status": "Hotel to select"
+            "name": "The Golden Eagle Inn · historic Bedford inn",
+            "city": "Bedford, Pennsylvania",
+            "url": "https://www.bedfordpainn.com/",
+            "status": "Suggested; confirm family room and winter availability"
           },
           "pits": [
             {
-              "area": "elyria",
-              "time": "10:30–11:00"
+              "area": "brandywine",
+              "time": "11:00–11:45"
             },
             {
-              "area": "somerset",
-              "time": "14:00–14:30"
+              "area": "flight93",
+              "time": "15:30–16:30"
             }
           ]
         },
@@ -2571,51 +2595,55 @@
           "day": 8,
           "date": "2027-02-06",
           "dateLabel": "Sat 06 Feb",
-          "title": "Smithsonian → New York by car",
-          "schedule": "09:15–09:45 Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time. 10:00–12:30 Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm. 12:30–13:30 Warm lunch; collect bags and retrieve the parked rental car for New York. 13:30 Drive toward New York on I-95 / the New Jersey Turnpike. 15:30–16:00 Wilmington / Newark, Delaware: warm food / drink, toilets and stretch. 18:30–19:30 Manhattan hotel with parking; check in and dinner nearby. 21:30–07:30 Protected ten-hour hotel rest before the first full New York day.",
-          "rest": "21:30–07:30",
+          "title": "Bedford → Smithsonian → New York",
+          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
+          "rest": "22:00–08:00",
           "links": [
+            {
+              "label": "Bedford → Smithsonian",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Golden+Eagle+Inn+Bedford+PA&destination=Smithsonian+National+Air+and+Space+Museum&travelmode=driving"
+            },
             {
               "label": "Smithsonian National Air and Space Museum → I-95 services Newark Delaware → Midtown West New York",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Midtown+West+New+York&travelmode=driving&waypoints=I-95+services+Newark+Delaware"
+            },
+            {
+              "label": "Smithsonian planetarium programme",
+              "url": "https://airandspace.si.edu/learn/programs/planetarium"
             }
           ],
           "tags": [
             "fun",
             "travel"
           ],
-          "transport": "Washington → NYC: Google Maps about 3h40 in current traffic; allow 5–6h with the Delaware stop, winter / I-95 traffic and Manhattan hotel parking. Keep the car for the college road trip; city visits use walking / taxis while it is parked.",
+          "transport": "Bedford → Smithsonian: allow 3.5h including winter / city traffic and parking. Drive directly without a Frederick town detour. After the museum, Washington → Manhattan allow 5–6h including the Delaware stop and parking.",
           "activities": [
             {
-              "time": "09:15–09:45",
-              "text": "Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time."
+              "time": "07:00–07:30",
+              "text": "Breakfast and checkout after ten hours of hotel rest."
             },
             {
-              "time": "10:00–12:30",
-              "text": "Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm."
+              "time": "07:30–11:00",
+              "text": "Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time."
             },
             {
-              "time": "12:30–13:30",
-              "text": "Warm lunch; collect bags and retrieve the parked rental car for New York."
+              "time": "11:00–13:00",
+              "text": "Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show."
             },
             {
-              "time": "13:30",
-              "text": "Drive toward New York on I-95 / the New Jersey Turnpike."
+              "time": "13:00–13:45",
+              "text": "Warm lunch, collect bags and the car."
             },
             {
-              "time": "15:30–16:00",
-              "text": "Wilmington / Newark, Delaware: warm food / drink, toilets and stretch."
+              "time": "13:45–20:00",
+              "text": "Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in."
             },
             {
-              "time": "18:30–19:30",
-              "text": "Manhattan hotel with parking; check in and dinner nearby."
-            },
-            {
-              "time": "21:30–07:30",
-              "text": "Protected ten-hour hotel rest before the first full New York day."
+              "time": "20:00–21:30",
+              "text": "Warm dinner near the hotel; protected rest 22:00–08:00."
             }
           ],
-          "restWindow": "21:30–07:30",
+          "restWindow": "22:00–08:00",
           "hotel": {
             "name": "Midtown West New York hotel with parking",
             "city": "Midtown West New York",
@@ -2625,7 +2653,7 @@
           "pits": [
             {
               "area": "wilmington",
-              "time": "15:30–16:00"
+              "time": "15:45–16:15"
             }
           ]
         },
@@ -2633,83 +2661,75 @@
           "day": 9,
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
-          "title": "NYC: The Met, space, NBC Studios + Wicked",
-          "schedule": "09:15–09:50 Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue. 10:00–12:00 The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access. 12:00–12:40 Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather. 12:40–13:20 Warm lunch near AMNH. 13:30–14:45 AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective. 14:45–15:15 Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early. 15:30–17:00 The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed. 17:00–17:45 Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY. 17:45–18:30 Walk toward Times Square and have an early warm dinner near the theatre. 18:30–18:45 Walk to Gershwin Theatre and check in. 19:00–21:45 Target Wicked evening performance; confirm tickets and exact running time. 21:45–22:00 Walk directly back to the nearby hotel after the performance; protected rest 22:30–08:30.",
+          "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
+          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–12:00 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries. 12:00–12:15 Short Central Park edge walk near The Met. 12:15–13:15 Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
-              "label": "The Met official hours / tickets",
-              "url": "https://www.metmuseum.org/plan-your-visit"
+              "label": "Midtown West New York → The Met Fifth Avenue → Madison Square Garden → 30 Rockefeller Plaza",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=30+Rockefeller+Plaza&travelmode=driving&waypoints=The+Met+Fifth+Avenue%7CMadison+Square+Garden"
             },
             {
-              "label": "The Metropolitan Museum of Art 1000 Fifth Avenue New York → American Museum of Natural History New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+              "label": "30 Rockefeller Plaza → FAO Schwarz New York → Nintendo New York → Times Square → Gershwin Theatre",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=30+Rockefeller+Plaza&destination=Gershwin+Theatre&travelmode=walking&waypoints=FAO+Schwarz+New+York%7CNintendo+New+York%7CTimes+Square"
             },
             {
-              "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=driving"
+              "label": "MSG official tour bookings",
+              "url": "https://www.msg.com/guided-tours/new-york-city-tours/madison-square-garden-tour"
             },
             {
-              "label": "NBC Studios tour · official tickets",
+              "label": "NBC official tour bookings",
               "url": "https://www.thetouratnbcstudios.com/book"
-            },
-            {
-              "label": "The Tour at NBC Studios 30 Rockefeller Plaza New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York%7CTimes+Square+New+York"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
+          "transport": "Taxi: hotel → Met 30–40min; Met → MSG 25–40min; MSG → NBC 15–30min or walk 25–35min. Midtown evening walking legs 5–15min. MSG is a guided arena visit, not a live game.",
           "activities": [
             {
               "time": "09:15–09:50",
-              "text": "Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue."
+              "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
             },
             {
               "time": "10:00–12:00",
-              "text": "The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access."
+              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries."
             },
             {
-              "time": "12:00–12:40",
-              "text": "Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather."
+              "time": "12:00–12:15",
+              "text": "Short Central Park edge walk near The Met."
             },
             {
-              "time": "12:40–13:20",
-              "text": "Warm lunch near AMNH."
+              "time": "12:15–13:15",
+              "text": "Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena."
             },
             {
-              "time": "13:30–14:45",
-              "text": "AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective."
+              "time": "13:30–14:30",
+              "text": "Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included."
             },
             {
-              "time": "14:45–15:15",
-              "text": "Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
+              "time": "14:30–15:15",
+              "text": "Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early."
             },
             {
               "time": "15:30–17:00",
-              "text": "The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed."
+              "text": "Target The Tour at NBC Studios; reserve when February tickets open."
             },
             {
               "time": "17:00–17:45",
-              "text": "Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY."
+              "text": "Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY."
             },
             {
-              "time": "17:45–18:30",
-              "text": "Walk toward Times Square and have an early warm dinner near the theatre."
-            },
-            {
-              "time": "18:30–18:45",
-              "text": "Walk to Gershwin Theatre and check in."
+              "time": "17:45–18:45",
+              "text": "Times Square, warm dinner and Gershwin Theatre entry."
             },
             {
               "time": "19:00–21:45",
-              "text": "Target Wicked evening performance; confirm tickets and exact running time."
+              "text": "Target Wicked evening performance; actual performance / tickets to confirm."
             },
             {
               "time": "21:45–22:00",
-              "text": "Walk directly back to the nearby hotel after the performance; protected rest 22:30–08:30."
+              "text": "Walk directly back to the nearby hotel; rest 22:30–08:30."
             }
           ],
           "restWindow": "22:30–08:30",
@@ -2725,8 +2745,8 @@
           "day": 10,
           "date": "2027-02-08",
           "dateLabel": "Mon 08 Feb",
-          "title": "NYC full day 2: city life",
-          "schedule": "09:00–09:45 Leave hotel for Castle Clinton / Battery Park ferry security area. 10:00–13:30 Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure. 12:00 Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning. 13:30–14:30 The Battery → Wall Street / Charging Bull → 9/11 Memorial outdoor plaza. 14:30–15:00 Short Brooklyn Bridge walk from the Manhattan entrance; turn around on the bridge without crossing to Brooklyn. 15:15–16:00 Chinatown warm rice / noodles lunch and Mott / Canal Street. 16:00–17:00 Continue north through SoHo Broadway and cast-iron streets. 17:00–18:30 Greenwich Village / Washington Square Park, NYU exterior and dinner. 18:30–19:45 Drive / taxi north past Empire State Building for an exterior photograph, then return to the hotel and pack.",
+          "title": "NYC: Statue of Liberty → United Nations → Grand Central",
+          "schedule": "08:45–09:30 Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks. 09:30–13:00 Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm. 13:00–13:30 Warm lunch near Battery Park / the Financial District. 13:30–14:15 Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:15 Walk along East 42nd Street to Grand Central Terminal; main concourse and architecture. 17:15–18:00 Walk / taxi to the Empire State Building for an exterior photograph, continuing west rather than returning downtown. 18:00–19:30 Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack.",
           "rest": "20:30-06:30",
           "links": [
             {
@@ -2734,58 +2754,66 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=Battery+Park+New+York&travelmode=driving"
             },
             {
-              "label": "Statue City Cruises · tickets",
+              "label": "Statue City Cruises official tickets",
               "url": "https://www.cityexperiences.com/new-york/city-cruises/statue/"
             },
             {
-              "label": "Battery Park New York → Wall Street New York → 9/11 Memorial New York → Brooklyn Bridge Manhattan entrance → Chinatown New York → SoHo Broadway New York → Washington Square Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=Washington+Square+Park+New+York&travelmode=walking&waypoints=Wall+Street+New+York%7C9%2F11+Memorial+New+York%7CBrooklyn+Bridge+Manhattan+entrance%7CChinatown+New+York%7CSoHo+Broadway+New+York"
+              "label": "Battery Park New York → 801 First Avenue New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=801+First+Avenue+New+York&travelmode=driving"
             },
             {
-              "label": "Washington Square Park New York → Empire State Building → Midtown West New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Midtown+West+New+York&travelmode=driving&waypoints=Empire+State+Building"
+              "label": "United Nations Headquarters New York → Grand Central Terminal → Empire State Building → Koreatown Manhattan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=United+Nations+Headquarters+New+York&destination=Koreatown+Manhattan&travelmode=walking&waypoints=Grand+Central+Terminal%7CEmpire+State+Building"
+            },
+            {
+              "label": "UN guided tour booking",
+              "url": "https://www.un.org/en/visit/tour"
+            },
+            {
+              "label": "UN registration / arrival instructions",
+              "url": "https://www.un.org/en/visit/faq"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → Battery Park by taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/taxi legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "transport": "Hotel → Battery Park taxi 35–50min; Liberty Island ferry excursion allow 3.5h. Battery Park → UN taxi 35–45min; UN requires arrival 60min before the tour. UN → Grand Central walk 15–20min; then Midtown walking / taxi legs 15–25min.",
           "activities": [
             {
-              "time": "09:00–09:45",
-              "text": "Leave hotel for Castle Clinton / Battery Park ferry security area."
+              "time": "08:45–09:30",
+              "text": "Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks."
             },
             {
-              "time": "10:00–13:30",
-              "text": "Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure."
+              "time": "09:30–13:00",
+              "text": "Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm."
             },
             {
-              "time": "12:00",
-              "text": "Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning."
+              "time": "13:00–13:30",
+              "text": "Warm lunch near Battery Park / the Financial District."
             },
             {
-              "time": "13:30–14:30",
-              "text": "The Battery → Wall Street / Charging Bull → 9/11 Memorial outdoor plaza."
+              "time": "13:30–14:15",
+              "text": "Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street."
             },
             {
-              "time": "14:30–15:00",
-              "text": "Short Brooklyn Bridge walk from the Manhattan entrance; turn around on the bridge without crossing to Brooklyn."
+              "time": "14:30–15:30",
+              "text": "UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID."
             },
             {
-              "time": "15:15–16:00",
-              "text": "Chinatown warm rice / noodles lunch and Mott / Canal Street."
+              "time": "15:30–16:30",
+              "text": "Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed."
             },
             {
-              "time": "16:00–17:00",
-              "text": "Continue north through SoHo Broadway and cast-iron streets."
+              "time": "16:30–17:15",
+              "text": "Walk along East 42nd Street to Grand Central Terminal; main concourse and architecture."
             },
             {
-              "time": "17:00–18:30",
-              "text": "Greenwich Village / Washington Square Park, NYU exterior and dinner."
+              "time": "17:15–18:00",
+              "text": "Walk / taxi to the Empire State Building for an exterior photograph, continuing west rather than returning downtown."
             },
             {
-              "time": "18:30–19:45",
-              "text": "Drive / taxi north past Empire State Building for an exterior photograph, then return to the hotel and pack."
+              "time": "18:00–19:30",
+              "text": "Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack."
             }
           ],
           "restWindow": "20:30-06:30",
@@ -3220,7 +3248,7 @@
       "code": "D",
       "title": "Two contrasting liberal arts colleges",
       "why": "Williams and Dartmouth route",
-      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Washington, DC > New York City > Ithaca · Cornell > Williams · Williamstown > Dartmouth · Hanover > Boston",
+      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Bedford · historic inn > Washington, DC > New York City > Ithaca · Cornell > Williams · Williamstown > Dartmouth · Hanover > Boston",
       "trade": "Driving preferred; one continuous stay per city. One domestic flight; international flights ticketed.",
       "days": [
         {
@@ -3583,53 +3611,61 @@
           "day": 7,
           "date": "2027-02-05",
           "dateLabel": "Fri 05 Feb",
-          "title": "Ann Arbor → Washington by car",
-          "schedule": "08:00 Leave Ann Arbor by car for Washington. 10:30–11:00 Elyria / Amherst, Ohio: Turnpike-area warm food, restroom and stretch. 14:00–14:30 Somerset, Pennsylvania: warm meal and restroom break near the Turnpike. 18:00 Washington hotel with parking; dinner / settle in and protect ten hours of rest.",
+          "title": "Ann Arbor → Brandywine Falls → Flight 93 → Bedford",
+          "schedule": "08:00 Leave Ann Arbor after breakfast. 11:00–11:45 Brandywine Falls: short boardwalk and waterfall viewpoints in Cuyahoga Valley National Park. Skip this outdoor stop if paths are icy / closed; no gorge hike. 11:45–12:15 Warm lunch in the nearby Boston Heights / Macedonia area. 12:15–15:30 Drive toward Flight 93 National Memorial with traffic / comfort buffer. 15:30–16:30 Flight 93 Visitor Center exhibits and overlook; finish before its current 17:00 closing time. 16:30–18:00 Continue east to Bedford; check into the historic inn, then dinner in the walkable town centre.",
           "rest": "21:00–07:00",
           "links": [
             {
-              "label": "University of Michigan Ann Arbor → I-80 services Elyria Amherst Ohio → Somerset Pennsylvania Turnpike services → Washington DC",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Washington+DC&travelmode=driving&waypoints=I-80+services+Elyria+Amherst+Ohio%7CSomerset+Pennsylvania+Turnpike+services"
+              "label": "University of Michigan Ann Arbor → Brandywine Falls Ohio → Flight 93 National Memorial Visitor Center → Golden Eagle Inn Bedford PA",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Golden+Eagle+Inn+Bedford+PA&travelmode=driving&waypoints=Brandywine+Falls+Ohio%7CFlight+93+National+Memorial+Visitor+Center"
             }
           ],
           "tags": [
             "schools",
             "travel"
           ],
-          "transport": "Drive Ann Arbor → Washington: Google Maps about 8h05 before breaks. Allow 9.5–10h including two 30min meal / stretch stops and traffic buffer. Keep the Chicago rental car; no domestic flight on this leg.",
+          "transport": "Google Maps: direct Ann Arbor → Washington 8h05; via Brandywine Falls, Flight 93 and Bedford 8h47 total driving (+42min, split across two days). Today allow 6–6.5h driving, 45min falls, 60min memorial, lunch and winter buffer; Bedford about 18:00.",
           "activities": [
             {
               "time": "08:00",
-              "text": "Leave Ann Arbor by car for Washington."
+              "text": "Leave Ann Arbor after breakfast."
             },
             {
-              "time": "10:30–11:00",
-              "text": "Elyria / Amherst, Ohio: Turnpike-area warm food, restroom and stretch."
+              "time": "11:00–11:45",
+              "text": "Brandywine Falls: short boardwalk and waterfall viewpoints in Cuyahoga Valley National Park. Skip this outdoor stop if paths are icy / closed; no gorge hike."
             },
             {
-              "time": "14:00–14:30",
-              "text": "Somerset, Pennsylvania: warm meal and restroom break near the Turnpike."
+              "time": "11:45–12:15",
+              "text": "Warm lunch in the nearby Boston Heights / Macedonia area."
             },
             {
-              "time": "18:00",
-              "text": "Washington hotel with parking; dinner / settle in and protect ten hours of rest."
+              "time": "12:15–15:30",
+              "text": "Drive toward Flight 93 National Memorial with traffic / comfort buffer."
+            },
+            {
+              "time": "15:30–16:30",
+              "text": "Flight 93 Visitor Center exhibits and overlook; finish before its current 17:00 closing time."
+            },
+            {
+              "time": "16:30–18:00",
+              "text": "Continue east to Bedford; check into the historic inn, then dinner in the walkable town centre."
             }
           ],
           "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Washington, DC hotel with parking",
-            "city": "Washington, DC",
-            "url": "https://www.google.com/maps/search/?api=1&query=Washington%2C+DC+hotels+parking",
-            "status": "Hotel to select"
+            "name": "The Golden Eagle Inn · historic Bedford inn",
+            "city": "Bedford, Pennsylvania",
+            "url": "https://www.bedfordpainn.com/",
+            "status": "Suggested; confirm family room and winter availability"
           },
           "pits": [
             {
-              "area": "elyria",
-              "time": "10:30–11:00"
+              "area": "brandywine",
+              "time": "11:00–11:45"
             },
             {
-              "area": "somerset",
-              "time": "14:00–14:30"
+              "area": "flight93",
+              "time": "15:30–16:30"
             }
           ]
         },
@@ -3637,51 +3673,55 @@
           "day": 8,
           "date": "2027-02-06",
           "dateLabel": "Sat 06 Feb",
-          "title": "Smithsonian → New York by car",
-          "schedule": "09:15–09:45 Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time. 10:00–12:30 Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm. 12:30–13:30 Warm lunch; collect bags and retrieve the parked rental car for New York. 13:30 Drive toward New York on I-95 / the New Jersey Turnpike. 15:30–16:00 Wilmington / Newark, Delaware: warm food / drink, toilets and stretch. 18:30–19:30 Manhattan hotel with parking; check in and dinner nearby. 21:30–07:30 Protected ten-hour hotel rest before the first full New York day.",
-          "rest": "21:30–07:30",
+          "title": "Bedford → Smithsonian → New York",
+          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
+          "rest": "22:00–08:00",
           "links": [
+            {
+              "label": "Bedford → Smithsonian",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Golden+Eagle+Inn+Bedford+PA&destination=Smithsonian+National+Air+and+Space+Museum&travelmode=driving"
+            },
             {
               "label": "Smithsonian National Air and Space Museum → I-95 services Newark Delaware → Midtown West New York",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Midtown+West+New+York&travelmode=driving&waypoints=I-95+services+Newark+Delaware"
+            },
+            {
+              "label": "Smithsonian planetarium programme",
+              "url": "https://airandspace.si.edu/learn/programs/planetarium"
             }
           ],
           "tags": [
             "fun",
             "travel"
           ],
-          "transport": "Washington → NYC: Google Maps about 3h40 in current traffic; allow 5–6h with the Delaware stop, winter / I-95 traffic and Manhattan hotel parking. Keep the car for the college road trip; city visits use walking / taxis while it is parked.",
+          "transport": "Bedford → Smithsonian: allow 3.5h including winter / city traffic and parking. Drive directly without a Frederick town detour. After the museum, Washington → Manhattan allow 5–6h including the Delaware stop and parking.",
           "activities": [
             {
-              "time": "09:15–09:45",
-              "text": "Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time."
+              "time": "07:00–07:30",
+              "text": "Breakfast and checkout after ten hours of hotel rest."
             },
             {
-              "time": "10:00–12:30",
-              "text": "Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm."
+              "time": "07:30–11:00",
+              "text": "Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time."
             },
             {
-              "time": "12:30–13:30",
-              "text": "Warm lunch; collect bags and retrieve the parked rental car for New York."
+              "time": "11:00–13:00",
+              "text": "Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show."
             },
             {
-              "time": "13:30",
-              "text": "Drive toward New York on I-95 / the New Jersey Turnpike."
+              "time": "13:00–13:45",
+              "text": "Warm lunch, collect bags and the car."
             },
             {
-              "time": "15:30–16:00",
-              "text": "Wilmington / Newark, Delaware: warm food / drink, toilets and stretch."
+              "time": "13:45–20:00",
+              "text": "Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in."
             },
             {
-              "time": "18:30–19:30",
-              "text": "Manhattan hotel with parking; check in and dinner nearby."
-            },
-            {
-              "time": "21:30–07:30",
-              "text": "Protected ten-hour hotel rest before the first full New York day."
+              "time": "20:00–21:30",
+              "text": "Warm dinner near the hotel; protected rest 22:00–08:00."
             }
           ],
-          "restWindow": "21:30–07:30",
+          "restWindow": "22:00–08:00",
           "hotel": {
             "name": "Midtown West New York hotel with parking",
             "city": "Midtown West New York",
@@ -3691,7 +3731,7 @@
           "pits": [
             {
               "area": "wilmington",
-              "time": "15:30–16:00"
+              "time": "15:45–16:15"
             }
           ]
         },
@@ -3699,83 +3739,75 @@
           "day": 9,
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
-          "title": "NYC: The Met, space, NBC Studios + Wicked",
-          "schedule": "09:15–09:50 Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue. 10:00–12:00 The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access. 12:00–12:40 Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather. 12:40–13:20 Warm lunch near AMNH. 13:30–14:45 AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective. 14:45–15:15 Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early. 15:30–17:00 The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed. 17:00–17:45 Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY. 17:45–18:30 Walk toward Times Square and have an early warm dinner near the theatre. 18:30–18:45 Walk to Gershwin Theatre and check in. 19:00–21:45 Target Wicked evening performance; confirm tickets and exact running time. 21:45–22:00 Walk directly back to the nearby hotel after the performance; protected rest 22:30–08:30.",
+          "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
+          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–12:00 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries. 12:00–12:15 Short Central Park edge walk near The Met. 12:15–13:15 Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
-              "label": "The Met official hours / tickets",
-              "url": "https://www.metmuseum.org/plan-your-visit"
+              "label": "Midtown West New York → The Met Fifth Avenue → Madison Square Garden → 30 Rockefeller Plaza",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=30+Rockefeller+Plaza&travelmode=driving&waypoints=The+Met+Fifth+Avenue%7CMadison+Square+Garden"
             },
             {
-              "label": "The Metropolitan Museum of Art 1000 Fifth Avenue New York → American Museum of Natural History New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+              "label": "30 Rockefeller Plaza → FAO Schwarz New York → Nintendo New York → Times Square → Gershwin Theatre",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=30+Rockefeller+Plaza&destination=Gershwin+Theatre&travelmode=walking&waypoints=FAO+Schwarz+New+York%7CNintendo+New+York%7CTimes+Square"
             },
             {
-              "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=driving"
+              "label": "MSG official tour bookings",
+              "url": "https://www.msg.com/guided-tours/new-york-city-tours/madison-square-garden-tour"
             },
             {
-              "label": "NBC Studios tour · official tickets",
+              "label": "NBC official tour bookings",
               "url": "https://www.thetouratnbcstudios.com/book"
-            },
-            {
-              "label": "The Tour at NBC Studios 30 Rockefeller Plaza New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York%7CTimes+Square+New+York"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
+          "transport": "Taxi: hotel → Met 30–40min; Met → MSG 25–40min; MSG → NBC 15–30min or walk 25–35min. Midtown evening walking legs 5–15min. MSG is a guided arena visit, not a live game.",
           "activities": [
             {
               "time": "09:15–09:50",
-              "text": "Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue."
+              "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
             },
             {
               "time": "10:00–12:00",
-              "text": "The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access."
+              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries."
             },
             {
-              "time": "12:00–12:40",
-              "text": "Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather."
+              "time": "12:00–12:15",
+              "text": "Short Central Park edge walk near The Met."
             },
             {
-              "time": "12:40–13:20",
-              "text": "Warm lunch near AMNH."
+              "time": "12:15–13:15",
+              "text": "Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena."
             },
             {
-              "time": "13:30–14:45",
-              "text": "AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective."
+              "time": "13:30–14:30",
+              "text": "Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included."
             },
             {
-              "time": "14:45–15:15",
-              "text": "Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
+              "time": "14:30–15:15",
+              "text": "Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early."
             },
             {
               "time": "15:30–17:00",
-              "text": "The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed."
+              "text": "Target The Tour at NBC Studios; reserve when February tickets open."
             },
             {
               "time": "17:00–17:45",
-              "text": "Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY."
+              "text": "Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY."
             },
             {
-              "time": "17:45–18:30",
-              "text": "Walk toward Times Square and have an early warm dinner near the theatre."
-            },
-            {
-              "time": "18:30–18:45",
-              "text": "Walk to Gershwin Theatre and check in."
+              "time": "17:45–18:45",
+              "text": "Times Square, warm dinner and Gershwin Theatre entry."
             },
             {
               "time": "19:00–21:45",
-              "text": "Target Wicked evening performance; confirm tickets and exact running time."
+              "text": "Target Wicked evening performance; actual performance / tickets to confirm."
             },
             {
               "time": "21:45–22:00",
-              "text": "Walk directly back to the nearby hotel after the performance; protected rest 22:30–08:30."
+              "text": "Walk directly back to the nearby hotel; rest 22:30–08:30."
             }
           ],
           "restWindow": "22:30–08:30",
@@ -3791,8 +3823,8 @@
           "day": 10,
           "date": "2027-02-08",
           "dateLabel": "Mon 08 Feb",
-          "title": "NYC full day 2: city life",
-          "schedule": "09:00–09:45 Leave hotel for Castle Clinton / Battery Park ferry security area. 10:00–13:30 Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure. 12:00 Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning. 13:30–14:30 The Battery → Wall Street / Charging Bull → 9/11 Memorial outdoor plaza. 14:30–15:00 Short Brooklyn Bridge walk from the Manhattan entrance; turn around on the bridge without crossing to Brooklyn. 15:15–16:00 Chinatown warm rice / noodles lunch and Mott / Canal Street. 16:00–17:00 Continue north through SoHo Broadway and cast-iron streets. 17:00–18:30 Greenwich Village / Washington Square Park, NYU exterior and dinner. 18:30–19:45 Drive / taxi north past Empire State Building for an exterior photograph, then return to the hotel and pack.",
+          "title": "NYC: Statue of Liberty → United Nations → Grand Central",
+          "schedule": "08:45–09:30 Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks. 09:30–13:00 Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm. 13:00–13:30 Warm lunch near Battery Park / the Financial District. 13:30–14:15 Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:15 Walk along East 42nd Street to Grand Central Terminal; main concourse and architecture. 17:15–18:00 Walk / taxi to the Empire State Building for an exterior photograph, continuing west rather than returning downtown. 18:00–19:30 Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack.",
           "rest": "20:30-06:30",
           "links": [
             {
@@ -3800,58 +3832,66 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=Battery+Park+New+York&travelmode=driving"
             },
             {
-              "label": "Statue City Cruises · tickets",
+              "label": "Statue City Cruises official tickets",
               "url": "https://www.cityexperiences.com/new-york/city-cruises/statue/"
             },
             {
-              "label": "Battery Park New York → Wall Street New York → 9/11 Memorial New York → Brooklyn Bridge Manhattan entrance → Chinatown New York → SoHo Broadway New York → Washington Square Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=Washington+Square+Park+New+York&travelmode=walking&waypoints=Wall+Street+New+York%7C9%2F11+Memorial+New+York%7CBrooklyn+Bridge+Manhattan+entrance%7CChinatown+New+York%7CSoHo+Broadway+New+York"
+              "label": "Battery Park New York → 801 First Avenue New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=801+First+Avenue+New+York&travelmode=driving"
             },
             {
-              "label": "Washington Square Park New York → Empire State Building → Midtown West New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Midtown+West+New+York&travelmode=driving&waypoints=Empire+State+Building"
+              "label": "United Nations Headquarters New York → Grand Central Terminal → Empire State Building → Koreatown Manhattan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=United+Nations+Headquarters+New+York&destination=Koreatown+Manhattan&travelmode=walking&waypoints=Grand+Central+Terminal%7CEmpire+State+Building"
+            },
+            {
+              "label": "UN guided tour booking",
+              "url": "https://www.un.org/en/visit/tour"
+            },
+            {
+              "label": "UN registration / arrival instructions",
+              "url": "https://www.un.org/en/visit/faq"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → Battery Park by taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/taxi legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "transport": "Hotel → Battery Park taxi 35–50min; Liberty Island ferry excursion allow 3.5h. Battery Park → UN taxi 35–45min; UN requires arrival 60min before the tour. UN → Grand Central walk 15–20min; then Midtown walking / taxi legs 15–25min.",
           "activities": [
             {
-              "time": "09:00–09:45",
-              "text": "Leave hotel for Castle Clinton / Battery Park ferry security area."
+              "time": "08:45–09:30",
+              "text": "Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks."
             },
             {
-              "time": "10:00–13:30",
-              "text": "Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure."
+              "time": "09:30–13:00",
+              "text": "Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm."
             },
             {
-              "time": "12:00",
-              "text": "Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning."
+              "time": "13:00–13:30",
+              "text": "Warm lunch near Battery Park / the Financial District."
             },
             {
-              "time": "13:30–14:30",
-              "text": "The Battery → Wall Street / Charging Bull → 9/11 Memorial outdoor plaza."
+              "time": "13:30–14:15",
+              "text": "Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street."
             },
             {
-              "time": "14:30–15:00",
-              "text": "Short Brooklyn Bridge walk from the Manhattan entrance; turn around on the bridge without crossing to Brooklyn."
+              "time": "14:30–15:30",
+              "text": "UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID."
             },
             {
-              "time": "15:15–16:00",
-              "text": "Chinatown warm rice / noodles lunch and Mott / Canal Street."
+              "time": "15:30–16:30",
+              "text": "Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed."
             },
             {
-              "time": "16:00–17:00",
-              "text": "Continue north through SoHo Broadway and cast-iron streets."
+              "time": "16:30–17:15",
+              "text": "Walk along East 42nd Street to Grand Central Terminal; main concourse and architecture."
             },
             {
-              "time": "17:00–18:30",
-              "text": "Greenwich Village / Washington Square Park, NYU exterior and dinner."
+              "time": "17:15–18:00",
+              "text": "Walk / taxi to the Empire State Building for an exterior photograph, continuing west rather than returning downtown."
             },
             {
-              "time": "18:30–19:45",
-              "text": "Drive / taxi north past Empire State Building for an exterior photograph, then return to the hotel and pack."
+              "time": "18:00–19:30",
+              "text": "Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack."
             }
           ],
           "restWindow": "20:30-06:30",
@@ -4295,7 +4335,7 @@
       "code": "E",
       "title": "UC Davis biology + veterinary exploration",
       "why": "Apple Park and UC Davis extension",
-      "route": "Los Angeles > Cupertino · Apple Park > Davis / Sacramento > Chicago / Evanston > Notre Dame > Ann Arbor > Washington, DC > New York City > Ithaca · Cornell > Amherst > Hanover · Dartmouth > Boston",
+      "route": "Los Angeles > Cupertino · Apple Park > Davis / Sacramento > Chicago / Evanston > Notre Dame > Ann Arbor > Bedford · historic inn > Washington, DC > New York City > Ithaca · Cornell > Amherst > Hanover · Dartmouth > Boston",
       "trade": "Driving preferred; one continuous stay per city. One domestic flight; international flights ticketed.",
       "days": [
         {
@@ -4696,65 +4736,57 @@
           "day": 7,
           "date": "2027-02-05",
           "dateLabel": "Fri 05 Feb",
-          "title": "Ann Arbor → Washington by car",
-          "schedule": "08:15–08:45 Check out / drive to Michigan admissions; luggage stays in the car. 09:00–11:00 Target Michigan guided tour / admissions information; include biology, chemistry and economics questions. 11:00–11:30 Collect the car and pack a light lunch / snacks for the drive. 11:30 Leave Ann Arbor by car for Washington. 14:00–14:30 Elyria / Amherst, Ohio: Turnpike-area warm food, restroom and stretch. 17:30–18:00 Somerset, Pennsylvania: warm meal and restroom break near the Turnpike. 21:00 Washington hotel with parking; dinner / settle in and protect ten hours of rest.",
-          "rest": "22:00–08:00",
+          "title": "Michigan → Brandywine Falls → Bedford",
+          "schedule": "09:00–11:00 Target Michigan guided campus tour / admissions introduction. 11:00–11:30 Early lunch and collect the car. 11:30–14:30 Drive to Brandywine Falls. 14:30–15:15 Short waterfall boardwalk / viewpoints; skip this outdoor stop if paths are icy or closed. 15:15–20:00 Continue to Bedford with a warm meal / stretch stop near Somerset around 18:00; check in and settle before the 21:00 rest period.",
+          "rest": "21:00–07:00",
           "links": [
             {
-              "label": "University of Michigan Ann Arbor → I-80 services Elyria Amherst Ohio → Somerset Pennsylvania Turnpike services → Washington DC",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Washington+DC&travelmode=driving&waypoints=I-80+services+Elyria+Amherst+Ohio%7CSomerset+Pennsylvania+Turnpike+services"
+              "label": "University of Michigan Ann Arbor → Brandywine Falls Ohio → Somerset Pennsylvania → Golden Eagle Inn Bedford PA",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Golden+Eagle+Inn+Bedford+PA&travelmode=driving&waypoints=Brandywine+Falls+Ohio%7CSomerset+Pennsylvania"
             }
           ],
           "tags": [
             "schools",
             "travel"
           ],
-          "transport": "Drive Ann Arbor → Washington: Google Maps about 8h05 before breaks. Allow 9.5–10h including two 30min meal / stretch stops and traffic buffer. Keep the Chicago rental car; no domestic flight on this leg.",
+          "transport": "After the Michigan morning tour, drive to Brandywine Falls, then Bedford. Allow 6–6.5h driving plus 45min scenery, a meal stop and winter buffer; arrive about 20:00. Flight 93 is omitted because its visitor centre would be closed. Continue to Washington tomorrow.",
           "activities": [
             {
-              "time": "08:15–08:45",
-              "text": "Check out / drive to Michigan admissions; luggage stays in the car."
-            },
-            {
               "time": "09:00–11:00",
-              "text": "Target Michigan guided tour / admissions information; include biology, chemistry and economics questions."
+              "text": "Target Michigan guided campus tour / admissions introduction."
             },
             {
               "time": "11:00–11:30",
-              "text": "Collect the car and pack a light lunch / snacks for the drive."
+              "text": "Early lunch and collect the car."
             },
             {
-              "time": "11:30",
-              "text": "Leave Ann Arbor by car for Washington."
+              "time": "11:30–14:30",
+              "text": "Drive to Brandywine Falls."
             },
             {
-              "time": "14:00–14:30",
-              "text": "Elyria / Amherst, Ohio: Turnpike-area warm food, restroom and stretch."
+              "time": "14:30–15:15",
+              "text": "Short waterfall boardwalk / viewpoints; skip this outdoor stop if paths are icy or closed."
             },
             {
-              "time": "17:30–18:00",
-              "text": "Somerset, Pennsylvania: warm meal and restroom break near the Turnpike."
-            },
-            {
-              "time": "21:00",
-              "text": "Washington hotel with parking; dinner / settle in and protect ten hours of rest."
+              "time": "15:15–20:00",
+              "text": "Continue to Bedford with a warm meal / stretch stop near Somerset around 18:00; check in and settle before the 21:00 rest period."
             }
           ],
-          "restWindow": "22:00–08:00",
+          "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Washington, DC hotel with parking",
-            "city": "Washington, DC",
-            "url": "https://www.google.com/maps/search/?api=1&query=Washington%2C+DC+hotels+parking",
-            "status": "Hotel to select"
+            "name": "The Golden Eagle Inn · historic Bedford inn",
+            "city": "Bedford, Pennsylvania",
+            "url": "https://www.bedfordpainn.com/",
+            "status": "Suggested; confirm family room and winter availability"
           },
           "pits": [
             {
-              "area": "elyria",
-              "time": "14:00–14:30"
+              "area": "brandywine",
+              "time": "14:30–15:15"
             },
             {
               "area": "somerset",
-              "time": "17:30–18:00"
+              "time": "18:00–18:30"
             }
           ]
         },
@@ -4762,51 +4794,55 @@
           "day": 8,
           "date": "2027-02-06",
           "dateLabel": "Sat 06 Feb",
-          "title": "Smithsonian → New York by car",
-          "schedule": "09:15–09:45 Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time. 10:00–12:30 Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm. 12:30–13:30 Warm lunch; collect bags and retrieve the parked rental car for New York. 13:30 Drive toward New York on I-95 / the New Jersey Turnpike. 15:30–16:00 Wilmington / Newark, Delaware: warm food / drink, toilets and stretch. 18:30–19:30 Manhattan hotel with parking; check in and dinner nearby. 21:30–07:30 Protected ten-hour hotel rest before the first full New York day.",
-          "rest": "21:30–07:30",
+          "title": "Bedford → Smithsonian → New York",
+          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
+          "rest": "22:00–08:00",
           "links": [
+            {
+              "label": "Bedford → Smithsonian",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Golden+Eagle+Inn+Bedford+PA&destination=Smithsonian+National+Air+and+Space+Museum&travelmode=driving"
+            },
             {
               "label": "Smithsonian National Air and Space Museum → I-95 services Newark Delaware → Midtown West New York",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Midtown+West+New+York&travelmode=driving&waypoints=I-95+services+Newark+Delaware"
+            },
+            {
+              "label": "Smithsonian planetarium programme",
+              "url": "https://airandspace.si.edu/learn/programs/planetarium"
             }
           ],
           "tags": [
             "fun",
             "travel"
           ],
-          "transport": "Washington → NYC: Google Maps about 3h40 in current traffic; allow 5–6h with the Delaware stop, winter / I-95 traffic and Manhattan hotel parking. Keep the car for the college road trip; city visits use walking / taxis while it is parked.",
+          "transport": "Bedford → Smithsonian: allow 3.5h including winter / city traffic and parking. Drive directly without a Frederick town detour. After the museum, Washington → Manhattan allow 5–6h including the Delaware stop and parking.",
           "activities": [
             {
-              "time": "09:15–09:45",
-              "text": "Drive / taxi from hotel to Smithsonian Air and Space; allow parking / entry time."
+              "time": "07:00–07:30",
+              "text": "Breakfast and checkout after ten hours of hotel rest."
             },
             {
-              "time": "10:00–12:30",
-              "text": "Smithsonian Air and Space: target The Sky Tonight at 10:30 under the first-Saturday pattern, or a reserved planetarium show, plus selected exhibits. Programme to confirm."
+              "time": "07:30–11:00",
+              "text": "Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time."
             },
             {
-              "time": "12:30–13:30",
-              "text": "Warm lunch; collect bags and retrieve the parked rental car for New York."
+              "time": "11:00–13:00",
+              "text": "Smithsonian National Air and Space Museum highlights and a daily ticketed planetarium show if a compatible slot is available. Purchase planetarium tickets at the museum box office; February programme to confirm. This plan does not rely on the 10:30 monthly free show."
             },
             {
-              "time": "13:30",
-              "text": "Drive toward New York on I-95 / the New Jersey Turnpike."
+              "time": "13:00–13:45",
+              "text": "Warm lunch, collect bags and the car."
             },
             {
-              "time": "15:30–16:00",
-              "text": "Wilmington / Newark, Delaware: warm food / drink, toilets and stretch."
+              "time": "13:45–20:00",
+              "text": "Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in."
             },
             {
-              "time": "18:30–19:30",
-              "text": "Manhattan hotel with parking; check in and dinner nearby."
-            },
-            {
-              "time": "21:30–07:30",
-              "text": "Protected ten-hour hotel rest before the first full New York day."
+              "time": "20:00–21:30",
+              "text": "Warm dinner near the hotel; protected rest 22:00–08:00."
             }
           ],
-          "restWindow": "21:30–07:30",
+          "restWindow": "22:00–08:00",
           "hotel": {
             "name": "Midtown West New York hotel with parking",
             "city": "Midtown West New York",
@@ -4816,7 +4852,7 @@
           "pits": [
             {
               "area": "wilmington",
-              "time": "15:30–16:00"
+              "time": "15:45–16:15"
             }
           ]
         },
@@ -4824,83 +4860,75 @@
           "day": 9,
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
-          "title": "NYC: The Met, space, NBC Studios + Wicked",
-          "schedule": "09:15–09:50 Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue. 10:00–12:00 The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access. 12:00–12:40 Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather. 12:40–13:20 Warm lunch near AMNH. 13:30–14:45 AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective. 14:45–15:15 Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early. 15:30–17:00 The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed. 17:00–17:45 Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY. 17:45–18:30 Walk toward Times Square and have an early warm dinner near the theatre. 18:30–18:45 Walk to Gershwin Theatre and check in. 19:00–21:45 Target Wicked evening performance; confirm tickets and exact running time. 21:45–22:00 Walk directly back to the nearby hotel after the performance; protected rest 22:30–08:30.",
+          "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
+          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–12:00 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries. 12:00–12:15 Short Central Park edge walk near The Met. 12:15–13:15 Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
-              "label": "The Met official hours / tickets",
-              "url": "https://www.metmuseum.org/plan-your-visit"
+              "label": "Midtown West New York → The Met Fifth Avenue → Madison Square Garden → 30 Rockefeller Plaza",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=30+Rockefeller+Plaza&travelmode=driving&waypoints=The+Met+Fifth+Avenue%7CMadison+Square+Garden"
             },
             {
-              "label": "The Metropolitan Museum of Art 1000 Fifth Avenue New York → American Museum of Natural History New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&destination=American+Museum+of+Natural+History+New+York&travelmode=walking"
+              "label": "30 Rockefeller Plaza → FAO Schwarz New York → Nintendo New York → Times Square → Gershwin Theatre",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=30+Rockefeller+Plaza&destination=Gershwin+Theatre&travelmode=walking&waypoints=FAO+Schwarz+New+York%7CNintendo+New+York%7CTimes+Square"
             },
             {
-              "label": "American Museum of Natural History New York → The Tour at NBC Studios 30 Rockefeller Plaza New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=American+Museum+of+Natural+History+New+York&destination=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&travelmode=driving"
+              "label": "MSG official tour bookings",
+              "url": "https://www.msg.com/guided-tours/new-york-city-tours/madison-square-garden-tour"
             },
             {
-              "label": "NBC Studios tour · official tickets",
+              "label": "NBC official tour bookings",
               "url": "https://www.thetouratnbcstudios.com/book"
-            },
-            {
-              "label": "The Tour at NBC Studios 30 Rockefeller Plaza New York → FAO Schwarz Rockefeller Center → Nintendo New York → Times Square New York → Gershwin Theatre New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=The+Tour+at+NBC+Studios+30+Rockefeller+Plaza+New+York&destination=Gershwin+Theatre+New+York&travelmode=walking&waypoints=FAO+Schwarz+Rockefeller+Center%7CNintendo+New+York%7CTimes+Square+New+York"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → The Met 30–40min; cross Central Park to AMNH 30–40min. AMNH → NBC Studios 20–30min, arriving by 15:15 for target 15:30 tour. Rockefeller shops and Times Square / theatre walking legs 5–15min.",
+          "transport": "Taxi: hotel → Met 30–40min; Met → MSG 25–40min; MSG → NBC 15–30min or walk 25–35min. Midtown evening walking legs 5–15min. MSG is a guided arena visit, not a live game.",
           "activities": [
             {
               "time": "09:15–09:50",
-              "text": "Hotel → The Met Fifth Avenue by taxi; allow 30–40min and entry queue."
+              "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
             },
             {
               "time": "10:00–12:00",
-              "text": "The Met Fifth Avenue: two-hour highlights visit — Egyptian art / Temple of Dendur, Arms and Armor, and selected American Wing works, subject to gallery access."
+              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries."
             },
             {
-              "time": "12:00–12:40",
-              "text": "Walk west across Central Park toward AMNH (30–40min); taxi 15–25min in poor weather."
+              "time": "12:00–12:15",
+              "text": "Short Central Park edge walk near The Met."
             },
             {
-              "time": "12:40–13:20",
-              "text": "Warm lunch near AMNH."
+              "time": "12:15–13:15",
+              "text": "Taxi 25–40min to Penn Station / MSG, then warm lunch near the arena."
             },
             {
-              "time": "13:30–14:45",
-              "text": "AMNH / Hayden Planetarium: reserve a space-show slot within this window; keep other exhibits selective."
+              "time": "13:30–14:30",
+              "text": "Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included."
             },
             {
-              "time": "14:45–15:15",
-              "text": "Taxi/taxi to The Shop at NBC Studios, 30 Rockefeller Plaza; enter from 6th Avenue and check in 15 minutes early."
+              "time": "14:30–15:15",
+              "text": "Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early."
             },
             {
               "time": "15:30–17:00",
-              "text": "The Tour at NBC Studios: target 90-minute guided tour; ticket release is usually about one month ahead and actual studio access varies. Time is a booking target, not confirmed."
+              "text": "Target The Tour at NBC Studios; reserve when February tickets open."
             },
             {
               "time": "17:00–17:45",
-              "text": "Rockefeller Center / Fifth Avenue: choose favourite stops at FAO Schwarz / Jellycat and Nintendo NY."
+              "text": "Fifth Avenue / Rockefeller Center shops: FAO Schwarz / Jellycat or Nintendo NY."
             },
             {
-              "time": "17:45–18:30",
-              "text": "Walk toward Times Square and have an early warm dinner near the theatre."
-            },
-            {
-              "time": "18:30–18:45",
-              "text": "Walk to Gershwin Theatre and check in."
+              "time": "17:45–18:45",
+              "text": "Times Square, warm dinner and Gershwin Theatre entry."
             },
             {
               "time": "19:00–21:45",
-              "text": "Target Wicked evening performance; confirm tickets and exact running time."
+              "text": "Target Wicked evening performance; actual performance / tickets to confirm."
             },
             {
               "time": "21:45–22:00",
-              "text": "Walk directly back to the nearby hotel after the performance; protected rest 22:30–08:30."
+              "text": "Walk directly back to the nearby hotel; rest 22:30–08:30."
             }
           ],
           "restWindow": "22:30–08:30",
@@ -4916,8 +4944,8 @@
           "day": 10,
           "date": "2027-02-08",
           "dateLabel": "Mon 08 Feb",
-          "title": "NYC full day 2: city life",
-          "schedule": "09:00–09:45 Leave hotel for Castle Clinton / Battery Park ferry security area. 10:00–13:30 Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure. 12:00 Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning. 13:30–14:30 The Battery → Wall Street / Charging Bull → 9/11 Memorial outdoor plaza. 14:30–15:00 Short Brooklyn Bridge walk from the Manhattan entrance; turn around on the bridge without crossing to Brooklyn. 15:15–16:00 Chinatown warm rice / noodles lunch and Mott / Canal Street. 16:00–17:00 Continue north through SoHo Broadway and cast-iron streets. 17:00–18:30 Greenwich Village / Washington Square Park, NYU exterior and dinner. 18:30–19:45 Drive / taxi north past Empire State Building for an exterior photograph, then return to the hotel and pack.",
+          "title": "NYC: Statue of Liberty → United Nations → Grand Central",
+          "schedule": "08:45–09:30 Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks. 09:30–13:00 Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm. 13:00–13:30 Warm lunch near Battery Park / the Financial District. 13:30–14:15 Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:15 Walk along East 42nd Street to Grand Central Terminal; main concourse and architecture. 17:15–18:00 Walk / taxi to the Empire State Building for an exterior photograph, continuing west rather than returning downtown. 18:00–19:30 Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack.",
           "rest": "20:30-06:30",
           "links": [
             {
@@ -4925,58 +4953,66 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=Battery+Park+New+York&travelmode=driving"
             },
             {
-              "label": "Statue City Cruises · tickets",
+              "label": "Statue City Cruises official tickets",
               "url": "https://www.cityexperiences.com/new-york/city-cruises/statue/"
             },
             {
-              "label": "Battery Park New York → Wall Street New York → 9/11 Memorial New York → Brooklyn Bridge Manhattan entrance → Chinatown New York → SoHo Broadway New York → Washington Square Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=Washington+Square+Park+New+York&travelmode=walking&waypoints=Wall+Street+New+York%7C9%2F11+Memorial+New+York%7CBrooklyn+Bridge+Manhattan+entrance%7CChinatown+New+York%7CSoHo+Broadway+New+York"
+              "label": "Battery Park New York → 801 First Avenue New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=801+First+Avenue+New+York&travelmode=driving"
             },
             {
-              "label": "Washington Square Park New York → Empire State Building → Midtown West New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+Square+Park+New+York&destination=Midtown+West+New+York&travelmode=driving&waypoints=Empire+State+Building"
+              "label": "United Nations Headquarters New York → Grand Central Terminal → Empire State Building → Koreatown Manhattan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=United+Nations+Headquarters+New+York&destination=Koreatown+Manhattan&travelmode=walking&waypoints=Grand+Central+Terminal%7CEmpire+State+Building"
+            },
+            {
+              "label": "UN guided tour booking",
+              "url": "https://www.un.org/en/visit/tour"
+            },
+            {
+              "label": "UN registration / arrival instructions",
+              "url": "https://www.un.org/en/visit/faq"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → Battery Park by taxi 35–50min. Reserve a target 10:00 security-entry slot for Statue City Cruises; allow until 13:30 for security, ferries, Liberty Island grounds and museum. NYC walking/taxi legs 10–40min. Ferry schedule and winter service must be confirmed.",
+          "transport": "Hotel → Battery Park taxi 35–50min; Liberty Island ferry excursion allow 3.5h. Battery Park → UN taxi 35–45min; UN requires arrival 60min before the tour. UN → Grand Central walk 15–20min; then Midtown walking / taxi legs 15–25min.",
           "activities": [
             {
-              "time": "09:00–09:45",
-              "text": "Leave hotel for Castle Clinton / Battery Park ferry security area."
+              "time": "08:45–09:30",
+              "text": "Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks."
             },
             {
-              "time": "10:00–13:30",
-              "text": "Statue of Liberty: target timed security entry, then ferry to Liberty Island, grounds and Statue of Liberty Museum. Return to Manhattan without an Ellis Island museum visit. The ticket time is security entry, not a guaranteed boat departure."
+              "time": "09:30–13:00",
+              "text": "Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm."
             },
             {
-              "time": "12:00",
-              "text": "Carry a substantial snack / light lunch for the island; warm Chinatown lunch follows after returning."
+              "time": "13:00–13:30",
+              "text": "Warm lunch near Battery Park / the Financial District."
             },
             {
-              "time": "13:30–14:30",
-              "text": "The Battery → Wall Street / Charging Bull → 9/11 Memorial outdoor plaza."
+              "time": "13:30–14:15",
+              "text": "Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street."
             },
             {
-              "time": "14:30–15:00",
-              "text": "Short Brooklyn Bridge walk from the Manhattan entrance; turn around on the bridge without crossing to Brooklyn."
+              "time": "14:30–15:30",
+              "text": "UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID."
             },
             {
-              "time": "15:15–16:00",
-              "text": "Chinatown warm rice / noodles lunch and Mott / Canal Street."
+              "time": "15:30–16:30",
+              "text": "Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed."
             },
             {
-              "time": "16:00–17:00",
-              "text": "Continue north through SoHo Broadway and cast-iron streets."
+              "time": "16:30–17:15",
+              "text": "Walk along East 42nd Street to Grand Central Terminal; main concourse and architecture."
             },
             {
-              "time": "17:00–18:30",
-              "text": "Greenwich Village / Washington Square Park, NYU exterior and dinner."
+              "time": "17:15–18:00",
+              "text": "Walk / taxi to the Empire State Building for an exterior photograph, continuing west rather than returning downtown."
             },
             {
-              "time": "18:30–19:45",
-              "text": "Drive / taxi north past Empire State Building for an exterior photograph, then return to the hotel and pack."
+              "time": "18:00–19:30",
+              "text": "Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack."
             }
           ],
           "restWindow": "20:30-06:30",

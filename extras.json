@@ -228,11 +228,6 @@
           "kind": "target"
         },
         {
-          "id": "nyu",
-          "day": 10,
-          "kind": "self"
-        },
-        {
           "id": "cornell",
           "day": 11,
           "kind": "target"
@@ -299,6 +294,17 @@
           "mode": "drive"
         },
         {
+          "key": "Bedford",
+          "label": "Bedford · historic inn",
+          "zhLabel": "Bedford・歷史旅館",
+          "coords": [
+            -78.5,
+            40.02
+          ],
+          "days": "D7–8",
+          "mode": "drive"
+        },
+        {
           "key": "Washington",
           "label": "Washington, DC",
           "zhLabel": "華盛頓",
@@ -306,7 +312,7 @@
             -77.04,
             38.9
           ],
-          "days": "D7–8",
+          "days": "D8",
           "mode": "drive"
         },
         {
@@ -402,10 +408,24 @@
           "day": 5
         },
         {
+          "id": "brandywine",
+          "day": 7,
+          "name": "Brandywine Falls · Cuyahoga Valley National Park",
+          "city": "Sagamore Hills, Ohio",
+          "nature": "Waterfall / short nature walk · boardwalk subject to ice closures"
+        },
+        {
+          "id": "flight93",
+          "day": 7,
+          "name": "Flight 93 National Memorial",
+          "city": "Somerset County, Pennsylvania",
+          "nature": "September 11 history / visitor centre / overlook"
+        },
+        {
           "id": "smithsonian",
           "name": "Smithsonian National Air and Space Museum",
           "city": "Washington DC",
-          "nature": "Aviation / space / planetarium; show booking pending",
+          "nature": "Aviation / space / daily ticketed planetarium; programme to confirm",
           "day": 8
         },
         {
@@ -413,13 +433,6 @@
           "name": "Central Park",
           "city": "New York City",
           "nature": "City park / outdoor stroll",
-          "day": 9
-        },
-        {
-          "id": "amnh",
-          "name": "AMNH / Hayden Planetarium",
-          "city": "New York City",
-          "nature": "Natural science / space show",
           "day": 9
         },
         {
@@ -458,6 +471,13 @@
           "day": 9
         },
         {
+          "id": "msg",
+          "day": 9,
+          "name": "Madison Square Garden · Knicks / Rangers arena tour",
+          "city": "New York City",
+          "nature": "NY sports fallback · 60min guided arena tour · not a live game or player meeting"
+        },
+        {
           "id": "empire",
           "name": "Empire State Building · 34th Street",
           "city": "New York City",
@@ -472,25 +492,18 @@
           "day": 10
         },
         {
-          "id": "memorial911",
-          "name": "Wall Street / Charging Bull / 9/11 Memorial",
+          "id": "un",
+          "day": 10,
+          "name": "United Nations Headquarters",
           "city": "New York City",
-          "nature": "Finance district / outdoor memorial",
-          "day": 10
+          "nature": "Weekday guided tour · request Chinese · security registration / tickets required"
         },
         {
-          "id": "brooklynbridge",
-          "name": "Brooklyn Bridge",
+          "id": "grandcentral",
+          "day": 10,
+          "name": "Grand Central Terminal · East 42nd Street",
           "city": "New York City",
-          "nature": "Historic bridge / Manhattan skyline walk",
-          "day": 10
-        },
-        {
-          "id": "nyu",
-          "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
-          "city": "New York City",
-          "nature": "Neighbourhood streets / Chinese food / shops",
-          "day": 10
+          "nature": "Historic railway architecture / famous street"
         },
         {
           "id": "publicgarden",
@@ -500,7 +513,11 @@
           "day": 14
         }
       ],
-      "patches": {}
+      "patches": {},
+      "detourNote": [
+        "Google Maps: Ann Arbor–Washington direct 8h05; via Brandywine Falls, Flight 93 and Bedford 8h47 (+42min driving). Visits, meals and the overnight are additional; within the 60min detour limit.",
+        "Google Maps：Ann Arbor 直達華盛頓 8 小時 05 分；經 Brandywine Falls、Flight 93 及 Bedford 為 8 小時 47 分（多駕駛 42 分鐘）。遊覽、餐飲及過夜另計，符合繞道不超過 60 分鐘上限。"
+      ]
     },
     "B": {
       "visits": [
@@ -523,11 +540,6 @@
           "id": "casewestern",
           "day": 7,
           "kind": "target"
-        },
-        {
-          "id": "nyu",
-          "day": 10,
-          "kind": "self"
         },
         {
           "id": "cornell",
@@ -607,6 +619,17 @@
           "mode": "drive"
         },
         {
+          "key": "Bedford",
+          "label": "Bedford · historic inn",
+          "zhLabel": "Bedford・歷史旅館",
+          "coords": [
+            -78.5,
+            40.02
+          ],
+          "days": "D7–8",
+          "mode": "drive"
+        },
+        {
           "key": "Washington",
           "label": "Washington, DC",
           "zhLabel": "華盛頓",
@@ -614,7 +637,7 @@
             -77.04,
             38.9
           ],
-          "days": "D7–8",
+          "days": "D8",
           "mode": "drive"
         },
         {
@@ -710,10 +733,17 @@
           "day": 5
         },
         {
+          "id": "flight93",
+          "day": 7,
+          "name": "Flight 93 National Memorial",
+          "city": "Somerset County, Pennsylvania",
+          "nature": "September 11 history / visitor centre / overlook"
+        },
+        {
           "id": "smithsonian",
           "name": "Smithsonian National Air and Space Museum",
           "city": "Washington DC",
-          "nature": "Aviation / space / planetarium; show booking pending",
+          "nature": "Aviation / space / daily ticketed planetarium; programme to confirm",
           "day": 8
         },
         {
@@ -721,13 +751,6 @@
           "name": "Central Park",
           "city": "New York City",
           "nature": "City park / outdoor stroll",
-          "day": 9
-        },
-        {
-          "id": "amnh",
-          "name": "AMNH / Hayden Planetarium",
-          "city": "New York City",
-          "nature": "Natural science / space show",
           "day": 9
         },
         {
@@ -766,6 +789,13 @@
           "day": 9
         },
         {
+          "id": "msg",
+          "day": 9,
+          "name": "Madison Square Garden · Knicks / Rangers arena tour",
+          "city": "New York City",
+          "nature": "NY sports fallback · 60min guided arena tour · not a live game or player meeting"
+        },
+        {
           "id": "empire",
           "name": "Empire State Building · 34th Street",
           "city": "New York City",
@@ -780,25 +810,18 @@
           "day": 10
         },
         {
-          "id": "memorial911",
-          "name": "Wall Street / Charging Bull / 9/11 Memorial",
+          "id": "un",
+          "day": 10,
+          "name": "United Nations Headquarters",
           "city": "New York City",
-          "nature": "Finance district / outdoor memorial",
-          "day": 10
+          "nature": "Weekday guided tour · request Chinese · security registration / tickets required"
         },
         {
-          "id": "brooklynbridge",
-          "name": "Brooklyn Bridge",
+          "id": "grandcentral",
+          "day": 10,
+          "name": "Grand Central Terminal · East 42nd Street",
           "city": "New York City",
-          "nature": "Historic bridge / Manhattan skyline walk",
-          "day": 10
-        },
-        {
-          "id": "nyu",
-          "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
-          "city": "New York City",
-          "nature": "Neighbourhood streets / Chinese food / shops",
-          "day": 10
+          "nature": "Historic railway architecture / famous street"
         },
         {
           "id": "publicgarden",
@@ -808,7 +831,11 @@
           "day": 14
         }
       ],
-      "patches": {}
+      "patches": {},
+      "detourNote": [
+        "Google Maps: Cleveland–Washington direct 5h56; via Flight 93 and Bedford 6h24 (+28min driving). Visits, meals and the overnight are additional; within the 60min detour limit.",
+        "Google Maps：Cleveland 直達華盛頓 5 小時 56 分；經 Flight 93 及 Bedford 為 6 小時 24 分（多駕駛 28 分鐘）。遊覽、餐飲及過夜另計，符合繞道不超過 60 分鐘上限。"
+      ]
     },
     "C": {
       "visits": [
@@ -826,11 +853,6 @@
           "id": "michigan",
           "day": 6,
           "kind": "target"
-        },
-        {
-          "id": "nyu",
-          "day": 10,
-          "kind": "self"
         },
         {
           "id": "cornell",
@@ -899,6 +921,17 @@
           "mode": "drive"
         },
         {
+          "key": "Bedford",
+          "label": "Bedford · historic inn",
+          "zhLabel": "Bedford・歷史旅館",
+          "coords": [
+            -78.5,
+            40.02
+          ],
+          "days": "D7–8",
+          "mode": "drive"
+        },
+        {
           "key": "Washington",
           "label": "Washington, DC",
           "zhLabel": "華盛頓",
@@ -906,7 +939,7 @@
             -77.04,
             38.9
           ],
-          "days": "D7–8",
+          "days": "D8",
           "mode": "drive"
         },
         {
@@ -1002,10 +1035,24 @@
           "day": 5
         },
         {
+          "id": "brandywine",
+          "day": 7,
+          "name": "Brandywine Falls · Cuyahoga Valley National Park",
+          "city": "Sagamore Hills, Ohio",
+          "nature": "Waterfall / short nature walk · boardwalk subject to ice closures"
+        },
+        {
+          "id": "flight93",
+          "day": 7,
+          "name": "Flight 93 National Memorial",
+          "city": "Somerset County, Pennsylvania",
+          "nature": "September 11 history / visitor centre / overlook"
+        },
+        {
           "id": "smithsonian",
           "name": "Smithsonian National Air and Space Museum",
           "city": "Washington DC",
-          "nature": "Aviation / space / planetarium; show booking pending",
+          "nature": "Aviation / space / daily ticketed planetarium; programme to confirm",
           "day": 8
         },
         {
@@ -1013,13 +1060,6 @@
           "name": "Central Park",
           "city": "New York City",
           "nature": "City park / outdoor stroll",
-          "day": 9
-        },
-        {
-          "id": "amnh",
-          "name": "AMNH / Hayden Planetarium",
-          "city": "New York City",
-          "nature": "Natural science / space show",
           "day": 9
         },
         {
@@ -1058,6 +1098,13 @@
           "day": 9
         },
         {
+          "id": "msg",
+          "day": 9,
+          "name": "Madison Square Garden · Knicks / Rangers arena tour",
+          "city": "New York City",
+          "nature": "NY sports fallback · 60min guided arena tour · not a live game or player meeting"
+        },
+        {
           "id": "empire",
           "name": "Empire State Building · 34th Street",
           "city": "New York City",
@@ -1072,25 +1119,18 @@
           "day": 10
         },
         {
-          "id": "memorial911",
-          "name": "Wall Street / Charging Bull / 9/11 Memorial",
+          "id": "un",
+          "day": 10,
+          "name": "United Nations Headquarters",
           "city": "New York City",
-          "nature": "Finance district / outdoor memorial",
-          "day": 10
+          "nature": "Weekday guided tour · request Chinese · security registration / tickets required"
         },
         {
-          "id": "brooklynbridge",
-          "name": "Brooklyn Bridge",
+          "id": "grandcentral",
+          "day": 10,
+          "name": "Grand Central Terminal · East 42nd Street",
           "city": "New York City",
-          "nature": "Historic bridge / Manhattan skyline walk",
-          "day": 10
-        },
-        {
-          "id": "nyu",
-          "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
-          "city": "New York City",
-          "nature": "Neighbourhood streets / Chinese food / shops",
-          "day": 10
+          "nature": "Historic railway architecture / famous street"
         },
         {
           "id": "publicgarden",
@@ -1100,7 +1140,11 @@
           "day": 14
         }
       ],
-      "patches": {}
+      "patches": {},
+      "detourNote": [
+        "Google Maps: Ann Arbor–Washington direct 8h05; via Brandywine Falls, Flight 93 and Bedford 8h47 (+42min driving). Visits, meals and the overnight are additional; within the 60min detour limit.",
+        "Google Maps：Ann Arbor 直達華盛頓 8 小時 05 分；經 Brandywine Falls、Flight 93 及 Bedford 為 8 小時 47 分（多駕駛 42 分鐘）。遊覽、餐飲及過夜另計，符合繞道不超過 60 分鐘上限。"
+      ]
     },
     "D": {
       "visits": [
@@ -1118,11 +1162,6 @@
           "id": "michigan",
           "day": 6,
           "kind": "target"
-        },
-        {
-          "id": "nyu",
-          "day": 10,
-          "kind": "self"
         },
         {
           "id": "cornell",
@@ -1191,6 +1230,17 @@
           "mode": "drive"
         },
         {
+          "key": "Bedford",
+          "label": "Bedford · historic inn",
+          "zhLabel": "Bedford・歷史旅館",
+          "coords": [
+            -78.5,
+            40.02
+          ],
+          "days": "D7–8",
+          "mode": "drive"
+        },
+        {
           "key": "Washington",
           "label": "Washington, DC",
           "zhLabel": "華盛頓",
@@ -1198,7 +1248,7 @@
             -77.04,
             38.9
           ],
-          "days": "D7–8",
+          "days": "D8",
           "mode": "drive"
         },
         {
@@ -1294,10 +1344,24 @@
           "day": 5
         },
         {
+          "id": "brandywine",
+          "day": 7,
+          "name": "Brandywine Falls · Cuyahoga Valley National Park",
+          "city": "Sagamore Hills, Ohio",
+          "nature": "Waterfall / short nature walk · boardwalk subject to ice closures"
+        },
+        {
+          "id": "flight93",
+          "day": 7,
+          "name": "Flight 93 National Memorial",
+          "city": "Somerset County, Pennsylvania",
+          "nature": "September 11 history / visitor centre / overlook"
+        },
+        {
           "id": "smithsonian",
           "name": "Smithsonian National Air and Space Museum",
           "city": "Washington DC",
-          "nature": "Aviation / space / planetarium; show booking pending",
+          "nature": "Aviation / space / daily ticketed planetarium; programme to confirm",
           "day": 8
         },
         {
@@ -1305,13 +1369,6 @@
           "name": "Central Park",
           "city": "New York City",
           "nature": "City park / outdoor stroll",
-          "day": 9
-        },
-        {
-          "id": "amnh",
-          "name": "AMNH / Hayden Planetarium",
-          "city": "New York City",
-          "nature": "Natural science / space show",
           "day": 9
         },
         {
@@ -1350,6 +1407,13 @@
           "day": 9
         },
         {
+          "id": "msg",
+          "day": 9,
+          "name": "Madison Square Garden · Knicks / Rangers arena tour",
+          "city": "New York City",
+          "nature": "NY sports fallback · 60min guided arena tour · not a live game or player meeting"
+        },
+        {
           "id": "empire",
           "name": "Empire State Building · 34th Street",
           "city": "New York City",
@@ -1364,25 +1428,18 @@
           "day": 10
         },
         {
-          "id": "memorial911",
-          "name": "Wall Street / Charging Bull / 9/11 Memorial",
+          "id": "un",
+          "day": 10,
+          "name": "United Nations Headquarters",
           "city": "New York City",
-          "nature": "Finance district / outdoor memorial",
-          "day": 10
+          "nature": "Weekday guided tour · request Chinese · security registration / tickets required"
         },
         {
-          "id": "brooklynbridge",
-          "name": "Brooklyn Bridge",
+          "id": "grandcentral",
+          "day": 10,
+          "name": "Grand Central Terminal · East 42nd Street",
           "city": "New York City",
-          "nature": "Historic bridge / Manhattan skyline walk",
-          "day": 10
-        },
-        {
-          "id": "nyu",
-          "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
-          "city": "New York City",
-          "nature": "Neighbourhood streets / Chinese food / shops",
-          "day": 10
+          "nature": "Historic railway architecture / famous street"
         },
         {
           "id": "publicgarden",
@@ -1392,7 +1449,11 @@
           "day": 14
         }
       ],
-      "patches": {}
+      "patches": {},
+      "detourNote": [
+        "Google Maps: Ann Arbor–Washington direct 8h05; via Brandywine Falls, Flight 93 and Bedford 8h47 (+42min driving). Visits, meals and the overnight are additional; within the 60min detour limit.",
+        "Google Maps：Ann Arbor 直達華盛頓 8 小時 05 分；經 Brandywine Falls、Flight 93 及 Bedford 為 8 小時 47 分（多駕駛 42 分鐘）。遊覽、餐飲及過夜另計，符合繞道不超過 60 分鐘上限。"
+      ]
     },
     "E": {
       "visits": [
@@ -1415,11 +1476,6 @@
           "id": "michigan",
           "day": 7,
           "kind": "target"
-        },
-        {
-          "id": "nyu",
-          "day": 10,
-          "kind": "self"
         },
         {
           "id": "cornell",
@@ -1510,6 +1566,17 @@
           "mode": "drive"
         },
         {
+          "key": "Bedford",
+          "label": "Bedford · historic inn",
+          "zhLabel": "Bedford・歷史旅館",
+          "coords": [
+            -78.5,
+            40.02
+          ],
+          "days": "D7–8",
+          "mode": "drive"
+        },
+        {
           "key": "Washington",
           "label": "Washington, DC",
           "zhLabel": "華盛頓",
@@ -1517,7 +1584,7 @@
             -77.04,
             38.9
           ],
-          "days": "D7–8",
+          "days": "D8",
           "mode": "drive"
         },
         {
@@ -1613,10 +1680,17 @@
           "day": 4
         },
         {
+          "id": "brandywine",
+          "day": 7,
+          "name": "Brandywine Falls · Cuyahoga Valley National Park",
+          "city": "Sagamore Hills, Ohio",
+          "nature": "Waterfall / short nature walk · boardwalk subject to ice closures"
+        },
+        {
           "id": "smithsonian",
           "name": "Smithsonian National Air and Space Museum",
           "city": "Washington DC",
-          "nature": "Aviation / space / planetarium; show booking pending",
+          "nature": "Aviation / space / daily ticketed planetarium; programme to confirm",
           "day": 8
         },
         {
@@ -1624,13 +1698,6 @@
           "name": "Central Park",
           "city": "New York City",
           "nature": "City park / outdoor stroll",
-          "day": 9
-        },
-        {
-          "id": "amnh",
-          "name": "AMNH / Hayden Planetarium",
-          "city": "New York City",
-          "nature": "Natural science / space show",
           "day": 9
         },
         {
@@ -1669,6 +1736,13 @@
           "day": 9
         },
         {
+          "id": "msg",
+          "day": 9,
+          "name": "Madison Square Garden · Knicks / Rangers arena tour",
+          "city": "New York City",
+          "nature": "NY sports fallback · 60min guided arena tour · not a live game or player meeting"
+        },
+        {
           "id": "empire",
           "name": "Empire State Building · 34th Street",
           "city": "New York City",
@@ -1683,25 +1757,18 @@
           "day": 10
         },
         {
-          "id": "memorial911",
-          "name": "Wall Street / Charging Bull / 9/11 Memorial",
+          "id": "un",
+          "day": 10,
+          "name": "United Nations Headquarters",
           "city": "New York City",
-          "nature": "Finance district / outdoor memorial",
-          "day": 10
+          "nature": "Weekday guided tour · request Chinese · security registration / tickets required"
         },
         {
-          "id": "brooklynbridge",
-          "name": "Brooklyn Bridge",
+          "id": "grandcentral",
+          "day": 10,
+          "name": "Grand Central Terminal · East 42nd Street",
           "city": "New York City",
-          "nature": "Historic bridge / Manhattan skyline walk",
-          "day": 10
-        },
-        {
-          "id": "nyu",
-          "name": "Chinatown · Mott / Canal Street · SoHo Broadway · Greenwich Village",
-          "city": "New York City",
-          "nature": "Neighbourhood streets / Chinese food / shops",
-          "day": 10
+          "nature": "Historic railway architecture / famous street"
         },
         {
           "id": "publicgarden",
@@ -1711,7 +1778,11 @@
           "day": 14
         }
       ],
-      "patches": {}
+      "patches": {},
+      "detourNote": [
+        "Google Maps: Ann Arbor–Washington direct 8h05; via Brandywine Falls, Somerset and Bedford 8h32 (+27min driving). Visits, meals and the overnight are additional; within the 60min detour limit.",
+        "Google Maps：Ann Arbor 直達華盛頓 8 小時 05 分；經 Brandywine Falls、Somerset 及 Bedford 為 8 小時 32 分（多駕駛 27 分鐘）。遊覽、餐飲及過夜另計，符合繞道不超過 60 分鐘上限。"
+      ]
     }
   },
   "areas": {
@@ -1804,6 +1875,18 @@
       "query": "Milford Connecticut I-95 services",
       "purpose": "Warm lunch and a short stretch on the Boston–New York drive; 30min.",
       "source": "https://www.google.com/maps/search/?api=1&query=Milford+Connecticut+I-95+services"
+    },
+    "brandywine": {
+      "name": "Brandywine Falls · Cuyahoga Valley National Park",
+      "query": "Brandywine Falls Ohio",
+      "purpose": "45min waterfall boardwalk / winter scenery; use only open, ice-free paths.",
+      "source": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm"
+    },
+    "flight93": {
+      "name": "Flight 93 National Memorial · Visitor Center",
+      "query": "Flight 93 National Memorial Visitor Center",
+      "purpose": "60min visitor centre and overlook: September 11 history and passenger courage; visitor centre currently 09:00–17:00.",
+      "source": "https://www.nps.gov/flni/planyourvisit/basicinfo.htm"
     }
   },
   "rankingEdition": 2027,
@@ -1815,8 +1898,8 @@
   "appleParkSource": "https://www.apple.com/retail/appleparkvisitorcenter/",
   "californiaMapsChecked": "23 October 2026: LAX–Apple Park 5h50; via Buttonwillow/Los Banos 6h16; Apple Park–Davis 1h50–2h24, current traffic, not February prediction.",
   "sportsSources": {
-    "bostonCeltics": "https://www.tdgarden.com/events/detail/celtics-vs-warriors-26-27",
-    "status": "Full Boston NBA game on 12 Feb conflicts with ten-hour hotel rest before booked 13 Feb departure. Sports remains conditional pending an earlier compatible event or a changed rest preference."
+    "MSG": "https://www.msg.com/guided-tours/new-york-city-tours/madison-square-garden-tour",
+    "status": "Arena tour fallback on 7 Feb if no LA conference championship visit; 2027 tour availability not confirmed; not a live game / player meeting."
   },
   "transportPreference": {
     "mode": "private road travel",
@@ -1872,5 +1955,29 @@
     "source": "Google Maps driving directions, current traffic; winter planning buffers retained",
     "Cornell via Oneonta to Amherst": "4h27 driving; allow 5–5.5h including stop and buffer",
     "Amherst to Dartmouth": "1h43 driving; allow 2–2.5h"
+  },
+  "detourCheck": {
+    "checked": "2026-10-25",
+    "source": "Google Maps in internal browser, current traffic; excludes sightseeing / meals / overnight duration",
+    "direct": "8h05",
+    "viaFlight93": "8h29 (+24min)",
+    "viaBrandywine": "8h20 (+15min)",
+    "bothPlusBedford": "8h47 (+42min)",
+    "BedfordViaFrederickToSmithsonian": "2h36",
+    "limit": "60min extra driving, cumulative; recheck road conditions before travel",
+    "ClevelandDirect": "5h56",
+    "ClevelandViaFlight93Bedford": "6h24 (+28min)",
+    "note": "The final plan omits the extra Frederick town detour.",
+    "BedfordDirectToSmithsonian": "2h25",
+    "EviaFallsSomersetBedford": "8h32 (+27min)"
+  },
+  "newVisitSources": {
+    "UN": "https://www.un.org/en/visit/tour",
+    "UNarrival": "https://www.un.org/en/visit/faq",
+    "MSG": "https://www.msg.com/guided-tours/new-york-city-tours/madison-square-garden-tour",
+    "Flight93": "https://www.nps.gov/flni/planyourvisit/basicinfo.htm",
+    "Brandywine": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm",
+    "BedfordInn": "https://www.bedfordpainn.com/",
+    "planetarium": "https://airandspace.si.edu/learn/programs/planetarium"
   }
 }
