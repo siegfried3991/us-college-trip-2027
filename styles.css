@@ -35,3 +35,33 @@
 .route-summary{font-size:16px;line-height:1.9;margin:18px 0 0;padding-left:15px;border-left:3px solid #91ad9d;max-width:1020px}
 @media(max-width:600px){.route-head{margin-bottom:14px}.route-highlights{margin-bottom:28px;scroll-margin-top:70px}.carousel-toolbar{margin-bottom:7px}.carousel-toolbar>span{font-size:11px}.carousel-count{font-size:10px;min-width:42px}.carousel-controls{gap:5px}.destination-slide{flex-basis:232px}.destination-art{height:155px}.destination-caption{padding:12px 13px 14px}.destination-caption strong{font-size:14px}.destination-emblem{width:68px;height:68px}.route-summary{font-size:14px;line-height:1.9;margin-top:15px;padding-left:12px}.destination-carousel{padding-bottom:10px}}
 @media print{.carousel-toolbar{display:none}.destination-carousel{overflow:visible;display:grid;grid-template-columns:repeat(4,1fr)}.destination-art{height:100px}.destination-emblem{width:48px;height:48px}.route-highlights{break-inside:avoid}.destination-slide{break-inside:avoid}}
+
+/* Both languages share the English layout; translated text wraps inside it. */
+body{line-height:1.2}
+.heading h1,.route-head h2,.section-heading h3,.itinerary-heading h3{line-height:1.2}
+.heading>div:first-child{min-width:0}
+.heading p{line-height:1.4}
+.language-switch{flex-shrink:0}
+.route-nav nav{display:grid;grid-template-columns:repeat(5,minmax(0,154px))}
+.route-nav button{min-width:0;padding-inline:10px}
+.route-head{display:grid;grid-template-columns:minmax(0,1fr) 180px}
+.route-head>div{min-width:0}
+.status{width:180px}
+.summary-table{table-layout:fixed}
+.schools th:nth-child(1){width:41%}.schools th:nth-child(2){width:23%}.schools th:nth-child(3){width:17%}.schools th:nth-child(4){width:19%}
+.sights th:nth-child(1){width:44%}.sights th:nth-child(2){width:23%}.sights th:nth-child(3){width:33%}
+.pits th:nth-child(1){width:35%}.pits th:nth-child(2){width:33%}.pits th:nth-child(3){width:32%}
+.identity-inner>div{min-width:0;overflow-wrap:anywhere}
+.destination-caption strong{min-height:4.35em}
+@media(max-width:600px){
+ .route-nav nav{grid-template-columns:repeat(5,minmax(0,1fr))}
+ .route-nav button{padding-inline:2px}
+ .route-head{display:block}
+ .status{width:auto}
+ .heading h1{font-size:23px;line-height:1.2}
+ .heading p{line-height:1.4;min-height:2.8em}
+ .heading{min-height:70px}
+ .route-line{min-height:7.2em}
+ .status{min-height:1.6em}
+ .destination-caption strong{min-height:4.35em}
+}
