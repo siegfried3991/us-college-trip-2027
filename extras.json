@@ -112,22 +112,6 @@
       "website": "https://www.bu.edu",
       "zhName": "Boston University 波士頓大學"
     },
-    "casewestern": {
-      "name": "Case Western Reserve University",
-      "usNews": 44,
-      "usNewsCategory": "National Universities",
-      "usNewsEdition": 2027,
-      "qs": "=326",
-      "qsEdition": 2027,
-      "qsStatus": "ranked",
-      "usNewsSource": "https://case.edu/news/cwru-jumps-latest-us-news-world-report-rankings",
-      "qsSource": "https://www.topuniversities.com/universities/case-western-reserve-university",
-      "usNewsVerification": "primary",
-      "id": "casewestern",
-      "city": "Cleveland",
-      "website": "https://www.case.edu",
-      "zhName": "Case Western Reserve University 凱斯西儲大學"
-    },
     "ucdavis": {
       "name": "University of California, Davis",
       "usNews": 34,
@@ -207,6 +191,38 @@
       "city": "Wellesley / Boston",
       "website": "https://www.wellesley.edu",
       "zhName": "Wellesley College 韋爾斯利學院"
+    },
+    "uchicago": {
+      "id": "uchicago",
+      "name": "University of Chicago",
+      "zhName": "芝加哥 University of Chicago 芝加哥大學",
+      "city": "Chicago",
+      "usNews": 9,
+      "usNewsCategory": "National Universities",
+      "usNewsEdition": 2027,
+      "qs": 24,
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://chicagomaroon.com/53794/news/uchicago-falls-to-no-9-in-2027-u-s-news-national-universities-ranking/",
+      "qsSource": "https://www.topuniversities.com/universities/university-chicago",
+      "usNewsVerification": "student newspaper reporting U.S. News; checked 25 October 2026",
+      "website": "https://www.uchicago.edu/"
+    },
+    "columbia": {
+      "id": "columbia",
+      "name": "Columbia University",
+      "zhName": "紐約 Columbia University 哥倫比亞大學",
+      "city": "New York City",
+      "usNews": 12,
+      "usNewsCategory": "National Universities",
+      "usNewsEdition": 2027,
+      "qs": "=43",
+      "qsEdition": 2027,
+      "qsStatus": "ranked",
+      "usNewsSource": "https://www.cornellsun.com/article/2026/09/cornell-slides-to-no-14-in-u-s-news-national-rankings",
+      "qsSource": "https://www.topuniversities.com/universities/columbia-university",
+      "usNewsVerification": "student newspaper reporting U.S. News; checked 25 October 2026",
+      "website": "https://www.columbia.edu/"
     }
   },
   "plans": {
@@ -218,6 +234,11 @@
           "kind": "medill"
         },
         {
+          "id": "uchicago",
+          "day": 4,
+          "kind": "conditional"
+        },
+        {
           "id": "notredame",
           "day": 5,
           "kind": "target"
@@ -226,6 +247,11 @@
           "id": "michigan",
           "day": 6,
           "kind": "target"
+        },
+        {
+          "id": "columbia",
+          "day": 10,
+          "kind": "conditional"
         },
         {
           "id": "cornell",
@@ -447,7 +473,7 @@
           "name": "The Met Fifth Avenue · Metropolitan Museum of Art",
           "city": "New York City",
           "nature": "Art museum · Egyptian art, armor and American art highlights",
-          "day": 9
+          "day": 10
         },
         {
           "id": "nbc",
@@ -468,7 +494,7 @@
           "name": "Statue of Liberty / Liberty Island",
           "city": "New York City",
           "nature": "Island ferry / monument / museum",
-          "day": 10
+          "day": 9
         },
         {
           "id": "un",
@@ -506,6 +532,11 @@
           "kind": "target"
         },
         {
+          "id": "uchicago",
+          "day": 4,
+          "kind": "conditional"
+        },
+        {
           "id": "notredame",
           "day": 5,
           "kind": "target"
@@ -516,9 +547,9 @@
           "kind": "target"
         },
         {
-          "id": "casewestern",
-          "day": 7,
-          "kind": "target"
+          "id": "columbia",
+          "day": 10,
+          "kind": "conditional"
         },
         {
           "id": "cornell",
@@ -584,17 +615,6 @@
             42.28
           ],
           "days": "D6",
-          "mode": "drive"
-        },
-        {
-          "key": "Cleveland",
-          "label": "Cleveland · Case Western",
-          "zhLabel": "Cleveland・Case Western",
-          "coords": [
-            -81.61,
-            41.5
-          ],
-          "days": "D6–7",
           "mode": "drive"
         },
         {
@@ -712,13 +732,6 @@
           "day": 5
         },
         {
-          "id": "flight93",
-          "day": 7,
-          "name": "Flight 93 National Memorial",
-          "city": "Somerset County, Pennsylvania",
-          "nature": "September 11 history / visitor centre / overlook"
-        },
-        {
           "id": "smithsonian",
           "name": "Smithsonian National Air and Space Museum",
           "city": "Washington DC",
@@ -751,7 +764,7 @@
           "name": "The Met Fifth Avenue · Metropolitan Museum of Art",
           "city": "New York City",
           "nature": "Art museum · Egyptian art, armor and American art highlights",
-          "day": 9
+          "day": 10
         },
         {
           "id": "nbc",
@@ -772,7 +785,7 @@
           "name": "Statue of Liberty / Liberty Island",
           "city": "New York City",
           "nature": "Island ferry / monument / museum",
-          "day": 10
+          "day": 9
         },
         {
           "id": "un",
@@ -794,12 +807,26 @@
           "city": "Boston",
           "nature": "Garden / city stroll / shops",
           "day": 14
+        },
+        {
+          "id": "brandywine",
+          "day": 7,
+          "name": "Brandywine Falls · Cuyahoga Valley National Park",
+          "city": "Sagamore Hills, Ohio",
+          "nature": "Waterfall / short nature walk · boardwalk subject to ice closures"
+        },
+        {
+          "id": "flight93",
+          "day": 7,
+          "name": "Flight 93 National Memorial",
+          "city": "Somerset County, Pennsylvania",
+          "nature": "September 11 history / visitor centre / overlook"
         }
       ],
       "patches": {},
       "detourNote": [
-        "Google Maps: Cleveland–Washington direct 5h56; via Flight 93 and Bedford 6h24 (+28min driving). Visits, meals and the overnight are additional; within the 60min detour limit.",
-        "Google Maps：Cleveland 直達華盛頓 5 小時 56 分；經 Flight 93 及 Bedford 為 6 小時 24 分（多駕駛 28 分鐘）。遊覽、餐飲及過夜另計，符合繞道不超過 60 分鐘上限。"
+        "Google Maps: Ann Arbor–Washington direct 8h05; via Brandywine Falls, Flight 93 and Bedford 8h47 (+42min driving). Visits, meals and the overnight are additional; within the 60min detour limit.",
+        "Google Maps：Ann Arbor 直達華盛頓 8 小時 05 分；經 Brandywine Falls、Flight 93 及 Bedford 為 8 小時 47 分（多駕駛 42 分鐘）。遊覽、餐飲及過夜另計，符合繞道不超過 60 分鐘上限。"
       ]
     },
     "C": {
@@ -815,6 +842,11 @@
           "kind": "target"
         },
         {
+          "id": "uchicago",
+          "day": 5,
+          "kind": "conditional"
+        },
+        {
           "id": "notredame",
           "day": 6,
           "kind": "target"
@@ -823,6 +855,11 @@
           "id": "michigan",
           "day": 7,
           "kind": "target"
+        },
+        {
+          "id": "columbia",
+          "day": 10,
+          "kind": "conditional"
         },
         {
           "id": "cornell",
@@ -1045,7 +1082,7 @@
           "name": "Central Park",
           "city": "New York City",
           "nature": "City park / outdoor stroll",
-          "day": 9
+          "day": 10
         },
         {
           "id": "wicked",
@@ -1073,7 +1110,7 @@
           "name": "The Met Fifth Avenue · Metropolitan Museum of Art",
           "city": "New York City",
           "nature": "Art museum · Egyptian art, armor and American art highlights",
-          "day": 9
+          "day": 10
         },
         {
           "id": "nbc",
@@ -1101,7 +1138,7 @@
           "name": "Statue of Liberty / Liberty Island",
           "city": "New York City",
           "nature": "Island ferry / monument / museum",
-          "day": 10
+          "day": 9
         },
         {
           "id": "un",
@@ -1324,7 +1361,9 @@
     "Flight93": "https://www.nps.gov/flni/planyourvisit/basicinfo.htm",
     "Brandywine": "https://www.nps.gov/cuva/planyourvisit/half-day-visit.htm",
     "BedfordInn": "https://www.bedfordpainn.com/",
-    "planetarium": "https://airandspace.si.edu/learn/programs/planetarium"
+    "planetarium": "https://airandspace.si.edu/learn/programs/planetarium",
+    "UChicago": "https://prospects.uchicago.edu/portal/oncampusinfotours",
+    "Columbia": "https://apply.college.columbia.edu/portal/campus_visit"
   },
   "planningReview": {
     "skill": "Travel Planner",
@@ -1342,21 +1381,21 @@
   "routeSelection": {
     "A": {
       "style": "Focused",
-      "campuses": 7,
+      "campuses": 9,
       "bases": 11,
-      "places": 23
+      "places": 25
     },
     "B": {
       "style": "Balanced",
-      "campuses": 8,
-      "bases": 12,
-      "places": 24
+      "campuses": 9,
+      "bases": 11,
+      "places": 26
     },
     "C": {
       "style": "Full + UC Davis",
-      "campuses": 8,
+      "campuses": 10,
       "bases": 13,
-      "places": 26
+      "places": 28
     }
   },
   "designSkill": {

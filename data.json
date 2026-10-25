@@ -4,7 +4,7 @@
     {
       "code": "A",
       "title": "Focused · required schools",
-      "why": "Fewest cities and bases among the three routes; seven campuses including Amherst.",
+      "why": "Fewest destinations among these options, with required campuses plus conditional University of Chicago and Columbia visits.",
       "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Bedford · historic inn > Washington, DC > New York City > Ithaca · Cornell > Amherst > Hanover · Dartmouth > Boston",
       "trade": "Driving preferred; one continuous stay per city. One domestic flight; international flights ticketed.",
       "days": [
@@ -228,43 +228,47 @@
           "day": 4,
           "date": "2027-02-02",
           "dateLabel": "Tue 02 Feb",
-          "title": "Northwestern Medill · journalism day",
-          "schedule": "09:30–11:30 Target Northwestern guided campus tour and admissions introduction. 11:30–12:30 Lunch in Evanston. 13:00–15:00 Request a Medill introduction and student / alumni conversation about reporting, economics journalism and science communication; only attend if arranged. 15:00–16:30 Evanston lakefront walk / nearby shops, followed by warm dinner.",
+          "title": "Northwestern / Medill → University of Chicago",
+          "schedule": "09:30–11:30 Target Northwestern guided visit and admissions introduction. 11:30–12:30 Warm lunch and requested Medill / alumni conversation in Evanston; arrange in advance. 12:30–14:15 Drive south to Hyde Park; allow traffic, parking and tour check-in. 14:30–16:30 Target University of Chicago admissions session and student-led campus tour; exact compatible slot must be confirmed. 16:30–18:15 Drive back to the same Evanston hotel; warm dinner by 19:00.",
           "rest": "20:30-06:30",
           "links": [
             {
-              "label": "Campus tour / admissions registration",
+              "label": "Northwestern University Evanston → University of Chicago Admissions Rosenwald Hall → Graduate Evanston",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Graduate+Evanston&waypoints=University+of+Chicago+Admissions+Rosenwald+Hall&travelmode=driving"
+            },
+            {
+              "label": "UChicago official tour registration",
+              "url": "https://prospects.uchicago.edu/portal/oncampusinfotours"
+            },
+            {
+              "label": "Northwestern official visits",
               "url": "https://admissions.northwestern.edu/visit/visit-campus/"
-            },
-            {
-              "label": "Local Evanston route",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Graduate+Evanston&waypoints=Downtown+Evanston&travelmode=driving"
-            },
-            {
-              "label": "Northwestern Medill",
-              "url": "https://www.medill.northwestern.edu/"
             }
           ],
           "tags": [
             "schools"
           ],
-          "transport": "Stay in Evanston for this single Northwestern / Medill visit; local walking or driving 5–15min.",
+          "transport": "Evanston → Hyde Park budget 75–105min each way including traffic / parking; no additional hotel move.",
           "activities": [
             {
               "time": "09:30–11:30",
-              "text": "Target Northwestern guided campus tour and admissions introduction."
+              "text": "Target Northwestern guided visit and admissions introduction."
             },
             {
               "time": "11:30–12:30",
-              "text": "Lunch in Evanston."
+              "text": "Warm lunch and requested Medill / alumni conversation in Evanston; arrange in advance."
             },
             {
-              "time": "13:00–15:00",
-              "text": "Request a Medill introduction and student / alumni conversation about reporting, economics journalism and science communication; only attend if arranged."
+              "time": "12:30–14:15",
+              "text": "Drive south to Hyde Park; allow traffic, parking and tour check-in."
             },
             {
-              "time": "15:00–16:30",
-              "text": "Evanston lakefront walk / nearby shops, followed by warm dinner."
+              "time": "14:30–16:30",
+              "text": "Target University of Chicago admissions session and student-led campus tour; exact compatible slot must be confirmed."
+            },
+            {
+              "time": "16:30–18:15",
+              "text": "Drive back to the same Evanston hotel; warm dinner by 19:00."
             }
           ],
           "restWindow": "20:30-06:30",
@@ -287,6 +291,14 @@
             {
               "label": "If unavailable",
               "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Reserve",
+              "text": "Both added campuses are conditional on released February 2027 guided-tour slots. Register all three visitors. UChicago offers admissions information sessions and student-led tours; Columbia currently requires advance registration, has no walk-on access and lists weekday general tours at noon, 14:00 and 15:00. A private admissions-officer meeting is not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about economics mathematics requirements, biology / chemistry research, the Core curriculum and flexibility to explore subjects. For Columbia, distinguish undergraduate student journalism from its separate graduate journalism school."
             }
           ]
         },
@@ -597,13 +609,13 @@
           "day": 9,
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
-          "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
-          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–12:00 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route. 12:00–13:10 Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
+          "title": "NYC: Statue of Liberty · MSG · NBC · Wicked",
+          "schedule": "08:10–08:50 Taxi to Battery Park / Castle Clinton after the ten-hour rest; carry breakfast and snacks. 09:00–12:30 Target Statue City Cruises security, Liberty Island ferry, Statue of Liberty Museum / grounds and return. No Ellis Island stop; return time must fit the arena booking. 12:30–13:10 Taxi to Madison Square Garden; bring a packed lunch or eat a quick warm meal if time permits. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
-              "label": "Midtown West New York → The Met Fifth Avenue → Madison Square Garden → 30 Rockefeller Plaza",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=30+Rockefeller+Plaza&travelmode=driving&waypoints=The+Met+Fifth+Avenue%7CMadison+Square+Garden"
+              "label": "Midtown West New York → Battery Park New York → Madison Square Garden → 30 Rockefeller Plaza",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=30+Rockefeller+Plaza&waypoints=Battery+Park+New+York%7CMadison+Square+Garden&travelmode=driving"
             },
             {
               "label": "30 Rockefeller Plaza → FAO Schwarz New York → Nintendo New York → Times Square → Gershwin Theatre",
@@ -618,34 +630,34 @@
               "url": "https://www.thetouratnbcstudios.com/book"
             },
             {
-              "label": "The Met admission / opening hours",
-              "url": "https://www.metmuseum.org/plan-your-visit"
-            },
-            {
               "label": "Wicked official calendar / tickets",
               "url": "https://wickedthemusical.com/tickets/"
             },
             {
               "label": "NBC arrival / booking guidance",
               "url": "https://www.thetouratnbcstudios.com/faq"
+            },
+            {
+              "label": "Statue City Cruises official tickets",
+              "url": "https://www.cityexperiences.com/new-york/city-cruises/statue/"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Taxi: hotel → Met 30–40min; Met → MSG 25–40min; MSG → NBC 15–30min or walk 25–35min. Midtown evening walking legs 5–15min. MSG is a guided arena visit, not a live game.",
+          "transport": "Taxi hotel → Battery Park 35–50min; ferry excursion 3.5h; Battery Park → MSG budget 30–40min. Later transfers follow the existing MSG / NBC / theatre sequence.",
           "activities": [
             {
-              "time": "09:15–09:50",
-              "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
+              "time": "08:10–08:50",
+              "text": "Taxi to Battery Park / Castle Clinton after the ten-hour rest; carry breakfast and snacks."
             },
             {
-              "time": "10:00–12:00",
-              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route."
+              "time": "09:00–12:30",
+              "text": "Target Statue City Cruises security, Liberty Island ferry, Statue of Liberty Museum / grounds and return. No Ellis Island stop; return time must fit the arena booking."
             },
             {
-              "time": "12:00–13:10",
-              "text": "Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena."
+              "time": "12:30–13:10",
+              "text": "Taxi to Madison Square Garden; bring a packed lunch or eat a quick warm meal if time permits."
             },
             {
               "time": "13:10–13:30",
@@ -700,6 +712,10 @@
             {
               "label": "If slots clash",
               "text": "Keep The Met and the selected Broadway show. Ask for another same-day MSG or NBC slot before booking; if both cannot fit, one visit remains unresolved. Drop optional shopping first and preserve the 22:30 rest start."
+            },
+            {
+              "label": "Tickets / timing",
+              "text": "Book the ferry, MSG, NBC and Broadway as a compatible set. Do not buy a ferry slot that cannot return to Manhattan by 12:30. If the ferry runs late, the later tour sequence must be rebooked; the island visit cannot be guaranteed against weather."
             }
           ]
         },
@@ -707,21 +723,13 @@
           "day": 10,
           "date": "2027-02-08",
           "dateLabel": "Mon 08 Feb",
-          "title": "NYC: Statue of Liberty → United Nations → Grand Central",
-          "schedule": "08:45–09:30 Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks. 09:30–13:00 Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm. 13:00–13:30 Warm lunch near Battery Park / the Financial District. 13:30–14:15 Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:30 Walk along East 42nd Street to Grand Central Terminal; enjoy the main concourse, architecture and indoor shops without another sightseeing stop. 17:30–18:00 Walk / taxi directly to Koreatown / Herald Square for dinner, then return to the hotel. 18:00–19:30 Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack.",
+          "title": "NYC: The Met → Columbia → United Nations → Grand Central",
+          "schedule": "08:45–09:45 Taxi to The Met Fifth Avenue after hotel rest; allow traffic and entry queue. 10:00–11:15 The Met highlights: choose Egyptian art / Temple of Dendur and Arms and Armor for a focused 75-minute visit. 11:15–11:45 Taxi to Columbia Morningside Heights and check in for the registered tour. 12:00–13:00 Conditional Columbia University student-led general campus tour. Advance registration and access approval required; February slot not confirmed. 13:00–13:40 Warm lunch around Broadway / Morningside Heights. 13:40–14:30 Taxi directly to the UN Visitor Check-in Office, 801 First Avenue; allow 50 minutes. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:30 Walk along East 42nd Street to Grand Central Terminal; enjoy the main concourse, architecture and indoor shops without another sightseeing stop. 17:30–18:00 Walk / taxi directly to Koreatown / Herald Square for dinner, then return to the hotel. 18:00–19:30 Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack.",
           "rest": "20:30-06:30",
           "links": [
             {
-              "label": "Midtown West New York → Battery Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=Battery+Park+New+York&travelmode=driving"
-            },
-            {
-              "label": "Statue City Cruises official tickets",
-              "url": "https://www.cityexperiences.com/new-york/city-cruises/statue/"
-            },
-            {
-              "label": "Battery Park New York → 801 First Avenue New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=801+First+Avenue+New+York&travelmode=driving"
+              "label": "Midtown West New York → The Met Fifth Avenue → Columbia University Visitors Center → 801 First Avenue New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=801+First+Avenue+New+York&waypoints=The+Met+Fifth+Avenue%7CColumbia+University+Visitors+Center&travelmode=driving"
             },
             {
               "label": "United Nations Headquarters New York → Grand Central Terminal → Koreatown Manhattan",
@@ -734,28 +742,44 @@
             {
               "label": "UN registration / arrival instructions",
               "url": "https://www.un.org/en/visit/faq"
+            },
+            {
+              "label": "Columbia official campus tour registration",
+              "url": "https://apply.college.columbia.edu/portal/campus_visit"
+            },
+            {
+              "label": "The Met admission / hours",
+              "url": "https://www.metmuseum.org/plan-your-visit"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → Battery Park taxi 35–50min; Liberty Island ferry excursion allow 3.5h. Battery Park → UN taxi 35–45min; arrive 60min before the tour. UN → Grand Central walk 15–20min; Grand Central → Koreatown walk / taxi 15–30min.",
+          "transport": "Taxi hotel → Met 30–40min; Met → Columbia allow 30min; Columbia → UN allow 50min. UN check-in stays 60min before the target tour.",
           "activities": [
             {
-              "time": "08:45–09:30",
-              "text": "Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks."
+              "time": "08:45–09:45",
+              "text": "Taxi to The Met Fifth Avenue after hotel rest; allow traffic and entry queue."
             },
             {
-              "time": "09:30–13:00",
-              "text": "Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm."
+              "time": "10:00–11:15",
+              "text": "The Met highlights: choose Egyptian art / Temple of Dendur and Arms and Armor for a focused 75-minute visit."
             },
             {
-              "time": "13:00–13:30",
-              "text": "Warm lunch near Battery Park / the Financial District."
+              "time": "11:15–11:45",
+              "text": "Taxi to Columbia Morningside Heights and check in for the registered tour."
             },
             {
-              "time": "13:30–14:15",
-              "text": "Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street."
+              "time": "12:00–13:00",
+              "text": "Conditional Columbia University student-led general campus tour. Advance registration and access approval required; February slot not confirmed."
+            },
+            {
+              "time": "13:00–13:40",
+              "text": "Warm lunch around Broadway / Morningside Heights."
+            },
+            {
+              "time": "13:40–14:30",
+              "text": "Taxi directly to the UN Visitor Check-in Office, 801 First Avenue; allow 50 minutes."
             },
             {
               "time": "14:30–15:30",
@@ -788,12 +812,12 @@
           "pits": [],
           "practical": [
             {
-              "label": "Ferry / UN priority",
-              "text": "Liberty Island grounds / museum access uses the authorised Statue City Cruises ferry. Current general ferry fare is US$26 for ages 13+, or US$78 for your family; recheck 2027 pricing. Reserve the ferry and UN together; no crown climb or Ellis Island stop is included."
+              "label": "Reserve",
+              "text": "Both added campuses are conditional on released February 2027 guided-tour slots. Register all three visitors. UChicago offers admissions information sessions and student-led tours; Columbia currently requires advance registration, has no walk-on access and lists weekday general tours at noon, 14:00 and 15:00. A private admissions-officer meeting is not confirmed."
             },
             {
-              "label": "Weather / overrun",
-              "text": "If the ferry is cancelled or cannot return in time, keep the UN check-in and rest window; use the existing Battery Park morning for a harbour view if conditions allow. An exterior view is not an island visit, and no extra repeat-city day is added."
+              "label": "If unavailable",
+              "text": "If Columbia does not release a compatible noon tour, keep The Met and the UN, extend the museum visit and omit Columbia. Do not assume campus walk-in access or a private admissions meeting."
             }
           ]
         },
@@ -1193,9 +1217,9 @@
     },
     {
       "code": "B",
-      "title": "Balanced · Cleveland added",
-      "why": "Add Cleveland and Case Western; visit Wellesley near Boston.",
-      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Cleveland · Case Western > Bedford · historic inn > Washington, DC > New York City > Ithaca · Cornell > Hanover · Dartmouth > Wellesley > Boston",
+      "title": "Balanced · Wellesley",
+      "why": "Required campuses, University of Chicago and conditional Columbia, with Wellesley near Boston; no Cleveland detour.",
+      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Bedford · historic inn > Washington, DC > New York City > Ithaca · Cornell > Hanover · Dartmouth > Wellesley > Boston",
       "trade": "Driving preferred; one continuous stay per city. One domestic flight; international flights ticketed.",
       "days": [
         {
@@ -1418,39 +1442,51 @@
           "day": 4,
           "date": "2027-02-02",
           "dateLabel": "Tue 02 Feb",
-          "title": "Northwestern + Chicago",
-          "schedule": "09:30-11:30 Northwestern tour/info; 12:00-13:00 alumni chat if arranged 14:30-16:00 Chicago Millennium Park/shops (45-60min each way) OR easy Evanston lakefront walk  Dinner 18:00",
+          "title": "Northwestern / Medill → University of Chicago",
+          "schedule": "09:30–11:30 Target Northwestern guided visit and admissions introduction. 11:30–12:30 Warm lunch and requested Medill / alumni conversation in Evanston; arrange in advance. 12:30–14:15 Drive south to Hyde Park; allow traffic, parking and tour check-in. 14:30–16:30 Target University of Chicago admissions session and student-led campus tour; exact compatible slot must be confirmed. 16:30–17:30 Drive via Millennium Park for a short optional photo stop; skip it if traffic is slow. 17:30–19:00 Return to the same Evanston hotel and have a warm dinner; rest starts at 20:30.",
           "rest": "20:30-06:30",
           "links": [
             {
-              "label": "NU > Millennium Park",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Millennium+Park+Chicago&travelmode=driving&hl=en"
+              "label": "Northwestern University Evanston → University of Chicago Admissions Rosenwald Hall → Graduate Evanston",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Graduate+Evanston&waypoints=University+of+Chicago+Admissions+Rosenwald+Hall&travelmode=driving"
             },
             {
-              "label": "Campus tour / admissions registration",
+              "label": "UChicago official tour registration",
+              "url": "https://prospects.uchicago.edu/portal/oncampusinfotours"
+            },
+            {
+              "label": "Northwestern official visits",
               "url": "https://admissions.northwestern.edu/visit/visit-campus/"
             }
           ],
           "tags": [
             "schools"
           ],
-          "transport": "Evanston ↔ central Chicago by car: allow 45–60min each way.",
+          "transport": "Evanston → Hyde Park budget 75–105min each way including traffic / parking; no additional hotel move.",
           "activities": [
             {
-              "time": "09:30-11:30",
-              "text": "Northwestern tour/info;"
+              "time": "09:30–11:30",
+              "text": "Target Northwestern guided visit and admissions introduction."
             },
             {
-              "time": "12:00-13:00",
-              "text": "alumni chat if arranged"
+              "time": "11:30–12:30",
+              "text": "Warm lunch and requested Medill / alumni conversation in Evanston; arrange in advance."
             },
             {
-              "time": "14:30-16:00",
-              "text": "Chicago Millennium Park/shops (45-60min each way) OR easy Evanston lakefront walk"
+              "time": "12:30–14:15",
+              "text": "Drive south to Hyde Park; allow traffic, parking and tour check-in."
             },
             {
-              "time": "",
-              "text": "Dinner 18:00"
+              "time": "14:30–16:30",
+              "text": "Target University of Chicago admissions session and student-led campus tour; exact compatible slot must be confirmed."
+            },
+            {
+              "time": "16:30–17:30",
+              "text": "Drive via Millennium Park for a short optional photo stop; skip it if traffic is slow."
+            },
+            {
+              "time": "17:30–19:00",
+              "text": "Return to the same Evanston hotel and have a warm dinner; rest starts at 20:30."
             }
           ],
           "restWindow": "20:30-06:30",
@@ -1473,6 +1509,14 @@
             {
               "label": "If unavailable",
               "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
+            },
+            {
+              "label": "Reserve",
+              "text": "Both added campuses are conditional on released February 2027 guided-tour slots. Register all three visitors. UChicago offers admissions information sessions and student-led tours; Columbia currently requires advance registration, has no walk-on access and lists weekday general tours at noon, 14:00 and 15:00. A private admissions-officer meeting is not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about economics mathematics requirements, biology / chemistry research, the Core curriculum and flexibility to explore subjects. For Columbia, distinguish undergraduate student journalism from its separate graduate journalism school."
             }
           ]
         },
@@ -1556,13 +1600,13 @@
           "day": 6,
           "date": "2027-02-04",
           "dateLabel": "Thu 04 Feb",
-          "title": "Michigan > Cleveland",
-          "schedule": "07:00 Leave Notre Dame. 08:45–09:15 Kalamazoo: breakfast and a short walk. 11:00–13:00 Target Michigan guided visit; friend / lunch 13:00–14:00. 14:30 Leave Ann Arbor for Cleveland. 15:30–16:00 Toledo Downtown: warm snack / early meal. 18:30–19:00 Cleveland hotel, dinner and rest.",
+          "title": "Notre Dame > Ann Arbor",
+          "schedule": "07:30 Leave Notre Dame. 09:15–09:45 Kalamazoo Mall area: breakfast / warm snack and a brief walk. 11:30–12:30 Arrive Ann Arbor; lunch and tour check-in. 13:00–15:00 Michigan admissions session and student-guided tour, if reserved. 16:00–18:00 Meet friend / family for dinner.",
           "rest": "21:00-07:00",
           "links": [
             {
-              "label": "Notre Dame > Michigan > Case",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=Case+Western+Reserve+University+Cleveland&travelmode=driving&hl=en&waypoints=University+of+Michigan+Ann+Arbor"
+              "label": "Drive to Michigan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=University+of+Michigan+Ann+Arbor&travelmode=driving&hl=en"
             },
             {
               "label": "Campus tour / admissions registration",
@@ -1573,48 +1617,40 @@
             "schools",
             "travel"
           ],
-          "transport": "Notre Dame → Kalamazoo break → Ann Arbor: allow 4h. Ann Arbor → Toledo break → Cleveland: allow 4–4.5h. Total driving 7–7.5h plus 1h breaks; campus/lunch separates the two legs.",
+          "transport": "07:30 departure → Kalamazoo 09:15–09:45 → Ann Arbor about 11:30. Allow 3–3.5h driving + 30min break (4h total).",
           "activities": [
             {
-              "time": "07:00",
+              "time": "07:30",
               "text": "Leave Notre Dame."
             },
             {
-              "time": "08:45–09:15",
-              "text": "Kalamazoo: breakfast and a short walk."
+              "time": "09:15–09:45",
+              "text": "Kalamazoo Mall area: breakfast / warm snack and a brief walk."
             },
             {
-              "time": "11:00–13:00",
-              "text": "Target Michigan guided visit; friend / lunch 13:00–14:00."
+              "time": "11:30–12:30",
+              "text": "Arrive Ann Arbor; lunch and tour check-in."
             },
             {
-              "time": "14:30",
-              "text": "Leave Ann Arbor for Cleveland."
+              "time": "13:00–15:00",
+              "text": "Michigan admissions session and student-guided tour, if reserved."
             },
             {
-              "time": "15:30–16:00",
-              "text": "Toledo Downtown: warm snack / early meal."
-            },
-            {
-              "time": "18:30–19:00",
-              "text": "Cleveland hotel, dinner and rest."
+              "time": "16:00–18:00",
+              "text": "Meet friend / family for dinner."
             }
           ],
           "restWindow": "21:00-07:00",
           "hotel": {
-            "name": "University Circle hotel",
-            "city": "Cleveland",
-            "url": "https://www.google.com/maps/search/?api=1&query=hotels+University+Circle+Cleveland",
-            "status": "Hotel to select"
+            "name": "Graduate Ann Arbor",
+            "city": "Ann Arbor",
+            "url": "https://graduateannarbor.com/",
+            "status": "Suggested"
           },
           "pits": [
             {
               "area": "kz",
-              "time": "08:45–09:15"
-            },
-            {
-              "area": "to",
-              "time": "15:30–16:00"
+              "time": "09:15–09:45"
             }
           ],
           "practical": [
@@ -1644,44 +1680,43 @@
           "day": 7,
           "date": "2027-02-05",
           "dateLabel": "Fri 05 Feb",
-          "title": "Case Western → Flight 93 → Bedford",
-          "schedule": "09:00–11:00 Target reserved Case Western campus tour and admissions introduction. 11:00–11:30 Early warm lunch; leave Cleveland with luggage in the car. 11:30–15:30 Drive toward Flight 93; allow a brief comfort stop en route. 15:30–16:30 Flight 93 Visitor Center and overlook: September 11 history and the passengers’ actions. 16:30–18:00 Continue east to Bedford; historic inn check-in and warm dinner in town.",
+          "title": "Ann Arbor → Brandywine Falls → Flight 93 → Bedford",
+          "schedule": "08:00 Leave Ann Arbor after breakfast. 11:00–11:45 Brandywine Falls: short boardwalk and waterfall viewpoints in Cuyahoga Valley National Park. Skip this outdoor stop if paths are icy / closed; no gorge hike. 11:45–12:15 Warm lunch in the nearby Boston Heights / Macedonia area. 12:15–15:30 Drive toward Flight 93 National Memorial with traffic / comfort buffer. 15:30–16:30 Flight 93 Visitor Center exhibits and overlook; finish before its current 17:00 closing time. 16:30–18:00 Continue east to Bedford; check into the historic inn, then dinner in the walkable town centre.",
           "rest": "21:00–07:00",
           "links": [
             {
-              "label": "Case Western Reserve University Cleveland → Flight 93 National Memorial Visitor Center → Golden Eagle Inn Bedford PA",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Case+Western+Reserve+University+Cleveland&destination=Golden+Eagle+Inn+Bedford+PA&travelmode=driving&waypoints=Flight+93+National+Memorial+Visitor+Center"
-            },
-            {
-              "label": "Campus tour / admissions registration",
-              "url": "https://case.edu/admission/visit"
+              "label": "University of Michigan Ann Arbor → Brandywine Falls Ohio → Flight 93 National Memorial Visitor Center → Golden Eagle Inn Bedford PA",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Golden+Eagle+Inn+Bedford+PA&travelmode=driving&waypoints=Brandywine+Falls+Ohio%7CFlight+93+National+Memorial+Visitor+Center"
             }
           ],
           "tags": [
-            "schools",
             "travel"
           ],
-          "transport": "Cleveland → Flight 93 → Bedford: allow 4–4.5h driving plus a one-hour memorial visit and lunch / buffer. The full Cleveland–Washington corridor via this stop is about 6h24 driving, split overnight in Bedford; no late-night drive into Washington.",
+          "transport": "Google Maps: direct Ann Arbor → Washington 8h05; via Brandywine Falls, Flight 93 and Bedford 8h47 total driving (+42min, split across two days). Today allow 6–6.5h driving, 45min falls, 60min memorial, lunch and winter buffer; Bedford about 18:00.",
           "activities": [
             {
-              "time": "09:00–11:00",
-              "text": "Target reserved Case Western campus tour and admissions introduction."
+              "time": "08:00",
+              "text": "Leave Ann Arbor after breakfast."
             },
             {
-              "time": "11:00–11:30",
-              "text": "Early warm lunch; leave Cleveland with luggage in the car."
+              "time": "11:00–11:45",
+              "text": "Brandywine Falls: short boardwalk and waterfall viewpoints in Cuyahoga Valley National Park. Skip this outdoor stop if paths are icy / closed; no gorge hike."
             },
             {
-              "time": "11:30–15:30",
-              "text": "Drive toward Flight 93; allow a brief comfort stop en route."
+              "time": "11:45–12:15",
+              "text": "Warm lunch in the nearby Boston Heights / Macedonia area."
+            },
+            {
+              "time": "12:15–15:30",
+              "text": "Drive toward Flight 93 National Memorial with traffic / comfort buffer."
             },
             {
               "time": "15:30–16:30",
-              "text": "Flight 93 Visitor Center and overlook: September 11 history and the passengers’ actions."
+              "text": "Flight 93 Visitor Center exhibits and overlook; finish before its current 17:00 closing time."
             },
             {
               "time": "16:30–18:00",
-              "text": "Continue east to Bedford; historic inn check-in and warm dinner in town."
+              "text": "Continue east to Bedford; check into the historic inn, then dinner in the walkable town centre."
             }
           ],
           "restWindow": "21:00–07:00",
@@ -1693,23 +1728,15 @@
           },
           "pits": [
             {
+              "area": "brandywine",
+              "time": "11:00–11:45"
+            },
+            {
               "area": "flight93",
               "time": "15:30–16:30"
             }
           ],
           "practical": [
-            {
-              "label": "Reserve",
-              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
-            },
-            {
-              "label": "Ask on campus",
-              "text": "Ask about undergraduate biology / chemistry research, pre-health advising, economics and how students gain lab or clinical exposure without assuming access to affiliated hospitals."
-            },
-            {
-              "label": "If unavailable",
-              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
-            },
             {
               "label": "Winter / meals",
               "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
@@ -1800,13 +1827,13 @@
           "day": 9,
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
-          "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
-          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–12:00 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route. 12:00–13:10 Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
+          "title": "NYC: Statue of Liberty · MSG · NBC · Wicked",
+          "schedule": "08:10–08:50 Taxi to Battery Park / Castle Clinton after the ten-hour rest; carry breakfast and snacks. 09:00–12:30 Target Statue City Cruises security, Liberty Island ferry, Statue of Liberty Museum / grounds and return. No Ellis Island stop; return time must fit the arena booking. 12:30–13:10 Taxi to Madison Square Garden; bring a packed lunch or eat a quick warm meal if time permits. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
-              "label": "Midtown West New York → The Met Fifth Avenue → Madison Square Garden → 30 Rockefeller Plaza",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=30+Rockefeller+Plaza&travelmode=driving&waypoints=The+Met+Fifth+Avenue%7CMadison+Square+Garden"
+              "label": "Midtown West New York → Battery Park New York → Madison Square Garden → 30 Rockefeller Plaza",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=30+Rockefeller+Plaza&waypoints=Battery+Park+New+York%7CMadison+Square+Garden&travelmode=driving"
             },
             {
               "label": "30 Rockefeller Plaza → FAO Schwarz New York → Nintendo New York → Times Square → Gershwin Theatre",
@@ -1821,34 +1848,34 @@
               "url": "https://www.thetouratnbcstudios.com/book"
             },
             {
-              "label": "The Met admission / opening hours",
-              "url": "https://www.metmuseum.org/plan-your-visit"
-            },
-            {
               "label": "Wicked official calendar / tickets",
               "url": "https://wickedthemusical.com/tickets/"
             },
             {
               "label": "NBC arrival / booking guidance",
               "url": "https://www.thetouratnbcstudios.com/faq"
+            },
+            {
+              "label": "Statue City Cruises official tickets",
+              "url": "https://www.cityexperiences.com/new-york/city-cruises/statue/"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Taxi: hotel → Met 30–40min; Met → MSG 25–40min; MSG → NBC 15–30min or walk 25–35min. Midtown evening walking legs 5–15min. MSG is a guided arena visit, not a live game.",
+          "transport": "Taxi hotel → Battery Park 35–50min; ferry excursion 3.5h; Battery Park → MSG budget 30–40min. Later transfers follow the existing MSG / NBC / theatre sequence.",
           "activities": [
             {
-              "time": "09:15–09:50",
-              "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
+              "time": "08:10–08:50",
+              "text": "Taxi to Battery Park / Castle Clinton after the ten-hour rest; carry breakfast and snacks."
             },
             {
-              "time": "10:00–12:00",
-              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route."
+              "time": "09:00–12:30",
+              "text": "Target Statue City Cruises security, Liberty Island ferry, Statue of Liberty Museum / grounds and return. No Ellis Island stop; return time must fit the arena booking."
             },
             {
-              "time": "12:00–13:10",
-              "text": "Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena."
+              "time": "12:30–13:10",
+              "text": "Taxi to Madison Square Garden; bring a packed lunch or eat a quick warm meal if time permits."
             },
             {
               "time": "13:10–13:30",
@@ -1903,6 +1930,10 @@
             {
               "label": "If slots clash",
               "text": "Keep The Met and the selected Broadway show. Ask for another same-day MSG or NBC slot before booking; if both cannot fit, one visit remains unresolved. Drop optional shopping first and preserve the 22:30 rest start."
+            },
+            {
+              "label": "Tickets / timing",
+              "text": "Book the ferry, MSG, NBC and Broadway as a compatible set. Do not buy a ferry slot that cannot return to Manhattan by 12:30. If the ferry runs late, the later tour sequence must be rebooked; the island visit cannot be guaranteed against weather."
             }
           ]
         },
@@ -1910,21 +1941,13 @@
           "day": 10,
           "date": "2027-02-08",
           "dateLabel": "Mon 08 Feb",
-          "title": "NYC: Statue of Liberty → United Nations → Grand Central",
-          "schedule": "08:45–09:30 Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks. 09:30–13:00 Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm. 13:00–13:30 Warm lunch near Battery Park / the Financial District. 13:30–14:15 Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:30 Walk along East 42nd Street to Grand Central Terminal; enjoy the main concourse, architecture and indoor shops without another sightseeing stop. 17:30–18:00 Walk / taxi directly to Koreatown / Herald Square for dinner, then return to the hotel. 18:00–19:30 Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack.",
+          "title": "NYC: The Met → Columbia → United Nations → Grand Central",
+          "schedule": "08:45–09:45 Taxi to The Met Fifth Avenue after hotel rest; allow traffic and entry queue. 10:00–11:15 The Met highlights: choose Egyptian art / Temple of Dendur and Arms and Armor for a focused 75-minute visit. 11:15–11:45 Taxi to Columbia Morningside Heights and check in for the registered tour. 12:00–13:00 Conditional Columbia University student-led general campus tour. Advance registration and access approval required; February slot not confirmed. 13:00–13:40 Warm lunch around Broadway / Morningside Heights. 13:40–14:30 Taxi directly to the UN Visitor Check-in Office, 801 First Avenue; allow 50 minutes. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:30 Walk along East 42nd Street to Grand Central Terminal; enjoy the main concourse, architecture and indoor shops without another sightseeing stop. 17:30–18:00 Walk / taxi directly to Koreatown / Herald Square for dinner, then return to the hotel. 18:00–19:30 Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack.",
           "rest": "20:30-06:30",
           "links": [
             {
-              "label": "Midtown West New York → Battery Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=Battery+Park+New+York&travelmode=driving"
-            },
-            {
-              "label": "Statue City Cruises official tickets",
-              "url": "https://www.cityexperiences.com/new-york/city-cruises/statue/"
-            },
-            {
-              "label": "Battery Park New York → 801 First Avenue New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=801+First+Avenue+New+York&travelmode=driving"
+              "label": "Midtown West New York → The Met Fifth Avenue → Columbia University Visitors Center → 801 First Avenue New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=801+First+Avenue+New+York&waypoints=The+Met+Fifth+Avenue%7CColumbia+University+Visitors+Center&travelmode=driving"
             },
             {
               "label": "United Nations Headquarters New York → Grand Central Terminal → Koreatown Manhattan",
@@ -1937,28 +1960,44 @@
             {
               "label": "UN registration / arrival instructions",
               "url": "https://www.un.org/en/visit/faq"
+            },
+            {
+              "label": "Columbia official campus tour registration",
+              "url": "https://apply.college.columbia.edu/portal/campus_visit"
+            },
+            {
+              "label": "The Met admission / hours",
+              "url": "https://www.metmuseum.org/plan-your-visit"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → Battery Park taxi 35–50min; Liberty Island ferry excursion allow 3.5h. Battery Park → UN taxi 35–45min; arrive 60min before the tour. UN → Grand Central walk 15–20min; Grand Central → Koreatown walk / taxi 15–30min.",
+          "transport": "Taxi hotel → Met 30–40min; Met → Columbia allow 30min; Columbia → UN allow 50min. UN check-in stays 60min before the target tour.",
           "activities": [
             {
-              "time": "08:45–09:30",
-              "text": "Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks."
+              "time": "08:45–09:45",
+              "text": "Taxi to The Met Fifth Avenue after hotel rest; allow traffic and entry queue."
             },
             {
-              "time": "09:30–13:00",
-              "text": "Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm."
+              "time": "10:00–11:15",
+              "text": "The Met highlights: choose Egyptian art / Temple of Dendur and Arms and Armor for a focused 75-minute visit."
             },
             {
-              "time": "13:00–13:30",
-              "text": "Warm lunch near Battery Park / the Financial District."
+              "time": "11:15–11:45",
+              "text": "Taxi to Columbia Morningside Heights and check in for the registered tour."
             },
             {
-              "time": "13:30–14:15",
-              "text": "Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street."
+              "time": "12:00–13:00",
+              "text": "Conditional Columbia University student-led general campus tour. Advance registration and access approval required; February slot not confirmed."
+            },
+            {
+              "time": "13:00–13:40",
+              "text": "Warm lunch around Broadway / Morningside Heights."
+            },
+            {
+              "time": "13:40–14:30",
+              "text": "Taxi directly to the UN Visitor Check-in Office, 801 First Avenue; allow 50 minutes."
             },
             {
               "time": "14:30–15:30",
@@ -1991,12 +2030,12 @@
           "pits": [],
           "practical": [
             {
-              "label": "Ferry / UN priority",
-              "text": "Liberty Island grounds / museum access uses the authorised Statue City Cruises ferry. Current general ferry fare is US$26 for ages 13+, or US$78 for your family; recheck 2027 pricing. Reserve the ferry and UN together; no crown climb or Ellis Island stop is included."
+              "label": "Reserve",
+              "text": "Both added campuses are conditional on released February 2027 guided-tour slots. Register all three visitors. UChicago offers admissions information sessions and student-led tours; Columbia currently requires advance registration, has no walk-on access and lists weekday general tours at noon, 14:00 and 15:00. A private admissions-officer meeting is not confirmed."
             },
             {
-              "label": "Weather / overrun",
-              "text": "If the ferry is cancelled or cannot return in time, keep the UN check-in and rest window; use the existing Battery Park morning for a harbour view if conditions allow. An exterior view is not an island visit, and no extra repeat-city day is added."
+              "label": "If unavailable",
+              "text": "If Columbia does not release a compatible noon tour, keep The Met and the UN, extend the museum visit and omit Columbia. Do not assume campus walk-in access or a private admissions meeting."
             }
           ]
         },
@@ -2739,47 +2778,51 @@
           "day": 5,
           "date": "2027-02-03",
           "dateLabel": "Wed 03 Feb",
-          "title": "Northwestern > Notre Dame",
-          "schedule": "10:00–12:00 Target Northwestern guided campus visit; book a slot compatible with the previous night’s late arrival. 12:00–13:00 Alumni chat and lunch, if arranged. 14:00 CT Leave Evanston. 16:00–16:30 CT Michigan City: warm snack and a brief downtown walk. 18:30–19:00 ET Arrive Notre Dame; hotel and dinner.",
-          "rest": "21:00-07:00",
+          "title": "Northwestern → University of Chicago → Notre Dame",
+          "schedule": "10:00–12:00 CT Target Northwestern guided tour after the protected ten-hour hotel rest. 12:00–12:45 CT Warm lunch and alumni conversation if arranged. 12:45–14:15 CT Drive from Evanston to Hyde Park; park and check in. 14:30–16:30 CT Conditional University of Chicago admissions session and guided tour; reserve a compatible slot. 16:30–19:00 CT Drive east via Michigan City; include a 30-minute warm meal / comfort stop. 20:00–21:00 ET Arrive at Notre Dame / Morris Inn; check in and settle. Clocks advance one hour crossing into Eastern Time.",
+          "rest": "22:00–08:00",
           "links": [
             {
-              "label": "Northwestern > Notre Dame",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=University+of+Notre+Dame&travelmode=driving&hl=en"
+              "label": "Northwestern University Evanston → University of Chicago Admissions Rosenwald Hall → Franklin Street Michigan City Indiana → Morris Inn Notre Dame",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Morris+Inn+Notre+Dame&waypoints=University+of+Chicago+Admissions+Rosenwald+Hall%7CFranklin+Street+Michigan+City+Indiana&travelmode=driving"
             },
             {
-              "label": "Campus tour / admissions registration",
-              "url": "https://admissions.northwestern.edu/visit/visit-campus/"
+              "label": "UChicago official tour registration",
+              "url": "https://prospects.uchicago.edu/portal/oncampusinfotours"
             }
           ],
           "tags": [
             "schools",
             "travel"
           ],
-          "transport": "14:00 CT departure → Michigan City 16:00–16:30 CT → Notre Dame about 18:30–19:00 ET. Allow 3–3.5h driving + 30min break + 1h clock change.",
+          "transport": "Evanston → Hyde Park allow 90min. Hyde Park → Notre Dame budget 2.5–3.5h including a Michigan City stop, plus a one-hour clock change. If delays threaten 22:00 rest, omit the conditional UChicago visit.",
           "activities": [
             {
-              "time": "10:00–12:00",
-              "text": "Target Northwestern guided campus visit; book a slot compatible with the previous night’s late arrival."
+              "time": "10:00–12:00 CT",
+              "text": "Target Northwestern guided tour after the protected ten-hour hotel rest."
             },
             {
-              "time": "12:00–13:00",
-              "text": "Alumni chat and lunch, if arranged."
+              "time": "12:00–12:45 CT",
+              "text": "Warm lunch and alumni conversation if arranged."
             },
             {
-              "time": "14:00 CT",
-              "text": "Leave Evanston."
+              "time": "12:45–14:15 CT",
+              "text": "Drive from Evanston to Hyde Park; park and check in."
             },
             {
-              "time": "16:00–16:30 CT",
-              "text": "Michigan City: warm snack and a brief downtown walk."
+              "time": "14:30–16:30 CT",
+              "text": "Conditional University of Chicago admissions session and guided tour; reserve a compatible slot."
             },
             {
-              "time": "18:30–19:00 ET",
-              "text": "Arrive Notre Dame; hotel and dinner."
+              "time": "16:30–19:00 CT",
+              "text": "Drive east via Michigan City; include a 30-minute warm meal / comfort stop."
+            },
+            {
+              "time": "20:00–21:00 ET",
+              "text": "Arrive at Notre Dame / Morris Inn; check in and settle. Clocks advance one hour crossing into Eastern Time."
             }
           ],
-          "restWindow": "21:00-07:00",
+          "restWindow": "22:00–08:00",
           "hotel": {
             "name": "Morris Inn",
             "city": "Notre Dame",
@@ -2789,7 +2832,7 @@
           "pits": [
             {
               "area": "mc",
-              "time": "16:00–16:30 CT"
+              "time": "18:00–18:30 CT · target"
             }
           ],
           "practical": [
@@ -2808,6 +2851,14 @@
             {
               "label": "Winter / meals",
               "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+            },
+            {
+              "label": "Reserve",
+              "text": "Both added campuses are conditional on released February 2027 guided-tour slots. Register all three visitors. UChicago offers admissions information sessions and student-led tours; Columbia currently requires advance registration, has no walk-on access and lists weekday general tours at noon, 14:00 and 15:00. A private admissions-officer meeting is not confirmed."
+            },
+            {
+              "label": "Ask on campus",
+              "text": "Ask about economics mathematics requirements, biology / chemistry research, the Core curriculum and flexibility to explore subjects. For Columbia, distinguish undergraduate student journalism from its separate graduate journalism school."
             }
           ]
         },
@@ -3051,13 +3102,13 @@
           "day": 9,
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
-          "title": "NYC: The Met · Knicks / Rangers arena · NBC · Wicked",
-          "schedule": "09:15–09:50 Taxi to The Met Fifth Avenue; allow 30–40min and entry queue. 10:00–11:45 The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route. 11:45–12:00 Optional short Central Park edge walk; skip if icy or if entry to The Met was delayed. 12:00–13:10 Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
+          "title": "NYC: Statue of Liberty · MSG · NBC · Wicked",
+          "schedule": "08:10–08:50 Taxi to Battery Park / Castle Clinton after the ten-hour rest; carry breakfast and snacks. 09:00–12:30 Target Statue City Cruises security, Liberty Island ferry, Statue of Liberty Museum / grounds and return. No Ellis Island stop; return time must fit the arena booking. 12:30–13:10 Taxi to Madison Square Garden; bring a packed lunch or eat a quick warm meal if time permits. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:00 Walk directly back to the nearby hotel; rest 22:30–08:30.",
           "rest": "22:30–08:30",
           "links": [
             {
-              "label": "Midtown West New York → The Met Fifth Avenue → Madison Square Garden → 30 Rockefeller Plaza",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=30+Rockefeller+Plaza&travelmode=driving&waypoints=The+Met+Fifth+Avenue%7CMadison+Square+Garden"
+              "label": "Midtown West New York → Battery Park New York → Madison Square Garden → 30 Rockefeller Plaza",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=30+Rockefeller+Plaza&waypoints=Battery+Park+New+York%7CMadison+Square+Garden&travelmode=driving"
             },
             {
               "label": "30 Rockefeller Plaza → FAO Schwarz New York → Nintendo New York → Times Square → Gershwin Theatre",
@@ -3072,38 +3123,34 @@
               "url": "https://www.thetouratnbcstudios.com/book"
             },
             {
-              "label": "The Met admission / opening hours",
-              "url": "https://www.metmuseum.org/plan-your-visit"
-            },
-            {
               "label": "Wicked official calendar / tickets",
               "url": "https://wickedthemusical.com/tickets/"
             },
             {
               "label": "NBC arrival / booking guidance",
               "url": "https://www.thetouratnbcstudios.com/faq"
+            },
+            {
+              "label": "Statue City Cruises official tickets",
+              "url": "https://www.cityexperiences.com/new-york/city-cruises/statue/"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Taxi: hotel → Met 30–40min; Met → MSG 25–40min; MSG → NBC 15–30min or walk 25–35min. Midtown evening walking legs 5–15min. MSG is a guided arena visit, not a live game.",
+          "transport": "Taxi hotel → Battery Park 35–50min; ferry excursion 3.5h; Battery Park → MSG budget 30–40min. Later transfers follow the existing MSG / NBC / theatre sequence.",
           "activities": [
             {
-              "time": "09:15–09:50",
-              "text": "Taxi to The Met Fifth Avenue; allow 30–40min and entry queue."
+              "time": "08:10–08:50",
+              "text": "Taxi to Battery Park / Castle Clinton after the ten-hour rest; carry breakfast and snacks."
             },
             {
-              "time": "10:00–11:45",
-              "text": "The Met highlights: Egyptian art / Temple of Dendur, Arms and Armor and selected American Wing galleries; keep to a short route."
+              "time": "09:00–12:30",
+              "text": "Target Statue City Cruises security, Liberty Island ferry, Statue of Liberty Museum / grounds and return. No Ellis Island stop; return time must fit the arena booking."
             },
             {
-              "time": "11:45–12:00",
-              "text": "Optional short Central Park edge walk; skip if icy or if entry to The Met was delayed."
-            },
-            {
-              "time": "12:00–13:10",
-              "text": "Taxi 25–40min to Penn Station / MSG, then a 30–40min warm lunch near the arena."
+              "time": "12:30–13:10",
+              "text": "Taxi to Madison Square Garden; bring a packed lunch or eat a quick warm meal if time permits."
             },
             {
               "time": "13:10–13:30",
@@ -3158,6 +3205,10 @@
             {
               "label": "If slots clash",
               "text": "Keep The Met and the selected Broadway show. Ask for another same-day MSG or NBC slot before booking; if both cannot fit, one visit remains unresolved. Drop optional shopping first and preserve the 22:30 rest start."
+            },
+            {
+              "label": "Tickets / timing",
+              "text": "Book the ferry, MSG, NBC and Broadway as a compatible set. Do not buy a ferry slot that cannot return to Manhattan by 12:30. If the ferry runs late, the later tour sequence must be rebooked; the island visit cannot be guaranteed against weather."
             }
           ]
         },
@@ -3165,21 +3216,13 @@
           "day": 10,
           "date": "2027-02-08",
           "dateLabel": "Mon 08 Feb",
-          "title": "NYC: Statue of Liberty → United Nations → Grand Central",
-          "schedule": "08:45–09:30 Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks. 09:30–13:00 Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm. 13:00–13:30 Warm lunch near Battery Park / the Financial District. 13:30–14:15 Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:15 Walk along East 42nd Street to Grand Central Terminal; main concourse and architecture. 17:15–18:00 Walk / taxi to the Empire State Building for an exterior photograph, continuing west rather than returning downtown. 18:00–19:30 Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack.",
+          "title": "NYC: The Met → Columbia → United Nations → Grand Central",
+          "schedule": "08:45–09:45 Taxi to The Met Fifth Avenue after hotel rest; allow traffic and entry queue. 09:45–10:00 Optional short Central Park edge walk beside The Met; omit if icy or entry is delayed. 10:00–11:15 The Met highlights: choose Egyptian art / Temple of Dendur and Arms and Armor for a focused 75-minute visit. 11:15–11:45 Taxi to Columbia Morningside Heights and check in for the registered tour. 12:00–13:00 Conditional Columbia University student-led general campus tour. Advance registration and access approval required; February slot not confirmed. 13:00–13:40 Warm lunch around Broadway / Morningside Heights. 13:40–14:30 Taxi directly to the UN Visitor Check-in Office, 801 First Avenue; allow 50 minutes. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:15 Walk along East 42nd Street to Grand Central Terminal; main concourse and architecture. 17:15–18:00 Walk / taxi to the Empire State Building for an exterior photograph, continuing west rather than returning downtown. 18:00–19:30 Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack.",
           "rest": "20:30-06:30",
           "links": [
             {
-              "label": "Midtown West New York → Battery Park New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=Battery+Park+New+York&travelmode=driving"
-            },
-            {
-              "label": "Statue City Cruises official tickets",
-              "url": "https://www.cityexperiences.com/new-york/city-cruises/statue/"
-            },
-            {
-              "label": "Battery Park New York → 801 First Avenue New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Battery+Park+New+York&destination=801+First+Avenue+New+York&travelmode=driving"
+              "label": "Midtown West New York → The Met Fifth Avenue → Columbia University Visitors Center → 801 First Avenue New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=801+First+Avenue+New+York&waypoints=The+Met+Fifth+Avenue%7CColumbia+University+Visitors+Center&travelmode=driving"
             },
             {
               "label": "United Nations Headquarters New York → Grand Central Terminal → Empire State Building → Koreatown Manhattan",
@@ -3192,28 +3235,48 @@
             {
               "label": "UN registration / arrival instructions",
               "url": "https://www.un.org/en/visit/faq"
+            },
+            {
+              "label": "Columbia official campus tour registration",
+              "url": "https://apply.college.columbia.edu/portal/campus_visit"
+            },
+            {
+              "label": "The Met admission / hours",
+              "url": "https://www.metmuseum.org/plan-your-visit"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Hotel → Battery Park taxi 35–50min; Liberty Island ferry excursion allow 3.5h. Battery Park → UN taxi 35–45min; UN requires arrival 60min before the tour. UN → Grand Central walk 15–20min; then Midtown walking / taxi legs 15–25min.",
+          "transport": "Taxi hotel → Met 30–40min; Met → Columbia allow 30min; Columbia → UN allow 50min. UN check-in stays 60min before the target tour.",
           "activities": [
             {
-              "time": "08:45–09:30",
-              "text": "Taxi to Battery Park / Castle Clinton after the ten-hour hotel rest; carry breakfast / snacks."
+              "time": "08:45–09:45",
+              "text": "Taxi to The Met Fifth Avenue after hotel rest; allow traffic and entry queue."
             },
             {
-              "time": "09:30–13:00",
-              "text": "Target Statue City Cruises security entry, ferry to Liberty Island, grounds / Statue of Liberty Museum and return to Manhattan. No Ellis Island museum stop. Ferry timing / weather to confirm."
+              "time": "09:45–10:00",
+              "text": "Optional short Central Park edge walk beside The Met; omit if icy or entry is delayed."
             },
             {
-              "time": "13:00–13:30",
-              "text": "Warm lunch near Battery Park / the Financial District."
+              "time": "10:00–11:15",
+              "text": "The Met highlights: choose Egyptian art / Temple of Dendur and Arms and Armor for a focused 75-minute visit."
             },
             {
-              "time": "13:30–14:15",
-              "text": "Taxi 35–45min directly to the UN Visitor Check-in Office, 801 First Avenue at 45th Street."
+              "time": "11:15–11:45",
+              "text": "Taxi to Columbia Morningside Heights and check in for the registered tour."
+            },
+            {
+              "time": "12:00–13:00",
+              "text": "Conditional Columbia University student-led general campus tour. Advance registration and access approval required; February slot not confirmed."
+            },
+            {
+              "time": "13:00–13:40",
+              "text": "Warm lunch around Broadway / Morningside Heights."
+            },
+            {
+              "time": "13:40–14:30",
+              "text": "Taxi directly to the UN Visitor Check-in Office, 801 First Avenue; allow 50 minutes."
             },
             {
               "time": "14:30–15:30",
@@ -3246,12 +3309,12 @@
           "pits": [],
           "practical": [
             {
-              "label": "Ferry / UN priority",
-              "text": "Liberty Island grounds / museum access uses the authorised Statue City Cruises ferry. Current general ferry fare is US$26 for ages 13+, or US$78 for your family; recheck 2027 pricing. Reserve the ferry and UN together; no crown climb or Ellis Island stop is included."
+              "label": "Reserve",
+              "text": "Both added campuses are conditional on released February 2027 guided-tour slots. Register all three visitors. UChicago offers admissions information sessions and student-led tours; Columbia currently requires advance registration, has no walk-on access and lists weekday general tours at noon, 14:00 and 15:00. A private admissions-officer meeting is not confirmed."
             },
             {
-              "label": "Weather / overrun",
-              "text": "If the ferry is cancelled or cannot return in time, keep the UN check-in and rest window; use the existing Battery Park morning for a harbour view if conditions allow. An exterior view is not an island visit, and no extra repeat-city day is added."
+              "label": "If unavailable",
+              "text": "If Columbia does not release a compatible noon tour, keep The Met and the UN, extend the museum visit and omit Columbia. Do not assume campus walk-in access or a private admissions meeting."
             }
           ]
         },
