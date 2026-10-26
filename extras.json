@@ -387,8 +387,8 @@
         },
         {
           "key": "Boston",
-          "label": "Boston",
-          "zhLabel": "波士頓",
+          "label": "Boston · Logan / Revere hotel",
+          "zhLabel": "波士頓・Logan／Revere酒店",
           "coords": [
             -71.06,
             42.36
@@ -685,8 +685,8 @@
         },
         {
           "key": "Boston",
-          "label": "Boston",
-          "zhLabel": "波士頓",
+          "label": "Boston · Logan / Revere hotel",
+          "zhLabel": "波士頓・Logan／Revere酒店",
           "coords": [
             -71.06,
             42.36
@@ -1017,8 +1017,8 @@
         },
         {
           "key": "Boston",
-          "label": "Boston",
-          "zhLabel": "波士頓",
+          "label": "Boston · Logan / Revere hotel",
+          "zhLabel": "波士頓・Logan／Revere酒店",
           "coords": [
             -71.06,
             42.36
@@ -1271,6 +1271,11 @@
       "query": "Flight 93 National Memorial Visitor Center",
       "purpose": "60min visitor centre and overlook: September 11 history and passenger courage; visitor centre currently 09:00–17:00.",
       "source": "https://www.nps.gov/flni/planyourvisit/basicinfo.htm"
+    },
+    "concordReturn": {
+      "name": "Concord, NH",
+      "query": "Concord New Hampshire downtown",
+      "purpose": "Short warm-drink / toilet stop on the Hanover–BOS drive; keep it brief to return the car by 18:00."
     }
   },
   "rankingEdition": 2027,

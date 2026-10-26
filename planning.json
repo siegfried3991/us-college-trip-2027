@@ -93,28 +93,6 @@
       ],
       "url": "https://www.booking.com/hotel/us/fairfield-inn-suites-by-marriott-new-york-manhattan-times-square-36th-st.html?checkin=2027-02-06&checkout=2027-02-09&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
       "routes": "ABC"
-    },
-    {
-      "name": "Hampton Inn Boston/Cambridge",
-      "city": "Boston / Cambridge",
-      "dates": "11–13 Feb",
-      "room": "Two queen beds",
-      "base": 557,
-      "tax": 0.1595,
-      "fixed": 0,
-      "nights": 2,
-      "total": 645.84,
-      "policy": [
-        "Cancel before 6 Feb; pay at property",
-        "2月6日前可取消；到店付款"
-      ],
-      "breakfast": true,
-      "parking": [
-        "Return Hertz on 11 Feb; no planned overnight car parking",
-        "2月11日歸還 Hertz，其後不安排酒店過夜泊車"
-      ],
-      "url": "https://www.booking.com/hotel/us/hampton-inn-boston-cambridge.html?checkin=2027-02-11&checkout=2027-02-13&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
-      "routes": "ABC"
     }
   ],
   "categories": [
@@ -317,6 +295,15 @@
       [
         "Allow US$150–220 including tax for 1 Feb. No dated three-person quote obtained.",
         "2月1日含稅估算 US$150–220，未取得指定日期三人報價。"
+      ]
+    ],
+    [
+      "Boston / Revere · 11–13 Feb",
+      "Holiday Inn Express Boston Logan Airport – Revere",
+      "https://www.ihg.com/holidayinnexpress/hotels/us/en/revere/bosrv/hoteldetail",
+      [
+        "Selected for all routes: two nights near BOS, free breakfast, no airport shuttle; paid taxis required. Three-person room, availability and dated tax-inclusive price are still to confirm. The old Hampton quote does not apply. The overall hotel allowance is unchanged until a new quote is obtained.",
+        "三條路線均改住此酒店兩晚：鄰近BOS，包早餐，無機場接駁車，須付費乘的士。三人房型、空房及指定日期含稅價仍待確認；原Hampton報價不再適用。取得新報價前，整體酒店預算暫不變。"
       ]
     ]
   ],
