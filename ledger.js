@@ -1,4 +1,6 @@
-// Personal spending is entered by the visitor; no private amounts are published.
+// Confirmed family airfare published with the owner’s explicit approval. Other spending entries stay local.
+const confirmedInternationalFare=22931.51;
+tripPrefs.fare=String(confirmedInternationalFare);
 const ledgerDefaults={flights:24000,hotels:20000,hertz:10400,domestic:4800,road:5200,food:9600,activities:9000,other:1000,reserve:6000};
 let ledgerState={budgets:{},spent:{}},ledgerSaved=false;
 try{const saved=JSON.parse(localStorage.getItem('trip-private-budget-v1')||'null');if(saved&&typeof saved==='object'){for(const group of ['budgets','spent'])for(const [k,v] of Object.entries(saved[group]||{}))if(k in ledgerDefaults&&Number.isFinite(v)&&v>=0)ledgerState[group][k]=v;ledgerSaved=true;if(ledgerState.spent.flights!==undefined)tripPrefs.fare=String(ledgerState.spent.flights);}}catch{}
