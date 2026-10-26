@@ -120,14 +120,14 @@
         "Hertz・兩段租車"
       ],
       "range": [
-        1300,
-        1700,
-        2300
+        1400,
+        1850,
+        2550
       ],
       "cap": 1300,
       "note": [
-        "Allowance for rental, taxes, one-way charges and vehicle/liability protection where needed; not a confirmed member quote. Fuel, tolls and parking are separate.",
-        "估算包含租金、稅項、異地還車及所需車損／責任保障，並非已確認會員報價。油費、路費及泊車另計。"
+        "Includes an extra US$100–250 allowance (central US$150) to keep the eastern rental until 12 Feb 18:30; this is not a Hertz quote. Reprice rental days, coverage, taxes and toll package before booking. Fuel, tolls and parking separate.",
+        "已加US$100–250預留（中位US$150），把東部租車保留至2月12日18:30，並非Hertz報價。預訂前重新確認租車日數、保障、稅項及路費套餐；油費、路費及泊車另計。"
       ]
     },
     {
@@ -194,8 +194,8 @@
       ],
       "cap": 650,
       "note": [
-        "Keep the car parked in Manhattan; road preference is retained between cities. Includes NYC taxis and Boston airport transfer; no subway saving assumed.",
-        "曼哈頓期間把車停好，城市之間仍以開車為主；包含紐約的士及波士頓機場接送，未假定以地鐵節省費用。"
+        "Includes NYC taxis, Boston hotel parking on 11 Feb, BU / city parking on 12 Feb, taxi after returning Hertz and the 13 Feb airport taxi. Boston driving replaces the planned BU / city-to-hotel taxis; overall road allowance unchanged pending quotes.",
+        "包含紐約的士、11日晚波士頓酒店泊車、12日BU／市區泊車、還車後返酒店及13日往機場的士。波士頓自行開車取代原定BU／市區返酒店的士；取得報價前交通總預留暫不變。"
       ]
     },
     {
@@ -302,8 +302,8 @@
       "Holiday Inn Express Boston Logan Airport – Revere",
       "https://www.ihg.com/holidayinnexpress/hotels/us/en/revere/bosrv/hoteldetail",
       [
-        "Selected for all routes: two nights near BOS, free breakfast, no airport shuttle; paid taxis required. Three-person room, availability and dated tax-inclusive price are still to confirm. The old Hampton quote does not apply. The overall hotel allowance is unchanged until a new quote is obtained.",
-        "三條路線均改住此酒店兩晚：鄰近BOS，包早餐，無機場接駁車，須付費乘的士。三人房型、空房及指定日期含稅價仍待確認；原Hampton報價不再適用。取得新報價前，整體酒店預算暫不變。"
+        "All routes: 11–13 Feb, two nights with breakfast. Keep the car overnight on 11 Feb (currently US$30 parking); return Hertz BOS on 12 Feb by 18:30, then taxi back. No airport shuttle; taxi to Terminal E on 13 Feb. Room availability and dated price to confirm.",
+        "所有路線：2月11–13日兩晚包早餐。11日晚保留租車，現行泊車US$30；12日18:30前於Hertz BOS還車，再乘的士返酒店。無機場接駁車，13日乘的士往Terminal E。房型、空房及指定日期價格待確認。"
       ]
     ]
   ],
