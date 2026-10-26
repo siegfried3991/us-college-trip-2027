@@ -982,12 +982,12 @@
           "date": "2027-02-11",
           "dateLabel": "Thu 11 Feb",
           "title": "Dartmouth → Boston",
-          "schedule": "08:00–09:30 Breakfast and check out; luggage in the car, then Dartmouth visit check-in. 10:00–12:00 Target Dartmouth admissions introduction and student-guided campus tour; morning slot to reserve. 12:00–13:00 Alumni conversation and warm lunch if arranged. 13:00–16:30 Drive Hanover → the Revere IHG hotel, allowing 3–3.5h with a short Concord stop and winter buffer. Keep the car overnight. 16:30–18:00 Check in at Holiday Inn Express Boston Logan Airport – Revere for two nights, park the rental and settle in. Overnight parking is currently US$30; reconfirm when booking. 18:00–20:00 Warm dinner near the hotel, then prepare for 21:00–07:00 rest. Keep the car keys for tomorrow’s Boston visit.",
+          "schedule": "08:00–09:30 Breakfast and check out; luggage in the car, then Dartmouth visit check-in. 10:00–12:00 Target Dartmouth admissions introduction and student-guided campus tour; morning slot to reserve. 12:00–13:00 Alumni conversation and warm lunch if arranged. 13:00–16:30 Drive Hanover → Hilton Boston Logan Airport; allow 3–3.5h with a short Concord stop and winter / airport traffic buffer. Keep the car overnight. 16:30–18:00 Check in to the booked Hilton Boston Logan Airport for two nights. Park the car (currently US$58/day self-parking, extra to the room) and settle in. 18:00–20:00 Warm dinner near the hotel, then prepare for 21:00–07:00 rest. Keep the car keys for tomorrow’s Boston visit.",
           "rest": "21:00–07:00",
           "links": [
             {
-              "label": "Dartmouth College Hanover → Holiday Inn Express Boston Logan Airport Revere 245 Revere Beach Parkway",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Holiday+Inn+Express+Boston+Logan+Airport+Revere+245+Revere+Beach+Parkway&travelmode=driving"
+              "label": "Dartmouth College Hanover → Hilton Boston Logan Airport One Hotel Drive",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Hilton+Boston+Logan+Airport+One+Hotel+Drive&travelmode=driving"
             },
             {
               "label": "Campus tour / admissions registration",
@@ -998,7 +998,7 @@
             "schools",
             "travel"
           ],
-          "transport": "Hanover → Revere hotel allow 3–3.5h including a short Concord stop and winter buffer. Keep and park the rental overnight on 11 Feb; return at BOS on 12 Feb by 18:30.",
+          "transport": "Hanover → Hilton at BOS allow 3–3.5h including a short Concord stop and winter buffer. Keep the car overnight on 11 Feb; return Hertz BOS on 12 Feb by 18:30.",
           "activities": [
             {
               "time": "08:00–09:30",
@@ -1014,11 +1014,11 @@
             },
             {
               "time": "13:00–16:30",
-              "text": "Drive Hanover → the Revere IHG hotel, allowing 3–3.5h with a short Concord stop and winter buffer. Keep the car overnight."
+              "text": "Drive Hanover → Hilton Boston Logan Airport; allow 3–3.5h with a short Concord stop and winter / airport traffic buffer. Keep the car overnight."
             },
             {
               "time": "16:30–18:00",
-              "text": "Check in at Holiday Inn Express Boston Logan Airport – Revere for two nights, park the rental and settle in. Overnight parking is currently US$30; reconfirm when booking."
+              "text": "Check in to the booked Hilton Boston Logan Airport for two nights. Park the car (currently US$58/day self-parking, extra to the room) and settle in."
             },
             {
               "time": "18:00–20:00",
@@ -1027,10 +1027,10 @@
           ],
           "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Holiday Inn Express Boston Logan Airport – Revere",
-            "city": "Boston / Revere · near Logan Airport",
-            "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/revere/bosrv/hoteldetail",
-            "status": "Proposed · 11–13 Feb, 2 nights · IHG · breakfast included · no airport shuttle; room for three and price to confirm"
+            "name": "Hilton Boston Logan Airport",
+            "city": "Boston Logan Airport",
+            "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/",
+            "status": "BOOKED via Trip.com: 11–13 Feb, one room / two nights, two queen beds, maximum three guests. No meals included. Hotel check-in after 16:00. Total HK$3,911.73 including taxes; debit scheduled for 7 Feb 2027, not recorded as paid. Free cancellation before 9 Feb 23:59 hotel local time."
           },
           "pits": [
             {
@@ -1053,7 +1053,7 @@
             },
             {
               "label": "Airport hotel & car return",
-              "text": "Keep the rental through 12 Feb. Park at the Revere hotel on 11 Feb (currently US$30/night), drive to BU and central Boston on 12 Feb, then return at Hertz BOS by 18:30 before a taxi back to the same hotel. No hotel shuttle. Reprice the extra rental day, coverage and toll package; nothing is booked."
+              "text": "Keep the car through the 12 Feb Boston visit; return Hertz BOS by 18:30, then request Hilton’s complimentary on-demand rental-car shuttle (confirm pickup point with the hotel). On 13 Feb use the covered walkway to Terminal E, or the free hotel shuttle. Allow US$58/day for self-parking; confirm billing for the 11 Feb arrival / 12 Feb morning departure."
             }
           ]
         },
@@ -1062,12 +1062,12 @@
           "date": "2027-02-12",
           "dateLabel": "Fri 12 Feb",
           "title": "Boston University · Boston city day",
-          "schedule": "07:00–09:15 Included breakfast 07:00–07:30; drive from Revere at 07:30. Allow 45–75min to BU, then 20–30min for parking and walking; check in by 09:15. Confirm February visitor-parking instructions with BU. 09:30–11:30 Target reserved BU guided campus tour / admissions introduction; ask about biochemistry, chemistry, economics and pre-health pathways. 11:30–13:00 Warm lunch near BU / Kenmore Square; collect the car and drive 15–30min to a Back Bay / Boston Common garage, ready for the 13:00 walk. 13:00–15:00 Public Garden / Boston Common and Newbury Street: one continuous outdoor / shopping walk, without repeating earlier sights. 15:00–16:00 Back Bay shops and a cafe break; finish souvenir shopping and collect the car from the city garage. 16:00–17:00 Drive / park near Chinatown and have an early warm dinner. Allow 15–25min for the short city drive and parking; depart by 17:00. 17:00–18:30 Drive Chinatown → Hertz BOS Rental Car Center; allow 30–60min plus refuelling and return formalities. Return by 18:30, take all belongings and keep the receipt. 18:30–20:30 Taxi back to the same Revere hotel (allow 20–40min including pickup), pack and begin the protected 20:30–06:30 rest. No overnight rental or hotel parking needed on 12 Feb.",
+          "schedule": "07:00–09:15 Buy breakfast 07:00–07:30; it is not included in the Hilton booking. Drive at 07:30, allowing 30–60min to BU plus 20–30min to park and walk. Check in by 09:15; reconfirm February visitor parking. 09:30–11:30 Target reserved BU guided campus tour / admissions introduction; ask about biochemistry, chemistry, economics and pre-health pathways. 11:30–13:00 Warm lunch near BU / Kenmore Square; collect the car and drive 15–30min to a Back Bay / Boston Common garage, ready for the 13:00 walk. 13:00–15:00 Public Garden / Boston Common and Newbury Street: one continuous outdoor / shopping walk, without repeating earlier sights. 15:00–16:00 Back Bay shops and a cafe break; finish souvenir shopping and collect the car from the city garage. 16:00–17:00 Drive / park near Chinatown and have an early warm dinner. Allow 15–25min for the short city drive and parking; depart by 17:00. 17:00–18:30 Drive Chinatown → Hertz BOS Rental Car Center; allow 30–60min plus refuelling and return formalities. Return by 18:30, take all belongings and keep the receipt. 18:30–20:30 Request Hilton’s free rental-car-centre shuttle back to the hotel; confirm pickup instructions in advance and allow 30–45min including waiting. Pack and begin 20:30–06:30 rest. No taxi budgeted for this transfer.",
           "rest": "20:30–06:30",
           "links": [
             {
-              "label": "Holiday Inn Express Boston Logan Airport Revere 245 Revere Beach Parkway → Boston University Admissions 233 Bay State Road",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Holiday+Inn+Express+Boston+Logan+Airport+Revere+245+Revere+Beach+Parkway&destination=Boston+University+Admissions+233+Bay+State+Road&travelmode=driving"
+              "label": "Hilton Boston Logan Airport One Hotel Drive → Boston University Admissions 233 Bay State Road",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Hilton+Boston+Logan+Airport+One+Hotel+Drive&destination=Boston+University+Admissions+233+Bay+State+Road&travelmode=driving"
             },
             {
               "label": "Boston University Admissions 233 Bay State Road → Boston Common Garage",
@@ -1082,8 +1082,8 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Common+Garage&destination=Hertz+Boston+Logan+Airport+156+Tomahawk+Drive&travelmode=driving&waypoints=Chinatown+Boston"
             },
             {
-              "label": "Hertz Boston Logan Airport 156 Tomahawk Drive → Holiday Inn Express Boston Logan Airport Revere 245 Revere Beach Parkway",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Hertz+Boston+Logan+Airport+156+Tomahawk+Drive&destination=Holiday+Inn+Express+Boston+Logan+Airport+Revere+245+Revere+Beach+Parkway&travelmode=driving"
+              "label": "Hertz Boston Logan Airport 156 Tomahawk Drive → Hilton Boston Logan Airport One Hotel Drive",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Hertz+Boston+Logan+Airport+156+Tomahawk+Drive&destination=Hilton+Boston+Logan+Airport+One+Hotel+Drive&travelmode=driving"
             },
             {
               "label": "Campus tour / admissions registration",
@@ -1094,11 +1094,11 @@
             "schools",
             "travel"
           ],
-          "transport": "Use your rental for Revere → BU (45–75min), BU → Back Bay garage (15–30min), city garage → Chinatown (15–25min) and Chinatown → Hertz BOS (30–60min, plus fuel/return buffer). Walk the nearby shops and park paths once; return by 18:30 on 12 Feb, then taxi to Revere. Keep 20:30 rest.",
+          "transport": "Drive Hilton at BOS → BU (30–60min plus parking), BU → Back Bay garage (15–30min), garage → Chinatown (15–25min), Chinatown → Hertz BOS (30–60min plus fuel / return buffer). Return by 18:30, then use Hilton’s free rental-car shuttle (allow 30–45min including waiting). Keep 20:30 rest.",
           "activities": [
             {
               "time": "07:00–09:15",
-              "text": "Included breakfast 07:00–07:30; drive from Revere at 07:30. Allow 45–75min to BU, then 20–30min for parking and walking; check in by 09:15. Confirm February visitor-parking instructions with BU."
+              "text": "Buy breakfast 07:00–07:30; it is not included in the Hilton booking. Drive at 07:30, allowing 30–60min to BU plus 20–30min to park and walk. Check in by 09:15; reconfirm February visitor parking."
             },
             {
               "time": "09:30–11:30",
@@ -1126,15 +1126,15 @@
             },
             {
               "time": "18:30–20:30",
-              "text": "Taxi back to the same Revere hotel (allow 20–40min including pickup), pack and begin the protected 20:30–06:30 rest. No overnight rental or hotel parking needed on 12 Feb."
+              "text": "Request Hilton’s free rental-car-centre shuttle back to the hotel; confirm pickup instructions in advance and allow 30–45min including waiting. Pack and begin 20:30–06:30 rest. No taxi budgeted for this transfer."
             }
           ],
           "restWindow": "20:30–06:30",
           "hotel": {
-            "name": "Holiday Inn Express Boston Logan Airport – Revere",
-            "city": "Boston / Revere · near Logan Airport",
-            "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/revere/bosrv/hoteldetail",
-            "status": "Proposed · 11–13 Feb, 2 nights · IHG · breakfast included · no airport shuttle; room for three and price to confirm"
+            "name": "Hilton Boston Logan Airport",
+            "city": "Boston Logan Airport",
+            "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/",
+            "status": "BOOKED via Trip.com: 11–13 Feb, one room / two nights, two queen beds, maximum three guests. No meals included. Hotel check-in after 16:00. Total HK$3,911.73 including taxes; debit scheduled for 7 Feb 2027, not recorded as paid. Free cancellation before 9 Feb 23:59 hotel local time."
           },
           "pits": [],
           "practical": [
@@ -1156,11 +1156,11 @@
             },
             {
               "label": "Airport hotel & car return",
-              "text": "Keep the rental through 12 Feb. Park at the Revere hotel on 11 Feb (currently US$30/night), drive to BU and central Boston on 12 Feb, then return at Hertz BOS by 18:30 before a taxi back to the same hotel. No hotel shuttle. Reprice the extra rental day, coverage and toll package; nothing is booked."
+              "text": "Keep the car through the 12 Feb Boston visit; return Hertz BOS by 18:30, then request Hilton’s complimentary on-demand rental-car shuttle (confirm pickup point with the hotel). On 13 Feb use the covered walkway to Terminal E, or the free hotel shuttle. Allow US$58/day for self-parking; confirm billing for the 11 Feb arrival / 12 Feb morning departure."
             },
             {
               "label": "Parking budget",
-              "text": "Allow US$30 for the hotel night on 11 Feb and US$40–70 for BU / central Boston parking on 12 Feb; city figures are allowances, not quotes. Check parking duration limits; February BU parking validation is not confirmed."
+              "text": "Hilton self-parking currently US$58/day, plus US$40–70 planning allowance for BU / central Boston parking on 12 Feb. Reconfirm Hilton’s billing interval and the February BU visitor-parking rules. No hotel parking planned after returning Hertz on 12 Feb."
             }
           ]
         },
@@ -1169,26 +1169,26 @@
           "date": "2027-02-13",
           "dateLabel": "Sat 13 Feb",
           "title": "Boston → Seoul · booked return flight",
-          "schedule": "06:30–07:00 EST Finish the protected ten-hour hotel rest, have the included breakfast and check out. Confirm early breakfast hours before arrival. 07:00–08:10 Pre-booked taxi / private car from the Revere hotel to BOS Terminal E; allow 20–40min driving plus winter/pickup buffer. Arrive no later than 08:10. No hotel shuttle or car return this morning. 08:10–11:10 Korean Air check-in, bags, security and boarding. 11:10 EST → 16:55 KST +1 day KE092 BOS → ICN; reserve at least ten hours for in-flight rest.",
+          "schedule": "06:30–07:30 EST Finish the protected ten-hour hotel rest, pack and check out. Breakfast is not included; use snacks / breakfast bought the previous evening or eat at the terminal after check-in. 07:30–08:10 Walk from Hilton to Terminal E using the covered airport walkway; allow 20–30min with luggage and keep an extra buffer. Alternatively request the free hotel shuttle. Arrive by 08:10; no rental return or paid airport taxi this morning. 08:10–11:10 Korean Air check-in, bags, security and boarding. 11:10 EST → 16:55 KST +1 day KE092 BOS → ICN; reserve at least ten hours for in-flight rest.",
           "rest": "10h in-flight rest on KE092",
           "links": [
             {
-              "label": "Holiday Inn Express Boston Logan Airport Revere 245 Revere Beach Parkway → Boston Logan International Airport Terminal E",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Holiday+Inn+Express+Boston+Logan+Airport+Revere+245+Revere+Beach+Parkway&destination=Boston+Logan+International+Airport+Terminal+E&travelmode=driving"
+              "label": "Hilton Boston Logan Airport → Terminal E · covered walkway",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Hilton+Boston+Logan+Airport+One+Hotel+Drive&destination=Boston+Logan+International+Airport+Terminal+E&travelmode=walking"
             }
           ],
           "tags": [
             "travel"
           ],
-          "transport": "BOOKED KE092: BOS 13 Feb 11:10 EST → ICN 14 Feb 16:55 KST, 15h45. Taxi leaves the Revere hotel 07:00; allow 20–40min driving plus winter/pickup buffer. Be at Terminal E by 08:10, three hours before departure.",
+          "transport": "BOOKED KE092: BOS 13 Feb 11:10 EST → ICN 14 Feb 16:55 KST, 15h45. Leave Hilton 07:30; covered walkway to Terminal E, allow 20–30min plus buffer, or free hotel shuttle. Arrive by 08:10, three hours before departure.",
           "activities": [
             {
-              "time": "06:30–07:00 EST",
-              "text": "Finish the protected ten-hour hotel rest, have the included breakfast and check out. Confirm early breakfast hours before arrival."
+              "time": "06:30–07:30 EST",
+              "text": "Finish the protected ten-hour hotel rest, pack and check out. Breakfast is not included; use snacks / breakfast bought the previous evening or eat at the terminal after check-in."
             },
             {
-              "time": "07:00–08:10",
-              "text": "Pre-booked taxi / private car from the Revere hotel to BOS Terminal E; allow 20–40min driving plus winter/pickup buffer. Arrive no later than 08:10. No hotel shuttle or car return this morning."
+              "time": "07:30–08:10",
+              "text": "Walk from Hilton to Terminal E using the covered airport walkway; allow 20–30min with luggage and keep an extra buffer. Alternatively request the free hotel shuttle. Arrive by 08:10; no rental return or paid airport taxi this morning."
             },
             {
               "time": "08:10–11:10",
@@ -2241,12 +2241,12 @@
           "date": "2027-02-11",
           "dateLabel": "Thu 11 Feb",
           "title": "Dartmouth → Wellesley → Boston",
-          "schedule": "07:30–10:30 Drive Hanover → Wellesley; breakfast before departure. 10:30–12:00 Wellesley village / campus surroundings and warm lunch. 13:00–15:00 Target Wellesley student-guided tour / admissions session; reserve this afternoon slot. 15:00–16:30 Drive Wellesley → the Revere IHG hotel, allowing 60–90min in traffic. Keep the car overnight; do not return it today. 16:30–18:00 Check in at Holiday Inn Express Boston Logan Airport – Revere for two nights, park the rental and settle in. Overnight parking is currently US$30; reconfirm when booking. 18:00–20:00 Warm dinner near the hotel, then prepare for 21:00–07:00 rest. Keep the car keys for tomorrow’s Boston visit.",
+          "schedule": "07:30–10:30 Drive Hanover → Wellesley; breakfast before departure. 10:30–12:00 Wellesley village / campus surroundings and warm lunch. 13:00–15:00 Target Wellesley student-guided tour / admissions session; reserve this afternoon slot. 15:00–16:30 Drive Wellesley → Hilton Boston Logan Airport, allowing 60–90min including airport traffic. Keep the car overnight. 16:30–18:00 Check in to the booked Hilton Boston Logan Airport for two nights. Park the car (currently US$58/day self-parking, extra to the room) and settle in. 18:00–20:00 Warm dinner near the hotel, then prepare for 21:00–07:00 rest. Keep the car keys for tomorrow’s Boston visit.",
           "rest": "21:00–07:00",
           "links": [
             {
-              "label": "Dartmouth College Hanover → Holiday Inn Express Boston Logan Airport Revere 245 Revere Beach Parkway",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Holiday+Inn+Express+Boston+Logan+Airport+Revere+245+Revere+Beach+Parkway&travelmode=driving&waypoints=Wellesley+College"
+              "label": "Dartmouth College Hanover → Hilton Boston Logan Airport One Hotel Drive",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Hilton+Boston+Logan+Airport+One+Hotel+Drive&travelmode=driving&waypoints=Wellesley+College"
             },
             {
               "label": "Campus tour / admissions registration",
@@ -2257,7 +2257,7 @@
             "schools",
             "travel"
           ],
-          "transport": "Hanover → Wellesley 2h45–3h; Wellesley → Revere hotel 60–90min. Keep and park the rental overnight on 11 Feb; return at BOS on 12 Feb by 18:30.",
+          "transport": "Hanover → Wellesley 2h45–3h; Wellesley → Hilton at BOS 60–90min including airport traffic. Keep the car overnight; return Hertz BOS on 12 Feb by 18:30.",
           "activities": [
             {
               "time": "07:30–10:30",
@@ -2273,11 +2273,11 @@
             },
             {
               "time": "15:00–16:30",
-              "text": "Drive Wellesley → the Revere IHG hotel, allowing 60–90min in traffic. Keep the car overnight; do not return it today."
+              "text": "Drive Wellesley → Hilton Boston Logan Airport, allowing 60–90min including airport traffic. Keep the car overnight."
             },
             {
               "time": "16:30–18:00",
-              "text": "Check in at Holiday Inn Express Boston Logan Airport – Revere for two nights, park the rental and settle in. Overnight parking is currently US$30; reconfirm when booking."
+              "text": "Check in to the booked Hilton Boston Logan Airport for two nights. Park the car (currently US$58/day self-parking, extra to the room) and settle in."
             },
             {
               "time": "18:00–20:00",
@@ -2286,10 +2286,10 @@
           ],
           "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Holiday Inn Express Boston Logan Airport – Revere",
-            "city": "Boston / Revere · near Logan Airport",
-            "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/revere/bosrv/hoteldetail",
-            "status": "Proposed · 11–13 Feb, 2 nights · IHG · breakfast included · no airport shuttle; room for three and price to confirm"
+            "name": "Hilton Boston Logan Airport",
+            "city": "Boston Logan Airport",
+            "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/",
+            "status": "BOOKED via Trip.com: 11–13 Feb, one room / two nights, two queen beds, maximum three guests. No meals included. Hotel check-in after 16:00. Total HK$3,911.73 including taxes; debit scheduled for 7 Feb 2027, not recorded as paid. Free cancellation before 9 Feb 23:59 hotel local time."
           },
           "pits": [],
           "practical": [
@@ -2307,7 +2307,7 @@
             },
             {
               "label": "Airport hotel & car return",
-              "text": "Keep the rental through 12 Feb. Park at the Revere hotel on 11 Feb (currently US$30/night), drive to BU and central Boston on 12 Feb, then return at Hertz BOS by 18:30 before a taxi back to the same hotel. No hotel shuttle. Reprice the extra rental day, coverage and toll package; nothing is booked."
+              "text": "Keep the car through the 12 Feb Boston visit; return Hertz BOS by 18:30, then request Hilton’s complimentary on-demand rental-car shuttle (confirm pickup point with the hotel). On 13 Feb use the covered walkway to Terminal E, or the free hotel shuttle. Allow US$58/day for self-parking; confirm billing for the 11 Feb arrival / 12 Feb morning departure."
             }
           ]
         },
@@ -2316,12 +2316,12 @@
           "date": "2027-02-12",
           "dateLabel": "Fri 12 Feb",
           "title": "Boston University · Boston city day",
-          "schedule": "07:00–09:15 Included breakfast 07:00–07:30; drive from Revere at 07:30. Allow 45–75min to BU, then 20–30min for parking and walking; check in by 09:15. Confirm February visitor-parking instructions with BU. 09:30–11:30 Target reserved BU guided campus tour / admissions introduction; ask about biochemistry, chemistry, economics and pre-health pathways. 11:30–13:00 Warm lunch near BU / Kenmore Square; collect the car and drive 15–30min to a Back Bay / Boston Common garage, ready for the 13:00 walk. 13:00–15:00 Public Garden / Boston Common and Newbury Street: one continuous outdoor / shopping walk, without repeating earlier sights. 15:00–16:00 Back Bay shops and a cafe break; finish souvenir shopping and collect the car from the city garage. 16:00–17:00 Drive / park near Chinatown and have an early warm dinner. Allow 15–25min for the short city drive and parking; depart by 17:00. 17:00–18:30 Drive Chinatown → Hertz BOS Rental Car Center; allow 30–60min plus refuelling and return formalities. Return by 18:30, take all belongings and keep the receipt. 18:30–20:30 Taxi back to the same Revere hotel (allow 20–40min including pickup), pack and begin the protected 20:30–06:30 rest. No overnight rental or hotel parking needed on 12 Feb.",
+          "schedule": "07:00–09:15 Buy breakfast 07:00–07:30; it is not included in the Hilton booking. Drive at 07:30, allowing 30–60min to BU plus 20–30min to park and walk. Check in by 09:15; reconfirm February visitor parking. 09:30–11:30 Target reserved BU guided campus tour / admissions introduction; ask about biochemistry, chemistry, economics and pre-health pathways. 11:30–13:00 Warm lunch near BU / Kenmore Square; collect the car and drive 15–30min to a Back Bay / Boston Common garage, ready for the 13:00 walk. 13:00–15:00 Public Garden / Boston Common and Newbury Street: one continuous outdoor / shopping walk, without repeating earlier sights. 15:00–16:00 Back Bay shops and a cafe break; finish souvenir shopping and collect the car from the city garage. 16:00–17:00 Drive / park near Chinatown and have an early warm dinner. Allow 15–25min for the short city drive and parking; depart by 17:00. 17:00–18:30 Drive Chinatown → Hertz BOS Rental Car Center; allow 30–60min plus refuelling and return formalities. Return by 18:30, take all belongings and keep the receipt. 18:30–20:30 Request Hilton’s free rental-car-centre shuttle back to the hotel; confirm pickup instructions in advance and allow 30–45min including waiting. Pack and begin 20:30–06:30 rest. No taxi budgeted for this transfer.",
           "rest": "20:30–06:30",
           "links": [
             {
-              "label": "Holiday Inn Express Boston Logan Airport Revere 245 Revere Beach Parkway → Boston University Admissions 233 Bay State Road",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Holiday+Inn+Express+Boston+Logan+Airport+Revere+245+Revere+Beach+Parkway&destination=Boston+University+Admissions+233+Bay+State+Road&travelmode=driving"
+              "label": "Hilton Boston Logan Airport One Hotel Drive → Boston University Admissions 233 Bay State Road",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Hilton+Boston+Logan+Airport+One+Hotel+Drive&destination=Boston+University+Admissions+233+Bay+State+Road&travelmode=driving"
             },
             {
               "label": "Boston University Admissions 233 Bay State Road → Boston Common Garage",
@@ -2336,8 +2336,8 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Common+Garage&destination=Hertz+Boston+Logan+Airport+156+Tomahawk+Drive&travelmode=driving&waypoints=Chinatown+Boston"
             },
             {
-              "label": "Hertz Boston Logan Airport 156 Tomahawk Drive → Holiday Inn Express Boston Logan Airport Revere 245 Revere Beach Parkway",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Hertz+Boston+Logan+Airport+156+Tomahawk+Drive&destination=Holiday+Inn+Express+Boston+Logan+Airport+Revere+245+Revere+Beach+Parkway&travelmode=driving"
+              "label": "Hertz Boston Logan Airport 156 Tomahawk Drive → Hilton Boston Logan Airport One Hotel Drive",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Hertz+Boston+Logan+Airport+156+Tomahawk+Drive&destination=Hilton+Boston+Logan+Airport+One+Hotel+Drive&travelmode=driving"
             },
             {
               "label": "Campus tour / admissions registration",
@@ -2348,11 +2348,11 @@
             "schools",
             "travel"
           ],
-          "transport": "Use your rental for Revere → BU (45–75min), BU → Back Bay garage (15–30min), city garage → Chinatown (15–25min) and Chinatown → Hertz BOS (30–60min, plus fuel/return buffer). Walk the nearby shops and park paths once; return by 18:30 on 12 Feb, then taxi to Revere. Keep 20:30 rest.",
+          "transport": "Drive Hilton at BOS → BU (30–60min plus parking), BU → Back Bay garage (15–30min), garage → Chinatown (15–25min), Chinatown → Hertz BOS (30–60min plus fuel / return buffer). Return by 18:30, then use Hilton’s free rental-car shuttle (allow 30–45min including waiting). Keep 20:30 rest.",
           "activities": [
             {
               "time": "07:00–09:15",
-              "text": "Included breakfast 07:00–07:30; drive from Revere at 07:30. Allow 45–75min to BU, then 20–30min for parking and walking; check in by 09:15. Confirm February visitor-parking instructions with BU."
+              "text": "Buy breakfast 07:00–07:30; it is not included in the Hilton booking. Drive at 07:30, allowing 30–60min to BU plus 20–30min to park and walk. Check in by 09:15; reconfirm February visitor parking."
             },
             {
               "time": "09:30–11:30",
@@ -2380,15 +2380,15 @@
             },
             {
               "time": "18:30–20:30",
-              "text": "Taxi back to the same Revere hotel (allow 20–40min including pickup), pack and begin the protected 20:30–06:30 rest. No overnight rental or hotel parking needed on 12 Feb."
+              "text": "Request Hilton’s free rental-car-centre shuttle back to the hotel; confirm pickup instructions in advance and allow 30–45min including waiting. Pack and begin 20:30–06:30 rest. No taxi budgeted for this transfer."
             }
           ],
           "restWindow": "20:30–06:30",
           "hotel": {
-            "name": "Holiday Inn Express Boston Logan Airport – Revere",
-            "city": "Boston / Revere · near Logan Airport",
-            "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/revere/bosrv/hoteldetail",
-            "status": "Proposed · 11–13 Feb, 2 nights · IHG · breakfast included · no airport shuttle; room for three and price to confirm"
+            "name": "Hilton Boston Logan Airport",
+            "city": "Boston Logan Airport",
+            "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/",
+            "status": "BOOKED via Trip.com: 11–13 Feb, one room / two nights, two queen beds, maximum three guests. No meals included. Hotel check-in after 16:00. Total HK$3,911.73 including taxes; debit scheduled for 7 Feb 2027, not recorded as paid. Free cancellation before 9 Feb 23:59 hotel local time."
           },
           "pits": [],
           "practical": [
@@ -2410,11 +2410,11 @@
             },
             {
               "label": "Airport hotel & car return",
-              "text": "Keep the rental through 12 Feb. Park at the Revere hotel on 11 Feb (currently US$30/night), drive to BU and central Boston on 12 Feb, then return at Hertz BOS by 18:30 before a taxi back to the same hotel. No hotel shuttle. Reprice the extra rental day, coverage and toll package; nothing is booked."
+              "text": "Keep the car through the 12 Feb Boston visit; return Hertz BOS by 18:30, then request Hilton’s complimentary on-demand rental-car shuttle (confirm pickup point with the hotel). On 13 Feb use the covered walkway to Terminal E, or the free hotel shuttle. Allow US$58/day for self-parking; confirm billing for the 11 Feb arrival / 12 Feb morning departure."
             },
             {
               "label": "Parking budget",
-              "text": "Allow US$30 for the hotel night on 11 Feb and US$40–70 for BU / central Boston parking on 12 Feb; city figures are allowances, not quotes. Check parking duration limits; February BU parking validation is not confirmed."
+              "text": "Hilton self-parking currently US$58/day, plus US$40–70 planning allowance for BU / central Boston parking on 12 Feb. Reconfirm Hilton’s billing interval and the February BU visitor-parking rules. No hotel parking planned after returning Hertz on 12 Feb."
             }
           ]
         },
@@ -2423,26 +2423,26 @@
           "date": "2027-02-13",
           "dateLabel": "Sat 13 Feb",
           "title": "Boston → Seoul · booked return flight",
-          "schedule": "06:30–07:00 EST Finish the protected ten-hour hotel rest, have the included breakfast and check out. Confirm early breakfast hours before arrival. 07:00–08:10 Pre-booked taxi / private car from the Revere hotel to BOS Terminal E; allow 20–40min driving plus winter/pickup buffer. Arrive no later than 08:10. No hotel shuttle or car return this morning. 08:10–11:10 Korean Air check-in, bags, security and boarding. 11:10 EST → 16:55 KST +1 day KE092 BOS → ICN; reserve at least ten hours for in-flight rest.",
+          "schedule": "06:30–07:30 EST Finish the protected ten-hour hotel rest, pack and check out. Breakfast is not included; use snacks / breakfast bought the previous evening or eat at the terminal after check-in. 07:30–08:10 Walk from Hilton to Terminal E using the covered airport walkway; allow 20–30min with luggage and keep an extra buffer. Alternatively request the free hotel shuttle. Arrive by 08:10; no rental return or paid airport taxi this morning. 08:10–11:10 Korean Air check-in, bags, security and boarding. 11:10 EST → 16:55 KST +1 day KE092 BOS → ICN; reserve at least ten hours for in-flight rest.",
           "rest": "10h in-flight rest on KE092",
           "links": [
             {
-              "label": "Holiday Inn Express Boston Logan Airport Revere 245 Revere Beach Parkway → Boston Logan International Airport Terminal E",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Holiday+Inn+Express+Boston+Logan+Airport+Revere+245+Revere+Beach+Parkway&destination=Boston+Logan+International+Airport+Terminal+E&travelmode=driving"
+              "label": "Hilton Boston Logan Airport → Terminal E · covered walkway",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Hilton+Boston+Logan+Airport+One+Hotel+Drive&destination=Boston+Logan+International+Airport+Terminal+E&travelmode=walking"
             }
           ],
           "tags": [
             "travel"
           ],
-          "transport": "BOOKED KE092: BOS 13 Feb 11:10 EST → ICN 14 Feb 16:55 KST, 15h45. Taxi leaves the Revere hotel 07:00; allow 20–40min driving plus winter/pickup buffer. Be at Terminal E by 08:10, three hours before departure.",
+          "transport": "BOOKED KE092: BOS 13 Feb 11:10 EST → ICN 14 Feb 16:55 KST, 15h45. Leave Hilton 07:30; covered walkway to Terminal E, allow 20–30min plus buffer, or free hotel shuttle. Arrive by 08:10, three hours before departure.",
           "activities": [
             {
-              "time": "06:30–07:00 EST",
-              "text": "Finish the protected ten-hour hotel rest, have the included breakfast and check out. Confirm early breakfast hours before arrival."
+              "time": "06:30–07:30 EST",
+              "text": "Finish the protected ten-hour hotel rest, pack and check out. Breakfast is not included; use snacks / breakfast bought the previous evening or eat at the terminal after check-in."
             },
             {
-              "time": "07:00–08:10",
-              "text": "Pre-booked taxi / private car from the Revere hotel to BOS Terminal E; allow 20–40min driving plus winter/pickup buffer. Arrive no later than 08:10. No hotel shuttle or car return this morning."
+              "time": "07:30–08:10",
+              "text": "Walk from Hilton to Terminal E using the covered airport walkway; allow 20–30min with luggage and keep an extra buffer. Alternatively request the free hotel shuttle. Arrive by 08:10; no rental return or paid airport taxi this morning."
             },
             {
               "time": "08:10–11:10",
@@ -3548,12 +3548,12 @@
           "date": "2027-02-11",
           "dateLabel": "Thu 11 Feb",
           "title": "Dartmouth → Boston",
-          "schedule": "08:00–09:30 Breakfast and check out; luggage in the car, then Dartmouth visit check-in. 10:00–12:00 Target Dartmouth admissions introduction and student-guided campus tour; morning slot to reserve. 12:00–13:00 Alumni conversation and warm lunch if arranged. 13:00–16:30 Drive Hanover → the Revere IHG hotel, allowing 3–3.5h with a short Concord stop and winter buffer. Keep the car overnight. 16:30–18:00 Check in at Holiday Inn Express Boston Logan Airport – Revere for two nights, park the rental and settle in. Overnight parking is currently US$30; reconfirm when booking. 18:00–20:00 Warm dinner near the hotel, then prepare for 21:00–07:00 rest. Keep the car keys for tomorrow’s Boston visit.",
+          "schedule": "08:00–09:30 Breakfast and check out; luggage in the car, then Dartmouth visit check-in. 10:00–12:00 Target Dartmouth admissions introduction and student-guided campus tour; morning slot to reserve. 12:00–13:00 Alumni conversation and warm lunch if arranged. 13:00–16:30 Drive Hanover → Hilton Boston Logan Airport; allow 3–3.5h with a short Concord stop and winter / airport traffic buffer. Keep the car overnight. 16:30–18:00 Check in to the booked Hilton Boston Logan Airport for two nights. Park the car (currently US$58/day self-parking, extra to the room) and settle in. 18:00–20:00 Warm dinner near the hotel, then prepare for 21:00–07:00 rest. Keep the car keys for tomorrow’s Boston visit.",
           "rest": "21:00–07:00",
           "links": [
             {
-              "label": "Dartmouth College Hanover → Holiday Inn Express Boston Logan Airport Revere 245 Revere Beach Parkway",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Holiday+Inn+Express+Boston+Logan+Airport+Revere+245+Revere+Beach+Parkway&travelmode=driving"
+              "label": "Dartmouth College Hanover → Hilton Boston Logan Airport One Hotel Drive",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Hilton+Boston+Logan+Airport+One+Hotel+Drive&travelmode=driving"
             },
             {
               "label": "Campus tour / admissions registration",
@@ -3564,7 +3564,7 @@
             "schools",
             "travel"
           ],
-          "transport": "Hanover → Revere hotel allow 3–3.5h including a short Concord stop and winter buffer. Keep and park the rental overnight on 11 Feb; return at BOS on 12 Feb by 18:30.",
+          "transport": "Hanover → Hilton at BOS allow 3–3.5h including a short Concord stop and winter buffer. Keep the car overnight on 11 Feb; return Hertz BOS on 12 Feb by 18:30.",
           "activities": [
             {
               "time": "08:00–09:30",
@@ -3580,11 +3580,11 @@
             },
             {
               "time": "13:00–16:30",
-              "text": "Drive Hanover → the Revere IHG hotel, allowing 3–3.5h with a short Concord stop and winter buffer. Keep the car overnight."
+              "text": "Drive Hanover → Hilton Boston Logan Airport; allow 3–3.5h with a short Concord stop and winter / airport traffic buffer. Keep the car overnight."
             },
             {
               "time": "16:30–18:00",
-              "text": "Check in at Holiday Inn Express Boston Logan Airport – Revere for two nights, park the rental and settle in. Overnight parking is currently US$30; reconfirm when booking."
+              "text": "Check in to the booked Hilton Boston Logan Airport for two nights. Park the car (currently US$58/day self-parking, extra to the room) and settle in."
             },
             {
               "time": "18:00–20:00",
@@ -3593,10 +3593,10 @@
           ],
           "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Holiday Inn Express Boston Logan Airport – Revere",
-            "city": "Boston / Revere · near Logan Airport",
-            "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/revere/bosrv/hoteldetail",
-            "status": "Proposed · 11–13 Feb, 2 nights · IHG · breakfast included · no airport shuttle; room for three and price to confirm"
+            "name": "Hilton Boston Logan Airport",
+            "city": "Boston Logan Airport",
+            "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/",
+            "status": "BOOKED via Trip.com: 11–13 Feb, one room / two nights, two queen beds, maximum three guests. No meals included. Hotel check-in after 16:00. Total HK$3,911.73 including taxes; debit scheduled for 7 Feb 2027, not recorded as paid. Free cancellation before 9 Feb 23:59 hotel local time."
           },
           "pits": [
             {
@@ -3619,7 +3619,7 @@
             },
             {
               "label": "Airport hotel & car return",
-              "text": "Keep the rental through 12 Feb. Park at the Revere hotel on 11 Feb (currently US$30/night), drive to BU and central Boston on 12 Feb, then return at Hertz BOS by 18:30 before a taxi back to the same hotel. No hotel shuttle. Reprice the extra rental day, coverage and toll package; nothing is booked."
+              "text": "Keep the car through the 12 Feb Boston visit; return Hertz BOS by 18:30, then request Hilton’s complimentary on-demand rental-car shuttle (confirm pickup point with the hotel). On 13 Feb use the covered walkway to Terminal E, or the free hotel shuttle. Allow US$58/day for self-parking; confirm billing for the 11 Feb arrival / 12 Feb morning departure."
             }
           ]
         },
@@ -3628,12 +3628,12 @@
           "date": "2027-02-12",
           "dateLabel": "Fri 12 Feb",
           "title": "Boston University · Boston city day",
-          "schedule": "07:00–09:15 Included breakfast 07:00–07:30; drive from Revere at 07:30. Allow 45–75min to BU, then 20–30min for parking and walking; check in by 09:15. Confirm February visitor-parking instructions with BU. 09:30–11:30 Target reserved BU guided campus tour / admissions introduction; ask about biochemistry, chemistry, economics and pre-health pathways. 11:30–13:00 Warm lunch near BU / Kenmore Square; collect the car and drive 15–30min to a Back Bay / Boston Common garage, ready for the 13:00 walk. 13:00–15:00 Public Garden / Boston Common and Newbury Street: one continuous outdoor / shopping walk, without repeating earlier sights. 15:00–16:00 Back Bay shops and a cafe break; finish souvenir shopping and collect the car from the city garage. 16:00–17:00 Drive / park near Chinatown and have an early warm dinner. Allow 15–25min for the short city drive and parking; depart by 17:00. 17:00–18:30 Drive Chinatown → Hertz BOS Rental Car Center; allow 30–60min plus refuelling and return formalities. Return by 18:30, take all belongings and keep the receipt. 18:30–20:30 Taxi back to the same Revere hotel (allow 20–40min including pickup), pack and begin the protected 20:30–06:30 rest. No overnight rental or hotel parking needed on 12 Feb.",
+          "schedule": "07:00–09:15 Buy breakfast 07:00–07:30; it is not included in the Hilton booking. Drive at 07:30, allowing 30–60min to BU plus 20–30min to park and walk. Check in by 09:15; reconfirm February visitor parking. 09:30–11:30 Target reserved BU guided campus tour / admissions introduction; ask about biochemistry, chemistry, economics and pre-health pathways. 11:30–13:00 Warm lunch near BU / Kenmore Square; collect the car and drive 15–30min to a Back Bay / Boston Common garage, ready for the 13:00 walk. 13:00–15:00 Public Garden / Boston Common and Newbury Street: one continuous outdoor / shopping walk, without repeating earlier sights. 15:00–16:00 Back Bay shops and a cafe break; finish souvenir shopping and collect the car from the city garage. 16:00–17:00 Drive / park near Chinatown and have an early warm dinner. Allow 15–25min for the short city drive and parking; depart by 17:00. 17:00–18:30 Drive Chinatown → Hertz BOS Rental Car Center; allow 30–60min plus refuelling and return formalities. Return by 18:30, take all belongings and keep the receipt. 18:30–20:30 Request Hilton’s free rental-car-centre shuttle back to the hotel; confirm pickup instructions in advance and allow 30–45min including waiting. Pack and begin 20:30–06:30 rest. No taxi budgeted for this transfer.",
           "rest": "20:30–06:30",
           "links": [
             {
-              "label": "Holiday Inn Express Boston Logan Airport Revere 245 Revere Beach Parkway → Boston University Admissions 233 Bay State Road",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Holiday+Inn+Express+Boston+Logan+Airport+Revere+245+Revere+Beach+Parkway&destination=Boston+University+Admissions+233+Bay+State+Road&travelmode=driving"
+              "label": "Hilton Boston Logan Airport One Hotel Drive → Boston University Admissions 233 Bay State Road",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Hilton+Boston+Logan+Airport+One+Hotel+Drive&destination=Boston+University+Admissions+233+Bay+State+Road&travelmode=driving"
             },
             {
               "label": "Boston University Admissions 233 Bay State Road → Boston Common Garage",
@@ -3648,8 +3648,8 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Common+Garage&destination=Hertz+Boston+Logan+Airport+156+Tomahawk+Drive&travelmode=driving&waypoints=Chinatown+Boston"
             },
             {
-              "label": "Hertz Boston Logan Airport 156 Tomahawk Drive → Holiday Inn Express Boston Logan Airport Revere 245 Revere Beach Parkway",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Hertz+Boston+Logan+Airport+156+Tomahawk+Drive&destination=Holiday+Inn+Express+Boston+Logan+Airport+Revere+245+Revere+Beach+Parkway&travelmode=driving"
+              "label": "Hertz Boston Logan Airport 156 Tomahawk Drive → Hilton Boston Logan Airport One Hotel Drive",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Hertz+Boston+Logan+Airport+156+Tomahawk+Drive&destination=Hilton+Boston+Logan+Airport+One+Hotel+Drive&travelmode=driving"
             },
             {
               "label": "Campus tour / admissions registration",
@@ -3660,11 +3660,11 @@
             "schools",
             "travel"
           ],
-          "transport": "Use your rental for Revere → BU (45–75min), BU → Back Bay garage (15–30min), city garage → Chinatown (15–25min) and Chinatown → Hertz BOS (30–60min, plus fuel/return buffer). Walk the nearby shops and park paths once; return by 18:30 on 12 Feb, then taxi to Revere. Keep 20:30 rest.",
+          "transport": "Drive Hilton at BOS → BU (30–60min plus parking), BU → Back Bay garage (15–30min), garage → Chinatown (15–25min), Chinatown → Hertz BOS (30–60min plus fuel / return buffer). Return by 18:30, then use Hilton’s free rental-car shuttle (allow 30–45min including waiting). Keep 20:30 rest.",
           "activities": [
             {
               "time": "07:00–09:15",
-              "text": "Included breakfast 07:00–07:30; drive from Revere at 07:30. Allow 45–75min to BU, then 20–30min for parking and walking; check in by 09:15. Confirm February visitor-parking instructions with BU."
+              "text": "Buy breakfast 07:00–07:30; it is not included in the Hilton booking. Drive at 07:30, allowing 30–60min to BU plus 20–30min to park and walk. Check in by 09:15; reconfirm February visitor parking."
             },
             {
               "time": "09:30–11:30",
@@ -3692,15 +3692,15 @@
             },
             {
               "time": "18:30–20:30",
-              "text": "Taxi back to the same Revere hotel (allow 20–40min including pickup), pack and begin the protected 20:30–06:30 rest. No overnight rental or hotel parking needed on 12 Feb."
+              "text": "Request Hilton’s free rental-car-centre shuttle back to the hotel; confirm pickup instructions in advance and allow 30–45min including waiting. Pack and begin 20:30–06:30 rest. No taxi budgeted for this transfer."
             }
           ],
           "restWindow": "20:30–06:30",
           "hotel": {
-            "name": "Holiday Inn Express Boston Logan Airport – Revere",
-            "city": "Boston / Revere · near Logan Airport",
-            "url": "https://www.ihg.com/holidayinnexpress/hotels/us/en/revere/bosrv/hoteldetail",
-            "status": "Proposed · 11–13 Feb, 2 nights · IHG · breakfast included · no airport shuttle; room for three and price to confirm"
+            "name": "Hilton Boston Logan Airport",
+            "city": "Boston Logan Airport",
+            "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/",
+            "status": "BOOKED via Trip.com: 11–13 Feb, one room / two nights, two queen beds, maximum three guests. No meals included. Hotel check-in after 16:00. Total HK$3,911.73 including taxes; debit scheduled for 7 Feb 2027, not recorded as paid. Free cancellation before 9 Feb 23:59 hotel local time."
           },
           "pits": [],
           "practical": [
@@ -3722,11 +3722,11 @@
             },
             {
               "label": "Airport hotel & car return",
-              "text": "Keep the rental through 12 Feb. Park at the Revere hotel on 11 Feb (currently US$30/night), drive to BU and central Boston on 12 Feb, then return at Hertz BOS by 18:30 before a taxi back to the same hotel. No hotel shuttle. Reprice the extra rental day, coverage and toll package; nothing is booked."
+              "text": "Keep the car through the 12 Feb Boston visit; return Hertz BOS by 18:30, then request Hilton’s complimentary on-demand rental-car shuttle (confirm pickup point with the hotel). On 13 Feb use the covered walkway to Terminal E, or the free hotel shuttle. Allow US$58/day for self-parking; confirm billing for the 11 Feb arrival / 12 Feb morning departure."
             },
             {
               "label": "Parking budget",
-              "text": "Allow US$30 for the hotel night on 11 Feb and US$40–70 for BU / central Boston parking on 12 Feb; city figures are allowances, not quotes. Check parking duration limits; February BU parking validation is not confirmed."
+              "text": "Hilton self-parking currently US$58/day, plus US$40–70 planning allowance for BU / central Boston parking on 12 Feb. Reconfirm Hilton’s billing interval and the February BU visitor-parking rules. No hotel parking planned after returning Hertz on 12 Feb."
             }
           ]
         },
@@ -3735,26 +3735,26 @@
           "date": "2027-02-13",
           "dateLabel": "Sat 13 Feb",
           "title": "Boston → Seoul · booked return flight",
-          "schedule": "06:30–07:00 EST Finish the protected ten-hour hotel rest, have the included breakfast and check out. Confirm early breakfast hours before arrival. 07:00–08:10 Pre-booked taxi / private car from the Revere hotel to BOS Terminal E; allow 20–40min driving plus winter/pickup buffer. Arrive no later than 08:10. No hotel shuttle or car return this morning. 08:10–11:10 Korean Air check-in, bags, security and boarding. 11:10 EST → 16:55 KST +1 day KE092 BOS → ICN; reserve at least ten hours for in-flight rest.",
+          "schedule": "06:30–07:30 EST Finish the protected ten-hour hotel rest, pack and check out. Breakfast is not included; use snacks / breakfast bought the previous evening or eat at the terminal after check-in. 07:30–08:10 Walk from Hilton to Terminal E using the covered airport walkway; allow 20–30min with luggage and keep an extra buffer. Alternatively request the free hotel shuttle. Arrive by 08:10; no rental return or paid airport taxi this morning. 08:10–11:10 Korean Air check-in, bags, security and boarding. 11:10 EST → 16:55 KST +1 day KE092 BOS → ICN; reserve at least ten hours for in-flight rest.",
           "rest": "10h in-flight rest on KE092",
           "links": [
             {
-              "label": "Holiday Inn Express Boston Logan Airport Revere 245 Revere Beach Parkway → Boston Logan International Airport Terminal E",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Holiday+Inn+Express+Boston+Logan+Airport+Revere+245+Revere+Beach+Parkway&destination=Boston+Logan+International+Airport+Terminal+E&travelmode=driving"
+              "label": "Hilton Boston Logan Airport → Terminal E · covered walkway",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Hilton+Boston+Logan+Airport+One+Hotel+Drive&destination=Boston+Logan+International+Airport+Terminal+E&travelmode=walking"
             }
           ],
           "tags": [
             "travel"
           ],
-          "transport": "BOOKED KE092: BOS 13 Feb 11:10 EST → ICN 14 Feb 16:55 KST, 15h45. Taxi leaves the Revere hotel 07:00; allow 20–40min driving plus winter/pickup buffer. Be at Terminal E by 08:10, three hours before departure.",
+          "transport": "BOOKED KE092: BOS 13 Feb 11:10 EST → ICN 14 Feb 16:55 KST, 15h45. Leave Hilton 07:30; covered walkway to Terminal E, allow 20–30min plus buffer, or free hotel shuttle. Arrive by 08:10, three hours before departure.",
           "activities": [
             {
-              "time": "06:30–07:00 EST",
-              "text": "Finish the protected ten-hour hotel rest, have the included breakfast and check out. Confirm early breakfast hours before arrival."
+              "time": "06:30–07:30 EST",
+              "text": "Finish the protected ten-hour hotel rest, pack and check out. Breakfast is not included; use snacks / breakfast bought the previous evening or eat at the terminal after check-in."
             },
             {
-              "time": "07:00–08:10",
-              "text": "Pre-booked taxi / private car from the Revere hotel to BOS Terminal E; allow 20–40min driving plus winter/pickup buffer. Arrive no later than 08:10. No hotel shuttle or car return this morning."
+              "time": "07:30–08:10",
+              "text": "Walk from Hilton to Terminal E using the covered airport walkway; allow 20–30min with luggage and keep an extra buffer. Alternatively request the free hotel shuttle. Arrive by 08:10; no rental return or paid airport taxi this morning."
             },
             {
               "time": "08:10–11:10",

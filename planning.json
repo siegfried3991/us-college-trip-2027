@@ -103,14 +103,14 @@
         "酒店・14 房晚"
       ],
       "range": [
-        2500,
-        3000,
-        3600
+        2631.82,
+        3060.39,
+        3574.68
       ],
       "cap": 2500,
       "note": [
-        "One family room. The dated quotes below cover only part of the stay; remaining nights and specialty-room fees are allowances.",
-        "一間家庭共住房。下方指定日期報價只涵蓋部分住宿，其餘晚數及特色住宿費用為估算。"
+        "Hilton Boston Logan is booked: HK$3,911.73 for two nights, debit scheduled 7 Feb; not paid yet. This forecast replaces two estimated nights with that total; the other 12 nights remain allowances / researched quotes. No breakfast at Hilton.",
+        "Hilton Boston Logan已訂：兩晚HK$3,911.73，預定2月7日扣款，尚未付款。估算已用此總額取代原先兩晚預留，其餘12晚仍為估算／查詢報價。Hilton不包早餐。"
       ]
     },
     {
@@ -194,8 +194,8 @@
       ],
       "cap": 650,
       "note": [
-        "Includes NYC taxis, Boston hotel parking on 11 Feb, BU / city parking on 12 Feb, taxi after returning Hertz and the 13 Feb airport taxi. Boston driving replaces the planned BU / city-to-hotel taxis; overall road allowance unchanged pending quotes.",
-        "包含紐約的士、11日晚波士頓酒店泊車、12日BU／市區泊車、還車後返酒店及13日往機場的士。波士頓自行開車取代原定BU／市區返酒店的士；取得報價前交通總預留暫不變。"
+        "Includes NYC taxis, Hilton self-parking on 11 Feb (currently US$58/day; billing to confirm) and US$40–70 allowance for BU / Boston parking. Hilton’s free rental-car shuttle and Terminal E walkway replace the two Boston hotel / airport taxis.",
+        "包含紐約的士、11日晚Hilton自行泊車（現行US$58／日，計費待確認）及BU／波士頓泊車US$40–70預留。Hilton免費租車中心接駁及Terminal E有蓋步道取代兩段波士頓酒店／機場的士。"
       ]
     },
     {
@@ -295,15 +295,6 @@
       [
         "Allow US$150–220 including tax for 1 Feb. No dated three-person quote obtained.",
         "2月1日含稅估算 US$150–220，未取得指定日期三人報價。"
-      ]
-    ],
-    [
-      "Boston / Revere · 11–13 Feb",
-      "Holiday Inn Express Boston Logan Airport – Revere",
-      "https://www.ihg.com/holidayinnexpress/hotels/us/en/revere/bosrv/hoteldetail",
-      [
-        "All routes: 11–13 Feb, two nights with breakfast. Keep the car overnight on 11 Feb (currently US$30 parking); return Hertz BOS on 12 Feb by 18:30, then taxi back. No airport shuttle; taxi to Terminal E on 13 Feb. Room availability and dated price to confirm.",
-        "所有路線：2月11–13日兩晚包早餐。11日晚保留租車，現行泊車US$30；12日18:30前於Hertz BOS還車，再乘的士返酒店。無機場接駁車，13日乘的士往Terminal E。房型、空房及指定日期價格待確認。"
       ]
     ]
   ],
@@ -455,6 +446,31 @@
     [
       "Disneyland date-specific tickets",
       "https://disneyland.disney.go.com/admission/ticket-prices/"
+    ],
+    [
+      "Hilton Boston Logan · walkway, free rental-car shuttle and parking",
+      "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/"
     ]
+  ],
+  "confirmedHotels": [
+    {
+      "name": "Hilton Boston Logan Airport",
+      "dates": "11–13 Feb 2027",
+      "nights": 2,
+      "amountHKD": 3911.73,
+      "paidHKD": 0,
+      "paymentDate": "2027-02-07",
+      "cancelBefore": "2027-02-09 23:59 (hotel local time)",
+      "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/",
+      "routes": [
+        "A",
+        "B",
+        "C"
+      ],
+      "room": [
+        "Two queen beds · accessible room with bathtub · three guests",
+        "兩張Queen床・無障礙浴缸房・三位住客"
+      ]
+    }
   ]
 }

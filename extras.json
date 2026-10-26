@@ -387,8 +387,8 @@
         },
         {
           "key": "Boston",
-          "label": "Boston · Logan / Revere hotel",
-          "zhLabel": "波士頓・Logan／Revere酒店",
+          "label": "Boston · Hilton at Logan Airport",
+          "zhLabel": "波士頓・Logan機場Hilton",
           "coords": [
             -71.06,
             42.36
@@ -685,8 +685,8 @@
         },
         {
           "key": "Boston",
-          "label": "Boston · Logan / Revere hotel",
-          "zhLabel": "波士頓・Logan／Revere酒店",
+          "label": "Boston · Hilton at Logan Airport",
+          "zhLabel": "波士頓・Logan機場Hilton",
           "coords": [
             -71.06,
             42.36
@@ -1017,8 +1017,8 @@
         },
         {
           "key": "Boston",
-          "label": "Boston · Logan / Revere hotel",
-          "zhLabel": "波士頓・Logan／Revere酒店",
+          "label": "Boston · Hilton at Logan Airport",
+          "zhLabel": "波士頓・Logan機場Hilton",
           "coords": [
             -71.06,
             42.36
@@ -1275,7 +1275,7 @@
     "concordReturn": {
       "name": "Concord, NH",
       "query": "Concord New Hampshire downtown",
-      "purpose": "Short warm-drink / toilet stop on the Hanover–Revere hotel drive."
+      "purpose": "Short warm-drink / toilet stop on the Hanover–Hilton Logan drive."
     }
   },
   "rankingEdition": 2027,
