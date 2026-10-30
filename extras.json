@@ -547,23 +547,23 @@
           "kind": "target"
         },
         {
-          "id": "columbia",
-          "day": 10,
-          "kind": "conditional"
-        },
-        {
           "id": "cornell",
-          "day": 11,
+          "day": 8,
           "kind": "target"
         },
         {
-          "id": "dartmouth",
+          "id": "columbia",
           "day": 12,
+          "kind": "conditional"
+        },
+        {
+          "id": "dartmouth",
+          "day": 13,
           "kind": "target"
         },
         {
           "id": "wellesley",
-          "day": 13,
+          "day": 14,
           "kind": "target"
         },
         {
@@ -614,16 +614,38 @@
             -83.74,
             42.28
           ],
-          "days": "D6",
+          "days": "D5–6",
           "mode": "drive"
         },
         {
-          "key": "Bedford",
-          "label": "Bedford · historic inn",
-          "zhLabel": "Bedford・歷史旅館",
+          "key": "Toronto",
+          "label": "Toronto",
+          "zhLabel": "多倫多",
           "coords": [
-            -78.5,
-            40.02
+            -79.38,
+            43.65
+          ],
+          "days": "D6–7",
+          "mode": "drive"
+        },
+        {
+          "key": "Niagara",
+          "label": "Niagara Falls",
+          "zhLabel": "Niagara Falls",
+          "coords": [
+            -79.08,
+            43.08
+          ],
+          "days": "D7",
+          "mode": "drive"
+        },
+        {
+          "key": "Ithaca",
+          "label": "Ithaca · Cornell",
+          "zhLabel": "Ithaca・Cornell",
+          "coords": [
+            -76.5,
+            42.44
           ],
           "days": "D7–8",
           "mode": "drive"
@@ -636,7 +658,7 @@
             -77.04,
             38.9
           ],
-          "days": "D8",
+          "days": "D8–10",
           "mode": "drive"
         },
         {
@@ -647,18 +669,7 @@
             -73.99,
             40.75
           ],
-          "days": "D8–10",
-          "mode": "drive"
-        },
-        {
-          "key": "Ithaca",
-          "label": "Ithaca · Cornell",
-          "zhLabel": "Ithaca・Cornell",
-          "coords": [
-            -76.5,
-            42.44
-          ],
-          "days": "D11",
+          "days": "D10–13",
           "mode": "drive"
         },
         {
@@ -669,24 +680,13 @@
             -72.29,
             43.7
           ],
-          "days": "D12",
-          "mode": "drive"
-        },
-        {
-          "key": "Wellesley",
-          "label": "Wellesley",
-          "zhLabel": "Wellesley",
-          "coords": [
-            -71.31,
-            42.29
-          ],
           "days": "D13",
           "mode": "drive"
         },
         {
           "key": "Boston",
-          "label": "Boston · Hilton at Logan Airport",
-          "zhLabel": "波士頓・Logan機場Hilton",
+          "label": "Boston / Wellesley · Hilton Logan",
+          "zhLabel": "波士頓／Wellesley・Hilton Logan",
           "coords": [
             -71.06,
             42.36
@@ -736,28 +736,28 @@
           "name": "Smithsonian National Air and Space Museum",
           "city": "Washington DC",
           "nature": "Aviation / space / daily ticketed planetarium; programme to confirm",
-          "day": 8
+          "day": 9
         },
         {
           "id": "wicked",
           "name": "Wicked · Gershwin Theatre",
           "city": "New York City",
           "nature": "Broadway musical; tickets pending",
-          "day": 9
+          "day": 11
         },
         {
           "id": "rockefeller",
           "name": "Fifth Avenue / Rockefeller Center · FAO / Jellycat / Nintendo",
           "city": "New York City",
-          "nature": "Famous avenue / city landmark / fun stores",
-          "day": 9
+          "nature": "Famous avenue / fun stores · optional after The Met, arrival traffic permitting",
+          "day": 10
         },
         {
           "id": "timessquare",
           "name": "Times Square / Broadway",
           "city": "New York City",
           "nature": "Neon lights / famous city streets",
-          "day": 9
+          "day": 11
         },
         {
           "id": "met",
@@ -771,11 +771,11 @@
           "name": "The Tour at NBC Studios · 30 Rockefeller Plaza",
           "city": "New York City",
           "nature": "Broadcast journalism / working-studio guided tour · target reservation",
-          "day": 9
+          "day": 11
         },
         {
           "id": "msg",
-          "day": 9,
+          "day": 11,
           "name": "Madison Square Garden · Knicks / Rangers arena tour",
           "city": "New York City",
           "nature": "NY sports fallback · 60min guided arena tour · not a live game or player meeting"
@@ -785,48 +785,48 @@
           "name": "Statue of Liberty / Liberty Island",
           "city": "New York City",
           "nature": "Island ferry / monument / museum",
-          "day": 9
+          "day": 11
         },
         {
           "id": "un",
-          "day": 10,
+          "day": 12,
           "name": "United Nations Headquarters",
           "city": "New York City",
           "nature": "Weekday guided tour · request Chinese · security registration / tickets required"
         },
         {
           "id": "grandcentral",
-          "day": 10,
+          "day": 12,
           "name": "Grand Central Terminal · East 42nd Street",
           "city": "New York City",
           "nature": "Historic railway architecture / famous street"
         },
         {
-          "id": "publicgarden",
-          "name": "Public Garden / Newbury Street",
-          "city": "Boston",
-          "nature": "Garden / city stroll / shops",
-          "day": 14
+          "id": "toronto",
+          "name": "Toronto · downtown / Chinatown",
+          "city": "Toronto",
+          "nature": "Short city visit · one evening and one morning",
+          "day": 6
         },
         {
-          "id": "brandywine",
-          "day": 7,
-          "name": "Brandywine Falls · Cuyahoga Valley National Park",
-          "city": "Sagamore Hills, Ohio",
-          "nature": "Waterfall / short nature walk · boardwalk subject to ice closures"
+          "id": "niagara",
+          "name": "Niagara Falls · Table Rock / Journey Behind the Falls",
+          "city": "Niagara Falls, Ontario",
+          "nature": "Canadian viewpoints / conditional year-round attraction · no February cruise",
+          "day": 7
         },
         {
-          "id": "flight93",
-          "day": 7,
-          "name": "Flight 93 National Memorial",
-          "city": "Somerset County, Pennsylvania",
-          "nature": "September 11 history / visitor centre / overlook"
+          "id": "lincoln",
+          "name": "National Mall / Lincoln Memorial",
+          "city": "Washington DC",
+          "nature": "American history / monuments · full Washington day",
+          "day": 9
         }
       ],
       "patches": {},
       "detourNote": [
-        "Google Maps: Ann Arbor–Washington direct 8h05; via Brandywine Falls, Flight 93 and Bedford 8h47 (+42min driving). Visits, meals and the overnight are additional; within the 60min detour limit.",
-        "Google Maps：Ann Arbor 直達華盛頓 8 小時 05 分；經 Brandywine Falls、Flight 93 及 Bedford 為 8 小時 47 分（多駕駛 42 分鐘）。遊覽、餐飲及過夜另計，符合繞道不超過 60 分鐘上限。"
+        "Canada variation: driving times are estimates, not live Google Maps checks. Border allowances are additional and not guarantees. Confirm Hertz Canada permission / coverage; avoid Highway 407 until toll billing is clear.",
+        "加拿大版本：車程為估算，並非即時Google Maps核實；另加過境預留，並非保證。須確認Hertz加拿大許可／保障；未明確收費前避免Highway 407。"
       ]
     },
     "C": {
@@ -1276,6 +1276,24 @@
       "name": "Concord, NH",
       "query": "Concord New Hampshire downtown",
       "purpose": "Short warm-drink / toilet stop on the Hanover–Hilton Logan drive."
+    },
+    "sarnia": {
+      "name": "Sarnia · waterfront / downtown",
+      "query": "Sarnia Ontario waterfront",
+      "purpose": "Warm lunch and toilets before the longer Ontario drive; allow 30 minutes.",
+      "source": "https://www.ontbluecoast.com/"
+    },
+    "harrisburg": {
+      "name": "Harrisburg · Susquehanna riverfront / downtown",
+      "query": "Harrisburg Pennsylvania Capitol",
+      "purpose": "Warm meal and short riverfront or Pennsylvania Capitol exterior stop, weather permitting; 45 minutes. No indoor Capitol tour assumed.",
+      "source": "https://www.visithersheyharrisburg.org/"
+    },
+    "batavia": {
+      "name": "Batavia · Genesee County",
+      "query": "Batavia New York downtown",
+      "purpose": "Warm meal, fuel and toilets between the border and Ithaca; 30 minutes.",
+      "source": "https://visitgeneseeny.com/"
     }
   },
   "rankingEdition": 2027,

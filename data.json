@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-30",
   "plans": [
     {
       "code": "A",
@@ -1254,10 +1254,10 @@
     },
     {
       "code": "B",
-      "title": "Balanced · Wellesley",
-      "why": "Required campuses, University of Chicago and conditional Columbia, with Wellesley near Boston; no Cleveland detour.",
-      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Bedford · historic inn > Washington, DC > New York City > Ithaca · Cornell > Hanover · Dartmouth > Wellesley > Boston",
-      "trade": "Driving preferred; one continuous stay per city. One domestic flight; international flights ticketed.",
+      "title": "Balanced · Toronto & Niagara",
+      "why": "Toronto and Niagara between Michigan and Cornell, a full Washington day, two full New York days and Wellesley; conditional on compatible guided tours.",
+      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Toronto > Niagara Falls > Ithaca · Cornell > Washington, DC > New York City > Hanover · Dartmouth > Boston / Wellesley",
+      "trade": "One domestic flight. Canada variation: Cornell Saturday and Wellesley / BU Friday tours unconfirmed; Toronto is a short visit. Driving times are estimates, not live Maps checks.",
       "days": [
         {
           "day": 0,
@@ -1561,16 +1561,16 @@
           "day": 5,
           "date": "2027-02-03",
           "dateLabel": "Wed 03 Feb",
-          "title": "Evanston > Notre Dame",
-          "schedule": "07:00 CT Leave Evanston / Chicago. 09:00–09:30 CT Michigan City: warm drink and a short downtown walk. 11:30–12:00 ET Arrive Notre Dame; lunch and tour check-in. 13:00–15:00 Target admissions session and guided campus visit. 15:30 Visit Basilica / Grotto; check in around 17:00, then dinner.",
-          "rest": "21:00-07:00",
+          "title": "Chicago → Notre Dame → Ann Arbor",
+          "schedule": "06:30 CT Depart Chicago / Evanston after breakfast. Indiana / Michigan are one hour ahead. 10:00–11:00 ET Notre Dame arrival, campus parking, snack and tour check-in. 11:00–13:00 Target official guided campus visit / admissions session. Use the Basilica / Grotto only if the tour allows time. 13:00–13:30 Quick warm lunch before departure. 13:30–17:30 Drive to Ann Arbor, with a 30-minute Kalamazoo food / comfort stop. 18:00–19:30 Dinner with the family friend if arranged; check in and rest.",
+          "rest": "21:00–07:00",
           "links": [
             {
-              "label": "Drive to Notre Dame",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=University+of+Notre+Dame&travelmode=driving&hl=en"
+              "label": "Evanston Illinois → University of Notre Dame → Kalamazoo Mall Michigan → Ann Arbor Michigan",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Evanston+Illinois&destination=Ann+Arbor+Michigan&travelmode=driving&waypoints=University+of+Notre+Dame%7CKalamazoo+Mall+Michigan"
             },
             {
-              "label": "Campus tour / admissions registration",
+              "label": "Notre Dame official visits",
               "url": "https://admissions.nd.edu/visit-and-connect/visit-notre-dame/"
             }
           ],
@@ -1578,58 +1578,50 @@
             "schools",
             "travel"
           ],
-          "transport": "07:00 CT departure → Michigan City 09:00–09:30 CT → Notre Dame about 11:30–12:00 ET. Allow 3–3.5h driving + 30min break + 1h clock change.",
+          "transport": "Chicago → Notre Dame 2.5–3h driving + one-hour clock change; Notre Dame → Ann Arbor 3–3.5h + Kalamazoo break.",
           "activities": [
             {
-              "time": "07:00 CT",
-              "text": "Leave Evanston / Chicago."
+              "time": "06:30 CT",
+              "text": "Depart Chicago / Evanston after breakfast. Indiana / Michigan are one hour ahead."
             },
             {
-              "time": "09:00–09:30 CT",
-              "text": "Michigan City: warm drink and a short downtown walk."
+              "time": "10:00–11:00 ET",
+              "text": "Notre Dame arrival, campus parking, snack and tour check-in."
             },
             {
-              "time": "11:30–12:00 ET",
-              "text": "Arrive Notre Dame; lunch and tour check-in."
+              "time": "11:00–13:00",
+              "text": "Target official guided campus visit / admissions session. Use the Basilica / Grotto only if the tour allows time."
             },
             {
-              "time": "13:00–15:00",
-              "text": "Target admissions session and guided campus visit."
+              "time": "13:00–13:30",
+              "text": "Quick warm lunch before departure."
             },
             {
-              "time": "15:30",
-              "text": "Visit Basilica / Grotto; check in around 17:00, then dinner."
+              "time": "13:30–17:30",
+              "text": "Drive to Ann Arbor, with a 30-minute Kalamazoo food / comfort stop."
+            },
+            {
+              "time": "18:00–19:30",
+              "text": "Dinner with the family friend if arranged; check in and rest."
             }
           ],
-          "restWindow": "21:00-07:00",
+          "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Morris Inn",
-            "city": "Notre Dame",
-            "url": "https://morrisinn.nd.edu/",
-            "status": "Suggested"
+            "name": "Ann Arbor · family room near campus",
+            "city": "Ann Arbor",
+            "url": "https://www.destinationannarbor.org/places-to-stay/",
+            "status": "Suggested · unbooked; new dates and three-person room need a fresh quote"
           },
           "pits": [
             {
-              "area": "mc",
-              "time": "09:00–09:30 CT"
+              "area": "kz",
+              "time": "15:00–15:30 ET"
             }
           ],
           "practical": [
             {
-              "label": "Reserve",
-              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
-            },
-            {
-              "label": "Ask on campus",
-              "text": "Ask about biology / chemistry research, pre-health advising, residential life and whether the religious and community environment would suit Olivia."
-            },
-            {
-              "label": "If unavailable",
-              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
-            },
-            {
-              "label": "Winter / meals",
-              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+              "label": "Booking / timing",
+              "text": "Every campus time is a target, not a reservation. Preserve ten hours of hotel rest; shorten optional sightseeing if weather, traffic or border queues cause delays."
             }
           ]
         },
@@ -1637,16 +1629,16 @@
           "day": 6,
           "date": "2027-02-04",
           "dateLabel": "Thu 04 Feb",
-          "title": "Notre Dame > Ann Arbor",
-          "schedule": "07:30 Leave Notre Dame. 09:15–09:45 Kalamazoo Mall area: breakfast / warm snack and a brief walk. 11:30–12:30 Arrive Ann Arbor; lunch and tour check-in. 13:00–15:00 Michigan admissions session and student-guided tour, if reserved. 16:00–18:00 Meet friend / family for dinner.",
-          "rest": "21:00-07:00",
+          "title": "Michigan morning → Toronto",
+          "schedule": "09:00–11:00 Target University of Michigan guided tour and admissions introduction. 11:00–11:30 Early lunch; collect passports and the rental documents. 11:30–19:00 Drive via Port Huron–Sarnia to Toronto. Allow border processing, a Sarnia meal / comfort break and Toronto traffic. 19:00–20:00 Chinatown dinner; a short city walk only if arrival is on time.",
+          "rest": "21:00–07:00",
           "links": [
             {
-              "label": "Drive to Michigan",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Notre+Dame&destination=University+of+Michigan+Ann+Arbor&travelmode=driving&hl=en"
+              "label": "University of Michigan Ann Arbor → Blue Water Bridge Port Huron → Sarnia Ontario → Toronto Ontario",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Toronto+Ontario&travelmode=driving&waypoints=Blue+Water+Bridge+Port+Huron%7CSarnia+Ontario"
             },
             {
-              "label": "Campus tour / admissions registration",
+              "label": "Michigan official visits",
               "url": "https://admissions.umich.edu/explore-visit/visit-campus"
             }
           ],
@@ -1654,62 +1646,46 @@
             "schools",
             "travel"
           ],
-          "transport": "07:30 departure → Kalamazoo 09:15–09:45 → Ann Arbor about 11:30. Allow 3–3.5h driving + 30min break (4h total).",
+          "transport": "Ann Arbor → Toronto about 5–6h driving via Blue Water Bridge; add 45–90min border allowance, 30min stop and traffic. Border queues may exceed this allowance.",
           "activities": [
             {
-              "time": "07:30",
-              "text": "Leave Notre Dame."
+              "time": "09:00–11:00",
+              "text": "Target University of Michigan guided tour and admissions introduction."
             },
             {
-              "time": "09:15–09:45",
-              "text": "Kalamazoo Mall area: breakfast / warm snack and a brief walk."
+              "time": "11:00–11:30",
+              "text": "Early lunch; collect passports and the rental documents."
             },
             {
-              "time": "11:30–12:30",
-              "text": "Arrive Ann Arbor; lunch and tour check-in."
+              "time": "11:30–19:00",
+              "text": "Drive via Port Huron–Sarnia to Toronto. Allow border processing, a Sarnia meal / comfort break and Toronto traffic."
             },
             {
-              "time": "13:00–15:00",
-              "text": "Michigan admissions session and student-guided tour, if reserved."
-            },
-            {
-              "time": "16:00–18:00",
-              "text": "Meet friend / family for dinner."
+              "time": "19:00–20:00",
+              "text": "Chinatown dinner; a short city walk only if arrival is on time."
             }
           ],
-          "restWindow": "21:00-07:00",
+          "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Graduate Ann Arbor",
-            "city": "Ann Arbor",
-            "url": "https://graduateannarbor.com/",
-            "status": "Suggested"
+            "name": "Downtown Toronto · Chinatown / waterfront family room",
+            "city": "Toronto",
+            "url": "https://www.destinationtoronto.com/places-to-stay/",
+            "status": "Suggested · unbooked; new dates and three-person room need a fresh quote"
           },
           "pits": [
             {
-              "area": "kz",
-              "time": "09:15–09:45"
+              "area": "sarnia",
+              "time": "After Canadian border · 30min"
             }
           ],
           "practical": [
             {
-              "label": "Reserve",
-              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+              "label": "Booking / timing",
+              "text": "Every campus time is a target, not a reservation. Preserve ten hours of hotel rest; shorten optional sightseeing if weather, traffic or border queues cause delays."
             },
             {
-              "label": "Ask on campus",
-              "text": "Ask about biology / biochemistry and economics pathways, quantitative course requirements, first-year research and support in a large university."
-            },
-            {
-              "label": "If unavailable",
-              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
-            },
-            {
-              "label": "Registration",
-              "text": "Michigan currently requires advance registration and does not accept tour walk-ins. Select the information session when registering; an in-person admissions-officer meeting is not promised."
-            },
-            {
-              "label": "Winter / meals",
-              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+              "label": "Booking / timing",
+              "text": "Before committing: confirm Hertz ORD permission for a Canadian crossing and whether insurance / premium roadside assistance covers Canada. Check Canadian entry and U.S. re-entry requirements for each traveller. Avoid Highway 407 unless toll billing is confirmed."
             }
           ]
         },
@@ -1717,66 +1693,70 @@
           "day": 7,
           "date": "2027-02-05",
           "dateLabel": "Fri 05 Feb",
-          "title": "Ann Arbor → Brandywine Falls → Flight 93 → Bedford",
-          "schedule": "08:00 Leave Ann Arbor after breakfast. 11:00–11:45 Brandywine Falls: short boardwalk and waterfall viewpoints in Cuyahoga Valley National Park. Skip this outdoor stop if paths are icy / closed; no gorge hike. 11:45–12:15 Warm lunch in the nearby Boston Heights / Macedonia area. 12:15–15:30 Drive toward Flight 93 National Memorial with traffic / comfort buffer. 15:30–16:30 Flight 93 Visitor Center exhibits and overlook; finish before its current 17:00 closing time. 16:30–18:00 Continue east to Bedford; check into the historic inn, then dinner in the walkable town centre.",
-          "rest": "21:00–07:00",
+          "title": "Toronto → Niagara Falls → Ithaca",
+          "schedule": "08:00–11:00 Compact Toronto morning: University of Toronto exterior and Chinatown brunch / downtown streets. This is not a full Toronto day; do not add CN Tower and the aquarium together. 11:00–13:00 Drive to the Canadian side of Niagara Falls; traffic may extend the journey. 13:00–15:00 Table Rock viewpoints and conditional Journey Behind the Falls visit. Choose the viewpoints alone if tickets, ice or arrival time prevent both. No February sightseeing boat planned. 15:00–20:30 Cross back to the U.S. via Rainbow Bridge; drive to Ithaca with a warm meal / fuel stop around Batavia. 20:30–21:30 Hotel check-in and settle in; protect the next morning’s Cornell visit.",
+          "rest": "21:30–07:30",
           "links": [
             {
-              "label": "University of Michigan Ann Arbor → Brandywine Falls Ohio → Flight 93 National Memorial Visitor Center → Golden Eagle Inn Bedford PA",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=University+of+Michigan+Ann+Arbor&destination=Golden+Eagle+Inn+Bedford+PA&travelmode=driving&waypoints=Brandywine+Falls+Ohio%7CFlight+93+National+Memorial+Visitor+Center"
+              "label": "Toronto Ontario → Table Rock Centre Niagara Falls Ontario",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Toronto+Ontario&destination=Table+Rock+Centre+Niagara+Falls+Ontario&travelmode=driving"
+            },
+            {
+              "label": "Table Rock Centre Niagara Falls Ontario → Rainbow Bridge Niagara Falls → Batavia New York → Ithaca New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Table+Rock+Centre+Niagara+Falls+Ontario&destination=Ithaca+New+York&travelmode=driving&waypoints=Rainbow+Bridge+Niagara+Falls%7CBatavia+New+York"
+            },
+            {
+              "label": "Journey Behind the Falls",
+              "url": "https://www.niagaraparks.com/visit/attractions/journey-behind-the-falls/"
             }
           ],
           "tags": [
             "travel"
           ],
-          "transport": "Google Maps: direct Ann Arbor → Washington 8h05; via Brandywine Falls, Flight 93 and Bedford 8h47 total driving (+42min, split across two days). Today allow 6–6.5h driving, 45min falls, 60min memorial, lunch and winter buffer; Bedford about 18:00.",
+          "transport": "Toronto → Niagara 1.5–2.5h; Niagara → Ithaca 3–3.5h driving. Add U.S. border 45–90min and a 30min meal stop. Use the faster safe route if delayed.",
           "activities": [
             {
-              "time": "08:00",
-              "text": "Leave Ann Arbor after breakfast."
+              "time": "08:00–11:00",
+              "text": "Compact Toronto morning: University of Toronto exterior and Chinatown brunch / downtown streets. This is not a full Toronto day; do not add CN Tower and the aquarium together."
             },
             {
-              "time": "11:00–11:45",
-              "text": "Brandywine Falls: short boardwalk and waterfall viewpoints in Cuyahoga Valley National Park. Skip this outdoor stop if paths are icy / closed; no gorge hike."
+              "time": "11:00–13:00",
+              "text": "Drive to the Canadian side of Niagara Falls; traffic may extend the journey."
             },
             {
-              "time": "11:45–12:15",
-              "text": "Warm lunch in the nearby Boston Heights / Macedonia area."
+              "time": "13:00–15:00",
+              "text": "Table Rock viewpoints and conditional Journey Behind the Falls visit. Choose the viewpoints alone if tickets, ice or arrival time prevent both. No February sightseeing boat planned."
             },
             {
-              "time": "12:15–15:30",
-              "text": "Drive toward Flight 93 National Memorial with traffic / comfort buffer."
+              "time": "15:00–20:30",
+              "text": "Cross back to the U.S. via Rainbow Bridge; drive to Ithaca with a warm meal / fuel stop around Batavia."
             },
             {
-              "time": "15:30–16:30",
-              "text": "Flight 93 Visitor Center exhibits and overlook; finish before its current 17:00 closing time."
-            },
-            {
-              "time": "16:30–18:00",
-              "text": "Continue east to Bedford; check into the historic inn, then dinner in the walkable town centre."
+              "time": "20:30–21:30",
+              "text": "Hotel check-in and settle in; protect the next morning’s Cornell visit."
             }
           ],
-          "restWindow": "21:00–07:00",
+          "restWindow": "21:30–07:30",
           "hotel": {
-            "name": "The Golden Eagle Inn · historic Bedford inn",
-            "city": "Bedford, Pennsylvania",
-            "url": "https://www.bedfordpainn.com/",
-            "status": "Suggested; confirm family room and winter availability"
+            "name": "Ithaca · family hotel near Cornell",
+            "city": "Ithaca",
+            "url": "https://www.visitithaca.com/places-to-stay/",
+            "status": "Suggested · unbooked; new dates and three-person room need a fresh quote"
           },
           "pits": [
             {
-              "area": "brandywine",
-              "time": "11:00–11:45"
-            },
-            {
-              "area": "flight93",
-              "time": "15:30–16:30"
+              "area": "batavia",
+              "time": "After U.S. border · 30min"
             }
           ],
           "practical": [
             {
-              "label": "Winter / meals",
-              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
+              "label": "Booking / timing",
+              "text": "Every campus time is a target, not a reservation. Preserve ten hours of hotel rest; shorten optional sightseeing if weather, traffic or border queues cause delays."
+            },
+            {
+              "label": "Booking / timing",
+              "text": "Journey Behind the Falls is year-round, subject to weather restrictions; the Niagara sightseeing cruise is seasonal and is not included in this February plan."
             }
           ]
         },
@@ -1784,79 +1764,67 @@
           "day": 8,
           "date": "2027-02-06",
           "dateLabel": "Sat 06 Feb",
-          "title": "Bedford → Smithsonian → New York",
-          "schedule": "07:00–07:30 Breakfast and checkout after ten hours of hotel rest. 07:30–11:00 Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time. 11:00–13:00 Smithsonian National Air and Space Museum: reserve an 11:00 free timed-entry pass for each visitor. Buy a compatible daily planetarium ticket at the box office on arrival, then see aviation / space highlights; finish by 13:00. February show times remain unconfirmed. 13:00–13:45 Warm lunch, collect bags and the car. 13:45–20:00 Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in. 20:00–21:30 Warm dinner near the hotel; protected rest 22:00–08:00.",
-          "rest": "22:00–08:00",
+          "title": "Cornell Saturday → Washington, DC",
+          "schedule": "09:00–09:30 Cornell parking and tour check-in. 09:30–11:30 Conditional Saturday official Cornell guided tour / admissions introduction. This route depends on a suitable released slot. 11:30–12:15 Warm lunch and depart Ithaca. 12:15–20:00 Drive to Washington; stop around Harrisburg for a meal and a short riverfront / Capitol exterior look if daylight and weather allow. 20:00–21:30 Check in, light dinner and wind down.",
+          "rest": "21:30–07:30",
           "links": [
             {
-              "label": "Bedford → Smithsonian",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Golden+Eagle+Inn+Bedford+PA&destination=Smithsonian+National+Air+and+Space+Museum&travelmode=driving"
+              "label": "Cornell University Ithaca → Pennsylvania State Capitol Harrisburg → Washington DC",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Cornell+University+Ithaca&destination=Washington+DC&travelmode=driving&waypoints=Pennsylvania+State+Capitol+Harrisburg"
             },
             {
-              "label": "Smithsonian National Air and Space Museum → I-95 services Newark Delaware → Midtown West New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum&destination=Midtown+West+New+York&travelmode=driving&waypoints=I-95+services+Newark+Delaware"
-            },
-            {
-              "label": "Smithsonian planetarium programme",
-              "url": "https://airandspace.si.edu/learn/programs/planetarium"
-            },
-            {
-              "label": "Smithsonian free timed-entry passes",
-              "url": "https://airandspace.si.edu/visit"
+              "label": "Cornell official visits",
+              "url": "https://admissions.cornell.edu/visit-and-connect"
             }
           ],
           "tags": [
             "fun",
             "travel"
           ],
-          "transport": "Bedford → Smithsonian: allow 3.5h including winter / city traffic and parking. Drive directly without a Frederick town detour. After the museum, Washington → Manhattan allow 5–6h including the Delaware stop and parking.",
+          "transport": "Ithaca → Washington about 6–7h driving; budget 7.5–8h with Harrisburg break and traffic.",
           "activities": [
             {
-              "time": "07:00–07:30",
-              "text": "Breakfast and checkout after ten hours of hotel rest."
+              "time": "09:00–09:30",
+              "text": "Cornell parking and tour check-in."
             },
             {
-              "time": "07:30–11:00",
-              "text": "Drive directly from Bedford to Washington, allowing winter / city traffic, museum parking and entry time."
+              "time": "09:30–11:30",
+              "text": "Conditional Saturday official Cornell guided tour / admissions introduction. This route depends on a suitable released slot."
             },
             {
-              "time": "11:00–13:00",
-              "text": "Smithsonian National Air and Space Museum: reserve an 11:00 free timed-entry pass for each visitor. Buy a compatible daily planetarium ticket at the box office on arrival, then see aviation / space highlights; finish by 13:00. February show times remain unconfirmed."
+              "time": "11:30–12:15",
+              "text": "Warm lunch and depart Ithaca."
             },
             {
-              "time": "13:00–13:45",
-              "text": "Warm lunch, collect bags and the car."
-            },
-            {
-              "time": "13:45–20:00",
-              "text": "Drive to New York with a 15:45–16:15 Wilmington / Newark, Delaware comfort / snack stop; Manhattan hotel check-in."
+              "time": "12:15–20:00",
+              "text": "Drive to Washington; stop around Harrisburg for a meal and a short riverfront / Capitol exterior look if daylight and weather allow."
             },
             {
               "time": "20:00–21:30",
-              "text": "Warm dinner near the hotel; protected rest 22:00–08:00."
+              "text": "Check in, light dinner and wind down."
             }
           ],
-          "restWindow": "22:00–08:00",
+          "restWindow": "21:30–07:30",
           "hotel": {
-            "name": "Fairfield Inn & Suites Manhattan/Times Square South",
-            "city": "Midtown West New York",
-            "url": "https://www.booking.com/hotel/us/fairfield-inn-suites-by-marriott-new-york-manhattan-times-square-36th-st.html?checkin=2027-02-06&checkout=2027-02-09&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
-            "status": "Proposed · not booked; three-person queen-queen quote checked"
+            "name": "Washington, DC · family hotel with parking",
+            "city": "Washington, DC",
+            "url": "https://washington.org/find-dc-listings/hotels",
+            "status": "Suggested · unbooked; new dates and three-person room need a fresh quote"
           },
           "pits": [
             {
-              "area": "wilmington",
-              "time": "15:45–16:15"
+              "area": "harrisburg",
+              "time": "Around 16:00 · 45min"
             }
           ],
           "practical": [
             {
-              "label": "Tickets",
-              "text": "Museum admission is free but timed-entry passes are required. The planetarium is separately ticketed and sold on site; choose a show that ends by 13:00. Secure the museum slot before fixing the drive."
+              "label": "Booking / timing",
+              "text": "Every campus time is a target, not a reservation. Preserve ten hours of hotel rest; shorten optional sightseeing if weather, traffic or border queues cause delays."
             },
             {
-              "label": "If delayed",
-              "text": "If the drive runs late, shorten the museum galleries and skip the planetarium rather than the meal break or 22:00 rest. Do not book a later show that delays the New York drive."
+              "label": "Booking / timing",
+              "text": "Cornell 6 February Saturday tour is NOT confirmed. If unavailable, this Canada variation cannot meet the guided-tour requirement as written; do not substitute a self-guided walk or book non-refundable hotels first."
             }
           ]
         },
@@ -1864,8 +1832,137 @@
           "day": 9,
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
+          "title": "Washington, DC · one full day",
+          "schedule": "09:00–10:00 Breakfast, local drive and museum security / entry buffer. 10:00–13:00 Smithsonian National Air and Space Museum; choose aviation / space highlights and a planetarium programme if scheduled and ticketed. 13:00–14:00 Warm lunch. 14:00–17:00 National Mall and Lincoln Memorial; White House exterior only if time and winter conditions allow. 17:30–19:00 Chinese dinner, then return to the same Washington hotel.",
+          "rest": "21:00–07:00",
+          "links": [
+            {
+              "label": "Washington DC → Smithsonian National Air and Space Museum Washington DC → Lincoln Memorial → Chinatown Washington DC",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+DC&destination=Chinatown+Washington+DC&travelmode=driving&waypoints=Smithsonian+National+Air+and+Space+Museum+Washington+DC%7CLincoln+Memorial"
+            },
+            {
+              "label": "Smithsonian official visits",
+              "url": "https://airandspace.si.edu/visit"
+            }
+          ],
+          "tags": [
+            "fun"
+          ],
+          "transport": "Local driving / parking, with short walks around the Mall. Keep the same hotel for both Washington nights.",
+          "activities": [
+            {
+              "time": "09:00–10:00",
+              "text": "Breakfast, local drive and museum security / entry buffer."
+            },
+            {
+              "time": "10:00–13:00",
+              "text": "Smithsonian National Air and Space Museum; choose aviation / space highlights and a planetarium programme if scheduled and ticketed."
+            },
+            {
+              "time": "13:00–14:00",
+              "text": "Warm lunch."
+            },
+            {
+              "time": "14:00–17:00",
+              "text": "National Mall and Lincoln Memorial; White House exterior only if time and winter conditions allow."
+            },
+            {
+              "time": "17:30–19:00",
+              "text": "Chinese dinner, then return to the same Washington hotel."
+            }
+          ],
+          "restWindow": "21:00–07:00",
+          "hotel": {
+            "name": "Washington, DC · family hotel with parking",
+            "city": "Washington, DC",
+            "url": "https://washington.org/find-dc-listings/hotels",
+            "status": "Suggested · unbooked; new dates and three-person room need a fresh quote"
+          },
+          "pits": [],
+          "practical": [
+            {
+              "label": "Booking / timing",
+              "text": "Every campus time is a target, not a reservation. Preserve ten hours of hotel rest; shorten optional sightseeing if weather, traffic or border queues cause delays."
+            },
+            {
+              "label": "Booking / timing",
+              "text": "Check official museum entry requirements and the actual 7 February planetarium programme before reserving. No special astronomy show is confirmed."
+            }
+          ]
+        },
+        {
+          "day": 10,
+          "date": "2027-02-08",
+          "dateLabel": "Mon 08 Feb",
+          "title": "Washington → New York · The Met + Midtown",
+          "schedule": "07:30–13:30 Drive to New York with a Delaware / Wilmington 30-minute meal and comfort stop. 13:30–15:00 Park and leave luggage with the hotel; allow a 45-minute transfer to The Met and entry. 15:00–16:45 The Met: focused Egyptian art / Temple of Dendur and Arms and Armor visit. Moved to Monday because the museum closes Wednesdays. 16:45–18:15 Travel down Fifth Avenue to Rockefeller Center; choose FAO Schwarz / Jellycat OR Nintendo New York if opening hours allow. 18:15–19:30 Warm dinner and hotel check-in. If the drive runs late, protect The Met and skip optional shops.",
+          "rest": "21:00–07:00",
+          "links": [
+            {
+              "label": "Washington DC → Wilmington Delaware → Midtown West New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+DC&destination=Midtown+West+New+York&waypoints=Wilmington+Delaware&travelmode=driving"
+            },
+            {
+              "label": "Midtown West New York → The Metropolitan Museum of Art New York → Rockefeller Center → Nintendo New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=Nintendo+New+York&waypoints=The+Metropolitan+Museum+of+Art+New+York%7CRockefeller+Center&travelmode=driving"
+            },
+            {
+              "label": "The Met official opening hours",
+              "url": "https://www.metmuseum.org/plan-your-visit"
+            }
+          ],
+          "tags": [
+            "fun"
+          ],
+          "transport": "Washington → New York 4.5–5.5h driving; allow about 6h with a Delaware stop and Manhattan traffic.",
+          "activities": [
+            {
+              "time": "07:30–13:30",
+              "text": "Drive to New York with a Delaware / Wilmington 30-minute meal and comfort stop."
+            },
+            {
+              "time": "13:30–15:00",
+              "text": "Park and leave luggage with the hotel; allow a 45-minute transfer to The Met and entry."
+            },
+            {
+              "time": "15:00–16:45",
+              "text": "The Met: focused Egyptian art / Temple of Dendur and Arms and Armor visit. Moved to Monday because the museum closes Wednesdays."
+            },
+            {
+              "time": "16:45–18:15",
+              "text": "Travel down Fifth Avenue to Rockefeller Center; choose FAO Schwarz / Jellycat OR Nintendo New York if opening hours allow."
+            },
+            {
+              "time": "18:15–19:30",
+              "text": "Warm dinner and hotel check-in. If the drive runs late, protect The Met and skip optional shops."
+            }
+          ],
+          "restWindow": "21:00–07:00",
+          "hotel": {
+            "name": "Fairfield Inn & Suites Manhattan/Times Square South",
+            "city": "Midtown West New York",
+            "url": "https://www.booking.com/hotel/us/fairfield-inn-suites-by-marriott-new-york-manhattan-times-square-36th-st.html?checkin=2027-02-08&checkout=2027-02-11&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
+            "status": "Proposed · unbooked; 8–11 February needs a fresh quote"
+          },
+          "pits": [
+            {
+              "area": "wilmington",
+              "time": "Late morning · 30min"
+            }
+          ],
+          "practical": [
+            {
+              "label": "Booking / timing",
+              "text": "Every campus time is a target, not a reservation. Preserve ten hours of hotel rest; shorten optional sightseeing if weather, traffic or border queues cause delays."
+            }
+          ]
+        },
+        {
+          "day": 11,
+          "date": "2027-02-09",
+          "dateLabel": "Tue 09 Feb",
           "title": "NYC: Statue of Liberty · MSG · NBC · Wicked",
-          "schedule": "08:10–08:50 Taxi to Battery Park / Castle Clinton after the ten-hour rest; carry breakfast and snacks. 09:00–12:30 Target Statue City Cruises security, Liberty Island ferry, Statue of Liberty Museum / grounds and return. No Ellis Island stop; return time must fit the arena booking. 12:30–13:10 Taxi to Madison Square Garden; bring a packed lunch or eat a quick warm meal if time permits. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:20 Walk / taxi directly back to the proposed Times Square South hotel; allow 25–35min from Gershwin Theatre and keep rest at 22:30.",
+          "schedule": "08:10–08:50 Taxi to Battery Park / Castle Clinton after the ten-hour rest; carry breakfast and snacks. 09:00–12:30 Target Statue City Cruises security, Liberty Island ferry, Statue of Liberty Museum / grounds and return. No Ellis Island stop; return time must fit the arena booking. 12:30–13:10 Taxi to Madison Square Garden; bring a packed lunch or eat a quick warm meal if time permits. 13:10–13:30 MSG ticket / security and check-in buffer before the target tour. 13:30–14:30 Target Madison Square Garden Tour Experience, home of the New York Knicks and Rangers: the sports fallback if no LA conference-championship visit is possible. Reserve a released tour slot; arena / locker-room access varies and no player meeting is included. 14:30–15:15 Taxi / walk to 30 Rockefeller Plaza and check in for NBC at least 15 minutes early. 15:30–17:00 Target The Tour at NBC Studios; reserve when February tickets open. 17:00–17:45 Warm snack / free buffer after NBC; no repeat Rockefeller shopping. 17:45–18:45 Times Square, warm dinner and Gershwin Theatre entry. 19:00–21:45 Target Wicked evening performance; actual performance / tickets to confirm. 21:45–22:20 Walk / taxi directly back to the proposed Times Square South hotel; allow 25–35min from Gershwin Theatre and keep rest at 22:30.",
           "rest": "22:30–08:30",
           "links": [
             {
@@ -1873,8 +1970,8 @@
               "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=30+Rockefeller+Plaza&waypoints=Battery+Park+New+York%7CMadison+Square+Garden&travelmode=driving"
             },
             {
-              "label": "30 Rockefeller Plaza → FAO Schwarz New York → Nintendo New York → Times Square → Gershwin Theatre",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=30+Rockefeller+Plaza&destination=Gershwin+Theatre&travelmode=walking&waypoints=FAO+Schwarz+New+York%7CNintendo+New+York%7CTimes+Square"
+              "label": "30 Rockefeller Plaza → Times Square → Gershwin Theatre",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=30+Rockefeller+Plaza&destination=Gershwin+Theatre&travelmode=walking&waypoints=Times+Square"
             },
             {
               "label": "MSG official tour bookings",
@@ -1932,7 +2029,7 @@
             },
             {
               "time": "17:00–17:45",
-              "text": "Optional Fifth Avenue / Rockefeller Center shopping: choose FAO Schwarz / Jellycat OR Nintendo NY. If NBC runs late, skip shopping and go straight to dinner."
+              "text": "Warm snack / free buffer after NBC; no repeat Rockefeller shopping."
             },
             {
               "time": "17:45–18:45",
@@ -1951,8 +2048,8 @@
           "hotel": {
             "name": "Fairfield Inn & Suites Manhattan/Times Square South",
             "city": "Midtown West New York",
-            "url": "https://www.booking.com/hotel/us/fairfield-inn-suites-by-marriott-new-york-manhattan-times-square-36th-st.html?checkin=2027-02-06&checkout=2027-02-09&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
-            "status": "Proposed · not booked; three-person queen-queen quote checked"
+            "url": "https://www.booking.com/hotel/us/fairfield-inn-suites-by-marriott-new-york-manhattan-times-square-36th-st.html?checkin=2027-02-08&checkout=2027-02-11&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
+            "status": "Proposed · unbooked; 8–11 February needs a fresh quote"
           },
           "pits": [],
           "practical": [
@@ -1975,20 +2072,16 @@
           ]
         },
         {
-          "day": 10,
-          "date": "2027-02-08",
-          "dateLabel": "Mon 08 Feb",
-          "title": "NYC: The Met → Columbia → United Nations → Grand Central",
-          "schedule": "08:45–09:45 Taxi to The Met Fifth Avenue after hotel rest; allow traffic and entry queue. 10:00–11:15 The Met highlights: choose Egyptian art / Temple of Dendur and Arms and Armor for a focused 75-minute visit. 11:15–11:45 Taxi to Columbia Morningside Heights and check in for the registered tour. 12:00–13:00 Conditional Columbia University student-led general campus tour. Advance registration and access approval required; February slot not confirmed. 13:00–13:40 Warm lunch around Broadway / Morningside Heights. 13:40–14:30 Taxi directly to the UN Visitor Check-in Office, 801 First Avenue; allow 50 minutes. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:30 Walk along East 42nd Street to Grand Central Terminal; enjoy the main concourse, architecture and indoor shops without another sightseeing stop. 17:30–18:00 Walk / taxi directly to Koreatown / Herald Square for dinner, then return to the hotel. 18:00–19:30 Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack.",
-          "rest": "20:30-06:30",
+          "day": 12,
+          "date": "2027-02-10",
+          "dateLabel": "Wed 10 Feb",
+          "title": "NYC: Central Park → Columbia → United Nations → Grand Central",
+          "schedule": "09:30–10:45 Short Central Park morning walk if paths are safe; otherwise a warm cafe near Morningside Heights. The Met is closed today and is scheduled for Monday. 10:45–11:45 Drive / taxi to Columbia and allow campus tour check-in. 12:00–13:00 Conditional Columbia University student-led general campus tour. Advance registration and access approval required; February slot not confirmed. 13:00–13:40 Warm lunch around Broadway / Morningside Heights. 13:40–14:30 Taxi directly to the UN Visitor Check-in Office, 801 First Avenue; allow 50 minutes. 14:30–15:30 UN registration / security: arrive a full 60 minutes before the target tour. Register online in advance; adults bring original government photo ID. 15:30–16:30 Target UN Headquarters standard guided tour. Request Chinese for the family when available; General Assembly / Security Council access depends on meetings. February tour slot not yet confirmed. 16:30–17:30 Walk along East 42nd Street to Grand Central Terminal; enjoy the main concourse, architecture and indoor shops without another sightseeing stop. 17:30–18:00 Walk / taxi directly to Koreatown / Herald Square for dinner, then return to the hotel. 18:00–19:30 Early warm dinner near the hotel; finish sightseeing and prepare for the 06:30 departure.",
+          "rest": "20:00–06:00",
           "links": [
             {
-              "label": "Midtown West New York → The Met Fifth Avenue → Columbia University Visitors Center → 801 First Avenue New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=801+First+Avenue+New+York&waypoints=The+Met+Fifth+Avenue%7CColumbia+University+Visitors+Center&travelmode=driving"
-            },
-            {
-              "label": "United Nations Headquarters New York → Grand Central Terminal → Koreatown Manhattan",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=United+Nations+Headquarters+New+York&destination=Koreatown+Manhattan&travelmode=walking&waypoints=Grand+Central+Terminal"
+              "label": "Midtown West New York → Central Park New York → Columbia University → United Nations Visitor Check In Office New York → Grand Central Terminal",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=Grand+Central+Terminal&waypoints=Central+Park+New+York%7CColumbia+University%7CUnited+Nations+Visitor+Check+In+Office+New+York&travelmode=driving"
             },
             {
               "label": "UN guided tour booking",
@@ -2001,28 +2094,20 @@
             {
               "label": "Columbia official campus tour registration",
               "url": "https://apply.college.columbia.edu/portal/campus_visit"
-            },
-            {
-              "label": "The Met admission / hours",
-              "url": "https://www.metmuseum.org/plan-your-visit"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Taxi hotel → Met 30–40min; Met → Columbia allow 30min; Columbia → UN allow 50min. UN check-in stays 60min before the target tour.",
+          "transport": "Local car / taxi and short walks. Return to the hotel by 19:30; rest 20:00–06:00 before the Hanover drive.",
           "activities": [
             {
-              "time": "08:45–09:45",
-              "text": "Taxi to The Met Fifth Avenue after hotel rest; allow traffic and entry queue."
+              "time": "09:30–10:45",
+              "text": "Short Central Park morning walk if paths are safe; otherwise a warm cafe near Morningside Heights. The Met is closed today and is scheduled for Monday."
             },
             {
-              "time": "10:00–11:15",
-              "text": "The Met highlights: choose Egyptian art / Temple of Dendur and Arms and Armor for a focused 75-minute visit."
-            },
-            {
-              "time": "11:15–11:45",
-              "text": "Taxi to Columbia Morningside Heights and check in for the registered tour."
+              "time": "10:45–11:45",
+              "text": "Drive / taxi to Columbia and allow campus tour check-in."
             },
             {
               "time": "12:00–13:00",
@@ -2054,15 +2139,15 @@
             },
             {
               "time": "18:00–19:30",
-              "text": "Warm Asian dinner around Koreatown / Herald Square, then return to the hotel and pack."
+              "text": "Early warm dinner near the hotel; finish sightseeing and prepare for the 06:30 departure."
             }
           ],
-          "restWindow": "20:30-06:30",
+          "restWindow": "20:00–06:00",
           "hotel": {
             "name": "Fairfield Inn & Suites Manhattan/Times Square South",
             "city": "Midtown West New York",
-            "url": "https://www.booking.com/hotel/us/fairfield-inn-suites-by-marriott-new-york-manhattan-times-square-36th-st.html?checkin=2027-02-06&checkout=2027-02-09&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
-            "status": "Proposed · not booked; three-person queen-queen quote checked"
+            "url": "https://www.booking.com/hotel/us/fairfield-inn-suites-by-marriott-new-york-manhattan-times-square-36th-st.html?checkin=2027-02-08&checkout=2027-02-11&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
+            "status": "Proposed · unbooked; 8–11 February needs a fresh quote"
           },
           "pits": [],
           "practical": [
@@ -2077,237 +2162,66 @@
           ]
         },
         {
-          "day": 11,
-          "date": "2027-02-09",
-          "dateLabel": "Tue 09 Feb",
-          "title": "NYC > Cornell",
-          "schedule": "07:00–07:30 Retrieve the hotel-parked car and leave New York for Cornell. 10:00–10:30 Scranton Downtown: warm snack and Courthouse Square walk. 13:00–13:30 Arrive Cornell; quick lunch, park and check in. 14:00–16:00 Target Cornell registered tour and admissions information session. 17:00 Cottage check-in; dinner around 18:00.",
-          "rest": "20:30-06:30",
-          "links": [
-            {
-              "label": "Drive NYC > Cornell",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Times+Square+New+York&destination=Cornell+University+Ithaca&travelmode=driving&hl=en"
-            },
-            {
-              "label": "Campus tour / admissions registration",
-              "url": "https://admissions.cornell.edu/visit-and-connect"
-            }
-          ],
-          "tags": [
-            "schools",
-            "travel"
-          ],
-          "transport": "07:30 NYC departure → Scranton 10:00–10:30 → Ithaca about 13:00–13:30. Allow 5–5.5h driving + 30min stop (5.5–6h total).",
-          "activities": [
-            {
-              "time": "07:00–07:30",
-              "text": "Retrieve the hotel-parked car and leave New York for Cornell."
-            },
-            {
-              "time": "10:00–10:30",
-              "text": "Scranton Downtown: warm snack and Courthouse Square walk."
-            },
-            {
-              "time": "13:00–13:30",
-              "text": "Arrive Cornell; quick lunch, park and check in."
-            },
-            {
-              "time": "14:00–16:00",
-              "text": "Target Cornell registered tour and admissions information session."
-            },
-            {
-              "time": "17:00",
-              "text": "Cottage check-in; dinner around 18:00."
-            }
-          ],
-          "restWindow": "20:30-06:30",
-          "hotel": {
-            "name": "New Park cottage / suite",
-            "city": "Ithaca",
-            "url": "https://www.newparkeventvenue.com/",
-            "status": "Suggested; winter availability to confirm"
-          },
-          "pits": [
-            {
-              "area": "sc",
-              "time": "10:00–10:30"
-            }
-          ],
-          "practical": [
-            {
-              "label": "Reserve",
-              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
-            },
-            {
-              "label": "Ask on campus",
-              "text": "Ask which undergraduate college best fits biology, animal science or economics, how to prepare for a later veterinary degree, and whether animal-related experience is accessible to undergraduates."
-            },
-            {
-              "label": "If unavailable",
-              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
-            },
-            {
-              "label": "Winter / meals",
-              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
-            }
-          ]
-        },
-        {
-          "day": 12,
-          "date": "2027-02-10",
-          "dateLabel": "Wed 10 Feb",
-          "title": "Cornell > Dartmouth",
-          "schedule": "06:45 Leave Ithaca; carry breakfast / snacks. 08:45–09:15 Oneonta Main Street: bakery / café breakfast stop. 11:45–12:15 Brattleboro Downtown: warm lunch. 13:45–14:15 Arrive Hanover and check in for the campus visit. 14:30–16:15 Target Dartmouth information session and guided tour; afternoon slot essential. 16:30 Alumni chat if arranged; dinner and hotel.",
-          "rest": "21:00-07:00",
-          "links": [
-            {
-              "label": "Drive Cornell > Dartmouth",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Cornell+University+Ithaca&destination=Dartmouth+College+Hanover&travelmode=driving&hl=en"
-            },
-            {
-              "label": "Campus tour / admissions registration",
-              "url": "https://admissions.dartmouth.edu/visit-dartmouth"
-            }
-          ],
-          "tags": [
-            "schools",
-            "travel"
-          ],
-          "transport": "06:45 Ithaca departure → Oneonta 08:45–09:15 → Brattleboro 11:45–12:15 → Hanover about 13:45. Allow about 6h driving + 1h breaks (7h total; winter traffic may add time).",
-          "activities": [
-            {
-              "time": "06:45",
-              "text": "Leave Ithaca; carry breakfast / snacks."
-            },
-            {
-              "time": "08:45–09:15",
-              "text": "Oneonta Main Street: bakery / café breakfast stop."
-            },
-            {
-              "time": "11:45–12:15",
-              "text": "Brattleboro Downtown: warm lunch."
-            },
-            {
-              "time": "13:45–14:15",
-              "text": "Arrive Hanover and check in for the campus visit."
-            },
-            {
-              "time": "14:30–16:15",
-              "text": "Target Dartmouth information session and guided tour; afternoon slot essential."
-            },
-            {
-              "time": "16:30",
-              "text": "Alumni chat if arranged; dinner and hotel."
-            }
-          ],
-          "restWindow": "21:00-07:00",
-          "hotel": {
-            "name": "Hanover Inn",
-            "city": "Hanover",
-            "url": "https://www.hanoverinn.com/",
-            "status": "Suggested"
-          },
-          "pits": [
-            {
-              "area": "on",
-              "time": "08:45–09:15"
-            },
-            {
-              "area": "br",
-              "time": "11:45–12:15"
-            }
-          ],
-          "practical": [
-            {
-              "label": "Reserve",
-              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
-            },
-            {
-              "label": "Ask on campus",
-              "text": "Ask about biology / chemistry research, economics prerequisites, the academic calendar, winter life and how easily students can explore subjects before deciding a major."
-            },
-            {
-              "label": "If unavailable",
-              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
-            },
-            {
-              "label": "Winter / meals",
-              "text": "Use the listed stop area for a warm meal and toilets. If roads are slow or pavements icy, shorten optional outdoor walks and keep the next check-in and hotel-rest window; do not recover lost time by driving late."
-            }
-          ]
-        },
-        {
           "day": 13,
           "date": "2027-02-11",
           "dateLabel": "Thu 11 Feb",
-          "title": "Dartmouth → Wellesley → Boston",
-          "schedule": "07:30–10:30 Drive Hanover → Wellesley; breakfast before departure. 10:30–12:00 Wellesley village / campus surroundings and warm lunch. 13:00–15:00 Target Wellesley student-guided tour / admissions session; reserve this afternoon slot. 15:00–16:30 Drive Wellesley → Hilton Boston Logan Airport, allowing 60–90min including airport traffic. Keep the car overnight. 16:30–18:00 Check in to the booked Hilton Boston Logan Airport for two nights. Park the car (currently US$58/day self-parking, extra to the room) and settle in. 18:00–20:00 Warm dinner near the hotel, then prepare for 21:00–07:00 rest. Keep the car keys for tomorrow’s Boston visit.",
-          "rest": "21:00–07:00",
+          "title": "New York → Dartmouth → Boston Hilton",
+          "schedule": "06:30–13:30 Drive to Hanover with a 30-minute warm meal / comfort stop around Brattleboro. Allow tour parking / check-in. 14:00–16:00 Target Dartmouth official guided tour and admissions introduction; arrange alumni contact within this window if possible. 16:00–19:30 Drive to Hilton Boston Logan Airport with a short comfort break; hotel check-in and dinner.",
+          "rest": "21:30–07:30",
           "links": [
             {
-              "label": "Dartmouth College Hanover → Hilton Boston Logan Airport One Hotel Drive",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Hilton+Boston+Logan+Airport+One+Hotel+Drive&travelmode=driving&waypoints=Wellesley+College"
+              "label": "Midtown West New York → Brattleboro Vermont → Dartmouth College Hanover",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=Dartmouth+College+Hanover&travelmode=driving&waypoints=Brattleboro+Vermont"
             },
             {
-              "label": "Campus tour / admissions registration",
-              "url": "https://www.wellesley.edu/admission-aid/connect-with-wellesley/on-campus"
+              "label": "Dartmouth College Hanover → Hilton Boston Logan Airport",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Dartmouth+College+Hanover&destination=Hilton+Boston+Logan+Airport&travelmode=driving"
+            },
+            {
+              "label": "Dartmouth official visits",
+              "url": "https://admissions.dartmouth.edu/visit"
             }
           ],
           "tags": [
             "schools",
             "travel"
           ],
-          "transport": "Hanover → Wellesley 2h45–3h; Wellesley → Hilton at BOS 60–90min including airport traffic. Keep the car overnight; return Hertz BOS on 12 Feb by 18:30.",
+          "transport": "NYC → Hanover 5–6h driving + 30min Brattleboro stop; Hanover → Boston 2.5–3h + short break / traffic. Longest driving day: about 8–9h behind the wheel in total.",
           "activities": [
             {
-              "time": "07:30–10:30",
-              "text": "Drive Hanover → Wellesley; breakfast before departure."
+              "time": "06:30–13:30",
+              "text": "Drive to Hanover with a 30-minute warm meal / comfort stop around Brattleboro. Allow tour parking / check-in."
             },
             {
-              "time": "10:30–12:00",
-              "text": "Wellesley village / campus surroundings and warm lunch."
+              "time": "14:00–16:00",
+              "text": "Target Dartmouth official guided tour and admissions introduction; arrange alumni contact within this window if possible."
             },
             {
-              "time": "13:00–15:00",
-              "text": "Target Wellesley student-guided tour / admissions session; reserve this afternoon slot."
-            },
-            {
-              "time": "15:00–16:30",
-              "text": "Drive Wellesley → Hilton Boston Logan Airport, allowing 60–90min including airport traffic. Keep the car overnight."
-            },
-            {
-              "time": "16:30–18:00",
-              "text": "Check in to the booked Hilton Boston Logan Airport for two nights. Park the car (currently US$58/day self-parking, extra to the room) and settle in."
-            },
-            {
-              "time": "18:00–20:00",
-              "text": "Warm dinner near the hotel, then prepare for 21:00–07:00 rest. Keep the car keys for tomorrow’s Boston visit."
+              "time": "16:00–19:30",
+              "text": "Drive to Hilton Boston Logan Airport with a short comfort break; hotel check-in and dinner."
             }
           ],
-          "restWindow": "21:00–07:00",
+          "restWindow": "21:30–07:30",
           "hotel": {
             "name": "Hilton Boston Logan Airport",
             "city": "Boston Logan Airport",
             "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/",
             "status": "BOOKED via Trip.com: 11–13 Feb, one room / two nights, two queen beds, maximum three guests. No meals included. Hotel check-in after 16:00. Total HK$3,911.73 including taxes; debit scheduled for 7 Feb 2027, not recorded as paid. Free cancellation before 9 Feb 23:59 hotel local time."
           },
-          "pits": [],
+          "pits": [
+            {
+              "area": "br",
+              "time": "Late morning · 30min"
+            }
+          ],
           "practical": [
             {
-              "label": "Reserve",
-              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+              "label": "Booking / timing",
+              "text": "Every campus time is a target, not a reservation. Preserve ten hours of hotel rest; shorten optional sightseeing if weather, traffic or border queues cause delays."
             },
             {
-              "label": "Ask on campus",
-              "text": "Ask about biology / chemistry labs, economics, student writing and support at a women’s liberal arts college; compare the campus atmosphere with a large university."
-            },
-            {
-              "label": "If unavailable",
-              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
-            },
-            {
-              "label": "Airport hotel & car return",
-              "text": "Keep the car through the 12 Feb Boston visit; return Hertz BOS by 18:30, then request Hilton’s complimentary on-demand rental-car shuttle (confirm pickup point with the hotel). On 13 Feb use the covered walkway to Terminal E, or the free hotel shuttle. Allow US$58/day for self-parking; confirm billing for the 11 Feb arrival / 12 Feb morning departure."
+              "label": "Booking / timing",
+              "text": "Dartmouth afternoon slot must be confirmed. A storm or slower roads can invalidate this compressed day; do not replace ten-hour rest with late driving. Hilton is booked 11–13 February."
             }
           ]
         },
@@ -2315,32 +2229,20 @@
           "day": 14,
           "date": "2027-02-12",
           "dateLabel": "Fri 12 Feb",
-          "title": "Boston University · Boston city day",
-          "schedule": "07:00–09:15 Buy breakfast 07:00–07:30; it is not included in the Hilton booking. Drive at 07:30, allowing 30–60min to BU plus 20–30min to park and walk. Check in by 09:15; reconfirm February visitor parking. 09:30–11:30 Target reserved BU guided campus tour / admissions introduction; ask about biochemistry, chemistry, economics and pre-health pathways. 11:30–13:00 Warm lunch near BU / Kenmore Square; collect the car and drive 15–30min to a Back Bay / Boston Common garage, ready for the 13:00 walk. 13:00–15:00 Public Garden / Boston Common and Newbury Street: one continuous outdoor / shopping walk, without repeating earlier sights. 15:00–16:00 Back Bay shops and a cafe break; finish souvenir shopping and collect the car from the city garage. 16:00–17:00 Drive / park near Chinatown and have an early warm dinner. Allow 15–25min for the short city drive and parking; depart by 17:00. 17:00–18:30 Drive Chinatown → Hertz BOS Rental Car Center; allow 30–60min plus refuelling and return formalities. Return by 18:30, take all belongings and keep the receipt. 18:30–20:30 Request Hilton’s free rental-car-centre shuttle back to the hotel; confirm pickup instructions in advance and allow 30–45min including waiting. Pack and begin 20:30–06:30 rest. No taxi budgeted for this transfer.",
+          "title": "Wellesley + Boston University → Hertz return",
+          "schedule": "08:00–09:30 Drive from the Hilton to Wellesley and complete tour check-in. 09:30–11:30 Conditional Wellesley guided campus tour / admissions introduction. 11:30–14:00 Warm lunch and drive to BU; allow 45–75 minutes for the transfer plus parking / check-in. 14:00–16:00 Conditional Boston University guided campus visit: biochemistry, pre-health and pharmaceutical-related pathways. 16:00–17:00 Early dinner near BU / Allston; no additional Boston sightseeing assumed. 17:00–18:30 Drive to Logan, refuel and return the Hertz car by 18:30. 18:30–19:30 Request Hilton’s rental-car-centre shuttle and return to the booked hotel.",
           "rest": "20:30–06:30",
           "links": [
             {
-              "label": "Hilton Boston Logan Airport One Hotel Drive → Boston University Admissions 233 Bay State Road",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Hilton+Boston+Logan+Airport+One+Hotel+Drive&destination=Boston+University+Admissions+233+Bay+State+Road&travelmode=driving"
+              "label": "Hilton Boston Logan Airport → Wellesley College → Boston University → Hertz Boston Logan Airport Rental Car Center",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Hilton+Boston+Logan+Airport&destination=Hertz+Boston+Logan+Airport+Rental+Car+Center&travelmode=driving&waypoints=Wellesley+College%7CBoston+University"
             },
             {
-              "label": "Boston University Admissions 233 Bay State Road → Boston Common Garage",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+University+Admissions+233+Bay+State+Road&destination=Boston+Common+Garage&travelmode=driving"
+              "label": "Wellesley official visits",
+              "url": "https://www.wellesley.edu/admission-aid/visit"
             },
             {
-              "label": "Boston Public Garden → Newbury Street Boston → Chinatown Boston",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Public+Garden&destination=Chinatown+Boston&travelmode=walking&waypoints=Newbury+Street+Boston"
-            },
-            {
-              "label": "Boston Common Garage → Hertz Boston Logan Airport 156 Tomahawk Drive",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Boston+Common+Garage&destination=Hertz+Boston+Logan+Airport+156+Tomahawk+Drive&travelmode=driving&waypoints=Chinatown+Boston"
-            },
-            {
-              "label": "Hertz Boston Logan Airport 156 Tomahawk Drive → Hilton Boston Logan Airport One Hotel Drive",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Hertz+Boston+Logan+Airport+156+Tomahawk+Drive&destination=Hilton+Boston+Logan+Airport+One+Hotel+Drive&travelmode=driving"
-            },
-            {
-              "label": "Campus tour / admissions registration",
+              "label": "BU official visits",
               "url": "https://www.bu.edu/admissions/visit-us/"
             }
           ],
@@ -2348,39 +2250,35 @@
             "schools",
             "travel"
           ],
-          "transport": "Drive Hilton at BOS → BU (30–60min plus parking), BU → Back Bay garage (15–30min), garage → Chinatown (15–25min), Chinatown → Hertz BOS (30–60min plus fuel / return buffer). Return by 18:30, then use Hilton’s free rental-car shuttle (allow 30–45min including waiting). Keep 20:30 rest.",
+          "transport": "Keep the car through the Boston campus day. Return at BOS Hertz 12 February 18:30; free Hilton shuttle back, subject to hotel arrangement.",
           "activities": [
             {
-              "time": "07:00–09:15",
-              "text": "Buy breakfast 07:00–07:30; it is not included in the Hilton booking. Drive at 07:30, allowing 30–60min to BU plus 20–30min to park and walk. Check in by 09:15; reconfirm February visitor parking."
+              "time": "08:00–09:30",
+              "text": "Drive from the Hilton to Wellesley and complete tour check-in."
             },
             {
               "time": "09:30–11:30",
-              "text": "Target reserved BU guided campus tour / admissions introduction; ask about biochemistry, chemistry, economics and pre-health pathways."
+              "text": "Conditional Wellesley guided campus tour / admissions introduction."
             },
             {
-              "time": "11:30–13:00",
-              "text": "Warm lunch near BU / Kenmore Square; collect the car and drive 15–30min to a Back Bay / Boston Common garage, ready for the 13:00 walk."
+              "time": "11:30–14:00",
+              "text": "Warm lunch and drive to BU; allow 45–75 minutes for the transfer plus parking / check-in."
             },
             {
-              "time": "13:00–15:00",
-              "text": "Public Garden / Boston Common and Newbury Street: one continuous outdoor / shopping walk, without repeating earlier sights."
-            },
-            {
-              "time": "15:00–16:00",
-              "text": "Back Bay shops and a cafe break; finish souvenir shopping and collect the car from the city garage."
+              "time": "14:00–16:00",
+              "text": "Conditional Boston University guided campus visit: biochemistry, pre-health and pharmaceutical-related pathways."
             },
             {
               "time": "16:00–17:00",
-              "text": "Drive / park near Chinatown and have an early warm dinner. Allow 15–25min for the short city drive and parking; depart by 17:00."
+              "text": "Early dinner near BU / Allston; no additional Boston sightseeing assumed."
             },
             {
               "time": "17:00–18:30",
-              "text": "Drive Chinatown → Hertz BOS Rental Car Center; allow 30–60min plus refuelling and return formalities. Return by 18:30, take all belongings and keep the receipt."
+              "text": "Drive to Logan, refuel and return the Hertz car by 18:30."
             },
             {
-              "time": "18:30–20:30",
-              "text": "Request Hilton’s free rental-car-centre shuttle back to the hotel; confirm pickup instructions in advance and allow 30–45min including waiting. Pack and begin 20:30–06:30 rest. No taxi budgeted for this transfer."
+              "time": "18:30–19:30",
+              "text": "Request Hilton’s rental-car-centre shuttle and return to the booked hotel."
             }
           ],
           "restWindow": "20:30–06:30",
@@ -2393,28 +2291,12 @@
           "pits": [],
           "practical": [
             {
-              "label": "Reserve",
-              "text": "Reserve the official student-guided tour and admissions information session for all three visitors. Check the student’s year-group eligibility, parking and arrival instructions. February slots and any individual admissions meeting are not confirmed."
+              "label": "Booking / timing",
+              "text": "Every campus time is a target, not a reservation. Preserve ten hours of hotel rest; shorten optional sightseeing if weather, traffic or border queues cause delays."
             },
             {
-              "label": "Ask on campus",
-              "text": "Ask about biochemistry / molecular biology, chemistry and economics, undergraduate lab access and preparation for pharmaceutical research; clarify the difference between undergraduate study and professional pharmacy qualifications."
-            },
-            {
-              "label": "If unavailable",
-              "text": "Keep the campus visit, but request an admissions-designated student conversation or an official virtual Q&A before departure; a self-guided walk does not fulfil the guided-tour goal. Do not add a return journey to this city."
-            },
-            {
-              "label": "Cold-weather option",
-              "text": "Keep the BU visit. If the weather is poor, shorten the Public Garden / Common walk and use the already planned Back Bay shops and cafe for indoor time; retain Chinatown dinner and 20:30 rest."
-            },
-            {
-              "label": "Airport hotel & car return",
-              "text": "Keep the car through the 12 Feb Boston visit; return Hertz BOS by 18:30, then request Hilton’s complimentary on-demand rental-car shuttle (confirm pickup point with the hotel). On 13 Feb use the covered walkway to Terminal E, or the free hotel shuttle. Allow US$58/day for self-parking; confirm billing for the 11 Feb arrival / 12 Feb morning departure."
-            },
-            {
-              "label": "Parking budget",
-              "text": "Hilton self-parking currently US$58/day, plus US$40–70 planning allowance for BU / central Boston parking on 12 Feb. Reconfirm Hilton’s billing interval and the February BU visitor-parking rules. No hotel parking planned after returning Hertz on 12 Feb."
+              "label": "Booking / timing",
+              "text": "Both Friday tour times are unconfirmed and must be compatible. If either school has no suitable slot, the route needs revision; do not present a self-guided visit as a booked tour. Boston city sightseeing is sacrificed in this Canada variation."
             }
           ]
         },

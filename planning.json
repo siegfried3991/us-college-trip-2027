@@ -92,7 +92,7 @@
         "泊車另計；未取得報價前預留每晚 US$60–85"
       ],
       "url": "https://www.booking.com/hotel/us/fairfield-inn-suites-by-marriott-new-york-manhattan-times-square-36th-st.html?checkin=2027-02-06&checkout=2027-02-09&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
-      "routes": "ABC"
+      "routes": "AC"
     }
   ],
   "categories": [
@@ -472,5 +472,11 @@
         "兩張Queen床・無障礙浴缸房・三位住客"
       ]
     }
-  ]
+  ],
+  "routeNotes": {
+    "B": [
+      "Canada variation needs fresh Toronto, Ithaca, Washington and 8–11 February NYC hotel quotes, cross-border Hertz approval and a new toll / fuel estimate. Existing cost ranges are provisional; no new booking or payment has been added.",
+      "加拿大版本須重新取得多倫多、Ithaca、華盛頓及2月8–11日紐約酒店報價、Hertz跨境許可及通行費／油費估算。原有費用範圍只供暫估，未加入新預訂或付款。"
+    ]
+  }
 }
