@@ -658,7 +658,29 @@
             -77.04,
             38.9
           ],
-          "days": "D8–10",
+          "days": "D8–9",
+          "mode": "drive"
+        },
+        {
+          "key": "Hershey",
+          "label": "Hershey · Chocolate World",
+          "zhLabel": "Hershey・Chocolate World",
+          "coords": [
+            -76.66,
+            40.29
+          ],
+          "days": "D9",
+          "mode": "drive"
+        },
+        {
+          "key": "Lancaster",
+          "label": "Lancaster / Ronks · Amish farm",
+          "zhLabel": "Lancaster／Ronks・Amish農場",
+          "coords": [
+            -76.15,
+            39.99
+          ],
+          "days": "D9–10",
           "mode": "drive"
         },
         {
@@ -735,7 +757,7 @@
           "id": "smithsonian",
           "name": "Smithsonian National Air and Space Museum",
           "city": "Washington DC",
-          "nature": "Aviation / space / daily ticketed planetarium; programme to confirm",
+          "nature": "Two-hour aviation / space highlights · timed entry required",
           "day": 9
         },
         {
@@ -749,8 +771,8 @@
           "id": "rockefeller",
           "name": "Fifth Avenue / Rockefeller Center · FAO / Jellycat / Nintendo",
           "city": "New York City",
-          "nature": "Famous avenue / fun stores · optional after The Met, arrival traffic permitting",
-          "day": 10
+          "nature": "Optional existing Midtown shopping window after NBC",
+          "day": 11
         },
         {
           "id": "timessquare",
@@ -816,11 +838,32 @@
           "day": 7
         },
         {
-          "id": "lincoln",
-          "name": "National Mall / Lincoln Memorial",
+          "id": "nationalmall",
+          "name": "White House · US Capitol · eastern National Mall",
           "city": "Washington DC",
-          "nature": "American history / monuments · full Washington day",
+          "nature": "Exterior photographs / short public-space walk · no interior government tours",
           "day": 9
+        },
+        {
+          "id": "hershey",
+          "day": 9,
+          "name": "Hershey’s Chocolate World",
+          "city": "Hershey, Pennsylvania",
+          "nature": "Free chocolate-making themed ride / store · afternoon hours to confirm"
+        },
+        {
+          "id": "lancaster",
+          "day": 9,
+          "name": "Lancaster / Ronks · countryside overnight",
+          "city": "Lancaster County, Pennsylvania",
+          "nature": "One-night countryside stay · property / Amish ownership not yet selected"
+        },
+        {
+          "id": "oldwindmill",
+          "day": 10,
+          "name": "Old Windmill Farm · Amish family farm",
+          "city": "Ronks, Lancaster County",
+          "nature": "Hands-on animal / Amish culture tour · US$22 each · winter slot to reserve"
         }
       ],
       "patches": {},

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-11-01",
   "plans": [
     {
       "code": "A",
@@ -1256,7 +1256,7 @@
       "code": "B",
       "title": "Balanced · Toronto & Niagara",
       "why": "Toronto and Niagara between Michigan and Cornell, a full Washington day, two full New York days and Wellesley; conditional on compatible guided tours.",
-      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Toronto > Niagara Falls > Ithaca · Cornell > Washington, DC > New York City > Hanover · Dartmouth > Boston / Wellesley",
+      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Toronto > Niagara Falls > Ithaca · Cornell > Washington, DC > Hershey > Lancaster / Ronks · Amish farm > New York City > Hanover · Dartmouth > Boston / Wellesley",
       "trade": "One domestic flight. Canada variation: Cornell Saturday and Wellesley / BU Friday tours unconfirmed; Toronto is a short visit. Driving times are estimates, not live Maps checks.",
       "days": [
         {
@@ -1809,7 +1809,7 @@
             "name": "Washington, DC · family hotel with parking",
             "city": "Washington, DC",
             "url": "https://washington.org/find-dc-listings/hotels",
-            "status": "Suggested · unbooked; new dates and three-person room need a fresh quote"
+            "status": "Suggested · one Washington night, 6–7 February; unbooked, fresh family-room quote required."
           },
           "pits": [
             {
@@ -1832,61 +1832,89 @@
           "day": 9,
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
-          "title": "Washington, DC · one full day",
-          "schedule": "09:00–10:00 Breakfast, local drive and museum security / entry buffer. 10:00–13:00 Smithsonian National Air and Space Museum; choose aviation / space highlights and a planetarium programme if scheduled and ticketed. 13:00–14:00 Warm lunch. 14:00–17:00 National Mall and Lincoln Memorial; White House exterior only if time and winter conditions allow. 17:30–19:00 Chinese dinner, then return to the same Washington hotel.",
+          "title": "Washington highlights → Hershey → Lancaster overnight",
+          "schedule": "07:30–08:00 Breakfast, check out and drive to the White House area; carry luggage in the car. 08:00–08:30 White House exterior photographs from public viewing areas; no interior tour. 08:30–09:15 Drive towards the Capitol, park and walk to the public exterior viewpoints. 09:15–09:45 US Capitol exterior photographs; no interior tour in this short visit. 09:45–10:15 Walk through the eastern National Mall towards the Smithsonian and allow entry security. 10:15–12:15 Smithsonian National Air and Space Museum highlights. Reserve free timed entry; a planetarium show fits only if its confirmed time stays within this block. 12:15–13:00 Quick warm lunch and return to the parked car. 13:00–15:45 Drive to Hershey: Google Maps showed about 2h23 on 31 October 2026; allow extra time for a comfort stop, traffic and parking. 15:45–17:30 Hershey’s Chocolate World: free chocolate-making themed tour ride, shop and treats. This is not entry into a working factory. February 7 afternoon opening hours must be confirmed; paid workshops are optional and not booked. 17:30–18:30 Drive to the Lancaster / Ronks lodging area; Maps showed 51min from Chocolate World to Old Windmill Farm. Final transfer depends on the selected lodging. 18:30–20:30 Check in, warm dinner and an easy evening. Amish shops are often closed on Sunday; the farm visit is Monday.",
           "rest": "21:00–07:00",
           "links": [
             {
-              "label": "Washington DC → Smithsonian National Air and Space Museum Washington DC → Lincoln Memorial → Chinatown Washington DC",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+DC&destination=Chinatown+Washington+DC&travelmode=driving&waypoints=Smithsonian+National+Air+and+Space+Museum+Washington+DC%7CLincoln+Memorial"
+              "label": "Washington → White House → US Capitol → Smithsonian",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+DC&destination=Smithsonian+National+Air+and+Space+Museum+Washington+DC&waypoints=White+House+Washington+DC%7CUnited+States+Capitol&travelmode=driving"
             },
             {
-              "label": "Smithsonian official visits",
-              "url": "https://airandspace.si.edu/visit"
+              "label": "Washington → Hershey’s Chocolate World → Lancaster",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum+Washington+DC&destination=Lancaster+PA&waypoints=Hersheys+Chocolate+World+Hershey+PA&travelmode=driving"
+            },
+            {
+              "label": "Chocolate World official opening calendar",
+              "url": "https://www.chocolateworld.com/plan-your-visit/hours.html"
+            },
+            {
+              "label": "Smithsonian timed entry",
+              "url": "https://airandspace.si.edu/visit/museum-dc"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Local driving / parking, with short walks around the Mall. Keep the same hotel for both Washington nights.",
+          "transport": "Washington → Hershey allow 2h45 including a break; Hershey → Lancaster / Ronks allow about 1h. Local Washington driving, parking and short walks.",
           "activities": [
             {
-              "time": "09:00–10:00",
-              "text": "Breakfast, local drive and museum security / entry buffer."
+              "time": "07:30–08:00",
+              "text": "Breakfast, check out and drive to the White House area; carry luggage in the car."
             },
             {
-              "time": "10:00–13:00",
-              "text": "Smithsonian National Air and Space Museum; choose aviation / space highlights and a planetarium programme if scheduled and ticketed."
+              "time": "08:00–08:30",
+              "text": "White House exterior photographs from public viewing areas; no interior tour."
             },
             {
-              "time": "13:00–14:00",
-              "text": "Warm lunch."
+              "time": "08:30–09:15",
+              "text": "Drive towards the Capitol, park and walk to the public exterior viewpoints."
             },
             {
-              "time": "14:00–17:00",
-              "text": "National Mall and Lincoln Memorial; White House exterior only if time and winter conditions allow."
+              "time": "09:15–09:45",
+              "text": "US Capitol exterior photographs; no interior tour in this short visit."
             },
             {
-              "time": "17:30–19:00",
-              "text": "Chinese dinner, then return to the same Washington hotel."
+              "time": "09:45–10:15",
+              "text": "Walk through the eastern National Mall towards the Smithsonian and allow entry security."
+            },
+            {
+              "time": "10:15–12:15",
+              "text": "Smithsonian National Air and Space Museum highlights. Reserve free timed entry; a planetarium show fits only if its confirmed time stays within this block."
+            },
+            {
+              "time": "12:15–13:00",
+              "text": "Quick warm lunch and return to the parked car."
+            },
+            {
+              "time": "13:00–15:45",
+              "text": "Drive to Hershey: Google Maps showed about 2h23 on 31 October 2026; allow extra time for a comfort stop, traffic and parking."
+            },
+            {
+              "time": "15:45–17:30",
+              "text": "Hershey’s Chocolate World: free chocolate-making themed tour ride, shop and treats. This is not entry into a working factory. February 7 afternoon opening hours must be confirmed; paid workshops are optional and not booked."
+            },
+            {
+              "time": "17:30–18:30",
+              "text": "Drive to the Lancaster / Ronks lodging area; Maps showed 51min from Chocolate World to Old Windmill Farm. Final transfer depends on the selected lodging."
+            },
+            {
+              "time": "18:30–20:30",
+              "text": "Check in, warm dinner and an easy evening. Amish shops are often closed on Sunday; the farm visit is Monday."
             }
           ],
           "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Washington, DC · family hotel with parking",
-            "city": "Washington, DC",
-            "url": "https://washington.org/find-dc-listings/hotels",
-            "status": "Suggested · unbooked; new dates and three-person room need a fresh quote"
+            "name": "Lancaster / Ronks countryside lodging · one night",
+            "city": "Lancaster / Ronks",
+            "url": "https://www.discoverlancaster.com/blog/places-to-stay-near-the-amish-in-lancaster-county-pa/",
+            "status": "Suggested · not booked; confirm a three-person room, winter heating, parking and final price. An Amish-owned stay is not yet selected."
           },
           "pits": [],
           "practical": [
             {
-              "label": "Booking / timing",
-              "text": "Every campus time is a target, not a reservation. Preserve ten hours of hotel rest; shorten optional sightseeing if weather, traffic or border queues cause delays."
-            },
-            {
-              "label": "Booking / timing",
-              "text": "Check official museum entry requirements and the actual 7 February planetarium programme before reserving. No special astronomy show is confirmed."
+              "label": "Opening hours / bookings",
+              "text": "7 February 2027 afternoon opening and any paid Hershey activity must be confirmed. If closing is earlier, an earlier Smithsonian departure or another Hershey slot is required; do not treat the target as booked."
             }
           ]
         },
@@ -1894,47 +1922,63 @@
           "day": 10,
           "date": "2027-02-08",
           "dateLabel": "Mon 08 Feb",
-          "title": "Washington → New York · The Met + Midtown",
-          "schedule": "07:30–13:30 Drive to New York with a Delaware / Wilmington 30-minute meal and comfort stop. 13:30–15:00 Park and leave luggage with the hotel; allow a 45-minute transfer to The Met and entry. 15:00–16:45 The Met: focused Egyptian art / Temple of Dendur and Arms and Armor visit. Moved to Monday because the museum closes Wednesdays. 16:45–18:15 Travel down Fifth Avenue to Rockefeller Center; choose FAO Schwarz / Jellycat OR Nintendo New York if opening hours allow. 18:15–19:30 Warm dinner and hotel check-in. If the drive runs late, protect The Met and skip optional shops.",
+          "title": "Lancaster → Old Windmill Farm → New York · The Met",
+          "schedule": "07:00–09:30 Breakfast and a quiet morning at the lodging; check out with luggage and collect a packed lunch. 09:30–10:00 Drive to Old Windmill Farm, 262 Paradise Lane, Ronks; arrive before the reserved tour. Allow up to 30min depending on the lodging. 10:00–11:00 Target Old Windmill Farm Amish family farm tour: cow milking, calf feeding and eggs, as available. Confirm a Monday 8 February winter slot; current advertised standard tour US$22 per person. 11:00–11:20 Toilets and packed lunch / takeaway before departure; no additional countryside stop today. 11:20–14:40 Drive directly to the Manhattan hotel. Maps showed 2h35 from the farm to Times Square; this block adds about 45min for traffic / a brief comfort stop. Eat only when safely parked. 14:40–15:45 Park, leave luggage at the hotel and transfer to The Met Fifth Avenue; allow parking, traffic, walking and entry security. 15:45–17:00 The Met focused highlights: Egyptian art / Temple of Dendur and Arms and Armor. Monday closing is 17:00; book admission and avoid additional stops before arrival. 17:00–19:30 Return towards the hotel, warm Asian dinner and check-in. Rockefeller shops stay in Tuesday’s existing optional Midtown window.",
           "rest": "21:00–07:00",
           "links": [
             {
-              "label": "Washington DC → Wilmington Delaware → Midtown West New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+DC&destination=Midtown+West+New+York&waypoints=Wilmington+Delaware&travelmode=driving"
+              "label": "Lancaster → Old Windmill Farm → Midtown New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Lancaster+PA&destination=Midtown+West+New+York&waypoints=Old+Windmill+Farm+Ronks+PA&travelmode=driving"
             },
             {
-              "label": "Midtown West New York → The Metropolitan Museum of Art New York → Rockefeller Center → Nintendo New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=Nintendo+New+York&waypoints=The+Metropolitan+Museum+of+Art+New+York%7CRockefeller+Center&travelmode=driving"
+              "label": "Midtown New York → The Met Fifth Avenue",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&waypoints=&travelmode=driving"
             },
             {
-              "label": "The Met official opening hours",
+              "label": "Old Windmill Farm tours / winter availability",
+              "url": "https://oldwindmillfarm.com/tours/"
+            },
+            {
+              "label": "The Met admission / hours",
               "url": "https://www.metmuseum.org/plan-your-visit"
             }
           ],
           "tags": [
             "fun"
           ],
-          "transport": "Washington → New York 4.5–5.5h driving; allow about 6h with a Delaware stop and Manhattan traffic.",
+          "transport": "Lancaster / Ronks → farm up to 30min; farm → Midtown allow 3h20 before hotel parking. Midtown → Met transfer / entry buffer about 1h. Winter disruption may affect the short museum window.",
           "activities": [
             {
-              "time": "07:30–13:30",
-              "text": "Drive to New York with a Delaware / Wilmington 30-minute meal and comfort stop."
+              "time": "07:00–09:30",
+              "text": "Breakfast and a quiet morning at the lodging; check out with luggage and collect a packed lunch."
             },
             {
-              "time": "13:30–15:00",
-              "text": "Park and leave luggage with the hotel; allow a 45-minute transfer to The Met and entry."
+              "time": "09:30–10:00",
+              "text": "Drive to Old Windmill Farm, 262 Paradise Lane, Ronks; arrive before the reserved tour. Allow up to 30min depending on the lodging."
             },
             {
-              "time": "15:00–16:45",
-              "text": "The Met: focused Egyptian art / Temple of Dendur and Arms and Armor visit. Moved to Monday because the museum closes Wednesdays."
+              "time": "10:00–11:00",
+              "text": "Target Old Windmill Farm Amish family farm tour: cow milking, calf feeding and eggs, as available. Confirm a Monday 8 February winter slot; current advertised standard tour US$22 per person."
             },
             {
-              "time": "16:45–18:15",
-              "text": "Travel down Fifth Avenue to Rockefeller Center; choose FAO Schwarz / Jellycat OR Nintendo New York if opening hours allow."
+              "time": "11:00–11:20",
+              "text": "Toilets and packed lunch / takeaway before departure; no additional countryside stop today."
             },
             {
-              "time": "18:15–19:30",
-              "text": "Warm dinner and hotel check-in. If the drive runs late, protect The Met and skip optional shops."
+              "time": "11:20–14:40",
+              "text": "Drive directly to the Manhattan hotel. Maps showed 2h35 from the farm to Times Square; this block adds about 45min for traffic / a brief comfort stop. Eat only when safely parked."
+            },
+            {
+              "time": "14:40–15:45",
+              "text": "Park, leave luggage at the hotel and transfer to The Met Fifth Avenue; allow parking, traffic, walking and entry security."
+            },
+            {
+              "time": "15:45–17:00",
+              "text": "The Met focused highlights: Egyptian art / Temple of Dendur and Arms and Armor. Monday closing is 17:00; book admission and avoid additional stops before arrival."
+            },
+            {
+              "time": "17:00–19:30",
+              "text": "Return towards the hotel, warm Asian dinner and check-in. Rockefeller shops stay in Tuesday’s existing optional Midtown window."
             }
           ],
           "restWindow": "21:00–07:00",
@@ -1944,16 +1988,15 @@
             "url": "https://www.booking.com/hotel/us/fairfield-inn-suites-by-marriott-new-york-manhattan-times-square-36th-st.html?checkin=2027-02-08&checkout=2027-02-11&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
             "status": "Proposed · unbooked; 8–11 February needs a fresh quote"
           },
-          "pits": [
-            {
-              "area": "wilmington",
-              "time": "Late morning · 30min"
-            }
-          ],
+          "pits": [],
           "practical": [
             {
-              "label": "Booking / timing",
-              "text": "Every campus time is a target, not a reservation. Preserve ten hours of hotel rest; shorten optional sightseeing if weather, traffic or border queues cause delays."
+              "label": "Winter / timing",
+              "text": "The 10:00 farm slot is a target, not a booking. This is a short Met visit: buy tickets ahead and keep the direct drive. If a winter delay prevents arrival before the 17:00 closing, the museum slot must be rearranged; Wednesday is closed."
+            },
+            {
+              "label": "Family activity estimate",
+              "text": "Old Windmill Farm adds US$66 (about HK$528 at the planning rate). Chocolate World entry and the standard tour ride are free; workshops, treats, parking and purchases are additional."
             }
           ]
         },
