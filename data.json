@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-04",
   "plans": [
     {
       "code": "A",
@@ -1256,7 +1256,7 @@
       "code": "B",
       "title": "Balanced · Toronto & Niagara",
       "why": "Toronto and Niagara between Michigan and Cornell, a full Washington day, two full New York days and Wellesley; conditional on compatible guided tours.",
-      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Toronto > Niagara Falls > Ithaca · Cornell > Washington, DC > Hershey > Lancaster / Ronks · Amish farm > New York City > Hanover · Dartmouth > Boston / Wellesley",
+      "route": "Los Angeles > Chicago / Evanston > Notre Dame > Ann Arbor > Toronto > Niagara Falls > Ithaca · Cornell > Washington, DC > Hershey · overnight / Chocolate World > New York City > Hanover · Dartmouth > Boston / Wellesley",
       "trade": "One domestic flight. Canada variation: Cornell Saturday and Wellesley / BU Friday tours unconfirmed; Toronto is a short visit. Driving times are estimates, not live Maps checks.",
       "days": [
         {
@@ -1479,13 +1479,17 @@
           "day": 4,
           "date": "2027-02-02",
           "dateLabel": "Tue 02 Feb",
-          "title": "Northwestern / Medill → University of Chicago",
-          "schedule": "09:30–11:30 Target Northwestern guided visit and admissions introduction. 11:30–12:30 Warm lunch and requested Medill / alumni conversation in Evanston; arrange in advance. 12:30–14:15 Drive south to Hyde Park; allow traffic, parking and tour check-in. 14:30–16:30 Target University of Chicago admissions session and student-led campus tour; exact compatible slot must be confirmed. 16:30–17:30 Drive via Millennium Park for a short optional photo stop; skip it if traffic is slow. 17:30–19:00 Return to the same Evanston hotel and have a warm dinner; rest starts at 20:30.",
-          "rest": "20:30-06:30",
+          "title": "Northwestern → University of Chicago → Smithsonian Starstruck",
+          "schedule": "09:30–11:30 Target Northwestern guided visit and admissions introduction. 11:30–12:30 Warm lunch and requested Medill / alumni conversation in Evanston; arrange in advance. 12:30–14:15 Drive south to Hyde Park; allow traffic, parking and tour check-in. 14:30–16:30 Target University of Chicago admissions session and student-led campus tour; exact compatible slot must be confirmed. 16:30–17:30 Drive from Hyde Park to Fever Hub Chicago, 108 W Germania Place, 3rd floor; allow traffic, parking and VR check-in. 17:30–18:30 Conditional Smithsonian Starstruck immersive astronomy experience: about 40min VR plus fitting / orientation. Ages 10+, with an adult for ages 10–17. February 2 sessions and operating dates are not confirmed; add only a compatible slot. 18:30–19:45 Drive back to the same Evanston hotel; allow evening traffic. No Millennium Park stop tonight. 19:45–20:15 Quick warm dinner near the hotel, then prepare for sleep. Keep the full 20:30–06:30 rest before the early departure.",
+          "rest": "20:30–06:30",
           "links": [
             {
-              "label": "Northwestern University Evanston → University of Chicago Admissions Rosenwald Hall → Graduate Evanston",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Northwestern+University+Evanston&destination=Graduate+Evanston&waypoints=University+of+Chicago+Admissions+Rosenwald+Hall&travelmode=driving"
+              "label": "Evanston → Northwestern → University of Chicago → Smithsonian Starstruck → Evanston",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Graduate+Evanston&destination=Graduate+Evanston&waypoints=Northwestern+University+Evanston%7CUniversity+of+Chicago+Admissions%7C108+West+Germania+Place+Chicago&travelmode=driving"
+            },
+            {
+              "label": "Starstruck official details / tickets",
+              "url": "https://smithsonianstarstruck.com/chicago/"
             },
             {
               "label": "UChicago official tour registration",
@@ -1499,7 +1503,7 @@
           "tags": [
             "schools"
           ],
-          "transport": "Evanston → Hyde Park budget 75–105min each way including traffic / parking; no additional hotel move.",
+          "transport": "Evanston → Hyde Park allow 1h45 including parking; Hyde Park → Starstruck allow 1h including check-in; Starstruck → Evanston allow 1h15. Omit the conditional VR stop if delays or a late session would reduce ten-hour rest.",
           "activities": [
             {
               "time": "09:30–11:30",
@@ -1519,14 +1523,22 @@
             },
             {
               "time": "16:30–17:30",
-              "text": "Drive via Millennium Park for a short optional photo stop; skip it if traffic is slow."
+              "text": "Drive from Hyde Park to Fever Hub Chicago, 108 W Germania Place, 3rd floor; allow traffic, parking and VR check-in."
             },
             {
-              "time": "17:30–19:00",
-              "text": "Return to the same Evanston hotel and have a warm dinner; rest starts at 20:30."
+              "time": "17:30–18:30",
+              "text": "Conditional Smithsonian Starstruck immersive astronomy experience: about 40min VR plus fitting / orientation. Ages 10+, with an adult for ages 10–17. February 2 sessions and operating dates are not confirmed; add only a compatible slot."
+            },
+            {
+              "time": "18:30–19:45",
+              "text": "Drive back to the same Evanston hotel; allow evening traffic. No Millennium Park stop tonight."
+            },
+            {
+              "time": "19:45–20:15",
+              "text": "Quick warm dinner near the hotel, then prepare for sleep. Keep the full 20:30–06:30 rest before the early departure."
             }
           ],
-          "restWindow": "20:30-06:30",
+          "restWindow": "20:30–06:30",
           "hotel": {
             "name": "Graduate Evanston",
             "city": "Evanston",
@@ -1554,6 +1566,10 @@
             {
               "label": "Ask on campus",
               "text": "Ask about economics mathematics requirements, biology / chemistry research, the Core curriculum and flexibility to explore subjects. For Columbia, distinguish undergraduate student journalism from its separate graduate journalism school."
+            },
+            {
+              "label": "Starstruck booking",
+              "text": "This is the Smithsonian Astrophysical Observatory / Fever VR experience, not Adler Planetarium. February 2027 dates, language options and ticket total need confirmation. Allow US$120 for three as a planning allowance, not a February quote; avoid booking a later session that cuts hotel rest."
             }
           ]
         },
@@ -1832,21 +1848,21 @@
           "day": 9,
           "date": "2027-02-07",
           "dateLabel": "Sun 07 Feb",
-          "title": "Washington highlights → Hershey → Lancaster overnight",
-          "schedule": "07:30–08:00 Breakfast, check out and drive to the White House area; carry luggage in the car. 08:00–08:30 White House exterior photographs from public viewing areas; no interior tour. 08:30–09:15 Drive towards the Capitol, park and walk to the public exterior viewpoints. 09:15–09:45 US Capitol exterior photographs; no interior tour in this short visit. 09:45–10:15 Walk through the eastern National Mall towards the Smithsonian and allow entry security. 10:15–12:15 Smithsonian National Air and Space Museum highlights. Reserve free timed entry; a planetarium show fits only if its confirmed time stays within this block. 12:15–13:00 Quick warm lunch and return to the parked car. 13:00–15:45 Drive to Hershey: Google Maps showed about 2h23 on 31 October 2026; allow extra time for a comfort stop, traffic and parking. 15:45–17:30 Hershey’s Chocolate World: free chocolate-making themed tour ride, shop and treats. This is not entry into a working factory. February 7 afternoon opening hours must be confirmed; paid workshops are optional and not booked. 17:30–18:30 Drive to the Lancaster / Ronks lodging area; Maps showed 51min from Chocolate World to Old Windmill Farm. Final transfer depends on the selected lodging. 18:30–20:30 Check in, warm dinner and an easy evening. Amish shops are often closed on Sunday; the farm visit is Monday.",
+          "title": "Washington highlights + International Spy Museum → Hershey overnight",
+          "schedule": "07:30–08:00 Breakfast, check out and drive to the White House area. 08:00–08:30 White House exterior photographs from public viewing areas; no interior tour. 08:30–09:15 Drive towards the Capitol, park and walk to the public exterior viewpoints. 09:15–09:45 US Capitol exterior photographs; no interior tour in this short visit. 09:45–10:15 Walk through the eastern National Mall towards the Smithsonian and allow entry security. 10:15–12:15 Smithsonian National Air and Space Museum highlights. Reserve free timed entry; a planetarium show fits only if its confirmed time stays within this block. 12:15–13:00 Quick warm lunch and return to the parked car. 13:00–13:30 Transfer to the International Spy Museum, 700 L’Enfant Plaza SW; park and check in for timed entry. 13:30–16:00 International Spy Museum: undercover identity, code-breaking and interactive intelligence exhibits. Reserve a timed general-admission ticket; allow 2.5h. February hours / prices remain to confirm. 16:00–19:00 Collect the car and drive to Hershey with a comfort / snack break. Earlier Maps check showed about 2h23 road time; this window includes buffer. 19:00–20:30 Check in to Hershey-area lodging and have a warm dinner. Chocolate World is scheduled for Monday morning, not assumed open tonight.",
           "rest": "21:00–07:00",
           "links": [
             {
-              "label": "Washington → White House → US Capitol → Smithsonian",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+DC&destination=Smithsonian+National+Air+and+Space+Museum+Washington+DC&waypoints=White+House+Washington+DC%7CUnited+States+Capitol&travelmode=driving"
+              "label": "Washington → White House → Capitol → Smithsonian → Spy Museum",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Washington+DC&destination=International+Spy+Museum+Washington+DC&waypoints=White+House+Washington+DC%7CUnited+States+Capitol%7CSmithsonian+National+Air+and+Space+Museum+Washington+DC&travelmode=driving"
             },
             {
-              "label": "Washington → Hershey’s Chocolate World → Lancaster",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Smithsonian+National+Air+and+Space+Museum+Washington+DC&destination=Lancaster+PA&waypoints=Hersheys+Chocolate+World+Hershey+PA&travelmode=driving"
+              "label": "International Spy Museum → Hershey overnight",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=International+Spy+Museum+Washington+DC&destination=Hershey+Pennsylvania&waypoints=&travelmode=driving"
             },
             {
-              "label": "Chocolate World official opening calendar",
-              "url": "https://www.chocolateworld.com/plan-your-visit/hours.html"
+              "label": "Spy Museum official tickets / hours",
+              "url": "https://www.spymuseum.org/visit/"
             },
             {
               "label": "Smithsonian timed entry",
@@ -1856,11 +1872,11 @@
           "tags": [
             "fun"
           ],
-          "transport": "Washington → Hershey allow 2h45 including a break; Hershey → Lancaster / Ronks allow about 1h. Local Washington driving, parking and short walks.",
+          "transport": "Local Washington driving / short walks; Smithsonian → Spy Museum allow 30min with parking. Washington → Hershey allow 3h including a break and traffic.",
           "activities": [
             {
               "time": "07:30–08:00",
-              "text": "Breakfast, check out and drive to the White House area; carry luggage in the car."
+              "text": "Breakfast, check out and drive to the White House area."
             },
             {
               "time": "08:00–08:30",
@@ -1887,34 +1903,34 @@
               "text": "Quick warm lunch and return to the parked car."
             },
             {
-              "time": "13:00–15:45",
-              "text": "Drive to Hershey: Google Maps showed about 2h23 on 31 October 2026; allow extra time for a comfort stop, traffic and parking."
+              "time": "13:00–13:30",
+              "text": "Transfer to the International Spy Museum, 700 L’Enfant Plaza SW; park and check in for timed entry."
             },
             {
-              "time": "15:45–17:30",
-              "text": "Hershey’s Chocolate World: free chocolate-making themed tour ride, shop and treats. This is not entry into a working factory. February 7 afternoon opening hours must be confirmed; paid workshops are optional and not booked."
+              "time": "13:30–16:00",
+              "text": "International Spy Museum: undercover identity, code-breaking and interactive intelligence exhibits. Reserve a timed general-admission ticket; allow 2.5h. February hours / prices remain to confirm."
             },
             {
-              "time": "17:30–18:30",
-              "text": "Drive to the Lancaster / Ronks lodging area; Maps showed 51min from Chocolate World to Old Windmill Farm. Final transfer depends on the selected lodging."
+              "time": "16:00–19:00",
+              "text": "Collect the car and drive to Hershey with a comfort / snack break. Earlier Maps check showed about 2h23 road time; this window includes buffer."
             },
             {
-              "time": "18:30–20:30",
-              "text": "Check in, warm dinner and an easy evening. Amish shops are often closed on Sunday; the farm visit is Monday."
+              "time": "19:00–20:30",
+              "text": "Check in to Hershey-area lodging and have a warm dinner. Chocolate World is scheduled for Monday morning, not assumed open tonight."
             }
           ],
           "restWindow": "21:00–07:00",
           "hotel": {
-            "name": "Lancaster / Ronks countryside lodging · one night",
-            "city": "Lancaster / Ronks",
-            "url": "https://www.discoverlancaster.com/blog/places-to-stay-near-the-amish-in-lancaster-county-pa/",
-            "status": "Suggested · not booked; confirm a three-person room, winter heating, parking and final price. An Amish-owned stay is not yet selected."
+            "name": "Hershey-area family hotel · one night",
+            "city": "Hershey, Pennsylvania",
+            "url": "https://www.visithersheyharrisburg.org/stay/",
+            "status": "Suggested · unbooked; confirm three-person room, heating, parking and final price for 7–8 February."
           },
           "pits": [],
           "practical": [
             {
-              "label": "Opening hours / bookings",
-              "text": "7 February 2027 afternoon opening and any paid Hershey activity must be confirmed. If closing is earlier, an earlier Smithsonian departure or another Hershey slot is required; do not treat the target as booked."
+              "label": "Tickets / budget",
+              "text": "Spy Museum recommends timed tickets; its main galleries usually take 2–3h. Reserve US$150 for the family pending a dated quote. This is a planning allowance; no ticket has been purchased."
             }
           ]
         },
@@ -1922,21 +1938,21 @@
           "day": 10,
           "date": "2027-02-08",
           "dateLabel": "Mon 08 Feb",
-          "title": "Lancaster → Old Windmill Farm → New York · The Met",
-          "schedule": "07:00–09:30 Breakfast and a quiet morning at the lodging; check out with luggage and collect a packed lunch. 09:30–10:00 Drive to Old Windmill Farm, 262 Paradise Lane, Ronks; arrive before the reserved tour. Allow up to 30min depending on the lodging. 10:00–11:00 Target Old Windmill Farm Amish family farm tour: cow milking, calf feeding and eggs, as available. Confirm a Monday 8 February winter slot; current advertised standard tour US$22 per person. 11:00–11:20 Toilets and packed lunch / takeaway before departure; no additional countryside stop today. 11:20–14:40 Drive directly to the Manhattan hotel. Maps showed 2h35 from the farm to Times Square; this block adds about 45min for traffic / a brief comfort stop. Eat only when safely parked. 14:40–15:45 Park, leave luggage at the hotel and transfer to The Met Fifth Avenue; allow parking, traffic, walking and entry security. 15:45–17:00 The Met focused highlights: Egyptian art / Temple of Dendur and Arms and Armor. Monday closing is 17:00; book admission and avoid additional stops before arrival. 17:00–19:30 Return towards the hotel, warm Asian dinner and check-in. Rockefeller shops stay in Tuesday’s existing optional Midtown window.",
+          "title": "Hershey’s Chocolate World → New York · The Met",
+          "schedule": "07:00–09:30 Breakfast, pack and check out; prepare a takeaway lunch. 09:30–10:00 Drive to Chocolate World, park and prepare for the target opening time. 10:00–11:00 Hershey’s Chocolate World: free chocolate-making themed tour ride and a short store visit. This is not a working-factory tour. The 8 February opening time is unconfirmed; this plan requires opening by 10:00. 11:00–14:45 Drive to the Manhattan hotel, including a 30min meal / comfort stop around Hamburg, Pennsylvania. Allow roughly 3–3.5h driving plus the stop; winter traffic may take longer. 14:45–15:45 Park, leave luggage and transfer directly to The Met Fifth Avenue with entry security buffer. 15:45–17:00 The Met focused highlights: Egyptian art / Temple of Dendur and Arms and Armor. Monday closing is 17:00; book admission ahead. 17:00–19:30 Return towards the hotel, warm Asian dinner and check-in. No extra sightseeing stop tonight.",
           "rest": "21:00–07:00",
           "links": [
             {
-              "label": "Lancaster → Old Windmill Farm → Midtown New York",
-              "url": "https://www.google.com/maps/dir/?api=1&origin=Lancaster+PA&destination=Midtown+West+New+York&waypoints=Old+Windmill+Farm+Ronks+PA&travelmode=driving"
+              "label": "Hershey → Chocolate World → Hamburg → Midtown New York",
+              "url": "https://www.google.com/maps/dir/?api=1&origin=Hershey+Pennsylvania&destination=Midtown+West+New+York&waypoints=Hersheys+Chocolate+World+Hershey+PA%7CHamburg+Pennsylvania&travelmode=driving"
             },
             {
               "label": "Midtown New York → The Met Fifth Avenue",
               "url": "https://www.google.com/maps/dir/?api=1&origin=Midtown+West+New+York&destination=The+Metropolitan+Museum+of+Art+1000+Fifth+Avenue+New+York&waypoints=&travelmode=driving"
             },
             {
-              "label": "Old Windmill Farm tours / winter availability",
-              "url": "https://oldwindmillfarm.com/tours/"
+              "label": "Chocolate World opening calendar",
+              "url": "https://www.chocolateworld.com/plan-your-visit/hours.html"
             },
             {
               "label": "The Met admission / hours",
@@ -1946,39 +1962,35 @@
           "tags": [
             "fun"
           ],
-          "transport": "Lancaster / Ronks → farm up to 30min; farm → Midtown allow 3h20 before hotel parking. Midtown → Met transfer / entry buffer about 1h. Winter disruption may affect the short museum window.",
+          "transport": "Hershey → New York: planning allowance 3–3.5h driving plus a 30min Hamburg break; allow another hour for hotel parking and the Met transfer.",
           "activities": [
             {
               "time": "07:00–09:30",
-              "text": "Breakfast and a quiet morning at the lodging; check out with luggage and collect a packed lunch."
+              "text": "Breakfast, pack and check out; prepare a takeaway lunch."
             },
             {
               "time": "09:30–10:00",
-              "text": "Drive to Old Windmill Farm, 262 Paradise Lane, Ronks; arrive before the reserved tour. Allow up to 30min depending on the lodging."
+              "text": "Drive to Chocolate World, park and prepare for the target opening time."
             },
             {
               "time": "10:00–11:00",
-              "text": "Target Old Windmill Farm Amish family farm tour: cow milking, calf feeding and eggs, as available. Confirm a Monday 8 February winter slot; current advertised standard tour US$22 per person."
+              "text": "Hershey’s Chocolate World: free chocolate-making themed tour ride and a short store visit. This is not a working-factory tour. The 8 February opening time is unconfirmed; this plan requires opening by 10:00."
             },
             {
-              "time": "11:00–11:20",
-              "text": "Toilets and packed lunch / takeaway before departure; no additional countryside stop today."
+              "time": "11:00–14:45",
+              "text": "Drive to the Manhattan hotel, including a 30min meal / comfort stop around Hamburg, Pennsylvania. Allow roughly 3–3.5h driving plus the stop; winter traffic may take longer."
             },
             {
-              "time": "11:20–14:40",
-              "text": "Drive directly to the Manhattan hotel. Maps showed 2h35 from the farm to Times Square; this block adds about 45min for traffic / a brief comfort stop. Eat only when safely parked."
-            },
-            {
-              "time": "14:40–15:45",
-              "text": "Park, leave luggage at the hotel and transfer to The Met Fifth Avenue; allow parking, traffic, walking and entry security."
+              "time": "14:45–15:45",
+              "text": "Park, leave luggage and transfer directly to The Met Fifth Avenue with entry security buffer."
             },
             {
               "time": "15:45–17:00",
-              "text": "The Met focused highlights: Egyptian art / Temple of Dendur and Arms and Armor. Monday closing is 17:00; book admission and avoid additional stops before arrival."
+              "text": "The Met focused highlights: Egyptian art / Temple of Dendur and Arms and Armor. Monday closing is 17:00; book admission ahead."
             },
             {
               "time": "17:00–19:30",
-              "text": "Return towards the hotel, warm Asian dinner and check-in. Rockefeller shops stay in Tuesday’s existing optional Midtown window."
+              "text": "Return towards the hotel, warm Asian dinner and check-in. No extra sightseeing stop tonight."
             }
           ],
           "restWindow": "21:00–07:00",
@@ -1988,15 +2000,16 @@
             "url": "https://www.booking.com/hotel/us/fairfield-inn-suites-by-marriott-new-york-manhattan-times-square-36th-st.html?checkin=2027-02-08&checkout=2027-02-11&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
             "status": "Proposed · unbooked; 8–11 February needs a fresh quote"
           },
-          "pits": [],
+          "pits": [
+            {
+              "area": "hamburg",
+              "time": "Around midday · 30min"
+            }
+          ],
           "practical": [
             {
-              "label": "Winter / timing",
-              "text": "The 10:00 farm slot is a target, not a booking. This is a short Met visit: buy tickets ahead and keep the direct drive. If a winter delay prevents arrival before the 17:00 closing, the museum slot must be rearranged; Wednesday is closed."
-            },
-            {
-              "label": "Family activity estimate",
-              "text": "Old Windmill Farm adds US$66 (about HK$528 at the planning rate). Chocolate World entry and the standard tour ride are free; workshops, treats, parking and purchases are additional."
+              "label": "Opening / winter timing",
+              "text": "Confirm Chocolate World opens by 10:00 on 8 February before fixing this sequence. The Met closes at 17:00 Monday and is closed Wednesday. If opening or road delays make this impossible, the Hershey or Met slot must be rearranged before booking; do not shorten rest."
             }
           ]
         },

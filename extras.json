@@ -669,17 +669,6 @@
             -76.66,
             40.29
           ],
-          "days": "D9",
-          "mode": "drive"
-        },
-        {
-          "key": "Lancaster",
-          "label": "Lancaster / Ronks · Amish farm",
-          "zhLabel": "Lancaster／Ronks・Amish農場",
-          "coords": [
-            -76.15,
-            39.99
-          ],
           "days": "D9–10",
           "mode": "drive"
         },
@@ -738,13 +727,6 @@
           "city": "Anaheim",
           "nature": "Theme park",
           "day": 2
-        },
-        {
-          "id": "millennium",
-          "name": "Millennium Park / Evanston lakefront",
-          "city": "Chicago",
-          "nature": "City park / outdoor alternative",
-          "day": 4
         },
         {
           "id": "notredame",
@@ -846,24 +828,24 @@
         },
         {
           "id": "hershey",
-          "day": 9,
+          "day": 10,
           "name": "Hershey’s Chocolate World",
           "city": "Hershey, Pennsylvania",
-          "nature": "Free chocolate-making themed ride / store · afternoon hours to confirm"
+          "nature": "Free chocolate-making themed ride / store · Monday opening to confirm"
         },
         {
-          "id": "lancaster",
+          "id": "spymuseum",
           "day": 9,
-          "name": "Lancaster / Ronks · countryside overnight",
-          "city": "Lancaster County, Pennsylvania",
-          "nature": "One-night countryside stay · property / Amish ownership not yet selected"
+          "name": "International Spy Museum",
+          "city": "Washington DC",
+          "nature": "Interactive espionage / undercover mission · 2.5h · timed tickets"
         },
         {
-          "id": "oldwindmill",
-          "day": 10,
-          "name": "Old Windmill Farm · Amish family farm",
-          "city": "Ronks, Lancaster County",
-          "nature": "Hands-on animal / Amish culture tour · US$22 each · winter slot to reserve"
+          "id": "starstruck",
+          "day": 4,
+          "name": "Smithsonian Starstruck · Fever Hub Chicago",
+          "city": "Chicago",
+          "nature": "40min astronomy VR / about 1h overall · ages 10+ with adult · February sessions unconfirmed"
         }
       ],
       "patches": {},
@@ -1337,6 +1319,12 @@
       "query": "Batavia New York downtown",
       "purpose": "Warm meal, fuel and toilets between the border and Ithaca; 30 minutes.",
       "source": "https://visitgeneseeny.com/"
+    },
+    "hamburg": {
+      "name": "Hamburg · Berks County, Pennsylvania",
+      "source": "https://www.visitpa.com/region/dutch-country-roads/hamburg",
+      "query": "Hamburg Pennsylvania I-78",
+      "purpose": "Warm takeaway lunch, toilets and fuel near the I-78 / Hamburg exits; 30min."
     }
   },
   "rankingEdition": 2027,
