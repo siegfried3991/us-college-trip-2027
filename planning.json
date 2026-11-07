@@ -26,7 +26,7 @@
         "泊車另計；須確認最新收費"
       ],
       "url": "https://www.booking.com/hotel/us/best-western-stovall-s-inn.html?checkin=2027-01-30&checkout=2027-02-01&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
-      "routes": "ABC"
+      "routes": "B"
     },
     {
       "name": "Best Western Plus Park Place Inn – Mini Suites",
@@ -48,7 +48,7 @@
         "泊車每晚 US$30，另行預算"
       ],
       "url": "https://www.booking.com/hotel/us/best-western-plus-park-place-inn-mini-suites.html?checkin=2027-01-30&checkout=2027-02-01&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
-      "routes": "ABC"
+      "routes": "B"
     },
     {
       "name": "Graduate by Hilton Evanston",
@@ -70,29 +70,7 @@
         "代客泊車每晚 US$35；亦可比較公共停車場"
       ],
       "url": "https://www.booking.com/hotel/us/graduate-evanston.html?checkin=2027-02-01&checkout=2027-02-03&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
-      "routes": "AB"
-    },
-    {
-      "name": "Fairfield Inn & Suites Manhattan/Times Square South",
-      "city": "New York City",
-      "dates": "6–9 Feb",
-      "room": "Two queen beds",
-      "base": 627,
-      "tax": 0.1475,
-      "fixed": 12,
-      "nights": 3,
-      "total": 731.48,
-      "policy": [
-        "Cancel before 4 Feb; pay at property",
-        "2月4日前可取消；到店付款"
-      ],
-      "breakfast": true,
-      "parking": [
-        "Parking extra; allow US$60–85/night until quoted",
-        "泊車另計；未取得報價前預留每晚 US$60–85"
-      ],
-      "url": "https://www.booking.com/hotel/us/fairfield-inn-suites-by-marriott-new-york-manhattan-times-square-36th-st.html?checkin=2027-02-06&checkout=2027-02-09&group_adults=2&group_children=1&age=14&no_rooms=1&selected_currency=USD",
-      "routes": "AC"
+      "routes": "B"
     }
   ],
   "categories": [
@@ -253,48 +231,12 @@
       ]
     ],
     [
-      "Bedford",
-      "The Golden Eagle Inn",
-      "https://www.bedfordpainn.com/",
-      [
-        "Historic inn with breakfast; request a room legally accommodating three. Allow US$180–260 including tax; not quoted.",
-        "歷史旅館包含早餐；須確認房間可供三人入住。含稅估算 US$180–260，未報價。"
-      ]
-    ],
-    [
       "Ithaca",
       "New Park Event Venue & Suites",
       "https://www.newparkeventvenue.com/book-a-suite",
       [
         "Keep one specialty night if affordable; confirm winter operation, three-person occupancy and cleaning fees. Allow US$220–320 all-in, unquoted.",
         "預算容許可保留一晚特色住宿；須確認冬季營業、三人入住及清潔費。全包估算 US$220–320，未報價。"
-      ]
-    ],
-    [
-      "Hanover",
-      "Hanover Inn · or value hotel in Lebanon",
-      "https://www.hanoverinn.com/rooms/",
-      [
-        "Hanover Inn has queen-queen rooms; a specialty splurge, not the budget default. Allow US$260–360; compare Lebanon hotels at US$130–190. Both ranges unquoted.",
-        "Hanover Inn 提供雙 Queen 床房，屬特色升級選擇。估算 US$260–360；可比較 Lebanon 酒店 US$130–190，兩者均未報價。"
-      ]
-    ],
-    [
-      "Notre Dame",
-      "Morris Inn · or South Bend value hotel",
-      "https://morrisinn.nd.edu/",
-      [
-        "Compare campus convenience against US$130–190 tax-inclusive South Bend target. Morris Inn allowance US$220–320; neither is a dated quote.",
-        "比較校內便利與 South Bend 含稅 US$130–190 的目標。Morris Inn 估算 US$220–320，兩者均非指定日期報價。"
-      ]
-    ],
-    [
-      "Davis · Route C",
-      "Davis town inn / value hotel",
-      "https://www.google.com/maps/search/?api=1&query=hotels+Davis+California",
-      [
-        "Allow US$150–220 including tax for 1 Feb. No dated three-person quote obtained.",
-        "2月1日含稅估算 US$150–220，未取得指定日期三人報價。"
       ]
     ],
     [
@@ -484,9 +426,7 @@
       "cancelBefore": "2027-02-09 23:59 (hotel local time)",
       "url": "https://www.hilton.com/en/hotels/boslhhh-hilton-boston-logan-airport/",
       "routes": [
-        "A",
-        "B",
-        "C"
+        "B"
       ],
       "room": [
         "Two queen beds · accessible room with bathtub · three guests",
